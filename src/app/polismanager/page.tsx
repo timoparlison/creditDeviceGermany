@@ -82,6 +82,7 @@ export default function PolisManagerPage() {
           text: 'Mehr erfahren',
           href: '#features',
         }}
+        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/04/Roos_homepage-902x1024.webp"
       />
 
       <Features

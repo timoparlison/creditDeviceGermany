@@ -75,6 +75,7 @@ export default function BonitaetsinformationenPage() {
           text: 'Jetzt testen',
           href: '/kontakt',
         }}
+        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/06/DSC01263-1024x710.webp"
       />
 
       <Features

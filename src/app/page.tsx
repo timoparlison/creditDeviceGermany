@@ -1,4 +1,4 @@
-import { Hero, ProductCards, AllInOne, WhyUs, FAQ } from '@/components/sections';
+import { Hero, ProductCards, AllInOne, WhyUs, FAQ, CustomerLogos, CTABanner } from '@/components/sections';
 
 const faqItems = [
   {
@@ -41,7 +41,10 @@ export default function Home() {
           text: 'Kostenlose Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
+        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png"
       />
+
+      <CustomerLogos />
 
       <ProductCards />
 
@@ -54,6 +57,8 @@ export default function Home() {
         subtitle="Finden Sie Antworten auf die wichtigsten Fragen zu unseren Lösungen"
         items={faqItems}
       />
+
+      <CTABanner />
     </>
   );
 }

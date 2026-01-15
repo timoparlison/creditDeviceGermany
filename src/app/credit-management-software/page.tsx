@@ -100,6 +100,7 @@ export default function CreditManagementSoftwarePage() {
           text: 'Features entdecken',
           href: '#features',
         }}
+        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/02/Foto-van-Marcel-en-Olav-scaled.webp"
       />
 
       <Features

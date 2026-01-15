@@ -2,11 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #1E3A5F;
-  --primary: #F7941D;
-  --primary-dark: #E8850A;
-  --navy: #1E3A5F;
-  --navy-dark: #0F1E30;
+  --foreground: #041531;
+  --primary: #F08013;
+  --primary-dark: #E07000;
+  --navy: #041531;
+  --navy-dark: #020B18;
 }
 
 @theme inline {
@@ -85,4 +85,35 @@ html {
 /* Remove tap highlight on mobile */
 * {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* 3D Perspective utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-y-\[-8deg\] {
+  transform: rotateY(-8deg);
+}
+
+.rotate-x-\[2deg\] {
+  transform: rotateX(2deg);
+}
+
+/* Scrolling animation for logo carousel */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
 }
