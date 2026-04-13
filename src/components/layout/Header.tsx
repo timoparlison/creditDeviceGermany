@@ -18,6 +18,11 @@ const navigation = [
         description: 'Zuverlässige Daten und intelligente Einblicke',
       },
       {
+        name: 'Auskunft bestellen',
+        href: '/auskunft',
+        description: 'Einzelne Bonitätsauskunft direkt anfordern',
+      },
+      {
         name: 'Credit Management Software',
         href: '/credit-management-software',
         description: 'Effizientes Debitorenmanagement',
@@ -86,7 +91,8 @@ export function Header() {
 
                 {/* Dropdown Menu */}
                 {item.children && activeDropdown === item.name && (
-                  <div className="absolute top-full left-0 w-72 bg-white shadow-lg rounded-lg py-4 mt-2">
+                  <div className="absolute top-full left-0 w-72 pt-2">
+                    <div className="bg-white shadow-lg rounded-lg py-4">
                     {item.children.map((child) => (
                       <Link
                         key={child.name}
@@ -97,6 +103,7 @@ export function Header() {
                         <span className="block text-sm text-gray-500">{child.description}</span>
                       </Link>
                     ))}
+                    </div>
                   </div>
                 )}
               </div>
@@ -113,7 +120,8 @@ export function Header() {
                 <ChevronDown className="h-4 w-4" />
               </button>
               {loginDropdownOpen && (
-                <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 mt-2">
+                <div className="absolute top-full right-0 w-56 pt-2">
+                  <div className="bg-white shadow-lg rounded-lg py-2">
                   {loginLinks.map((link) => (
                     <a
                       key={link.name}
@@ -125,6 +133,7 @@ export function Header() {
                       {link.name}
                     </a>
                   ))}
+                  </div>
                 </div>
               )}
             </div>
