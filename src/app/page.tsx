@@ -41,7 +41,7 @@ export default function Home() {
           text: 'Kostenlose Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
-        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/11/Debiteurenbeheer-48.webp"
+        image="/credTitelBild.png"
       />
 
       <CustomerLogos />
