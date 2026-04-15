@@ -7,6 +7,7 @@ import { getCompanyById } from '@/lib/gcc/client';
 import { PRODUCT_CATALOG, type ProductId } from '@/lib/gcc/products';
 import type { Company } from '@/lib/gcc/types';
 
+export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
 type Props = {

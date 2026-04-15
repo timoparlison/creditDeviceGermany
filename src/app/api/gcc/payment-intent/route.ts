@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createPaymentIntent, GccBackendError } from '@/lib/gcc/client';
 import type { CreatePaymentRequest } from '@/lib/gcc/types';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   const body = (await req.json()) as Partial<CreatePaymentRequest>;
   if (!body.objectId || !body.productName) {

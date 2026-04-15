@@ -6,6 +6,7 @@ import { ProductPicker } from '@/components/auskunft/ProductPicker';
 import { getCompanyById } from '@/lib/gcc/client';
 import type { Company } from '@/lib/gcc/types';
 
+export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
 type Props = { params: Promise<{ id: string }> };

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { submitCreditInformation } from '@/lib/gcc/client';
 import type { CreditInformationOrderDto } from '@/lib/gcc/types';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   const body = (await req.json()) as CreditInformationOrderDto;
   if (!body?.creditSafeObjectId || !body?.reportType) {

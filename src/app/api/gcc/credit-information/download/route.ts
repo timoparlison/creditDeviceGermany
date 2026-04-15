@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { downloadCreditInformation } from '@/lib/gcc/client';
 
+export const runtime = 'edge';
+
 export async function GET(req: NextRequest) {
   const creditSafeObjectId = req.nextUrl.searchParams.get('creditSafeObjectId');
   if (!creditSafeObjectId) {
