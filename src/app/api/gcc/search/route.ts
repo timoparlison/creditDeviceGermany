@@ -28,7 +28,11 @@ export async function GET(req: NextRequest) {
       );
     }
     return NextResponse.json(
-      { error: 'Backend nicht erreichbar.' },
+      {
+        error: 'Backend nicht erreichbar.',
+        detail: e instanceof Error ? e.message : String(e),
+        stack: e instanceof Error ? e.stack : undefined,
+      },
       { status: 502 },
     );
   }
