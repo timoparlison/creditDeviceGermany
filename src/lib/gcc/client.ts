@@ -88,6 +88,22 @@ export async function cancelPaymentIntent(clientSecret: string): Promise<void> {
   });
 }
 
+export async function downloadCreditInformation(
+  creditSafeObjectId: string,
+): Promise<{ ok: boolean; status: number; blob?: ArrayBuffer; contentType?: string }> {
+  const url = new URL(`${BASE}/api/creditInformation/download`);
+  url.searchParams.set('creditSafeObjectId', creditSafeObjectId);
+  const res = await fetch(url.toString(), { cache: 'no-store' });
+  if (!res.ok) return { ok: false, status: res.status };
+  const blob = await res.arrayBuffer();
+  return {
+    ok: true,
+    status: res.status,
+    blob,
+    contentType: res.headers.get('content-type') ?? 'application/pdf',
+  };
+}
+
 export async function submitCreditInformation(
   body: CreditInformationOrderDto,
 ): Promise<{ ok: boolean; status: number; body?: unknown }> {

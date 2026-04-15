@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Elements, PaymentElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
-import { Loader2, ShieldCheck } from 'lucide-react';
+import { Download, Loader2, ShieldCheck } from 'lucide-react';
 import {
   PRODUCT_CATALOG,
   formatPrice,
@@ -114,15 +114,7 @@ export function OrderFlow({ company, productIds }: Props) {
   };
 
   if (step === 'done') {
-    return (
-      <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
-        <ShieldCheck className="w-12 h-12 text-green-600 mx-auto mb-3" />
-        <h2 className="text-2xl font-bold text-navy mb-2">Bestellung erfolgreich</h2>
-        <p className="text-gray-700">
-          Vielen Dank für Ihre Bestellung. Sie erhalten in Kürze eine Bestätigung per E-Mail.
-        </p>
-      </div>
-    );
+    return <OrderDone creditSafeObjectId={company.id} />;
   }
 
   return (
@@ -381,6 +373,55 @@ function PaymentStep({
         {processing && <Loader2 className="w-4 h-4 animate-spin" />}
         Jetzt kostenpflichtig bestellen
       </button>
+    </div>
+  );
+}
+
+function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
+  const [downloading, setDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState<string | null>(null);
+
+  const onDownload = async () => {
+    setDownloading(true);
+    setDownloadError(null);
+    try {
+      const res = await fetch(
+        `/api/gcc/credit-information/download?creditSafeObjectId=${encodeURIComponent(creditSafeObjectId)}`,
+      );
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `creditinformation${creditSafeObjectId}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      setDownloadError(e instanceof Error ? e.message : 'Download fehlgeschlagen');
+    } finally {
+      setDownloading(false);
+    }
+  };
+
+  return (
+    <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
+      <ShieldCheck className="w-12 h-12 text-green-600 mx-auto mb-3" />
+      <h2 className="text-2xl font-bold text-navy mb-2">Bestellung erfolgreich</h2>
+      <p className="text-gray-700 mb-6">
+        Vielen Dank für Ihre Bestellung. Sie erhalten in Kürze eine Bestätigung per E-Mail.
+      </p>
+      <button
+        type="button"
+        onClick={onDownload}
+        disabled={downloading}
+        className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors disabled:opacity-60"
+      >
+        {downloading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
+        PDF herunterladen
+      </button>
+      {downloadError && <p className="text-red-600 text-sm mt-3">{downloadError}</p>}
     </div>
   );
 }
