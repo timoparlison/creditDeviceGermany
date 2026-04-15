@@ -335,7 +335,7 @@ function PaymentStep({
 
     const dto: CreditInformationOrderDto = {
       creditSafeObjectId: company.id,
-      userId: 0,
+      userId: 1,
       isoLanguageCode: 'de',
       reportType: products[0].apiName,
       orderer: {
