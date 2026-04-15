@@ -45,7 +45,7 @@ export async function searchCompanies(params: {
   url.searchParams.set('page', String(params.page ?? 1));
   url.searchParams.set('size', String(params.size ?? 20));
   url.searchParams.set('sort', 'id,asc');
-  const res = await fetch(url.toString(), { cache: 'no-store' });
+  const res = await fetch(url.toString());
   return jsonOrThrow<CustomerQueryResult>(res);
 }
 
@@ -56,13 +56,13 @@ export async function getCompanyById(id: string): Promise<Company | null> {
   url.searchParams.set('size', '10');
   url.searchParams.set('countries', (id.split('-')[0] ?? 'de').toLowerCase());
   url.searchParams.set('sort', 'id,asc');
-  const res = await fetch(url.toString(), { cache: 'no-store' });
+  const res = await fetch(url.toString());
   const data = await jsonOrThrow<CustomerQueryResult>(res);
   return data.companies?.[0] ?? null;
 }
 
 export async function getStripeKey(): Promise<StripeKeyResponse> {
-  const res = await fetch(`${BASE}/api/payment/stripeFeKey`, { cache: 'no-store' });
+  const res = await fetch(`${BASE}/api/payment/stripeFeKey`);
   return jsonOrThrow<StripeKeyResponse>(res);
 }
 
@@ -73,7 +73,6 @@ export async function createPaymentIntent(
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
-    cache: 'no-store',
   });
   return jsonOrThrow<CreatePaymentResponse>(res);
 }
@@ -83,7 +82,6 @@ export async function cancelPaymentIntent(clientSecret: string): Promise<void> {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(clientSecret),
-    cache: 'no-store',
   });
 }
 
@@ -92,7 +90,7 @@ export async function downloadCreditInformation(
 ): Promise<{ ok: boolean; status: number; blob?: ArrayBuffer; contentType?: string }> {
   const url = new URL(`${BASE}/api/creditInformation/download`);
   url.searchParams.set('creditSafeObjectId', creditSafeObjectId);
-  const res = await fetch(url.toString(), { cache: 'no-store' });
+  const res = await fetch(url.toString());
   if (!res.ok) return { ok: false, status: res.status };
   const blob = await res.arrayBuffer();
   return {
@@ -110,7 +108,6 @@ export async function submitCreditInformation(
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
-    cache: 'no-store',
   });
   const text = await res.text();
   let body_: unknown;
