@@ -8,7 +8,7 @@ import type {
   StripeKeyResponse,
 } from './types';
 
-const BASE = process.env.GCC_BACKEND_URL ?? 'https://gccstage.herokuapp.com';
+const BASE = 'https://gccstage.herokuapp.com';
 
 export class GccBackendError extends Error {
   constructor(
