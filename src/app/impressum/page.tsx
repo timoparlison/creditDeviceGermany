@@ -81,20 +81,17 @@ export default function ImpressumPage() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4 mt-12">Streitschlichtung</h2>
+            <h2 className="text-2xl font-bold text-navy mb-4 mt-12">Verbraucherstreitbeilegung</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
-                <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline ml-1">
-                  https://ec.europa.eu/consumers/odr
-                </a>
+                Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren
+                vor einer Verbraucherschlichtungsstelle im Sinne des Verbraucherstreitbeilegungsgesetzes
+                (VSBG) teilzunehmen.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Unsere E-Mail-Adresse finden Sie oben im Impressum.
-              </p>
-              <p className="text-gray-700 leading-relaxed mt-4">
-                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-                Verbraucherschlichtungsstelle teilzunehmen.
+                Hinweis: Die von der Europäischen Kommission gemäß Art. 14 Abs. 1 der
+                ODR-Verordnung (EU) Nr. 524/2013 bereitgestellte Online-Streitbeilegungsplattform
+                wurde zum 20. Juli 2025 eingestellt; eine Verlinkung ist daher nicht mehr möglich.
               </p>
             </div>
 
