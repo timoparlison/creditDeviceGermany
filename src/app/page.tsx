@@ -41,7 +41,7 @@ export default function Home() {
           text: 'Kostenlose Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
-        image="/credTitelBild.png"
+        image="/credTitelBildNachTeamsCall.png"
       />
 
       <CustomerLogos />
