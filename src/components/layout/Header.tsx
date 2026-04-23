@@ -39,10 +39,8 @@ const navigation = [
 ];
 
 const loginLinks = [
-  { name: 'Debitorenmanagement', href: 'https://app.directdevice.info/dam/auth/login/' },
-  { name: 'PolisManager', href: 'https://app.directdevice.info/dam/auth/login/' },
-  { name: 'Bonitätsinformationen', href: 'https://kredietinformatie.creditdevice.nl/dam/auth/login/' },
-  { name: 'SalesOptimizer', href: 'https://nl.salesoptimizer.eu/' },
+  { name: 'CreditManagement', href: 'https://app.directdevice.info/dam/auth/login/' },
+  { name: 'PolicyManagement', href: 'https://app.directdevice.info/dam/auth/login/' },
 ];
 
 export function Header() {
