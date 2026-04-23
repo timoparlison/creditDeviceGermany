@@ -19,7 +19,7 @@ export default function ConfirmationPage() {
             Eine Bestätigung wurde an Ihre E-Mail-Adresse gesendet.
           </p>
           <Link
-            href="/auskunft"
+            href="/bonitaetsinformationen"
             className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors"
           >
             Weitere Auskunft bestellen

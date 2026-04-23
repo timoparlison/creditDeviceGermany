@@ -18,17 +18,12 @@ const navigation = [
         description: 'Zuverlässige Daten und intelligente Einblicke',
       },
       {
-        name: 'Auskunft bestellen',
-        href: '/auskunft',
-        description: 'Einzelne Bonitätsauskunft direkt anfordern',
-      },
-      {
         name: 'Credit Management Software',
         href: '/credit-management-software',
         description: 'Effizientes Debitorenmanagement',
       },
       {
-        name: 'PolisManager',
+        name: 'PolicyManager',
         href: '/polismanager',
         description: 'Verwaltung Ihrer Kreditversicherung',
       },

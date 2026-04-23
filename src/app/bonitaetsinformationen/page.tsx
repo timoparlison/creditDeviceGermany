@@ -1,7 +1,9 @@
 import { Metadata } from 'next';
-import { Hero, Features, FAQ } from '@/components/sections';
+import { Features, FAQ } from '@/components/sections';
+import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, TrendingUp, Zap, BarChart3, Database, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -64,19 +66,31 @@ const faqItems = [
 export default function BonitaetsinformationenPage() {
   return (
     <>
-      <Hero
-        title="Bonitätsinformationen"
-        subtitle="Zuverlässige Daten, intelligente Einblicke und minimale Risiken. Treffen Sie fundierte Geschäftsentscheidungen mit unseren umfassenden Bonitätsinformationen."
-        primaryCta={{
-          text: 'Demo anfordern',
-          href: '/kontakt',
-        }}
-        secondaryCta={{
-          text: 'Jetzt testen',
-          href: '/kontakt',
-        }}
-        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/06/DSC01263-1024x710.webp"
-      />
+      <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/5" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/20 to-transparent rounded-full blur-3xl" />
+
+        <Container className="relative z-10">
+          <div className="max-w-3xl">
+            <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
+              schnell &amp; zuverlässig
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.1] mb-5">
+              Bonitätsinformationen &amp; <br />
+              <span className="text-primary">Auskünfte</span> aus über 200 Ländern
+            </h1>
+            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              Treffen Sie fundierte Geschäftsentscheidungen mit zuverlässigen Daten
+              und intelligenten Einblicken. Bestellen Sie Ihre Bonitätsauskunft
+              direkt – mit einem Mausklick recherchiert und zeitnah geliefert.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-2xl p-5 md:p-6 max-w-4xl">
+            <SearchForm variant="light" />
+          </div>
+        </Container>
+      </section>
 
       <Features
         title="Unsere Leistungen"
