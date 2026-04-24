@@ -38,7 +38,7 @@ export default function Home() {
           href: '/kontakt',
         }}
         secondaryCta={{
-          text: 'Kostenlose Bonitätsauskunft',
+          text: 'Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
         image="/credTitelBildNachTeamsCall.png"
