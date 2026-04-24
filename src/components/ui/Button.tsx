@@ -12,6 +12,7 @@ interface ButtonProps {
   onClick?: () => void;
   type?: 'button' | 'submit';
   external?: boolean;
+  disabled?: boolean;
 }
 
 export function Button({
@@ -23,8 +24,9 @@ export function Button({
   onClick,
   type = 'button',
   external = false,
+  disabled = false,
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold transition-all duration-200 rounded-md';
+  const baseStyles = 'inline-flex items-center justify-center font-semibold transition-all duration-200 rounded-md disabled:opacity-60 disabled:cursor-not-allowed';
 
   const variantStyles = {
     primary: 'bg-primary text-white hover:bg-primary-dark',
@@ -64,6 +66,7 @@ export function Button({
     <button
       type={type}
       onClick={onClick}
+      disabled={disabled}
       className={combinedStyles}
     >
       {children}
