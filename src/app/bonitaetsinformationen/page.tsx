@@ -93,16 +93,17 @@ export default function BonitaetsinformationenPage() {
         <Container className="relative z-10">
           <div className="max-w-3xl">
             <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
-              schnell &amp; zuverlässig
+              Internationale Kreditinformationen
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.1] mb-5">
-              Bonitätsinformationen &amp; <br />
-              <span className="text-primary">Auskünfte</span> aus über 200 Ländern
+              Frisch recherchierte <br />
+              <span className="text-primary">Firmenauskünfte</span> weltweit
             </h1>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Treffen Sie fundierte Geschäftsentscheidungen mit zuverlässigen Daten
-              und intelligenten Einblicken. Bestellen Sie Ihre Bonitätsauskunft
-              direkt – mit einem Mausklick recherchiert und zeitnah geliefert.
+              Von unserem Schwesterunternehmen GlobalCompanyCheck e.U. erhalten Sie
+              innerhalb kürzester Zeit weltweit aktuell recherchierte Kreditauskünfte –
+              um die Bonität Ihrer Interessenten und Kunden zu überprüfen. Ohne Vertrag
+              mit Laufzeit oder Mindestabnahme.
             </p>
           </div>
 
@@ -124,12 +125,12 @@ export default function BonitaetsinformationenPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Minimieren Sie Ihr Ausfallrisiko
+              Risiko minimieren, Geschäft steigern
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Mit unseren Bonitätsinformationen können Sie das Zahlungsverhalten Ihrer
-              Geschäftspartner einschätzen, bevor Sie Verträge abschließen. Reduzieren
-              Sie Forderungsausfälle und optimieren Sie Ihr Working Capital.
+              Eine clevere Möglichkeit, Ihre Geschäfte mit Hilfe frisch recherchierter
+              Firmenauskünfte von sehr hoher Informationsqualität zu steigern – und Ihr
+              Risiko zu minimieren. Ideale Ergänzung zu unserer Credit Management Software.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">

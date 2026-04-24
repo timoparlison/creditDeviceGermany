@@ -10,23 +10,25 @@ import {
 } from '@/components/seo/JsonLd';
 import { SITE_URL } from '@/lib/seo';
 import {
-  Shield,
-  Receipt,
-  FileBarChart,
-  BarChart3,
-  UserCheck,
-  Bell
+  Euro,
+  BellRing,
+  Clock,
+  RefreshCw,
+  Calculator,
+  FileSearch,
+  Layers,
+  FolderArchive,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'PolicyManager — Kreditversicherung verwalten',
+  title: 'PolicyManager — Ihr neuer bester Freund für die Kreditversicherung',
   description:
-    'Verwalten Sie Kreditlimits, Umsatzmeldungen und Schäden Ihrer Kreditversicherung zentral in einer Anwendung. Direkte Anbindung an alle großen Kreditversicherer.',
+    'Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren – ab 300 € pro Monat.',
   alternates: { canonical: '/policymanager' },
   openGraph: {
-    title: 'PolicyManager — Kreditversicherung verwalten',
+    title: 'PolicyManager — Ihr neuer bester Freund für die Kreditversicherung',
     description:
-      'Verwalten Sie Kreditlimits, Umsatzmeldungen und Schäden Ihrer Kreditversicherung zentral in einer Anwendung.',
+      'In Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt – ab 300 € pro Monat.',
     url: `${SITE_URL}/policymanager`,
     type: 'website',
   },
@@ -34,53 +36,63 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    title: 'Kreditlimits',
-    description: 'Beantragen und verwalten Sie Kreditlimits bei Ihrem Versicherer direkt aus der Software.',
-    icon: Shield,
+    title: 'Erschwingliches Abonnement',
+    description: 'Der PolicyManager ist schon ab 300 Euro pro Monat erhältlich – auch für KMU in Reichweite.',
+    icon: Euro,
   },
   {
-    title: 'Zuweisen ältester Rechnung',
-    description: 'Automatische Zuordnung der ältesten Rechnung für korrekte Meldungen.',
-    icon: Receipt,
+    title: 'Automatische Erinnerung',
+    description: 'Sie erhalten automatisch ein Signal, zum Beispiel bei Überziehung oder Überschreitung eines Limits. Sie sind immer pünktlich.',
+    icon: BellRing,
   },
   {
-    title: 'Umsatzmeldung',
-    description: 'Einfache und schnelle Umsatzmeldungen an Ihren Kreditversicherer.',
-    icon: FileBarChart,
+    title: 'Sie sparen Zeit',
+    description: 'Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen, um den Verlust des Versicherungsschutzes zu verhindern.',
+    icon: Clock,
   },
   {
-    title: 'Berichte',
-    description: 'Umfassende Reporting-Funktionen für volle Transparenz.',
-    icon: BarChart3,
+    title: 'Immer aktuelle Daten',
+    description: 'Tägliche – manchmal mehrmals tägliche – Updates zum Status Ihrer Kreditlimits. Entscheidungen, Rücknahmen und Reduzierungen sind sofort sichtbar.',
+    icon: RefreshCw,
   },
   {
-    title: 'Selbstbewertung',
-    description: 'Bewerten Sie Ihre Kunden selbst und ergänzen Sie die Versicherungsdaten.',
-    icon: UserCheck,
+    title: 'Kreditlimitkosten analysieren',
+    description: 'Analysieren Sie, welches Kreditlimit für Ihren Kunden am besten geeignet ist – oder ersetzen Sie ein kostenpflichtiges Limit durch ein kostenloses Selbstbewertungslimit.',
+    icon: Calculator,
   },
   {
-    title: 'Benachrichtigungen',
-    description: 'Automatische Alerts bei Limitänderungen und wichtigen Ereignissen.',
-    icon: Bell,
+    title: 'Wertvolle Kreditauskünfte',
+    description: 'Kreditauskünfte sind das ideale Instrument zur Festlegung eines gedeckten Kreditlimits – vollständig in alle Module integriert und erschwinglich.',
+    icon: FileSearch,
+  },
+  {
+    title: 'Ein Unternehmen, ein Limit',
+    description: 'Der PolicyManager erkennt Unternehmen mit mehreren Debitorennummern und verknüpft alle Rechnungen mit einem einzigen Limit – über die Handelsregister­nummer.',
+    icon: Layers,
+  },
+  {
+    title: 'Geordnete Wiedervorlage',
+    description: 'Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers vollständig erfüllt.',
+    icon: FolderArchive,
   },
 ];
 
 const faqItems = [
   {
-    question: 'Mit welchen Kreditversicherern arbeitet PolicyManager zusammen?',
-    answer: 'PolicyManager ist kompatibel mit allen großen Kreditversicherern wie Euler Hermes, Coface, Atradius und vielen anderen. Die Schnittstellen werden kontinuierlich erweitert.',
+    question: 'Mit welchen Kreditversicherern wurde der PolicyManager entwickelt?',
+    answer: 'Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren und zu erleichtern.',
   },
   {
-    question: 'Wie funktioniert die Limitbeantragung?',
-    answer: 'Sie können Kreditlimits direkt aus PolicyManager heraus beantragen. Die Anfrage wird automatisch an Ihren Versicherer übermittelt und Sie erhalten die Antwort direkt im System.',
+    question: 'Was kostet der PolicyManager?',
+    answer: 'Der PolicyManager ist schon ab 300 Euro pro Monat erhältlich. Das Produkt liegt damit auch in Reichweite von KMU.',
   },
   {
-    question: 'Können mehrere Policen verwaltet werden?',
-    answer: 'Ja, PolicyManager unterstützt die Verwaltung mehrerer Kreditversicherungspolicen gleichzeitig. Ideal für Unternehmen mit verschiedenen Gesellschaften oder internationalen Policen.',
+    question: 'Wie werden Daten mit dem Versicherer ausgetauscht?',
+    answer: 'Ein praktischer Webservice mit dem Versicherer sorgt dafür, dass Informationen automatisch ausgetauscht werden. Mit jeder Aktualisierung generiert das System automatisch neue Listen und Benachrichtigungen – das minimiert Fehler und spart Zeit.',
   },
   {
-    question: 'Wie werden Umsatzmeldungen erstellt?',
-    answer: 'Umsatzmeldungen werden automatisch auf Basis Ihrer Debitorendaten erstellt. Sie können die Meldung vor dem Versand prüfen und freigeben.',
+    question: 'Wie hilft der PolicyManager bei Selbstbewertungen?',
+    answer: 'Die Festlegung eigener Limits auf Basis von Zahlungserfahrungen ist rechenintensiv. Der PolicyManager verwendet die gleiche Berechnungsmethode wie die Versicherer – Sie erhalten sofort Ihr Kreditlimit samt Berechnung.',
   },
 ];
 
@@ -103,14 +115,14 @@ export default function PolicyManagerPage() {
         ]}
       />
       <Hero
-        title="PolicyManager"
-        subtitle="Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung. Behalten Sie den Überblick über Limits, Umsatzmeldungen und Schäden."
+        title="PolicyManager — Ihr neuer bester Freund"
+        subtitle="Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren. Ein Tool, das Risiken vermeidet – durch rechtzeitige Maßnahmen."
         primaryCta={{
-          text: 'Demo anfordern',
+          text: 'Kostenlose Demo anfordern',
           href: '/kontakt',
         }}
         secondaryCta={{
-          text: 'Mehr erfahren',
+          text: 'Vorteile entdecken',
           href: '#features',
         }}
         image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/04/Roos_homepage-902x1024.webp"
@@ -118,8 +130,8 @@ export default function PolicyManagerPage() {
       />
 
       <Features
-        title="Kreditversicherung leicht gemacht"
-        subtitle="Verwalten Sie Ihre Kreditversicherung effizient und sparen Sie wertvolle Zeit"
+        title="Entdecken Sie Ihre Vorteile"
+        subtitle="Die manuelle Verwaltung einer Kreditversicherungspolice ist viel Arbeit. Der PolicyManager nimmt Ihnen all das ab – und minimiert die Fehleranfälligkeit."
         features={features}
         columns={3}
         background="gray"
@@ -129,33 +141,37 @@ export default function PolicyManagerPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Maximieren Sie Ihren Versicherungsschutz
+              Alles in einer Anwendung
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              PolicyManager hilft Ihnen, das Maximum aus Ihrer Kreditversicherung
-              herauszuholen. Behalten Sie den Überblick über Ihre Limits, erhalten
-              Sie rechtzeitig Warnungen und melden Sie Umsätze mit wenigen Klicks.
+              Mit den Credit-Management-Modulen von CreditDevice kombinieren Sie alles in einer
+              Anwendung: die Verwaltung Ihrer Kreditversicherung, Ihr Debitoren-Management,
+              die Erfassung von Kreditinformationen und die Analyse von Risiken.
+            </p>
+            <p className="text-lg text-gray-600 mb-6">
+              Mit dem PolicyManager verwalten Sie Ihre Kreditversicherungspolice perfekt –
+              alle Module sind miteinander kompatibel, Sie müssen nicht zwischen Systemen wechseln.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Direkte Anbindung an Kreditversicherer
+                Direkte Anbindung an die Datenbank Ihres Versicherers
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Automatische Limitüberwachung
+                Tägliche Updates – manchmal mehrmals täglich
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Vereinfachte Schadenmeldung
+                Kompatibel mit Atradius, Coface, Euler Hermes
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Compliance-konforme Dokumentation
+                Obliegenheiten im Schadensfall vollständig erfüllt
               </li>
             </ul>
             <Button href="/kontakt" variant="primary" size="lg">
-              Kostenlose Beratung
+              Kostenlose Demo anfordern
             </Button>
           </div>
           <div className="bg-gradient-to-br from-primary/10 to-navy/10 rounded-2xl p-8">

@@ -33,8 +33,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefon',
-    content: '040 / 89 069 29 90',
-    href: 'tel:+494089069290',
+    content: '040 / 890 69 29 - 12',
+    href: 'tel:+4940890692912',
   },
   {
     icon: MapPin,
@@ -69,9 +69,10 @@ export default function KontaktPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Contact Info */}
           <div className="lg:col-span-1">
-            <h2 className="text-2xl font-bold text-navy mb-6">
-              Kontaktinformationen
+            <h2 className="text-2xl font-bold text-navy mb-2">
+              Ihre Ansprechpartnerin
             </h2>
+            <p className="text-lg font-semibold text-primary mb-6">Jana Buckenberger</p>
             <div className="space-y-6">
               {contactInfo.map((item) => {
                 const IconComponent = item.icon;

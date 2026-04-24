@@ -3,15 +3,12 @@ import { Hero, Features, FAQ } from '@/components/sections';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import {
-  FolderOpen,
-  Mail,
-  BarChart,
-  Globe,
-  GitBranch,
-  CreditCard,
-  MessageSquare,
-  Handshake,
-  FileText
+  Eye,
+  Languages,
+  FileBarChart2,
+  ListChecks,
+  Network,
+  MessageSquareWarning,
 } from 'lucide-react';
 import {
   JsonLd,
@@ -22,14 +19,14 @@ import {
 import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Credit Management Software — Debitorenmanagement automatisieren',
+  title: 'Credit Management Software — Professionelles Debitoren-Management',
   description:
-    'Sparen Sie Zeit, Geld und Energie mit unserer Credit Management Software. Zentrales Dossier, automatisierte Mahnläufe, Debitorenportal und ERP-Integration in einer Anwendung.',
+    'Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung. Die Credit Management Software von CreditDevice geht über reines Debitoren-Management hinaus.',
   alternates: { canonical: '/credit-management-software' },
   openGraph: {
-    title: 'Credit Management Software — Debitorenmanagement automatisieren',
+    title: 'Credit Management Software — Professionelles Debitoren-Management',
     description:
-      'Zentrales Dossier, automatisierte Mahnläufe und Debitorenportal in einer Anwendung.',
+      'Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung.',
     url: `${SITE_URL}/credit-management-software`,
     type: 'website',
   },
@@ -37,68 +34,53 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    title: 'Zentrales Dossier',
-    description: 'Alle Kundeninformationen, Kommunikation und Dokumente an einem Ort.',
-    icon: FolderOpen,
+    title: 'Volle Transparenz über Ihre Schuldner',
+    description: 'Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Schuldners ist für jeden im Unternehmen klar.',
+    icon: Eye,
   },
   {
-    title: 'E-Mail-Integration',
-    description: 'Automatische Zuordnung von E-Mails zu Kundendossiers.',
-    icon: Mail,
+    title: 'Rechnungen früher bezahlt',
+    description: 'Sprechen Sie die Sprache Ihres Schuldners: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt.',
+    icon: Languages,
   },
   {
-    title: 'Berichte & Analytics',
-    description: 'Umfassende Reporting-Funktionen für volle Transparenz.',
-    icon: BarChart,
+    title: 'Maßgeschneiderte Berichte',
+    description: 'Informieren Sie die Geschäftsleitung monatlich über die größten Schuldner oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser Berichtstool.',
+    icon: FileBarChart2,
   },
   {
-    title: 'Debitorenportal',
-    description: 'Self-Service-Portal für Ihre Kunden.',
-    icon: Globe,
+    title: 'Zeit sparen mit Aktionslisten',
+    description: 'Arbeiten Sie täglich anhand von Aktionslisten und vermeiden Sie verspätete Zahlungen. Die Kundenprofile bestimmen, welche Aktion wann geplant ist.',
+    icon: ListChecks,
   },
   {
-    title: 'Workflows',
-    description: 'Automatisierte Prozesse für effizientes Arbeiten.',
-    icon: GitBranch,
+    title: 'Auf Konzernebene anmahnen',
+    description: 'Verknüpfen Sie mehrere Schuldnernummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene.',
+    icon: Network,
   },
   {
-    title: 'Online-Zahlung',
-    description: 'Einfache Zahlungsmöglichkeiten für schnelleren Geldeingang.',
-    icon: CreditCard,
-  },
-  {
-    title: 'Beschwerdemanagement',
-    description: 'Strukturierte Bearbeitung von Kundenanliegen.',
-    icon: MessageSquare,
-  },
-  {
-    title: 'Zahlungsvereinbarungen',
-    description: 'Flexible Ratenzahlungen und Stundungen.',
-    icon: Handshake,
-  },
-  {
-    title: 'Fakturierung',
-    description: 'Integrierte Rechnungserstellung und -verwaltung.',
-    icon: FileText,
+    title: 'Schnelle Beschwerdebearbeitung',
+    description: 'Registrieren Sie Beschwerden einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden. Ohne Benutzerlizenzen – alle beteiligten Kollegen haben Zugriff.',
+    icon: MessageSquareWarning,
   },
 ];
 
 const faqItems = [
   {
-    question: 'Wie funktioniert das zentrale Dossier?',
-    answer: 'Das zentrale Dossier sammelt alle relevanten Informationen zu einem Debitor an einem Ort: Stammdaten, Bonitätsinformationen, offene Posten, Kommunikationshistorie und Dokumente. So haben Sie immer den vollständigen Überblick.',
+    question: 'Warum Credit Management Software zusätzlich zur Buchhaltung?',
+    answer: 'Sie haben bereits eine Buchhaltungssoftware – doch oft ist ein traditionelles Paket nicht flexibel und vielseitig genug für ein modernes Kreditmanagement. Unsere Software ist genau dafür gebaut.',
   },
   {
-    question: 'Können automatische Mahnläufe eingerichtet werden?',
-    answer: 'Ja, Sie können vollständig automatisierte Mahnläufe konfigurieren. Definieren Sie Mahnstufen, Fristen und Eskalationspfade individuell für verschiedene Kundengruppen.',
+    question: 'Wie ist die Credit Management Software mit Kreditinformationen verknüpft?',
+    answer: 'Die Software ist direkt mit unserer eigenen Kreditinformationsdatenbank verbunden. Sie haben Online-Zugang zu mehr als 270 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Schuldner.',
   },
   {
-    question: 'Wie funktioniert das Debitorenportal?',
-    answer: 'Das Debitorenportal ist eine Self-Service-Plattform für Ihre Kunden. Dort können sie offene Rechnungen einsehen, Zahlungen vornehmen, Reklamationen einreichen und Ratenzahlungen vereinbaren.',
+    question: 'Wie hängt die Software mit dem PolicyManager zusammen?',
+    answer: 'Mit dem Benachrichtigungssystem des PolicyManagers erfüllen Sie die Obliegenheiten Ihres Kreditversicherers rechtzeitig. Sie verlieren nie den Versicherungsschutz und erfüllen die Obliegenheiten für Entschädigungsansprüche.',
   },
   {
-    question: 'Welche Schnittstellen werden unterstützt?',
-    answer: 'Wir bieten Standardschnittstellen zu gängigen ERP-Systemen wie SAP, Microsoft Dynamics und vielen anderen. Zusätzlich steht eine REST-API für individuelle Integrationen zur Verfügung.',
+    question: 'Gibt es Benutzerlizenzen?',
+    answer: 'Nein. CreditDevice verwendet keine Benutzerlizenzen, so dass alle Ihre beteiligten Kollegen einfach auf die Daten zugreifen können.',
   },
 ];
 
@@ -121,23 +103,23 @@ export default function CreditManagementSoftwarePage() {
         ]}
       />
       <Hero
-        title="Credit Management Software"
-        subtitle="Sparen Sie Zeit, Geld und Energie – Ihr Schlüssel zu effizientem Debitorenmanagement. Automatisieren Sie Prozesse und behalten Sie den Überblick."
+        title="Professionelles Debitoren-Management"
+        subtitle="Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung."
         primaryCta={{
-          text: 'Demo anfordern',
+          text: 'Kostenlose Demo anfordern',
           href: '/kontakt',
         }}
         secondaryCta={{
-          text: 'Features entdecken',
-          href: '#features',
+          text: 'Angebot anfordern',
+          href: '/kontakt',
         }}
         image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/02/Foto-van-Marcel-en-Olav-scaled.webp"
-        imageAlt="Credit-Management-Software-Dashboard — zentrale Übersicht für Debitorenmanagement und Mahnwesen"
+        imageAlt="Credit-Management-Software von CreditDevice — zentrale Übersicht für Debitoren-Management und Mahnwesen"
       />
 
       <Features
-        title="Leistungsstarke Funktionen"
-        subtitle="Entdecken Sie alle Funktionen unserer Credit Management Software"
+        title="Was unsere Software auszeichnet"
+        subtitle="Bei CreditDevice wählen Sie das für Sie passende Paket – Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung."
         features={features}
         columns={3}
         background="gray"
@@ -191,33 +173,39 @@ export default function CreditManagementSoftwarePage() {
           </div>
           <div className="order-1 lg:order-2">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Volle Kontrolle über Ihre Debitoren
+              Wie einzigartig ist CreditDevice?
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Unsere Credit Management Software gibt Ihnen alle Werkzeuge an die Hand,
-              um Ihre Forderungen effizient zu verwalten. Von der automatischen
-              Mahnung bis zur Inkasso-Übergabe – alles in einem System.
+              Wir sind der Meinung, dass jeder Kreditmanager von nur einer Anwendung für alle
+              Dienstleistungen im Bereich Kreditmanagement profitiert: die Verwaltung Ihrer
+              Kreditversicherungspolice, Ihr Debitoren-Management, die Erfassung von
+              Kreditinformationen und die Analyse von Risiken.
+            </p>
+            <p className="text-lg text-gray-600 mb-6">
+              Unsere selbst entwickelte Credit Management Software ist mit einer eigenen
+              Kreditinformationsdatenbank verknüpft – direkter Online-Zugang zu mehr als
+              270 Millionen Unternehmen weltweit.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Automatisierte Mahnprozesse
+                Eigene Kreditinformationsdatenbank
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Echtzeit-Dashboards und KPIs
+                Über 270 Mio. Unternehmen weltweit
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Flexible Eskalationsstufen
+                Keine Benutzerlizenzen – Team-Zugriff inklusive
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Nahtlose ERP-Integration
+                Kombinierbar mit PolicyManager
               </li>
             </ul>
             <Button href="/kontakt" variant="primary" size="lg">
-              Jetzt Demo vereinbaren
+              Demo anfragen
             </Button>
           </div>
         </div>

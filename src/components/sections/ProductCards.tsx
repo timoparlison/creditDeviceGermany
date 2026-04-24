@@ -4,25 +4,25 @@ import { ArrowRight, Search, FileText, Shield, Check } from 'lucide-react';
 
 const products = [
   {
-    title: 'Bonitätsinformationen',
-    description: 'Zuverlässige Daten, intelligente Einblicke und minimale Risiken. Treffen Sie fundierte Geschäftsentscheidungen.',
+    title: 'Kreditinformationen',
+    description: 'Frisch recherchierte Firmenauskünfte in hoher Informationsqualität – ohne Vertrag mit Laufzeit oder Mindestabnahme.',
     href: '/bonitaetsinformationen',
     icon: Search,
-    features: ['Internationale Abdeckung (200+ Länder)', 'Echtzeit-Risikoanalyse', 'API-Integration', 'Monitoring & Alerts'],
+    features: ['Weltweit aktuell recherchiert', 'Bonität von Interessenten und Kunden prüfen', 'Ohne Mindestabnahme', 'Via Schwesterunternehmen GlobalCompanyCheck'],
   },
   {
     title: 'Credit Management Software',
-    description: 'Sparen Sie Zeit, Geld und Energie – Ihr Schlüssel zu effizientem Debitorenmanagement.',
+    description: 'Einblicke in das Zahlungsverhalten Ihrer Kunden – damit Sie im Voraus Entscheidungen treffen und Risiken begrenzen.',
     href: '/credit-management-software',
     icon: FileText,
-    features: ['Zentrales Kundendossier', 'Automatische Workflows', 'Online-Zahlungsoptionen', 'Umfassende Berichterstellung'],
+    features: ['Professionelles Debitoren-Management', 'Besserer Cashflow', 'Klare Berichte', 'Effektive Kommunikation'],
   },
   {
     title: 'PolicyManager',
-    description: 'Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung.',
+    description: 'Verwalten Sie Ihre Kreditversicherung einfach – alle wichtigen und relevanten Informationen zusammengeführt.',
     href: '/policymanager',
     icon: Shield,
-    features: ['Kreditlimit-Verwaltung', 'Automatische Umsatzmeldung', 'Selbstbewertungstool', 'Schadenmanagement'],
+    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Atradius, Coface, Euler Hermes', 'Ab 300 € pro Monat'],
   },
 ];
 
@@ -30,12 +30,12 @@ export function ProductCards() {
   return (
     <Section background="white">
       <div className="text-center mb-14">
-        <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-          CreditDevice Gesamtpaket
-        </h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Drei leistungsstarke Lösungen für Ihr professionelles Credit Management
+        <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
+          Unsere Produkte
         </p>
+        <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+          Kreditmanagement-Lösungen, die Ihnen die Arbeit erleichtern
+        </h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
