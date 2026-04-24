@@ -1,15 +1,23 @@
 import { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Datenschutzerklärung',
-  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO',
+  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO.',
+  alternates: { canonical: '/datenschutz' },
 };
 
 export default function DatenschutzPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Startseite', path: '/' },
+          { name: 'Datenschutz', path: '/datenschutz' },
+        ])}
+      />
       <div className="bg-navy py-16">
         <Container>
           <h1 className="text-4xl font-bold text-white">Datenschutzerklärung</h1>

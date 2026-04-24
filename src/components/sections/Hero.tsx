@@ -15,6 +15,7 @@ interface HeroProps {
     href: string;
   };
   image?: string;
+  imageAlt?: string;
   showImage?: boolean;
 }
 
@@ -74,6 +75,7 @@ export function Hero({
   primaryCta,
   secondaryCta,
   image = 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/11/Debiteurenbeheer-48.webp',
+  imageAlt,
   showImage = true,
 }: HeroProps) {
   return (
@@ -152,7 +154,7 @@ export function Hero({
                   <div className="bg-white rounded-b-lg overflow-hidden">
                     <Image
                       src={image}
-                      alt="CreditDevice Dashboard"
+                      alt={imageAlt ?? `${title} — Dashboard-Ansicht der CreditDevice Plattform`}
                       width={1200}
                       height={700}
                       className="w-full h-auto"

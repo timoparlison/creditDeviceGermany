@@ -3,16 +3,24 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, ShieldCheck, Zap } from 'lucide-react';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Unternehmensauskunft bestellen',
+  title: 'Unternehmensauskunft bestellen — globale Wirtschaftsauskünfte',
   description:
-    'Frisch recherchierte globale Bonitätsauskünfte. Schnell, zuverlässig und mit einem Klick bestellbar.',
+    'Frisch recherchierte Unternehmensauskünfte und Wirtschaftsauskünfte aus über 200 Ländern. Schnell, zuverlässig und mit einem Klick online bestellbar.',
+  alternates: { canonical: '/auskunft' },
 };
 
 export default function AuskunftPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Startseite', path: '/' },
+          { name: 'Unternehmensauskunft', path: '/auskunft' },
+        ])}
+      />
       <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/5" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/20 to-transparent rounded-full blur-3xl" />

@@ -20,7 +20,7 @@ const products = [
   {
     title: 'PolicyManager',
     description: 'Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung.',
-    href: '/polismanager',
+    href: '/policymanager',
     icon: Shield,
     features: ['Kreditlimit-Verwaltung', 'Automatische Umsatzmeldung', 'Selbstbewertungstool', 'Schadenmanagement'],
   },

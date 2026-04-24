@@ -12,6 +12,20 @@ const nextConfig: NextConfig = {
     ],
   },
   trailingSlash: true,
+  async redirects() {
+    return [
+      {
+        source: '/polismanager',
+        destination: '/policymanager',
+        permanent: true,
+      },
+      {
+        source: '/polismanager/:path*',
+        destination: '/policymanager/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

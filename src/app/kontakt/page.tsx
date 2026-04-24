@@ -3,10 +3,24 @@ import { Hero } from '@/components/sections';
 import { Section } from '@/components/ui/Section';
 import { ContactForm } from '@/components/forms';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
+import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Kontakt',
-  description: 'Kontaktieren Sie CreditDevice GmbH. Wir beraten Sie gerne zu unseren Credit Management Lösungen.',
+  title: 'Kontakt — CreditDevice GmbH Hamburg',
+  description:
+    'Kontaktieren Sie die CreditDevice GmbH in Hamburg. Wir beraten Sie persönlich zu Bonitätsinformationen, Credit Management Software und Kreditversicherung.',
+  alternates: { canonical: '/kontakt' },
+};
+
+const contactPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  '@id': `${SITE_URL}/kontakt#contactpage`,
+  url: `${SITE_URL}/kontakt`,
+  name: 'Kontakt — CreditDevice GmbH Hamburg',
+  inLanguage: 'de-DE',
+  about: { '@id': `${SITE_URL}/#organization` },
 };
 
 const contactInfo = [
@@ -37,6 +51,15 @@ const contactInfo = [
 export default function KontaktPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          contactPageSchema,
+          breadcrumbSchema([
+            { name: 'Startseite', path: '/' },
+            { name: 'Kontakt', path: '/kontakt' },
+          ]),
+        ]}
+      />
       <Hero
         title="Kontakt"
         subtitle="Haben Sie Fragen oder möchten Sie mehr über unsere Lösungen erfahren? Wir freuen uns auf Ihre Nachricht."

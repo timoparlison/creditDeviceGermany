@@ -24,7 +24,7 @@ const navigation = [
       },
       {
         name: 'PolicyManager',
-        href: '/polismanager',
+        href: '/policymanager',
         description: 'Verwaltung Ihrer Kreditversicherung',
       },
     ],

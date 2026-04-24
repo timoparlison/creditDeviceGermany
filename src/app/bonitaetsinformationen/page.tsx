@@ -5,10 +5,21 @@ import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, TrendingUp, Zap, BarChart3, Database, Shield } from 'lucide-react';
+import { JsonLd, breadcrumbSchema, faqSchema } from '@/components/seo/JsonLd';
+import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Bonitätsinformationen',
-  description: 'Zuverlässige Bonitätsinformationen aus über 200 Ländern. Treffen Sie fundierte Geschäftsentscheidungen mit intelligenten Einblicken und minimieren Sie Ihre Risiken.',
+  title: 'Bonitätsinformationen aus über 200 Ländern',
+  description:
+    'Zuverlässige Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern. Fundierte Geschäftsentscheidungen mit tagesaktuellen Daten — minimieren Sie Ihr Debitorenrisiko.',
+  alternates: { canonical: '/bonitaetsinformationen' },
+  openGraph: {
+    title: 'Bonitätsinformationen aus über 200 Ländern',
+    description:
+      'Zuverlässige Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern.',
+    url: `${SITE_URL}/bonitaetsinformationen`,
+    type: 'website',
+  },
 };
 
 const features = [
@@ -66,6 +77,15 @@ const faqItems = [
 export default function BonitaetsinformationenPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          faqSchema(faqItems),
+          breadcrumbSchema([
+            { name: 'Startseite', path: '/' },
+            { name: 'Bonitätsinformationen', path: '/bonitaetsinformationen' },
+          ]),
+        ]}
+      />
       <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/5" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/20 to-transparent rounded-full blur-3xl" />

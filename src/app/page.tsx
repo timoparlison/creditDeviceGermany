@@ -1,4 +1,5 @@
 import { Hero, ProductCards, AllInOne, WhyUs, FAQ, CustomerLogos, CTABanner } from '@/components/sections';
+import { JsonLd, faqSchema } from '@/components/seo/JsonLd';
 
 const faqItems = [
   {
@@ -30,6 +31,7 @@ const faqItems = [
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqSchema(faqItems)} />
       <Hero
         title="Ihr Partner für Credit Management"
         subtitle="Vermeiden Sie finanzielle Risiken und verwalten Sie Ihr gesamtes Credit Management in einer leistungsstarken Anwendung."
@@ -42,6 +44,7 @@ export default function Home() {
           href: '/bonitaetsinformationen',
         }}
         image="/credTitelBildNachTeamsCall.png"
+        imageAlt="CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
       />
 
       <CustomerLogos />

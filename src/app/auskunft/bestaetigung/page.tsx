@@ -2,7 +2,10 @@ import Link from 'next/link';
 import { CheckCircle2 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 
-export const metadata = { title: 'Bestellung bestätigt' };
+export const metadata = {
+  title: 'Bestellung bestätigt',
+  robots: { index: false, follow: false },
+};
 
 export default function ConfirmationPage() {
   return (

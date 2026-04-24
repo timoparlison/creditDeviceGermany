@@ -3,6 +3,13 @@ import { Hero, Features, FAQ } from '@/components/sections';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import {
+  JsonLd,
+  breadcrumbSchema,
+  faqSchema,
+  softwareApplicationSchema,
+} from '@/components/seo/JsonLd';
+import { SITE_URL } from '@/lib/seo';
+import {
   Shield,
   Receipt,
   FileBarChart,
@@ -12,8 +19,17 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'PolicyManager',
-  description: 'Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung. Verwalten Sie Kreditlimits, Umsatzmeldungen und Berichte in einer Anwendung.',
+  title: 'PolicyManager — Kreditversicherung verwalten',
+  description:
+    'Verwalten Sie Kreditlimits, Umsatzmeldungen und Schäden Ihrer Kreditversicherung zentral in einer Anwendung. Direkte Anbindung an alle großen Kreditversicherer.',
+  alternates: { canonical: '/policymanager' },
+  openGraph: {
+    title: 'PolicyManager — Kreditversicherung verwalten',
+    description:
+      'Verwalten Sie Kreditlimits, Umsatzmeldungen und Schäden Ihrer Kreditversicherung zentral in einer Anwendung.',
+    url: `${SITE_URL}/policymanager`,
+    type: 'website',
+  },
 };
 
 const features = [
@@ -71,6 +87,21 @@ const faqItems = [
 export default function PolicyManagerPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          softwareApplicationSchema({
+            name: 'PolicyManager',
+            description:
+              'Software zur zentralen Verwaltung Ihrer Kreditversicherung — Limits, Umsatzmeldungen und Schadenmanagement.',
+            url: `${SITE_URL}/policymanager`,
+          }),
+          faqSchema(faqItems),
+          breadcrumbSchema([
+            { name: 'Startseite', path: '/' },
+            { name: 'PolicyManager', path: '/policymanager' },
+          ]),
+        ]}
+      />
       <Hero
         title="PolicyManager"
         subtitle="Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung. Behalten Sie den Überblick über Limits, Umsatzmeldungen und Schäden."
@@ -83,6 +114,7 @@ export default function PolicyManagerPage() {
           href: '#features',
         }}
         image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/04/Roos_homepage-902x1024.webp"
+        imageAlt="PolicyManager-Oberfläche zur Verwaltung von Kreditversicherungs-Limits und Umsatzmeldungen"
       />
 
       <Features

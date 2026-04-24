@@ -13,10 +13,26 @@ import {
   Handshake,
   FileText
 } from 'lucide-react';
+import {
+  JsonLd,
+  breadcrumbSchema,
+  faqSchema,
+  softwareApplicationSchema,
+} from '@/components/seo/JsonLd';
+import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Credit Management Software',
-  description: 'Sparen Sie Zeit, Geld und Energie mit unserer Credit Management Software. Ihr Schlüssel zu effizientem Debitorenmanagement.',
+  title: 'Credit Management Software — Debitorenmanagement automatisieren',
+  description:
+    'Sparen Sie Zeit, Geld und Energie mit unserer Credit Management Software. Zentrales Dossier, automatisierte Mahnläufe, Debitorenportal und ERP-Integration in einer Anwendung.',
+  alternates: { canonical: '/credit-management-software' },
+  openGraph: {
+    title: 'Credit Management Software — Debitorenmanagement automatisieren',
+    description:
+      'Zentrales Dossier, automatisierte Mahnläufe und Debitorenportal in einer Anwendung.',
+    url: `${SITE_URL}/credit-management-software`,
+    type: 'website',
+  },
 };
 
 const features = [
@@ -89,6 +105,21 @@ const faqItems = [
 export default function CreditManagementSoftwarePage() {
   return (
     <>
+      <JsonLd
+        data={[
+          softwareApplicationSchema({
+            name: 'CreditDevice Credit Management Software',
+            description:
+              'Credit Management Software mit zentralem Dossier, automatisierten Workflows, Debitorenportal und ERP-Integration.',
+            url: `${SITE_URL}/credit-management-software`,
+          }),
+          faqSchema(faqItems),
+          breadcrumbSchema([
+            { name: 'Startseite', path: '/' },
+            { name: 'Credit Management Software', path: '/credit-management-software' },
+          ]),
+        ]}
+      />
       <Hero
         title="Credit Management Software"
         subtitle="Sparen Sie Zeit, Geld und Energie – Ihr Schlüssel zu effizientem Debitorenmanagement. Automatisieren Sie Prozesse und behalten Sie den Überblick."
@@ -101,6 +132,7 @@ export default function CreditManagementSoftwarePage() {
           href: '#features',
         }}
         image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/02/Foto-van-Marcel-en-Olav-scaled.webp"
+        imageAlt="Credit-Management-Software-Dashboard — zentrale Übersicht für Debitorenmanagement und Mahnwesen"
       />
 
       <Features

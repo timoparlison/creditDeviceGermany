@@ -1,15 +1,23 @@
 import { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Impressum',
-  description: 'Impressum der CreditDevice GmbH, Hamburg',
+  description: 'Impressum der CreditDevice GmbH, Hamburg — Angaben gemäß § 5 TMG.',
+  alternates: { canonical: '/impressum' },
 };
 
 export default function ImpressumPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Startseite', path: '/' },
+          { name: 'Impressum', path: '/impressum' },
+        ])}
+      />
       <div className="bg-navy py-16">
         <Container>
           <h1 className="text-4xl font-bold text-white">Impressum</h1>
