@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
-import { Hero, Features, FAQ } from '@/components/sections';
+import { Features, FAQ } from '@/components/sections';
+import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, TrendingUp, Zap, BarChart3, Database, Shield } from 'lucide-react';
+import { JsonLd, breadcrumbSchema, faqSchema } from '@/components/seo/JsonLd';
+import { SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Bonitätsinformationen',
-  description: 'Zuverlässige Bonitätsinformationen aus über 200 Ländern. Treffen Sie fundierte Geschäftsentscheidungen mit intelligenten Einblicken und minimieren Sie Ihre Risiken.',
+  title: 'Bonitätsinformationen aus über 200 Ländern',
+  description:
+    'Zuverlässige Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern. Fundierte Geschäftsentscheidungen mit tagesaktuellen Daten — minimieren Sie Ihr Debitorenrisiko.',
+  alternates: { canonical: '/bonitaetsinformationen' },
+  openGraph: {
+    title: 'Bonitätsinformationen aus über 200 Ländern',
+    description:
+      'Zuverlässige Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern.',
+    url: `${SITE_URL}/bonitaetsinformationen`,
+    type: 'website',
+  },
 };
 
 const features = [
@@ -64,19 +77,41 @@ const faqItems = [
 export default function BonitaetsinformationenPage() {
   return (
     <>
-      <Hero
-        title="Bonitätsinformationen"
-        subtitle="Zuverlässige Daten, intelligente Einblicke und minimale Risiken. Treffen Sie fundierte Geschäftsentscheidungen mit unseren umfassenden Bonitätsinformationen."
-        primaryCta={{
-          text: 'Demo anfordern',
-          href: '/kontakt',
-        }}
-        secondaryCta={{
-          text: 'Jetzt testen',
-          href: '/kontakt',
-        }}
-        image="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/06/DSC01263-1024x710.webp"
+      <JsonLd
+        data={[
+          faqSchema(faqItems),
+          breadcrumbSchema([
+            { name: 'Startseite', path: '/' },
+            { name: 'Bonitätsinformationen', path: '/bonitaetsinformationen' },
+          ]),
+        ]}
       />
+      <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/5" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/20 to-transparent rounded-full blur-3xl" />
+
+        <Container className="relative z-10">
+          <div className="max-w-3xl">
+            <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
+              Internationale Kreditinformationen
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.1] mb-5">
+              Frisch recherchierte <br />
+              <span className="text-primary">Firmenauskünfte</span> weltweit
+            </h1>
+            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              Von unserem Schwesterunternehmen GlobalCompanyCheck e.U. erhalten Sie
+              innerhalb kürzester Zeit weltweit aktuell recherchierte Kreditauskünfte –
+              um die Bonität Ihrer Interessenten und Kunden zu überprüfen. Ohne Vertrag
+              mit Laufzeit oder Mindestabnahme.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-2xl p-5 md:p-6 max-w-4xl">
+            <SearchForm variant="light" />
+          </div>
+        </Container>
+      </section>
 
       <Features
         title="Unsere Leistungen"
@@ -90,12 +125,12 @@ export default function BonitaetsinformationenPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">
-              Minimieren Sie Ihr Ausfallrisiko
+              Risiko minimieren, Geschäft steigern
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Mit unseren Bonitätsinformationen können Sie das Zahlungsverhalten Ihrer
-              Geschäftspartner einschätzen, bevor Sie Verträge abschließen. Reduzieren
-              Sie Forderungsausfälle und optimieren Sie Ihr Working Capital.
+              Eine clevere Möglichkeit, Ihre Geschäfte mit Hilfe frisch recherchierter
+              Firmenauskünfte von sehr hoher Informationsqualität zu steigern – und Ihr
+              Risiko zu minimieren. Ideale Ergänzung zu unserer Credit Management Software.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">

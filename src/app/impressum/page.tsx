@@ -1,15 +1,23 @@
 import { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Impressum',
-  description: 'Impressum der CreditDevice GmbH, Hamburg',
+  description: 'Impressum der CreditDevice GmbH, Hamburg — Angaben gemäß § 5 TMG.',
+  alternates: { canonical: '/impressum' },
 };
 
 export default function ImpressumPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Startseite', path: '/' },
+          { name: 'Impressum', path: '/impressum' },
+        ])}
+      />
       <div className="bg-navy py-16">
         <Container>
           <h1 className="text-4xl font-bold text-white">Impressum</h1>
@@ -32,7 +40,7 @@ export default function ImpressumPage() {
             <h3 className="text-xl font-semibold text-navy mb-3">Kontakt</h3>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Telefon: 040 / 89 069 29 90<br />
+                Telefon: 040 / 890 69 29 - 12<br />
                 E-Mail: <a href="mailto:info@creditdevice.de" className="text-primary hover:underline">info@creditdevice.de</a>
               </p>
             </div>
@@ -81,20 +89,17 @@ export default function ImpressumPage() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4 mt-12">Streitschlichtung</h2>
+            <h2 className="text-2xl font-bold text-navy mb-4 mt-12">Verbraucherstreitbeilegung</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
-                <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline ml-1">
-                  https://ec.europa.eu/consumers/odr
-                </a>
+                Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren
+                vor einer Verbraucherschlichtungsstelle im Sinne des Verbraucherstreitbeilegungsgesetzes
+                (VSBG) teilzunehmen.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Unsere E-Mail-Adresse finden Sie oben im Impressum.
-              </p>
-              <p className="text-gray-700 leading-relaxed mt-4">
-                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-                Verbraucherschlichtungsstelle teilzunehmen.
+                Hinweis: Die von der Europäischen Kommission gemäß Art. 14 Abs. 1 der
+                ODR-Verordnung (EU) Nr. 524/2013 bereitgestellte Online-Streitbeilegungsplattform
+                wurde zum 20. Juli 2025 eingestellt; eine Verlinkung ist daher nicht mehr möglich.
               </p>
             </div>
 

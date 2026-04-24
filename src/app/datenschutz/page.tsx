@@ -1,15 +1,23 @@
 import { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
+import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Datenschutzerklärung',
-  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO',
+  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO.',
+  alternates: { canonical: '/datenschutz' },
 };
 
 export default function DatenschutzPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Startseite', path: '/' },
+          { name: 'Datenschutz', path: '/datenschutz' },
+        ])}
+      />
       <div className="bg-navy py-16">
         <Container>
           <h1 className="text-4xl font-bold text-white">Datenschutzerklärung</h1>
@@ -28,7 +36,7 @@ export default function DatenschutzPage() {
                 <strong className="text-navy">CreditDevice GmbH</strong><br />
                 Winsbergring 10<br />
                 22525 Hamburg<br /><br />
-                Telefon: 040 / 89 069 29 90<br />
+                Telefon: 040 / 890 69 29 - 12<br />
                 E-Mail: <a href="mailto:info@creditdevice.de" className="text-primary hover:underline">info@creditdevice.de</a>
               </p>
             </div>

@@ -2,7 +2,10 @@ import Link from 'next/link';
 import { CheckCircle2 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 
-export const metadata = { title: 'Bestellung bestätigt' };
+export const metadata = {
+  title: 'Bestellung bestätigt',
+  robots: { index: false, follow: false },
+};
 
 export default function ConfirmationPage() {
   return (
@@ -19,7 +22,7 @@ export default function ConfirmationPage() {
             Eine Bestätigung wurde an Ihre E-Mail-Adresse gesendet.
           </p>
           <Link
-            href="/auskunft"
+            href="/bonitaetsinformationen"
             className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors"
           >
             Weitere Auskunft bestellen

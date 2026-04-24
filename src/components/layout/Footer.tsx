@@ -7,22 +7,17 @@ const footerLinks = {
   produkte: [
     { name: 'Bonitätsinformationen', href: '/bonitaetsinformationen' },
     { name: 'Credit Management Software', href: '/credit-management-software' },
-    { name: 'PolisManager', href: '/polismanager' },
+    { name: 'PolicyManager', href: '/policymanager' },
   ],
   unternehmen: [
-    { name: 'Über uns', href: '/ueber-uns' },
     { name: 'Kontakt', href: '/kontakt' },
-    { name: 'Blog', href: '/blog' },
   ],
   service: [
     { name: 'Demo anfordern', href: '/kontakt' },
-    { name: 'Hilfe-Center', href: '/hilfe' },
-    { name: 'Integrationen', href: '/integrationen' },
   ],
   rechtliches: [
     { name: 'Impressum', href: '/impressum' },
     { name: 'Datenschutz', href: '/datenschutz' },
-    { name: 'AGB', href: '/agb' },
   ],
 };
 
@@ -53,11 +48,11 @@ export function Footer() {
                 info@creditdevice.de
               </a>
               <a
-                href="tel:+494089069290"
+                href="tel:+4940890692912"
                 className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors"
               >
                 <Phone className="h-5 w-5 text-primary" />
-                040 / 89 069 29 90
+                040 / 890 69 29 - 12
               </a>
               <div className="flex items-start gap-3 text-gray-300">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

@@ -27,7 +27,7 @@ export function CTABanner() {
             size="lg"
             className="border-white text-white hover:bg-white hover:text-navy"
           >
-            Kostenlose Bonitätsauskunft
+            Bonitätsauskunft
           </Button>
         </div>
       </div>

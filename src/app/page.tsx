@@ -1,47 +1,50 @@
 import { Hero, ProductCards, AllInOne, WhyUs, FAQ, CustomerLogos, CTABanner } from '@/components/sections';
+import { JsonLd, faqSchema } from '@/components/seo/JsonLd';
 
 const faqItems = [
   {
-    question: 'Was ist Credit Management?',
-    answer: 'Credit Management umfasst alle Prozesse zur Steuerung und Überwachung von Kreditrisiken. Dies beinhaltet die Bonitätsprüfung von Kunden, das Debitorenmanagement, das Mahnwesen und die Verwaltung von Kreditversicherungen.',
+    question: 'Was macht CreditDevice einzigartig?',
+    answer: 'CreditDevice bietet eine Komplettlösung für Ihr gesamtes Kreditmanagement. Wir entwickeln unsere Produkte selbst, weil wir die Bedürfnisse unserer Kunden kennen. Jedes Produkt hat seine eigene Stärke – in Kombination werden unsere Lösungen noch leistungsfähiger.',
   },
   {
-    question: 'Für welche Unternehmen ist CreditDevice geeignet?',
-    answer: 'CreditDevice eignet sich für Unternehmen jeder Größe, die ihre Debitorenrisiken minimieren möchten. Von KMU bis zu Großunternehmen – unsere Lösungen sind skalierbar und passen sich Ihren Anforderungen an.',
+    question: 'Sind die Module einzeln nutzbar?',
+    answer: 'Ja. Unsere interaktiven Module — Credit Management Software, PolicyManager, Kreditinformationen und Inkasso — funktionieren unabhängig voneinander. Als Gesamtlösung entfalten sie jedoch ihre volle Stärke.',
   },
   {
-    question: 'Kann CreditDevice in bestehende Systeme integriert werden?',
-    answer: 'Ja, CreditDevice bietet umfangreiche Integrationsmöglichkeiten. Wir unterstützen Salesforce, verschiedene ERP-Systeme und bieten eine REST-API für individuelle Integrationen.',
+    question: 'Wie schnell erreiche ich einen Ansprechpartner?',
+    answer: 'Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und direkten Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.',
   },
   {
-    question: 'Wie schnell kann CreditDevice implementiert werden?',
-    answer: 'Die Implementierungszeit hängt von Ihren spezifischen Anforderungen ab. Standardimplementierungen können innerhalb weniger Tage abgeschlossen werden. Komplexere Integrationen werden individuell geplant.',
+    question: 'Wie erhalte ich internationale Kreditinformationen?',
+    answer: 'Über unser Schwesterunternehmen GlobalCompanyCheck e.U. erhalten Sie innerhalb kürzester Zeit weltweit aktuell recherchierte Kreditauskünfte — ohne Vertrag mit Laufzeit oder Mindestabnahme.',
   },
   {
-    question: 'Welche Bonitätsinformationen stellt CreditDevice zur Verfügung?',
-    answer: 'CreditDevice bietet Zugang zu Bonitätsinformationen aus über 200 Ländern. Sie erhalten Firmendaten, Bonitätsbewertungen, Zahlungserfahrungen und Risikoanalysen von führenden Auskunfteien.',
+    question: 'Wie hilft der PolicyManager bei der Kreditversicherung?',
+    answer: 'Der PolicyManager führt alle wichtigen und relevanten Informationen Ihrer Kreditversicherung zusammen. Dank des Benachrichtigungssystems verhindern Sie Entschädigungsverluste und halten Kreditlimits stets aktuell.',
   },
   {
-    question: 'Gibt es eine kostenlose Testphase?',
-    answer: 'Ja, wir bieten Ihnen gerne eine kostenlose Demo und Testphase an. Kontaktieren Sie uns, um mehr über die Möglichkeiten zu erfahren.',
+    question: 'Welche Rolle spielt die Credit Management Software?',
+    answer: 'Unsere Credit Management Software geht über reines Debitorenmanagement hinaus. Sie bietet Einblicke in das Zahlungsverhalten Ihrer Kunden, damit Sie im Voraus Entscheidungen treffen, gezielte Maßnahmen ergreifen und Risiken begrenzen können.',
   },
 ];
 
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqSchema(faqItems)} />
       <Hero
-        title="Ihr Partner für Credit Management"
-        subtitle="Vermeiden Sie finanzielle Risiken und verwalten Sie Ihr gesamtes Credit Management in einer leistungsstarken Anwendung."
+        title="Die Gesamtlösung für das Kreditmanagement"
+        subtitle="CreditDevice bietet eine Komplettlösung für Ihr komplettes Kreditmanagement. Jedes Produkt hat seine eigene Stärke – kombinieren Sie Module für eine effiziente Gesamtlösung."
         primaryCta={{
           text: 'Demo anfordern',
           href: '/kontakt',
         }}
         secondaryCta={{
-          text: 'Kostenlose Bonitätsauskunft',
+          text: 'Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
-        image="/credTitelBild.png"
+        image="/credTitelBildNachTeamsCall.png"
+        imageAlt="CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
       />
 
       <CustomerLogos />

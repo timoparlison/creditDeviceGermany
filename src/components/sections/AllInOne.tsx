@@ -3,31 +3,31 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Section } from '../ui/Section';
-import { Hand, Zap, Clock, ArrowRight } from 'lucide-react';
+import { Handshake, Layers, Phone, ArrowRight } from 'lucide-react';
 
 const tabs = [
   {
-    id: 'reach',
-    title: 'Alles in Reichweite',
-    icon: Hand,
-    description: 'Greifen Sie auf alle wichtigen Credit Management-Funktionen von einer zentralen Plattform aus zu. Keine Datenfragmentierung mehr – alles übersichtlich an einem Ort.',
-    features: ['Zentrales Dashboard', 'Einheitliche Datenquelle', '360° Kundenübersicht'],
+    id: 'partner',
+    title: 'Partner im Kreditmanagement',
+    icon: Handshake,
+    description: 'Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.',
+    features: ['Enge Kundenzusammenarbeit', 'Kontinuierliche Weiterentwicklung', 'Eigene Produktentwicklung'],
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
   },
   {
-    id: 'efficiency',
-    title: 'Digitale Effizienz',
-    icon: Zap,
-    description: 'Automatisieren Sie repetitive Aufgaben und sparen Sie wertvolle Zeit. Unsere Software übernimmt das Mahnwesen, die Risikoüberwachung und vieles mehr.',
-    features: ['Automatisierte Workflows', 'Intelligente Erinnerungen', 'Digitale Kommunikation'],
+    id: 'integrated',
+    title: 'Eine integrierte Anwendung',
+    icon: Layers,
+    description: 'In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.',
+    features: ['Modular kombinierbar', 'Eine zentrale Anwendung', 'Nahtlos integrierte Daten'],
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
   },
   {
-    id: 'faster',
-    title: 'Schneller bezahlt werden',
-    icon: Clock,
-    description: 'Reduzieren Sie Ihre DSO (Days Sales Outstanding) durch proaktives Debitorenmanagement und einfache Zahlungsmöglichkeiten für Ihre Kunden.',
-    features: ['Online-Zahlungslinks', 'Proaktive Kommunikation', 'DSO-Optimierung'],
+    id: 'contact',
+    title: 'Schneller, direkter Kontakt',
+    icon: Phone,
+    description: 'Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.',
+    features: ['Kurze Kommunikationswege', 'Persönliche Ansprechpartner', 'Unabhängiges Unternehmen'],
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
   },
 ];
@@ -39,11 +39,14 @@ export function AllInOne() {
   return (
     <Section background="gray">
       <div className="text-center mb-12">
+        <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
+          Module kombinieren
+        </p>
         <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-          Alles in einer Lösung
+          Alles für ein vollständiges Kreditmanagement in einem Paket
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Entdecken Sie, wie CreditDevice Ihr Credit Management revolutioniert
+          Wir entwickeln unsere Produkte selbst – weil wir die Bedürfnisse unserer Kunden kennen.
         </p>
       </div>
 
