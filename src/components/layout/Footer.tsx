@@ -52,11 +52,11 @@ export function Footer() {
                 info@creditdevice.de
               </a>
               <a
-                href="tel:+494089069290"
+                href="tel:+4940890692912"
                 className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors"
               >
                 <Phone className="h-5 w-5 text-primary" />
-                040 / 89 069 29 90
+                040 / 890 69 29 - 12
               </a>
               <div className="flex items-start gap-3 text-gray-300">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

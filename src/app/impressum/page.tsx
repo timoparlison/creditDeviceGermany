@@ -40,7 +40,7 @@ export default function ImpressumPage() {
             <h3 className="text-xl font-semibold text-navy mb-3">Kontakt</h3>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Telefon: 040 / 89 069 29 90<br />
+                Telefon: 040 / 890 69 29 - 12<br />
                 E-Mail: <a href="mailto:info@creditdevice.de" className="text-primary hover:underline">info@creditdevice.de</a>
               </p>
             </div>
