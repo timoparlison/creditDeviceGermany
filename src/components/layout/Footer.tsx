@@ -11,17 +11,13 @@ const footerLinks = {
   ],
   unternehmen: [
     { name: 'Kontakt', href: '/kontakt' },
-    { name: 'Blog', href: '/blog' },
   ],
   service: [
     { name: 'Demo anfordern', href: '/kontakt' },
-    { name: 'Hilfe-Center', href: '/hilfe' },
-    { name: 'Integrationen', href: '/integrationen' },
   ],
   rechtliches: [
     { name: 'Impressum', href: '/impressum' },
     { name: 'Datenschutz', href: '/datenschutz' },
-    { name: 'AGB', href: '/agb' },
   ],
 };
 
