@@ -7,7 +7,7 @@ const footerLinks = {
   produkte: [
     { name: 'Bonitätsinformationen', href: '/bonitaetsinformationen' },
     { name: 'Credit Management Software', href: '/credit-management-software' },
-    { name: 'PolisManager', href: '/polismanager' },
+    { name: 'PolicyManager', href: '/polismanager' },
   ],
   unternehmen: [
     { name: 'Über uns', href: '/ueber-uns' },

@@ -58,7 +58,7 @@ Das Projekt ist für Cloudflare Pages konfiguriert:
 - `/` - Startseite
 - `/bonitaetsinformationen` - Bonitätsinformationen
 - `/credit-management-software` - Credit Management Software
-- `/polismanager` - PolisManager
+- `/polismanager` - PolicyManager
 - `/kontakt` - Kontaktformular
 - `/impressum` - Impressum
 - `/datenschutz` - Datenschutzerklärung

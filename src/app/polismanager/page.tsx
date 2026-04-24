@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'PolisManager',
+  title: 'PolicyManager',
   description: 'Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung. Verwalten Sie Kreditlimits, Umsatzmeldungen und Berichte in einer Anwendung.',
 };
 
@@ -51,16 +51,16 @@ const features = [
 
 const faqItems = [
   {
-    question: 'Mit welchen Kreditversicherern arbeitet PolisManager zusammen?',
-    answer: 'PolisManager ist kompatibel mit allen großen Kreditversicherern wie Euler Hermes, Coface, Atradius und vielen anderen. Die Schnittstellen werden kontinuierlich erweitert.',
+    question: 'Mit welchen Kreditversicherern arbeitet PolicyManager zusammen?',
+    answer: 'PolicyManager ist kompatibel mit allen großen Kreditversicherern wie Euler Hermes, Coface, Atradius und vielen anderen. Die Schnittstellen werden kontinuierlich erweitert.',
   },
   {
     question: 'Wie funktioniert die Limitbeantragung?',
-    answer: 'Sie können Kreditlimits direkt aus PolisManager heraus beantragen. Die Anfrage wird automatisch an Ihren Versicherer übermittelt und Sie erhalten die Antwort direkt im System.',
+    answer: 'Sie können Kreditlimits direkt aus PolicyManager heraus beantragen. Die Anfrage wird automatisch an Ihren Versicherer übermittelt und Sie erhalten die Antwort direkt im System.',
   },
   {
     question: 'Können mehrere Policen verwaltet werden?',
-    answer: 'Ja, PolisManager unterstützt die Verwaltung mehrerer Kreditversicherungspolicen gleichzeitig. Ideal für Unternehmen mit verschiedenen Gesellschaften oder internationalen Policen.',
+    answer: 'Ja, PolicyManager unterstützt die Verwaltung mehrerer Kreditversicherungspolicen gleichzeitig. Ideal für Unternehmen mit verschiedenen Gesellschaften oder internationalen Policen.',
   },
   {
     question: 'Wie werden Umsatzmeldungen erstellt?',
@@ -68,11 +68,11 @@ const faqItems = [
   },
 ];
 
-export default function PolisManagerPage() {
+export default function PolicyManagerPage() {
   return (
     <>
       <Hero
-        title="PolisManager"
+        title="PolicyManager"
         subtitle="Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung. Behalten Sie den Überblick über Limits, Umsatzmeldungen und Schäden."
         primaryCta={{
           text: 'Demo anfordern',
@@ -100,7 +100,7 @@ export default function PolisManagerPage() {
               Maximieren Sie Ihren Versicherungsschutz
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              PolisManager hilft Ihnen, das Maximum aus Ihrer Kreditversicherung
+              PolicyManager hilft Ihnen, das Maximum aus Ihrer Kreditversicherung
               herauszuholen. Behalten Sie den Überblick über Ihre Limits, erhalten
               Sie rechtzeitig Warnungen und melden Sie Umsätze mit wenigen Klicks.
             </p>
@@ -180,7 +180,7 @@ export default function PolisManagerPage() {
 
       <FAQ
         title="Häufig gestellte Fragen"
-        subtitle="Erfahren Sie mehr über PolisManager"
+        subtitle="Erfahren Sie mehr über PolicyManager"
         items={faqItems}
       />
     </>

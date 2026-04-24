@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: '%s | CreditDevice',
   },
   description: 'Vermeiden Sie finanzielle Risiken und verwalten Sie Ihr gesamtes Credit Management in einer leistungsstarken Anwendung. Bonitätsinformationen, Debitorenmanagement und Kreditversicherung.',
-  keywords: ['Credit Management', 'Bonitätsinformationen', 'Debitorenmanagement', 'Kreditversicherung', 'PolisManager', 'Hamburg'],
+  keywords: ['Credit Management', 'Bonitätsinformationen', 'Debitorenmanagement', 'Kreditversicherung', 'PolicyManager', 'Hamburg'],
   authors: [{ name: 'CreditDevice GmbH' }],
   creator: 'CreditDevice GmbH',
   publisher: 'CreditDevice GmbH',

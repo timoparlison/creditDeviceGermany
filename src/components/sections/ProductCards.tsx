@@ -18,7 +18,7 @@ const products = [
     features: ['Zentrales Kundendossier', 'Automatische Workflows', 'Online-Zahlungsoptionen', 'Umfassende Berichterstellung'],
   },
   {
-    title: 'PolisManager',
+    title: 'PolicyManager',
     description: 'Die einzige echte Lösung zur Verwaltung Ihrer Kreditversicherung.',
     href: '/polismanager',
     icon: Shield,
