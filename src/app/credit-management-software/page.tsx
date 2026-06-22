@@ -188,6 +188,10 @@ export default function CreditManagementSoftwarePage() {
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
+                            <span className="w-2 h-2 bg-primary rounded-full mr-3" />
+                            Eine Unternehmenslizenz - alle User inklusive
+                          </li>
+              <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
                 Über 430 Mio. Unternehmen weltweit
               </li>
