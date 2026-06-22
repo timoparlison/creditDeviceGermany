@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     question: 'Welche Informationen sind in einem Bonitätsbericht enthalten?',
-    answer: 'Ein typischer Bericht enthält Firmenstammdaten (Name, Rechtsform, Handelsregisternummer, Adresse, Tätigkeitsbereiche), Bonitätsscore mit Risikoeinschätzung und Kreditlimit, Gesellschafterstruktur und Kapitalverhältnisse, aktuelle und frühere Geschäftsführer, Mitarbeiterzahlen, Bankverbindungen, Konzern- und Beteiligungsstruktur, Jahresabschlüsse und Bilanzdaten (mehrere Jahre), Negativmerkmale sowie Kennzahlen im Branchenvergleich.',
+    answer: 'Ein typischer Bericht enthält Firmenstammdaten (Name, Rechtsform, Handelsregisternummer, Adresse, Tätigkeitsbereiche), Bonitätsscore mit Risikoeinschätzung und Kreditlimit, Gesellschafterstruktur und Kapitalverhältnisse, aktuelle und frühere Geschäftsführer, Mitarbeiterzahlen, Bankverbindungen, Konzern- und Beteiligungsstruktur, Jahresabschlüsse und Bilanzdaten (mehrere Jahre), Negativmerkmale sowie Kennzahlen im Branchenvergleich. Der Informationsumfang kann in den einzelnen Ländern unterschiedlich sein.',
   },
 ];
 
