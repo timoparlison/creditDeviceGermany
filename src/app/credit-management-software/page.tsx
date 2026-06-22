@@ -34,18 +34,18 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    title: 'Volle Transparenz über Ihre Schuldner',
-    description: 'Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Schuldners ist für jeden im Unternehmen klar.',
+    title: 'Volle Transparenz über Ihre Debitoren',
+    description: 'Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Debitors ist für jeden im Unternehmen klar.',
     icon: Eye,
   },
   {
     title: 'Rechnungen früher bezahlt',
-    description: 'Sprechen Sie die Sprache Ihres Schuldners: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt.',
+    description: 'Sprechen Sie die Sprache Ihres Debitors: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt.',
     icon: Languages,
   },
   {
     title: 'Maßgeschneiderte Berichte',
-    description: 'Informieren Sie die Geschäftsleitung monatlich über die größten Schuldner oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser Berichtstool.',
+    description: 'Informieren Sie die Geschäftsleitung monatlich über die größten Debitor oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser flexibles Berichtstool.',
     icon: FileBarChart2,
   },
   {
@@ -55,12 +55,12 @@ const features = [
   },
   {
     title: 'Auf Konzernebene anmahnen',
-    description: 'Verknüpfen Sie mehrere Schuldnernummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene.',
+    description: 'Verknüpfen Sie mehrere Debitorennummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene.',
     icon: Network,
   },
   {
-    title: 'Schnelle Beschwerdebearbeitung',
-    description: 'Registrieren Sie Beschwerden einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden. Ohne Benutzerlizenzen – alle beteiligten Kollegen haben Zugriff.',
+    title: 'Schnelle Reklamationsbearbeitung',
+    description: 'Erfassen Sie Reklamationen einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden.',
     icon: MessageSquareWarning,
   },
 ];
@@ -72,7 +72,7 @@ const faqItems = [
   },
   {
     question: 'Wie ist die Credit Management Software mit Kreditinformationen verknüpft?',
-    answer: 'Die Software ist direkt mit unserer eigenen Kreditinformationsdatenbank verbunden. Sie haben Online-Zugang zu mehr als 270 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Schuldner.',
+    answer: 'Die Software ist direkt mit unserer eigenen Kreditinformationsdatenbank verbunden. Sie haben Online-Zugang zu mehr als 270 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Debitoren.',
   },
   {
     question: 'Wie hängt die Software mit dem PolicyManager zusammen?',
@@ -194,10 +194,6 @@ export default function CreditManagementSoftwarePage() {
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
                 Über 270 Mio. Unternehmen weltweit
-              </li>
-              <li className="flex items-center text-gray-700">
-                <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Keine Benutzerlizenzen – Team-Zugriff inklusive
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
