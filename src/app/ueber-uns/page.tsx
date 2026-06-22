@@ -63,7 +63,7 @@ export default function UeberUnsPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { value: '2017', label: 'Gründungsjahr' },
-            { value: '30+', label: 'Jahre Erfahrung' },
+            { value: '35+', label: 'Jahre Erfahrung' },
             { value: '2500+', label: 'Aktive Kunden' },
             { value: '200+', label: 'Länder weltweit' },
           ].map((stat) => (
