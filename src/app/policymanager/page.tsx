@@ -146,7 +146,7 @@ export default function PolicyManagerPage() {
             <p className="text-lg text-gray-600 mb-6">
               Mit den Credit-Management-Modulen von CreditDevice kombinieren Sie alles in einer
               Anwendung: die Verwaltung Ihrer Kreditversicherung, Ihr Debitoren-Management,
-              die Erfassung von Kreditinformationen und die Analyse von Risiken.
+              der Abruf von Kreditinformationen und die Analyse von Risiken.
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Mit dem PolicyManager verwalten Sie Ihre Kreditversicherungspolice perfekt –
