@@ -23,12 +23,12 @@ import {
 export const metadata: Metadata = {
   title: 'PolicyManager — Ihr neuer bester Freund für die Kreditversicherung',
   description:
-    'Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren – ab 300 € pro Monat.',
+    'Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren – ab 300 € pro Monat.',
   alternates: { canonical: '/policymanager' },
   openGraph: {
     title: 'PolicyManager — Ihr neuer bester Freund für die Kreditversicherung',
     description:
-      'In Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt – ab 300 € pro Monat.',
+      'In Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt – ab 300 € pro Monat.',
     url: `${SITE_URL}/policymanager`,
     type: 'website',
   },
@@ -80,7 +80,7 @@ const features = [
 const faqItems = [
   {
     question: 'Mit welchen Kreditversicherern wurde der PolicyManager entwickelt?',
-    answer: 'Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren und zu erleichtern.',
+    answer: 'Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren und zu erleichtern.',
   },
   {
     question: 'Was kostet der PolicyManager?',
@@ -116,7 +116,7 @@ export default function PolicyManagerPage() {
       />
       <Hero
         title="PolicyManager — Ihr neuer bester Freund"
-        subtitle="Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren. Ein Tool, das Risiken vermeidet – durch rechtzeitige Maßnahmen."
+        subtitle="Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren. Ein Tool, das Risiken vermeidet – durch rechtzeitige Maßnahmen."
         primaryCta={{
           text: 'Demo anfordern',
           href: '/kontakt',
@@ -163,7 +163,7 @@ export default function PolicyManagerPage() {
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Kompatibel mit Atradius, Coface, Euler Hermes
+                Kompatibel mit Allianz Trade, Atradius, Coface
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
