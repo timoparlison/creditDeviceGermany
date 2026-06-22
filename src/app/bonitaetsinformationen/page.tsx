@@ -4,7 +4,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { SearchForm } from '@/components/auskunft/SearchForm';
-import { Globe, TrendingUp, Zap, BarChart3, Database, Shield } from 'lucide-react';
+import { Globe, TrendingUp, Zap, Database } from 'lucide-react';
 import { JsonLd, breadcrumbSchema, faqSchema } from '@/components/seo/JsonLd';
 import { SITE_URL } from '@/lib/seo';
 
@@ -42,16 +42,6 @@ const features = [
     title: 'Webservice / API',
     description: 'Leistungsstarke REST-API für die Integration in Ihre bestehenden Systeme.',
     icon: Database,
-  },
-  {
-    title: 'Marktanalyse',
-    description: 'Detaillierte Marktanalysen für strategische Geschäftsentscheidungen.',
-    icon: BarChart3,
-  },
-  {
-    title: 'Infoscore',
-    description: 'Zugang zu führenden Auskunfteien und Scores für zuverlässige Bewertungen.',
-    icon: Shield,
   },
 ];
 
