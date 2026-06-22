@@ -34,7 +34,7 @@ function AllesInEinemBadge() {
           <circle cx="20" cy="20" r="8" fill="white" />
         </svg>
       </div>
-      <span className="text-navy font-semibold text-sm whitespace-nowrap">Alles in einem</span>
+      <span className="text-navy font-semibold text-sm whitespace-nowrap">Die All-in-One Lösung</span>
     </div>
   );
 }
