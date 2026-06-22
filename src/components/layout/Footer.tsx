@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from '../ui/Container';
-import { Mail, Phone, MapPin, Linkedin, Youtube } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const footerLinks = {
   produkte: [
@@ -64,25 +64,6 @@ export function Footer() {
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="flex gap-3">
-              <a
-                href="https://www.linkedin.com/company/creditdevice/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://www.youtube.com/@creditdevice"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
-              >
-                <Youtube className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Products */}
