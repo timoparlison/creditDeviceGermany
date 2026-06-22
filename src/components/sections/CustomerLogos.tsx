@@ -36,7 +36,7 @@ export function CustomerLogos() {
     <section className="py-10 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-sm text-navy/60 mb-8 uppercase tracking-wider font-medium">
-          Weltweit vertraut von führenden Unternehmen
+          von führenden Unternehmen weltweit geschätzt
         </p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}
