@@ -47,7 +47,7 @@ export function CustomerLogos() {
             {[...customerLogos, ...customerLogos].map((logo, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300"
+                className="flex-shrink-0 opacity-90 hover:opacity-100 transition-all duration-300"
               >
                 <Image
                   src={logo.src}
