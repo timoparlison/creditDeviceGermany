@@ -158,40 +158,48 @@ export default function UeberUnsPage() {
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
-                  Vorstandsmitglied der Federation of Business Information Services (FEBIS) – seit 1997
+                  <a href="https://www.febis.org" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                    Vorstandsmitglied der Federation of Business Information Services (FEBIS) – seit 1997
+                  </a>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
                   Beirat Maritimes Cluster Norddeutschland (2013 – 2016)
                 </li>
                 <li className="flex items-start gap-2">
-                                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
-                                  Revisor Maritimes Cluster Norddeutschland (2025 – heute)
-                                </li>
-                                <li className="flex items-start gap-2">
-                                                                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
-                                                                  Versammlung ehrbarer Kaufleute zu Hamburg e.V. (VEEK)
-                                                                </li>
+                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
+                  Revisor Maritimes Cluster Norddeutschland (2025 – heute)
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
+                  <a href="https://www.veek-hamburg.de/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                    Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)
+                  </a>
+                </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
                   Mitglied in verschiedenen Hamburger Wirtschaftsverbänden
                 </li>
               </ul>
               <div className="mt-6 flex flex-wrap items-center gap-8">
-                <Image
-                  src="/febis-logo-en-de-gradient.png"
-                  alt="FEBIS – Federation of Business Information Services"
-                  width={160}
-                  height={60}
-                  className="object-contain"
-                />
-                <Image
-                  src="/230904_VEEK_Logo.png"
-                  alt="Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)"
-                  width={80}
-                  height={60}
-                  className="object-contain"
-                />
+                <a href="https://www.febis.org" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/febis-logo-en-de-gradient.png"
+                    alt="FEBIS – Federation of Business Information Services"
+                    width={160}
+                    height={60}
+                    className="object-contain hover:opacity-80 transition-opacity"
+                  />
+                </a>
+                <a href="https://www.veek-hamburg.de/" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/230904_VEEK_Logo.png"
+                    alt="Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)"
+                    width={80}
+                    height={60}
+                    className="object-contain hover:opacity-80 transition-opacity"
+                  />
+                </a>
               </div>
             </div>
           </div>
