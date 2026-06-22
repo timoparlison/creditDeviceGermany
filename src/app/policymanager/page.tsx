@@ -146,20 +146,20 @@ export default function PolicyManagerPage() {
             <p className="text-lg text-gray-600 mb-6">
               Mit den Credit-Management-Modulen von CreditDevice kombinieren Sie alles in einer
               Anwendung: die Verwaltung Ihrer Kreditversicherung, Ihr Debitoren-Management,
-              der Abruf von Kreditinformationen und die Analyse von Risiken.
+              den Abruf von Kreditinformationen und die Analyse von Risiken.
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Mit dem PolicyManager verwalten Sie Ihre Kreditversicherungspolice perfekt –
-              alle Module sind miteinander kompatibel, Sie müssen nicht zwischen Systemen wechseln.
+              alle Module sind miteinander kompatibel und sie müssen nicht zwischen Systemen wechseln.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Direkte Anbindung an die Datenbank Ihres Versicherers
+                Direkte Anbindung an das System Ihres Kreditversicherers
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Tägliche Updates – manchmal mehrmals täglich
+                Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
@@ -167,7 +167,7 @@ export default function PolicyManagerPage() {
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Obliegenheiten im Schadensfall vollständig erfüllt
+                Obliegenheiten im Schadensfall werden vollständig erfüllt
               </li>
             </ul>
             <Button href="/kontakt" variant="primary" size="lg">
