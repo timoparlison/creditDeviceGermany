@@ -106,7 +106,7 @@ export default function CreditManagementSoftwarePage() {
         title="Professionelles Debitoren-Management"
         subtitle="Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung."
         primaryCta={{
-          text: 'Kostenlose Demo anfordern',
+          text: 'Demo anfordern',
           href: '/kontakt',
         }}
         secondaryCta={{

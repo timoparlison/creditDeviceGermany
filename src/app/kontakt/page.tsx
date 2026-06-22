@@ -107,7 +107,7 @@ export default function KontaktPage() {
             <div className="mt-8 p-6 bg-navy rounded-xl text-white">
               <h3 className="font-bold text-lg mb-2">Demo vereinbaren</h3>
               <p className="text-gray-300 text-sm mb-4">
-                Möchten Sie CreditDevice in Aktion sehen? Vereinbaren Sie eine kostenlose Demo mit unseren Experten.
+                Möchten Sie CreditDevice in Aktion sehen? Vereinbaren Sie eine Demo mit unseren Experten.
               </p>
               <p className="text-primary font-semibold">
                 Jetzt Formular ausfüllen

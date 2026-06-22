@@ -14,7 +14,7 @@ export function CTABanner() {
           Entdecken Sie CreditDevice selbst
         </h2>
         <p className="text-lg md:text-xl text-gray-300 mb-10">
-          Erfahren Sie, wie unsere Lösungen Ihr Credit Management optimieren können. Vereinbaren Sie noch heute eine kostenlose Demo.
+          Erfahren Sie, wie unsere Lösungen Ihr Credit Management optimieren können. Vereinbaren Sie noch heute eine Demo.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button href="/kontakt" variant="primary" size="lg">
