@@ -8,7 +8,7 @@ const products = [
     description: 'Frisch recherchierte Firmenauskünfte in hoher Informationsqualität – ohne Vertrag mit Laufzeit oder Mindestabnahme.',
     href: '/bonitaetsinformationen',
     icon: Search,
-    features: ['Weltweit aktuell recherchiert', 'Bonität von Interessenten und Kunden prüfen', 'Ohne Mindestabnahme', 'Via Schwesterunternehmen GlobalCompanyCheck'],
+    features: ['Weltweit aktuell recherchiert', 'Bonität von Interessenten und Kunden prüfen', 'Ohne Mindestabnahme', 'Schnell & zuverlässig weltweit'],
   },
   {
     title: 'Credit Management Software',

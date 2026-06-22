@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     question: 'Wie erhalte ich internationale Kreditinformationen?',
-    answer: 'Über unser Schwesterunternehmen GlobalCompanyCheck e.U. erhalten Sie innerhalb kürzester Zeit weltweit aktuell recherchierte Kreditauskünfte — ohne Vertrag mit Laufzeit oder Mindestabnahme.',
+    answer: 'Mit unseren internationalen Firmenauskünften erhalten Sie innerhalb kürzester Zeit weltweite Kreditinformationen — ohne Vertrag mit Laufzeit oder Mindestabnahme.',
   },
   {
     question: 'Wie hilft der PolicyManager bei der Kreditversicherung?',

@@ -100,10 +100,9 @@ export default function BonitaetsinformationenPage() {
               <span className="text-primary">Firmenauskünfte</span> weltweit
             </h1>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Von unserem Schwesterunternehmen GlobalCompanyCheck e.U. erhalten Sie
-              innerhalb kürzester Zeit weltweit aktuell recherchierte Kreditauskünfte –
-              um die Bonität Ihrer Interessenten und Kunden zu überprüfen. Ohne Vertrag
-              mit Laufzeit oder Mindestabnahme.
+              Wir liefern Ihnen innerhalb kürzester Zeit weltweite Kreditauskünfte
+              – um die Bonität Ihrer Interessenten und Kunden
+              zuverlässig zu überprüfen. Ohne Vertrag mit Laufzeit oder Mindestabnahme.
             </p>
           </div>
 
