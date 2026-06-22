@@ -29,18 +29,12 @@ const features = [
     icon: Globe,
   },
   {
-    title: 'Risikoanalyse',
-    description: 'Umfassende Risikoanalysen helfen Ihnen, fundierte Entscheidungen zu treffen.',
+    title: 'Pay per Use',
+    description: 'Zahlen Sie nur für das, was Sie tatsächlich abrufen – ohne Grundgebühr oder Mindestabnahme.',
     icon: TrendingUp,
-  },
-  {
-    title: 'Salesforce Integration',
-    description: 'Nahtlose Integration in Salesforce für effiziente Arbeitsabläufe.',
-    icon: Zap,
-  },
-  {
+  },{
     title: 'Webservice / API',
-    description: 'Leistungsstarke REST-API für die Integration in Ihre bestehenden Systeme.',
+    description: 'Leistungsstarke REST-API oder Webhooks für die Integration in Ihre bestehenden Systeme.',
     icon: Database,
   },
 ];
@@ -103,7 +97,7 @@ export default function BonitaetsinformationenPage() {
 
       <Features
         title="Unsere Leistungen"
-        subtitle="Profitieren Sie von umfassenden Bonitätsinformationen und intelligenten Analysetools"
+        subtitle="Profitieren Sie von umfassenden Bonitätsinformationen"
         features={features}
         columns={3}
         background="gray"

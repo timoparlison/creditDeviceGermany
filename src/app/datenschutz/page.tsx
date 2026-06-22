@@ -5,7 +5,7 @@ import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Datenschutzerklärung',
-  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO.',
+  description: 'Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO und TTDSG.',
   alternates: { canonical: '/datenschutz' },
 };
 
@@ -27,6 +27,8 @@ export default function DatenschutzPage() {
       <Section background="white">
         <div className="max-w-3xl">
           <div className="prose prose-lg">
+
+            {/* 1. Verantwortlicher */}
             <h2 className="text-2xl font-bold text-navy mb-4">1. Verantwortlicher</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
@@ -41,157 +43,227 @@ export default function DatenschutzPage() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4">2. Allgemeine Hinweise zur Datenverarbeitung</h2>
+            {/* 2. Allgemeines */}
+            <h2 className="text-2xl font-bold text-navy mb-4">2. Allgemeine Hinweise</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und behandeln Ihre personenbezogenen
-                Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser
-                Datenschutzerklärung.
+                Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung
+                informiert Sie darüber, welche personenbezogenen Daten wir erheben, zu welchen Zwecken
+                und auf welcher Rechtsgrundlage wir sie verarbeiten und welche Rechte Ihnen zustehen.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich.
-                Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder
-                E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis.
+                Maßgebliche Rechtsgrundlagen sind die Datenschutz-Grundverordnung (DSGVO), das
+                Bundesdatenschutzgesetz (BDSG) sowie das Telekommunikation-Telemedien-Datenschutz-Gesetz
+                (TTDSG).
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4">3. Erhebung und Speicherung personenbezogener Daten</h2>
+            {/* 3. Hosting */}
+            <h2 className="text-2xl font-bold text-navy mb-4">3. Hosting — Cloudflare Pages</h2>
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-navy mb-3">a) Beim Besuch der Website</h3>
               <p className="text-gray-700 leading-relaxed">
-                Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser
-                automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden
-                temporär in einem sog. Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun
-                erfasst und bis zur automatisierten Löschung gespeichert:
+                Diese Website wird auf der Infrastruktur von <strong>Cloudflare, Inc.</strong> (101 Townsend St.,
+                San Francisco, CA 94107, USA) über den Dienst Cloudflare Pages gehostet. Beim Aufruf
+                unserer Website verarbeitet Cloudflare automatisch folgende Daten:
               </p>
               <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-                <li>IP-Adresse des anfragenden Rechners</li>
+                <li>IP-Adresse des anfragenden Geräts</li>
                 <li>Datum und Uhrzeit des Zugriffs</li>
-                <li>Name und URL der abgerufenen Datei</li>
-                <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
-                <li>Verwendeter Browser und ggf. das Betriebssystem Ihres Rechners</li>
-                <li>Name Ihres Access-Providers</li>
+                <li>Aufgerufene URL</li>
+                <li>Übertragene Datenmenge</li>
+                <li>Browser-Typ und Betriebssystem</li>
+                <li>Referrer-URL</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Unser
-                berechtigtes Interesse folgt aus den oben aufgelisteten Zwecken zur Datenerhebung.
-              </p>
-
-              <h3 className="text-xl font-semibold text-navy mb-3 mt-6">b) Bei Nutzung unseres Kontaktformulars</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Bei Fragen jeglicher Art bieten wir Ihnen die Möglichkeit, mit uns über ein auf der Website
-                bereitgestelltes Formular Kontakt aufzunehmen. Dabei ist die Angabe einer gültigen
-                E-Mail-Adresse erforderlich, damit wir wissen, von wem die Anfrage stammt und um diese
-                beantworten zu können. Weitere Angaben können freiwillig getätigt werden.
+                Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes
+                Interesse besteht in der sicheren, schnellen und zuverlässigen Bereitstellung unserer Website.
+                Cloudflare speichert Server-Logs in der Regel für maximal 7 Tage.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Die Datenverarbeitung zum Zwecke der Kontaktaufnahme mit uns erfolgt nach Art. 6 Abs. 1 S. 1
-                lit. a DSGVO auf Grundlage Ihrer freiwillig erteilten Einwilligung.
+                Da Cloudflare ein US-amerikanisches Unternehmen ist, findet eine Übermittlung personenbezogener
+                Daten in die USA statt. Die Übermittlung erfolgt auf Grundlage der EU-Standardvertragsklauseln
+                (Art. 46 Abs. 2 lit. c DSGVO). Cloudflare ist außerdem im Rahmen des EU-U.S. Data Privacy
+                Framework zertifiziert.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Weitere Informationen finden Sie in der{' '}
+                <a href="https://www.cloudflare.com/de-de/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  Datenschutzerklärung von Cloudflare
+                </a>.
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4">4. Verwendung von Cookies</h2>
+            {/* 4. Cookies */}
+            <h2 className="text-2xl font-bold text-navy mb-4">4. Cookies</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Unsere Website verwendet Cookies. Bei Cookies handelt es sich um kleine Textdateien, die
-                lokal im Zwischenspeicher Ihres Internet-Browsers gespeichert werden. Die Cookies ermöglichen
-                die Wiedererkennung Ihres Internet-Browsers.
+                Unsere Website setzt ausschließlich technisch notwendige Cookies ein. Diese Cookies sind
+                für den Betrieb der Website erforderlich und können nicht deaktiviert werden. Sie speichern
+                keine personenbezogenen Daten und werden nicht zu Werbe- oder Trackingzwecken verwendet.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu gestalten. Einige Elemente
-                unserer Internetseite erfordern es, dass der aufrufende Browser auch nach einem Seitenwechsel
-                identifiziert werden kann.
+                Technisch notwendige Cookies werden nach § 25 Abs. 2 Nr. 2 TTDSG ohne Einwilligung gesetzt,
+                da sie für die Bereitstellung des von Ihnen ausdrücklich gewünschten Dienstes unbedingt
+                erforderlich sind. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung von Cookies
-                ist Art. 6 Abs. 1 lit. f DSGVO. Sie können Ihren Browser so einstellen, dass Sie über das
-                Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme
-                von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen
-                der Cookies beim Schließen des Browsers aktivieren.
+                Sie können Ihren Browser so einstellen, dass er Sie über das Setzen von Cookies informiert
+                oder Cookies generell ablehnt. Bei der Deaktivierung technisch notwendiger Cookies kann die
+                Funktionsfähigkeit der Website eingeschränkt sein.
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4">5. Weitergabe von Daten</h2>
+            {/* 5. Kontaktformular */}
+            <h2 className="text-2xl font-bold text-navy mb-4">5. Kontaktformular</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden
-                aufgeführten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte
-                weiter, wenn:
+                Wenn Sie uns über unser Kontaktformular schreiben, werden die von Ihnen angegebenen Daten
+                (Name, E-Mail-Adresse, ggf. Telefonnummer und Ihre Nachricht) zur Bearbeitung Ihrer Anfrage
+                gespeichert und verarbeitet.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in der
+                Beantwortung Ihrer Kontaktanfrage. Soweit Ihre Anfrage auf den Abschluss eines Vertrages
+                gerichtet ist, ist zusätzliche Rechtsgrundlage Art. 6 Abs. 1 lit. b DSGVO.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Die Daten werden gelöscht, sobald Ihre Anfrage abschließend bearbeitet ist und keine
+                gesetzlichen Aufbewahrungspflichten entgegenstehen, spätestens jedoch nach 6 Monaten.
+              </p>
+              <h3 className="text-xl font-semibold text-navy mb-3 mt-6">E-Mail-Versand über Brevo</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Die Übertragung der Kontaktformulardaten erfolgt über den Dienst <strong>Brevo</strong> (Sendinblue
+                GmbH, Köpenicker Str. 126, 10179 Berlin, Deutschland). Brevo ist als Auftragsverarbeiter
+                gemäß Art. 28 DSGVO vertraglich gebunden und verarbeitet die Daten ausschließlich zur
+                Übermittlung der Nachricht an uns.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Weitere Informationen finden Sie in der{' '}
+                <a href="https://www.brevo.com/de/legal/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  Datenschutzerklärung von Brevo
+                </a>.
+              </p>
+            </div>
+
+            {/* 6. Zahlungsabwicklung */}
+            <h2 className="text-2xl font-bold text-navy mb-4">6. Zahlungsabwicklung — Stripe</h2>
+            <div className="mb-8">
+              <p className="text-gray-700 leading-relaxed">
+                Für die Abwicklung von Zahlungen (Kreditkarte, SEPA-Lastschrift) nutzen wir den Dienst
+                von <strong>Stripe Payments Europe, Ltd.</strong> (1 Grand Canal Street Lower, Grand Canal Dock,
+                Dublin, D02 H210, Irland) sowie seiner Muttergesellschaft Stripe, Inc. (354 Oyster Point
+                Blvd, South San Francisco, CA 94080, USA).
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Bei der Auswahl einer Zahlungsmethode und dem Abschluss des Bestellvorgangs übermittelt
+                Stripe folgende Daten:
               </p>
               <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-                <li>Sie Ihre nach Art. 6 Abs. 1 S. 1 lit. a DSGVO ausdrückliche Einwilligung dazu erteilt haben</li>
-                <li>die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. f DSGVO zur Wahrung unserer berechtigten Interessen zulässig ist</li>
-                <li>für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine gesetzliche Verpflichtung besteht</li>
-                <li>dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen erforderlich ist</li>
+                <li>Name und Rechnungsadresse</li>
+                <li>Zahlungsdaten (Kartennummer, IBAN o. Ä. — verschlüsselt, nicht von uns gespeichert)</li>
+                <li>Bestellbetrag und Währung</li>
+                <li>IP-Adresse und Browser-Informationen (zur Betrugsprävention)</li>
               </ul>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Wir haben zu keinem Zeitpunkt Zugriff auf vollständige Zahlungsdaten. Diese werden
+                ausschließlich durch Stripe verarbeitet.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung). Zahlungsdaten werden
+                entsprechend der handels- und steuerrechtlichen Aufbewahrungsfristen für bis zu 10 Jahre
+                gespeichert (§§ 238, 257 HGB; § 147 AO).
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Da Stripe auch Daten in den USA verarbeitet, findet eine Drittlandübermittlung statt.
+                Die Übermittlung erfolgt auf Grundlage der EU-Standardvertragsklauseln (Art. 46 Abs. 2
+                lit. c DSGVO). Stripe ist zudem im Rahmen des EU-U.S. Data Privacy Framework zertifiziert.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                Weitere Informationen finden Sie in der{' '}
+                <a href="https://stripe.com/de/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  Datenschutzerklärung von Stripe
+                </a>.
+              </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-navy mb-4">6. Ihre Rechte</h2>
+            {/* 7. Weitergabe an Dritte */}
+            <h2 className="text-2xl font-bold text-navy mb-4">7. Weitergabe von Daten</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
+                Eine Weitergabe Ihrer personenbezogenen Daten an Dritte findet nur statt, soweit dies
+                zur Vertragserfüllung notwendig ist, wir gesetzlich dazu verpflichtet sind oder Sie
+                ausdrücklich eingewilligt haben. Die im Rahmen der Nutzung unserer Dienste eingesetzten
+                Auftragsverarbeiter (Cloudflare, Brevo, Stripe) sind vertraglich zur Einhaltung der
+                Datenschutzvorschriften verpflichtet.
+              </p>
+            </div>
+
+            {/* 8. Ihre Rechte */}
+            <h2 className="text-2xl font-bold text-navy mb-4">8. Ihre Rechte</h2>
+            <div className="mb-8">
+              <p className="text-gray-700 leading-relaxed">
+                Ihnen stehen gegenüber uns folgende Rechte zu:
               </p>
               <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-                <li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO)</li>
-                <li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO)</li>
-                <li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO)</li>
-                <li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO)</li>
-                <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO)</li>
-                <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO)</li>
+                <li><strong>Auskunftsrecht</strong> — Art. 15 DSGVO</li>
+                <li><strong>Recht auf Berichtigung</strong> — Art. 16 DSGVO</li>
+                <li><strong>Recht auf Löschung</strong> — Art. 17 DSGVO</li>
+                <li><strong>Recht auf Einschränkung der Verarbeitung</strong> — Art. 18 DSGVO</li>
+                <li><strong>Recht auf Datenübertragbarkeit</strong> — Art. 20 DSGVO</li>
+                <li><strong>Widerspruchsrecht</strong> — Art. 21 DSGVO</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung
-                Ihrer personenbezogenen Daten durch uns zu beschweren.
-              </p>
-            </div>
-
-            <h2 className="text-2xl font-bold text-navy mb-4">7. Widerspruch gegen Werbe-Mails</h2>
-            <div className="mb-8">
-              <p className="text-gray-700 leading-relaxed">
-                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung
-                von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit
-                widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im
-                Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-              </p>
-            </div>
-
-            <h2 className="text-2xl font-bold text-navy mb-4">8. Datensicherheit</h2>
-            <div className="mb-8">
-              <p className="text-gray-700 leading-relaxed">
-                Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer)
-                in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt
-                wird. In der Regel handelt es sich dabei um eine 256-Bit-Verschlüsselung.
+                Soweit die Verarbeitung auf einer Einwilligung beruht, haben Sie das Recht, diese
+                jederzeit mit Wirkung für die Zukunft zu widerrufen (Art. 7 Abs. 3 DSGVO). Die
+                Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Wir bedienen uns geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre
-                Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust,
-                Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen. Unsere Sicherheitsmaßnahmen
-                werden entsprechend der technologischen Entwicklung fortlaufend verbessert.
-              </p>
-            </div>
-
-            <h2 className="text-2xl font-bold text-navy mb-4">9. Aktualität und Änderung dieser Datenschutzerklärung</h2>
-            <div className="mb-8">
-              <p className="text-gray-700 leading-relaxed">
-                Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2024.
+                Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
+                Die für uns zuständige Behörde ist:
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Durch die Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter
-                gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese
-                Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit
-                auf der Website unter „Datenschutz" von Ihnen abgerufen und ausgedruckt werden.
-              </p>
-            </div>
-
-            <h2 className="text-2xl font-bold text-navy mb-4">10. Fragen zum Datenschutz</h2>
-            <div className="mb-8">
-              <p className="text-gray-700 leading-relaxed">
-                Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail an:
-                <a href="mailto:info@creditdevice.de" className="text-primary hover:underline ml-1">
-                  info@creditdevice.de
+                <strong className="text-navy">Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit</strong><br />
+                Ludwig-Erhard-Str. 22<br />
+                20459 Hamburg<br />
+                <a href="https://datenschutz.hamburg.de" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  datenschutz.hamburg.de
                 </a>
               </p>
             </div>
+
+            {/* 9. Widerspruch Werbe-Mails */}
+            <h2 className="text-2xl font-bold text-navy mb-4">9. Widerspruch gegen Werbe-Mails</h2>
+            <div className="mb-8">
+              <p className="text-gray-700 leading-relaxed">
+                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur
+                Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
+                wird hiermit widersprochen. Wir behalten uns ausdrücklich rechtliche Schritte für den
+                Fall der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+              </p>
+            </div>
+
+            {/* 10. Datensicherheit */}
+            <h2 className="text-2xl font-bold text-navy mb-4">10. Datensicherheit</h2>
+            <div className="mb-8">
+              <p className="text-gray-700 leading-relaxed">
+                Unsere Website nutzt zur Übertragung von Daten ausschließlich TLS-Verschlüsselung
+                (Transport Layer Security). Wir treffen darüber hinaus geeignete technische und
+                organisatorische Maßnahmen, um Ihre Daten gegen unbefugten Zugriff, Verlust oder
+                Manipulation zu schützen.
+              </p>
+            </div>
+
+            {/* 11. Aktualität */}
+            <h2 className="text-2xl font-bold text-navy mb-4">11. Aktualität dieser Datenschutzerklärung</h2>
+            <div className="mb-8">
+              <p className="text-gray-700 leading-relaxed">
+                Diese Datenschutzerklärung hat den Stand <strong>Juni 2026</strong>. Wir behalten uns vor,
+                sie bei Änderungen unserer Website oder aufgrund geänderter rechtlicher Vorgaben
+                anzupassen. Die jeweils aktuelle Version ist jederzeit unter „Datenschutz" auf
+                unserer Website abrufbar.
+              </p>
+            </div>
+
           </div>
         </div>
       </Section>
