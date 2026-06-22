@@ -189,10 +189,6 @@ export default function CreditManagementSoftwarePage() {
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Eigene Kreditinformationsdatenbank
-              </li>
-              <li className="flex items-center text-gray-700">
-                <span className="w-2 h-2 bg-primary rounded-full mr-3" />
                 Über 270 Mio. Unternehmen weltweit
               </li>
               <li className="flex items-center text-gray-700">
