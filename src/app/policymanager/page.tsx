@@ -84,7 +84,7 @@ const faqItems = [
   },
   {
     question: 'Was kostet der PolicyManager?',
-    answer: 'Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich. Das Produkt liegt damit auch in Reichweite von KMU.',
+    answer: 'Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich. Das Produkt ist damit auch für KMUs bezahlbar.',
   },
   {
     question: 'Wie werden Daten mit dem Versicherer ausgetauscht?',
