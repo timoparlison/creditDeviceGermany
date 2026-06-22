@@ -40,21 +40,21 @@ const features = [
 ];
 
 const faqItems = [
-  {
-    question: 'Aus welchen Ländern sind Bonitätsinformationen verfügbar?',
-    answer: 'Wir bieten Zugang zu Bonitätsinformationen aus über 200 Ländern weltweit. Dazu gehören alle europäischen Länder, Nord- und Südamerika, Asien und viele weitere Regionen.',
-  },
+    {
+      question: 'Woher kommen die Informationen?',
+      answer: 'Wir sind in den jeweiligen Ländern mit den unterschiedlichen Auskunfteien verbunden und beziehen die Bonitätsinformationen direkt aus diesen lokalen Quellen.',
+    },
   {
     question: 'Wie aktuell sind die Bonitätsinformationen?',
     answer: 'Unsere Daten werden regelmäßig aktualisiert. Je nach Land und Quelle erhalten Sie tagesaktuelle Informationen oder Daten mit einer Aktualisierung innerhalb weniger Tage.',
   },
   {
-    question: 'Kann ich die Bonitätsinformationen in mein CRM integrieren?',
-    answer: 'Ja, wir bieten native Integrationen für Salesforce und andere CRM-Systeme sowie eine REST-API für individuelle Integrationen.',
+    question: 'Kann ich die Bonitätsinformationen integrieren?',
+    answer: 'Ja, wir bieten eine REST-API, sowie Webhooks für individuelle Integrationen.',
   },
   {
     question: 'Welche Informationen sind in einem Bonitätsbericht enthalten?',
-    answer: 'Ein typischer Bericht enthält Firmenstammdaten, Bonitätsscore, Zahlungserfahrungen, Bilanzdaten, Negativmerkmale und eine Risikoeinschätzung.',
+    answer: 'Ein typischer Bericht enthält Firmenstammdaten (Name, Rechtsform, Handelsregisternummer, Adresse, Tätigkeitsbereiche), Bonitätsscore mit Risikoeinschätzung und Kreditlimit, Gesellschafterstruktur und Kapitalverhältnisse, aktuelle und frühere Geschäftsführer, Mitarbeiterzahlen, Bankverbindungen, Konzern- und Beteiligungsstruktur, Jahresabschlüsse und Bilanzdaten (mehrere Jahre), Negativmerkmale sowie Kennzahlen im Branchenvergleich.',
   },
 ];
 
