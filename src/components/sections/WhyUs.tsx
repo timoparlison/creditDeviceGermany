@@ -10,14 +10,14 @@ const reasons = [
     title: 'Erreichbar',
     description: 'Unser engagiertes Team steht Ihnen jederzeit zur Verfügung. Persönlicher Support, der wirklich hilft – keine anonymen Call-Center, sondern echte Experten.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/05/DSC01727.webp',
-    objectPosition: 'center',
+    objectPosition: 'top',
   },
   {
     id: 'innovative',
     title: 'Innovativ',
     description: 'Wir entwickeln unsere Lösungen kontinuierlich weiter und setzen auf modernste Technologien. Innovation ist Teil unserer DNA.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/06/DSC01263-1024x710.webp',
-    objectPosition: 'center',
+    objectPosition: 'top',
   },
   {
     id: 'committed',
