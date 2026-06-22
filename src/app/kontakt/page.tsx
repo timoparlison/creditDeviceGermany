@@ -78,8 +78,8 @@ export default function KontaktPage() {
             <div className="space-y-6">
               {contactInfo.map((item) => {
                 const IconComponent = item.icon;
-                const content = (
-                  <div className="flex items-start gap-4">
+                const inner = (
+                  <>
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                       <IconComponent className="w-6 h-6 text-primary" />
                     </div>
@@ -87,7 +87,7 @@ export default function KontaktPage() {
                       <h3 className="font-semibold text-navy mb-1">{item.title}</h3>
                       <p className="text-gray-600 whitespace-pre-line">{item.content}</p>
                     </div>
-                  </div>
+                  </>
                 );
 
                 if (item.href) {
@@ -95,14 +95,18 @@ export default function KontaktPage() {
                     <a
                       key={item.title}
                       href={item.href}
-                      className="block hover:bg-gray-50 rounded-lg p-2 -m-2 transition-colors"
+                      className="flex items-start gap-4 rounded-lg hover:bg-gray-50 transition-colors"
                     >
-                      {content}
+                      {inner}
                     </a>
                   );
                 }
 
-                return <div key={item.title}>{content}</div>;
+                return (
+                  <div key={item.title} className="flex items-start gap-4">
+                    {inner}
+                  </div>
+                );
               })}
             </div>
 
