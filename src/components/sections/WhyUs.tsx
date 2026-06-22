@@ -10,24 +10,28 @@ const reasons = [
     title: 'Erreichbar',
     description: 'Unser engagiertes Team steht Ihnen jederzeit zur Verfügung. Persönlicher Support, der wirklich hilft – keine anonymen Call-Center, sondern echte Experten.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/05/DSC01727.webp',
+    objectPosition: 'center',
   },
   {
     id: 'innovative',
     title: 'Innovativ',
     description: 'Wir entwickeln unsere Lösungen kontinuierlich weiter und setzen auf modernste Technologien. Innovation ist Teil unserer DNA.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/06/DSC01263-1024x710.webp',
+    objectPosition: 'center',
   },
   {
     id: 'committed',
     title: 'Engagiert',
     description: 'Ihr Erfolg ist unser Antrieb. Wir gehen die Extrameile, um Ihre Ziele zu erreichen und Ihre Erwartungen zu übertreffen.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/02/Foto-van-Marcel-en-Olav-scaled.webp',
+    objectPosition: 'center',
   },
   {
     id: 'flexible',
     title: 'Flexibel',
     description: 'Unsere Lösungen passen sich Ihren Bedürfnissen an, nicht umgekehrt. Skalierbar von KMU bis Großunternehmen.',
     image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2024/04/Roos_homepage-902x1024.webp',
+    objectPosition: 'top',
   },
 ];
 
@@ -71,6 +75,7 @@ export function WhyUs() {
             alt={activeData.title}
             fill
             className="object-cover"
+            style={{ objectPosition: activeData.objectPosition }}
             unoptimized
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/60 to-transparent" />
