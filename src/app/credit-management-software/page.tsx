@@ -80,7 +80,7 @@ const faqItems = [
   },
   {
     question: 'Gibt es Benutzerlizenzen?',
-    answer: 'Nein. CreditDevice verwendet keine Benutzerlizenzen, so dass alle Ihre beteiligten Kollegen einfach auf die Daten zugreifen können.',
+    answer: 'Nein. CreditDevice verwendet Unternehmenslizenzen, in denen alle User inklusive sind.',
   },
 ];
 
