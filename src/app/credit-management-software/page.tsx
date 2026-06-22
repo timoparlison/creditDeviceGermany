@@ -82,6 +82,10 @@ const faqItems = [
     question: 'Gibt es Benutzerlizenzen?',
     answer: 'Nein. CreditDevice verwendet Unternehmenslizenzen, in denen alle User inklusive sind.',
   },
+  {
+    question: 'Welche Berechtigungsstrukturen gibt es für Benutzer?',
+    answer: 'Es gibt sowohl ein flexibles Rollensystem, sowie eine Möglichkeit zur Datenfilterung wie beispielsweise Abbildung von Mandatenstrukturen und Ländern.',
+  }
 ];
 
 export default function CreditManagementSoftwarePage() {
