@@ -8,11 +8,11 @@ const products = [
     description: 'Firmenauskünfte in hoher Informationsqualität – ohne Vertrag mit Laufzeit oder Mindestabnahme.',
     href: '/bonitaetsinformationen',
     icon: Search,
-    features: ['Onlineauskünfte weltweit', 'Bonität von Interessenten und Kunden prüfen', 'Ohne Mindestabnahme', 'Schnell & zuverlässig weltweit'],
+    features: ['Onlinefirmenauskünfte weltweit aus mehr als 200 Ländern', 'Bonität von Interessenten und Kunden prüfen', 'Keine Mindestabnahme', 'Kein Vertrag', 'Keine Laufzeit'],
   },
   {
     title: 'Credit Management Software',
-    description: 'Einblicke in das Zahlungsverhalten Ihrer Kunden – damit Sie im Voraus Entscheidungen treffen und Risiken begrenzen.',
+    description: 'Einblicke in das Zahlungsverhalten Ihrer Kunden – damit Sie im Voraus Entscheidungen treffen und Risiken minimieren.',
     href: '/credit-management-software',
     icon: FileText,
     features: ['Professionelles Debitoren-Management', 'Besserer Cashflow', 'Klare Berichte', 'Effektive Kommunikation'],
@@ -22,7 +22,7 @@ const products = [
     description: 'Verwalten Sie Ihre Kreditversicherung einfach – alle wichtigen und relevanten Informationen zusammengeführt.',
     href: '/policymanager',
     icon: Shield,
-    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Atradius, Coface, Euler Hermes', 'Ab 300 € pro Monat'],
+    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Allianz Trade, Atradius, Coface'],
   },
 ];
 
