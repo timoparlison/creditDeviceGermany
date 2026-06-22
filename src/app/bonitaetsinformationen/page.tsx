@@ -103,6 +103,73 @@ export default function BonitaetsinformationenPage() {
         background="gray"
       />
 
+      <Section background="gray">
+        <h2 className="text-3xl md:text-4xl font-bold text-navy mb-3 text-center">
+          Preise je Auskunft
+        </h2>
+        <p className="text-gray-500 text-center mb-10">
+          Alle Preise verstehen sich pro abgerufener Auskunft. Keine Grundgebühr, keine Mindestabnahme.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
+          {[
+            {
+              zone: 'Deutschland & Österreich',
+              countries: 'Deutschland, Österreich',
+              net: '22,69',
+              gross: '27,00',
+              highlight: true,
+            },
+            {
+              zone: 'Westeuropa',
+              countries: 'Belgien, Dänemark, Frankreich, Großbritannien, Irland, Italien, Niederlande, Norwegen, Schweden',
+              net: '27,73',
+              gross: '33,00',
+              highlight: false,
+            },
+            {
+              zone: 'Ost- & Südeuropa',
+              countries: 'Albanien, Armenien, Aserbaidschan, Belarus, Bosnien-Herzegowina, Bulgarien, Estland, Finnland, Georgien, Griechenland, Grönland, Island, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Moldau, Montenegro, Nordmazedonien, Polen, Portugal, Rumänien, Schweiz, Serbien, Slowakei, Slowenien, Spanien, Svalbard, Tschechien, Ukraine, Ungarn, Zypern',
+              net: '35,29',
+              gross: '42,00',
+              highlight: false,
+            },
+            {
+              zone: 'Weltweit',
+              countries: 'Alle übrigen Länder (über 160 weitere Länder)',
+              net: '60,50',
+              gross: '72,00',
+              highlight: false,
+            },
+          ].map((item) => (
+            <div
+              key={item.zone}
+              className={`rounded-2xl p-6 flex flex-col ${item.highlight ? 'bg-navy text-white' : 'bg-white text-navy border border-gray-100'}`}
+            >
+              <div className="mb-4">
+                <p className={`text-xs font-semibold uppercase tracking-wide mb-1 ${item.highlight ? 'text-primary' : 'text-primary'}`}>
+                  Preiszone
+                </p>
+                <h3 className="text-lg font-bold mb-3">{item.zone}</h3>
+                <p className={`text-sm leading-relaxed ${item.highlight ? 'text-gray-300' : 'text-gray-500'}`}>
+                  {item.countries}
+                </p>
+              </div>
+              <div className={`mt-auto pt-5 border-t ${item.highlight ? 'border-white/20' : 'border-gray-100'}`}>
+                <div className="flex items-end gap-3">
+                  <div>
+                    <p className={`text-xs mb-0.5 ${item.highlight ? 'text-gray-400' : 'text-gray-400'}`}>Netto</p>
+                    <p className="text-2xl font-bold">{item.net} €</p>
+                  </div>
+                  <div className={`text-sm mb-1 ${item.highlight ? 'text-gray-300' : 'text-gray-500'}`}>
+                    / {item.gross} € brutto
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+
       <Section background="white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
