@@ -182,9 +182,9 @@ export default function CreditManagementSoftwarePage() {
               Kreditinformationen und die Analyse von Risiken.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Unsere selbst entwickelte Credit Management Software ist mit einer eigenen
+              Unsere selbst entwickelte Credit Management Software ist mit verschiedenen
               Kreditinformationsdatenbank verknüpft – direkter Online-Zugang zu mehr als
-              270 Millionen Unternehmen weltweit.
+              430 Millionen Unternehmen weltweit.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
