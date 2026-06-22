@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     question: 'Wie erhalte ich internationale Kreditinformationen?',
-    answer: 'Mit unseren internationalen Firmenauskünften erhalten Sie innerhalb kürzester Zeit weltweite Kreditinformationen — ohne Vertrag mit Laufzeit oder Mindestabnahme.',
+    answer: 'Mit unseren internationalen Online-Firmenauskünften erhalten Sie innerhalb kürzester Zeit weltweite Kreditinformationen — ohne Vertrag, ohne Laufzeit oder Mindestabnahme.',
   },
   {
     question: 'Wie hilft der PolicyManager bei der Kreditversicherung?',
@@ -24,7 +24,7 @@ const faqItems = [
   },
   {
     question: 'Welche Rolle spielt die Credit Management Software?',
-    answer: 'Unsere Credit Management Software geht über reines Debitorenmanagement hinaus. Sie bietet Einblicke in das Zahlungsverhalten Ihrer Kunden, damit Sie im Voraus Entscheidungen treffen, gezielte Maßnahmen ergreifen und Risiken begrenzen können.',
+    answer: 'Unsere Credit Management Software geht über reines Debitorenmanagement hinaus. Sie bietet Einblicke in das Zahlungsverhalten Ihrer Kunden, damit Sie im Voraus Entscheidungen treffen, gezielte Maßnahmen ergreifen und Risiken minimieren können.',
   },
 ];
 
