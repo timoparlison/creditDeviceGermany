@@ -118,7 +118,7 @@ export default function PolicyManagerPage() {
         title="PolicyManager — Ihr neuer bester Freund"
         subtitle="Der PolicyManager wurde in Zusammenarbeit mit Atradius, Coface und Euler Hermes entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren. Ein Tool, das Risiken vermeidet – durch rechtzeitige Maßnahmen."
         primaryCta={{
-          text: 'Kostenlose Demo anfordern',
+          text: 'Demo anfordern',
           href: '/kontakt',
         }}
         secondaryCta={{
@@ -171,7 +171,7 @@ export default function PolicyManagerPage() {
               </li>
             </ul>
             <Button href="/kontakt" variant="primary" size="lg">
-              Kostenlose Demo anfordern
+              Demo anfordern
             </Button>
           </div>
           <div className="bg-gradient-to-br from-primary/10 to-navy/10 rounded-2xl p-8">

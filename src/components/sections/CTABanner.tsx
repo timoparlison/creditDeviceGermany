@@ -18,7 +18,7 @@ export function CTABanner() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button href="/kontakt" variant="primary" size="lg">
-            Kostenlose Demo anfordern
+            Demo anfordern
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button
