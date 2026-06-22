@@ -12,7 +12,7 @@ const tabs = [
     icon: Handshake,
     description: 'Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.',
     features: ['Enge Kundenzusammenarbeit', 'Kontinuierliche Weiterentwicklung', 'Eigene Produktentwicklung'],
-    image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
+    image: '/alles-in-one.svg',
   },
   {
     id: 'integrated',
@@ -20,7 +20,7 @@ const tabs = [
     icon: Layers,
     description: 'In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.',
     features: ['Modular kombinierbar', 'Eine zentrale Anwendung', 'Nahtlos integrierte Daten'],
-    image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
+    image: '/alles-in-one.svg',
   },
   {
     id: 'contact',
@@ -28,7 +28,7 @@ const tabs = [
     icon: Phone,
     description: 'Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.',
     features: ['Kurze Kommunikationswege', 'Persönliche Ansprechpartner', 'Unabhängiges Unternehmen'],
-    image: 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/09/10-6-1536x386.png',
+    image: '/alles-in-one.svg',
   },
 ];
 
@@ -115,7 +115,7 @@ export function AllInOne() {
             </div>
 
             {/* Stats overlay */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[90%]">
+            <div className="absolute -bottom-12 left-[27%] w-[68%]">
               <div className="bg-navy rounded-xl p-4 shadow-xl">
                 <div className="grid grid-cols-3 gap-4 text-white text-center">
                   <div>
