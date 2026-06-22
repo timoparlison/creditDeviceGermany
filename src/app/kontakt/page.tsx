@@ -72,9 +72,9 @@ export default function KontaktPage() {
           {/* Contact Info */}
           <div className="lg:col-span-1">
             <h2 className="text-2xl font-bold text-navy mb-2">
-              Ihre Ansprechpartnerin
+              Ihr Ansprechpartner
             </h2>
-            <p className="text-lg font-semibold text-primary mb-6">Jana Buckenberger</p>
+            <p className="text-lg font-semibold text-primary mb-6">Sven Buckenberger</p>
             <div className="space-y-6">
               {contactInfo.map((item) => {
                 const IconComponent = item.icon;
