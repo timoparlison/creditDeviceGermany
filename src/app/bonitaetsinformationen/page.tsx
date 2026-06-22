@@ -91,7 +91,7 @@ export default function BonitaetsinformationenPage() {
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               Wir liefern Ihnen innerhalb kürzester Zeit weltweite Kreditauskünfte
               – um die Bonität Ihrer Interessenten und Kunden
-              zuverlässig zu überprüfen. Ohne Vertrag mit Laufzeit oder Mindestabnahme.
+              zuverlässig zu überprüfen. Ohne Vertrag, ohne Laufzeit oder Mindestabnahme.
             </p>
           </div>
 
