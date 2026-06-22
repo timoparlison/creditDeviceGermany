@@ -4,6 +4,7 @@ import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 import { SITE_URL } from '@/lib/seo';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Über uns — CreditDevice GmbH Hamburg',
@@ -21,9 +22,9 @@ export const metadata: Metadata = {
 
 const karriere = [
   { zeit: '1988 – 1991', text: 'Volontär bei Hermes Kreditversicherungs-AG mit dualem Studium' },
-  { zeit: '1991 – 2010', text: '19 Jahre bei Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO – u. a. Begleitung von 29 Unternehmensübernahmen' },
+  { zeit: '1991 – 2010', text: '19 Jahre bei Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO – u. a. 28 Unternehmensübernahmen' },
   { zeit: '2011', text: 'Gründung Hanse Debitoren Management' },
-  { zeit: '2017', text: 'Gründung CreditDevice GmbH gemeinsam mit Hans Geluk (CreditDevice B.V., Niederlande)' },
+  { zeit: '2017', text: 'Gründung CreditDevice GmbH' },
   { zeit: '2021', text: 'Übernahme GlobalCompanyCheck e.U.' },
 ];
 
@@ -89,6 +90,9 @@ export default function UeberUnsPage() {
               einem modernen, digitalen Produkt zu bündeln.
             </p>
             <p className="text-lg text-gray-600 mb-4">
+                          2020 erwarb CreditDevice das seit 2011 bestehende Inkassogeschäft der Hanse Debitoren Management.
+                        </p>
+            <p className="text-lg text-gray-600 mb-4">
               2021 übernahmen wir GlobalCompanyCheck e.U. und erweiterten damit unser Angebot
               um weltweite Online-Firmenauskünfte aus über 200 Ländern – direkt integriert in
               unsere Credit Management Software.
@@ -121,7 +125,7 @@ export default function UeberUnsPage() {
                 <p className="text-primary font-semibold mb-1">Geschäftsführender Gesellschafter</p>
                 <p className="text-gray-500 text-sm mb-4">Betriebswirt (WA) · geb. 1967</p>
                 <p className="text-gray-600 mb-6">
-                  Sven Buckenberger bringt über 30 Jahre Erfahrung im europäischen Credit Management mit.
+                  Sven Buckenberger bringt über 35 Jahre Erfahrung im europäischen Credit Management mit.
                   Als langjähriges Vorstandsmitglied der Federation of Business Information Services (FEBIS)
                   – seit 1997 – ist er bestens vernetzt in der internationalen Kreditinformationsbranche.
                 </p>
@@ -161,10 +165,34 @@ export default function UeberUnsPage() {
                   Beirat Maritimes Cluster Norddeutschland (2013 – 2016)
                 </li>
                 <li className="flex items-start gap-2">
+                                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
+                                  Revisor Maritimes Cluster Norddeutschland (2025 – heute)
+                                </li>
+                                <li className="flex items-start gap-2">
+                                                                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
+                                                                  Versammlung ehrbarer Kaufleute zu Hamburg e.V. (VEEK)
+                                                                </li>
+                <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
                   Mitglied in verschiedenen Hamburger Wirtschaftsverbänden
                 </li>
               </ul>
+              <div className="mt-6 flex flex-wrap items-center gap-8">
+                <Image
+                  src="/febis-logo-en-de-gradient.png"
+                  alt="FEBIS – Federation of Business Information Services"
+                  width={160}
+                  height={60}
+                  className="object-contain"
+                />
+                <Image
+                  src="/230904_VEEK_Logo.png"
+                  alt="Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)"
+                  width={80}
+                  height={60}
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
