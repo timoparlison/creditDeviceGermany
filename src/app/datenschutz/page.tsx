@@ -36,7 +36,7 @@ export default function DatenschutzPage() {
                 <strong className="text-navy">CreditDevice GmbH</strong><br />
                 Winsbergring 10<br />
                 22525 Hamburg<br /><br />
-                Telefon: 040 / 890 69 29 - 12<br />
+                Telefon: 040 / 890 69 29 - 90<br />
                 E-Mail: <a href="mailto:info@creditdevice.de" className="text-primary hover:underline">info@creditdevice.de</a>
               </p>
             </div>

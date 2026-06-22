@@ -33,8 +33,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefon',
-    content: '040 / 890 69 29 - 12',
-    href: 'tel:+4940890692912',
+    content: '040 / 890 69 29 - 90',
+    href: 'tel:+4940890692990',
   },
   {
     icon: MapPin,
