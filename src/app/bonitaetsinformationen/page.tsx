@@ -110,26 +110,20 @@ export default function BonitaetsinformationenPage() {
               Risiko minimieren, Geschäft steigern
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Eine clevere Möglichkeit, Ihre Geschäfte mit Hilfe von Onlineauskünften
-              sehr hoher Informationsqualität zu steigern – und Ihr
-              Risiko zu minimieren. Ideale Ergänzung zu unserer Credit Management Software.
+              Treffen Sie bessere, schnellere Entscheidungen mit erstklassigen Onlineauskünften – und sichern Sie Ihr Geschäft nachhaltig ab. Steigern Sie gezielt Ihren Umsatz, während Sie Ausfallrisiken konsequent reduzieren. Die perfekte Erweiterung Ihrer Credit-Management-Software für messbaren Erfolg.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Echtzeit-Abfragen von über 200 Ländern
+                Weltweite Echtzeitabfragen in über 200 Ländern – sofort fundierte Entscheidungen treffen
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Automatische Monitoring-Funktionen
+                Nahtlose Integration – ohne viel Aufwand in Ihre bestehenden Prozesse einfügen
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Integration in Ihre Geschäftsprozesse
-              </li>
-              <li className="flex items-center text-gray-700">
-                <span className="w-2 h-2 bg-primary rounded-full mr-3" />
-                Flexible Abrechnungsmodelle
+                Maximale Flexibilität – Abrechnung genau nach Ihrem Bedarf
               </li>
             </ul>
             <Button href="/kontakt" variant="primary" size="lg">
