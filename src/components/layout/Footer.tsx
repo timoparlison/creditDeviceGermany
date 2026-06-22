@@ -170,8 +170,6 @@ export function Footer() {
             © {new Date().getFullYear()} CreditDevice GmbH. Alle Rechte vorbehalten.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>Eingetragenes Inkassounternehmen nach dem RDG</span>
-            <span className="hidden md:inline">|</span>
             <Link href="/impressum" className="hover:text-primary transition-colors">
               Impressum
             </Link>
