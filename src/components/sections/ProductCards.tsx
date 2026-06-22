@@ -22,7 +22,7 @@ const products = [
     description: 'Verwalten Sie Ihre Kreditversicherung einfach – alle wichtigen und relevanten Informationen zusammengeführt.',
     href: '/policymanager',
     icon: Shield,
-    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Allianz Trade, Atradius, Coface'],
+    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Allianz Trade, Atradius, Coface', 'Hohe Automatisierung'],
   },
 ];
 
