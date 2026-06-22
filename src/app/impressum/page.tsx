@@ -5,7 +5,7 @@ import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Impressum',
-  description: 'Impressum der CreditDevice GmbH, Hamburg — Angaben gemäß § 5 TMG.',
+  description: 'Impressum der CreditDevice GmbH, Hamburg — Angaben gemäß § 5 DDG.',
   alternates: { canonical: '/impressum' },
 };
 
@@ -27,7 +27,7 @@ export default function ImpressumPage() {
       <Section background="white">
         <div className="max-w-3xl">
           <div className="prose prose-lg">
-            <h2 className="text-2xl font-bold text-navy mb-4">Angaben gemäß § 5 TMG</h2>
+            <h2 className="text-2xl font-bold text-navy mb-4">Angaben gemäß § 5 DDG</h2>
 
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
@@ -80,7 +80,7 @@ export default function ImpressumPage() {
               </p>
             </div>
 
-            <h3 className="text-xl font-semibold text-navy mb-3">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
+            <h3 className="text-xl font-semibold text-navy mb-3">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
                 Sven G. Buckenberger<br />
@@ -106,8 +106,8 @@ export default function ImpressumPage() {
             <h2 className="text-2xl font-bold text-navy mb-4 mt-12">Haftung für Inhalte</h2>
             <div className="mb-8">
               <p className="text-gray-700 leading-relaxed">
-                Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach
-                den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter
+                Als Diensteanbieter sind wir gemäß § 1 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach
+                den allgemeinen Gesetzen verantwortlich. Nach §§ 7 bis 9 DDG sind wir als Diensteanbieter
                 jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen
                 oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
               </p>
