@@ -72,7 +72,7 @@ const faqItems = [
   },
   {
     question: 'Wie ist die Credit Management Software mit Kreditinformationen verknüpft?',
-    answer: 'Die Software ist direkt mit unserer eigenen Kreditinformationsdatenbank verbunden. Sie haben Online-Zugang zu mehr als 430 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Debitoren.',
+    answer: 'Die Software ist direkt mit Kreditinformationsdatenbanken verbunden. Sie haben Online-Zugang zu mehr als 430 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Debitoren.',
   },
   {
     question: 'Wie hängt die Software mit dem PolicyManager zusammen?',
