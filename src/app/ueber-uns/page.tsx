@@ -21,10 +21,11 @@ export const metadata: Metadata = {
 };
 
 const karriere = [
-  { zeit: '1988 – 1991', text: 'Volontär bei Hermes Kreditversicherungs-AG mit dualem Studium' },
+  { zeit: '1988 – 1991', text: 'Volontär bei der Hermes Kreditversicherungs-AG mit dualem Studium' },
   { zeit: '1991 – 2010', text: '19 Jahre bei Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO – u. a. 28 Unternehmensübernahmen' },
   { zeit: '2011', text: 'Gründung Hanse Debitoren Management' },
   { zeit: '2017', text: 'Gründung CreditDevice GmbH' },
+  { zeit: '2020', text: 'Übernahme von Geschäftstätigkeit Hanse Debitoren Management durch CreditDevice GmbH' },
   { zeit: '2021', text: 'Übernahme GlobalCompanyCheck e.U.' },
 ];
 
