@@ -41,8 +41,8 @@ const features = [
 
 const faqItems = [
     {
-      question: 'Woher kommen die Informationen?',
-      answer: 'Wir sind in den jeweiligen Ländern mit den unterschiedlichen Auskunfteien verbunden und beziehen die Bonitätsinformationen direkt aus diesen lokalen Quellen.',
+      question: 'Wer liefert die Bonitätsinformationen?',
+      answer: 'Wir beziehen unsere Daten direkt von den führenden Kreditauskunfteien der jeweiligen Länder – für maximale Aktualität, Verlässlichkeit und internationale Abdeckung.',
     },
   {
     question: 'Wie aktuell sind die Bonitätsinformationen?',
