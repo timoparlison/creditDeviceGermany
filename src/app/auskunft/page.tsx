@@ -8,7 +8,7 @@ import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
 export const metadata: Metadata = {
   title: 'Unternehmensauskunft bestellen — globale Wirtschaftsauskünfte',
   description:
-    'Frisch recherchierte Unternehmensauskünfte und Wirtschaftsauskünfte aus über 200 Ländern. Schnell, zuverlässig und mit einem Klick online bestellbar.',
+    'Onlineauskünfte zu Unternehmen und Wirtschaftsauskünfte aus über 200 Ländern. Schnell, zuverlässig und mit einem Klick online bestellbar.',
   alternates: { canonical: '/auskunft' },
 };
 
@@ -31,7 +31,7 @@ export default function AuskunftPage() {
               schnell &amp; zuverlässig
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.1] mb-5">
-              Frisch recherchierte globale <br />
+              Onlineauskünfte — globale <br />
               <span className="text-primary">Bonitätsauskünfte</span> leicht gemacht
             </h1>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">

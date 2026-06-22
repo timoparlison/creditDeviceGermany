@@ -96,8 +96,7 @@ export default function BonitaetsinformationenPage() {
               Internationale Kreditinformationen
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.1] mb-5">
-              Frisch recherchierte <br />
-              <span className="text-primary">Firmenauskünfte</span> weltweit
+              <span className="text-primary">Online-Firmenauskünfte</span> weltweit
             </h1>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               Wir liefern Ihnen innerhalb kürzester Zeit weltweite Kreditauskünfte
@@ -127,8 +126,8 @@ export default function BonitaetsinformationenPage() {
               Risiko minimieren, Geschäft steigern
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Eine clevere Möglichkeit, Ihre Geschäfte mit Hilfe frisch recherchierter
-              Firmenauskünfte von sehr hoher Informationsqualität zu steigern – und Ihr
+              Eine clevere Möglichkeit, Ihre Geschäfte mit Hilfe von Onlineauskünften
+              sehr hoher Informationsqualität zu steigern – und Ihr
               Risiko zu minimieren. Ideale Ergänzung zu unserer Credit Management Software.
             </p>
             <ul className="space-y-3 mb-8">
