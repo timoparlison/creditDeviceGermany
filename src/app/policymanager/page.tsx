@@ -92,7 +92,7 @@ const faqItems = [
   },
   {
     question: 'Wie hilft der PolicyManager bei Selbstbewertungen?',
-    answer: 'Die Festlegung eigener Limits auf Basis von Zahlungserfahrungen ist rechenintensiv. Der PolicyManager verwendet die gleiche Berechnungsmethode wie die Versicherer – Sie erhalten sofort Ihr Kreditlimit samt Berechnung.',
+    answer: 'Der PolicyManager verwendet die gleiche Berechnungsmethode wie die Versicherer – Sie erhalten sofort Ihr Kreditlimit samt Berechnung.',
   },
 ];
 

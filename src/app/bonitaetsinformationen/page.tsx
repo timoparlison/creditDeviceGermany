@@ -134,20 +134,28 @@ export default function BonitaetsinformationenPage() {
             <h3 className="text-2xl font-bold mb-6">Verfügbare Informationen</h3>
             <div className="space-y-4">
               <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
-                <span>Firmenstammdaten</span>
+                <span>Firmenstammdaten & Rechtsform</span>
                 <span className="text-primary font-semibold">200+ Länder</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
-                <span>Bonitätsscores</span>
-                <span className="text-primary font-semibold">Alle Rechtsformen</span>
+                <span>Bonitätsscore & Kreditlimit</span>
+                <span className="text-primary font-semibold">Risikoeinschätzung</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
-                <span>Zahlungserfahrungen</span>
-                <span className="text-primary font-semibold">Echtzeit</span>
+                <span>Geschäftsführer & Gesellschafter</span>
+                <span className="text-primary font-semibold">Aktuell & historisch</span>
               </div>
               <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
-                <span>Bilanzdaten</span>
-                <span className="text-primary font-semibold">Historisch</span>
+                <span>Konzern- & Beteiligungsstruktur</span>
+                <span className="text-primary font-semibold">Weltweit</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
+                <span>Bilanzdaten & Kennzahlen</span>
+                <span className="text-primary font-semibold">Mehrjährig</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-white/10 rounded-lg">
+                <span>Negativmerkmale</span>
+                <span className="text-primary font-semibold">Geprüft</span>
               </div>
             </div>
           </div>
