@@ -37,22 +37,22 @@ export const metadata: Metadata = {
 const features = [
   {
     title: 'Erschwingliches Abonnement',
-    description: 'Der PolicyManager ist schon ab 300 Euro pro Monat erhältlich – auch für KMU in Reichweite.',
+    description: 'Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich – auch für KMU in Reichweite.',
     icon: Euro,
   },
   {
     title: 'Automatische Erinnerung',
-    description: 'Sie erhalten automatisch ein Signal, zum Beispiel bei Überziehung oder Überschreitung eines Limits. Sie sind immer pünktlich.',
+    description: 'Sie erhalten automatisch ein Signal, zum Beispiel bei Überschreitung eines Limits.',
     icon: BellRing,
   },
   {
     title: 'Sie sparen Zeit',
-    description: 'Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen, um den Verlust des Versicherungsschutzes zu verhindern.',
+    description: 'Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen können, um den Verlust des Versicherungsschutzes zu verhindern.',
     icon: Clock,
   },
   {
     title: 'Immer aktuelle Daten',
-    description: 'Tägliche – manchmal mehrmals tägliche – Updates zum Status Ihrer Kreditlimits. Entscheidungen, Rücknahmen und Reduzierungen sind sofort sichtbar.',
+    description: 'Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite. Entscheidungen, Aufhebungen und Reduzierungen sind sofort sichtbar.',
     icon: RefreshCw,
   },
   {
@@ -72,7 +72,7 @@ const features = [
   },
   {
     title: 'Geordnete Wiedervorlage',
-    description: 'Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers vollständig erfüllt.',
+    description: 'Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers werden vollständig erfüllt.',
     icon: FolderArchive,
   },
 ];
@@ -84,7 +84,7 @@ const faqItems = [
   },
   {
     question: 'Was kostet der PolicyManager?',
-    answer: 'Der PolicyManager ist schon ab 300 Euro pro Monat erhältlich. Das Produkt liegt damit auch in Reichweite von KMU.',
+    answer: 'Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich. Das Produkt liegt damit auch in Reichweite von KMU.',
   },
   {
     question: 'Wie werden Daten mit dem Versicherer ausgetauscht?',
