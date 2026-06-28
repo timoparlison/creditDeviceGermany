@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Check, ShoppingCart } from 'lucide-react';
 import { PRODUCT_CATALOG, formatPrice, priceFor, type ProductId } from '@/lib/gcc/products';
 import type { Company } from '@/lib/gcc/types';
@@ -15,6 +15,7 @@ export function ProductPicker({ company }: Props) {
   const router = useRouter();
   const locale = useLocale();
   const prefix = locale === 'de' ? '' : `/${locale}`;
+  const t = useTranslations('ProductPicker');
   const available = useMemo(() => PRODUCT_CATALOG.filter((p) => p.available), []);
   const [selected, setSelected] = useState<ProductId[]>(
     available.length ? [available[0].id] : [],
@@ -52,8 +53,8 @@ export function ProductPicker({ company }: Props) {
   return (
     <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden sticky top-24">
       <div className="bg-navy text-white px-6 py-4">
-        <h3 className="text-lg font-bold">Produkte auswählen</h3>
-        <p className="text-sm text-gray-300">Mehrere Produkte können kombiniert werden</p>
+        <h3 className="text-lg font-bold">{t('title')}</h3>
+        <p className="text-sm text-gray-300">{t('subtitle')}</p>
       </div>
 
       <div className="p-4 space-y-3">
@@ -85,7 +86,7 @@ export function ProductPicker({ company }: Props) {
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-baseline justify-between gap-2">
-                    <span className="font-semibold text-navy">{def.label}</span>
+                    <span className="font-semibold text-navy">{t(`${def.id}.label`)}</span>
                     {price && (
                       <span className="text-sm font-bold text-primary whitespace-nowrap">
                         {formatPrice(price.gross, price.currency)}
@@ -93,14 +94,14 @@ export function ProductPicker({ company }: Props) {
                     )}
                   </div>
                   <p className="text-xs text-gray-600 mt-1 leading-relaxed">
-                    {def.description}
+                    {t(`${def.id}.description`)}
                   </p>
                   {disabled && (
-                    <p className="text-xs text-gray-400 italic mt-1">bald verfügbar</p>
+                    <p className="text-xs text-gray-400 italic mt-1">{t('comingSoon')}</p>
                   )}
                   {price && (
                     <p className="text-xs text-gray-500 mt-1">
-                      Netto {formatPrice(price.net, price.currency)} · zzgl. MwSt.
+                      {t('netPrice')} {formatPrice(price.net, price.currency)} · {t('plusVat')}
                     </p>
                   )}
                 </div>
@@ -112,13 +113,13 @@ export function ProductPicker({ company }: Props) {
 
       <div className="border-t px-6 py-4 bg-gray-50">
         <div className="flex items-baseline justify-between mb-1">
-          <span className="text-xs text-gray-500 uppercase tracking-wide">Netto</span>
+          <span className="text-xs text-gray-500 uppercase tracking-wide">{t('net')}</span>
           <span className="text-sm text-gray-700">
             {formatPrice(totals.net, totals.currency)}
           </span>
         </div>
         <div className="flex items-baseline justify-between">
-          <span className="text-xs text-gray-500 uppercase tracking-wide">Brutto</span>
+          <span className="text-xs text-gray-500 uppercase tracking-wide">{t('gross')}</span>
           <span className="text-xl font-bold text-navy">
             {formatPrice(totals.gross, totals.currency)}
           </span>
@@ -133,7 +134,7 @@ export function ProductPicker({ company }: Props) {
           className="w-full inline-flex items-center justify-center gap-2 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           <ShoppingCart className="w-5 h-5" />
-          Bestellen
+          {t('order')}
         </button>
       </div>
     </div>
