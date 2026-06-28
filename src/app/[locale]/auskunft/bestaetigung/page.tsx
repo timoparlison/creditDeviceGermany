@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { CheckCircle2 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
-import { Link } from '@/i18n/navigation';
+import { Link } from '@/i18n/navigation';  // /bonitaetsinformationen IS in routing config
 
 type Props = { params: Promise<{ locale: string }> };
 

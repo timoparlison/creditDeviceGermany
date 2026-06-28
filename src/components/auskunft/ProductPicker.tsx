@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import { Check, ShoppingCart } from 'lucide-react';
 import { PRODUCT_CATALOG, formatPrice, priceFor, type ProductId } from '@/lib/gcc/products';
 import type { Company } from '@/lib/gcc/types';
@@ -12,6 +13,8 @@ type Props = {
 
 export function ProductPicker({ company }: Props) {
   const router = useRouter();
+  const locale = useLocale();
+  const prefix = locale === 'de' ? '' : `/${locale}`;
   const available = useMemo(() => PRODUCT_CATALOG.filter((p) => p.available), []);
   const [selected, setSelected] = useState<ProductId[]>(
     available.length ? [available[0].id] : [],
@@ -43,7 +46,7 @@ export function ProductPicker({ company }: Props) {
   const onOrder = () => {
     if (!selected.length) return;
     const params = new URLSearchParams({ products: selected.join(',') });
-    router.push(`/auskunft/unternehmen/${encodeURIComponent(company.id)}/bestellen?${params.toString()}`);
+    router.push(`${prefix}/auskunft/unternehmen/${encodeURIComponent(company.id)}/bestellen?${params.toString()}`);
   };
 
   return (

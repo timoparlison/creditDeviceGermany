@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
+import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { OrderFlow } from '@/components/auskunft/OrderFlow';
@@ -20,6 +20,7 @@ export default async function OrderPage({ params, searchParams }: Props) {
   const { locale, id } = await params;
   const { products: productsParam } = await searchParams;
   const t = await getTranslations({ locale, namespace: 'AuskunftOrder' });
+  const prefix = locale === 'de' ? '' : `/${locale}`;
 
   let company: Company | null = null;
   try {
@@ -40,9 +41,8 @@ export default async function OrderPage({ params, searchParams }: Props) {
     <>
       <section className="bg-navy text-white py-8">
         <Container>
-          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           <Link
-            href={`/auskunft/unternehmen/${encodeURIComponent(id)}` as any}
+            href={`${prefix}/auskunft/unternehmen/${encodeURIComponent(id)}`}
             className="inline-flex items-center gap-2 text-gray-300 hover:text-primary text-sm mb-3"
           >
             <ArrowLeft className="w-4 h-4" />

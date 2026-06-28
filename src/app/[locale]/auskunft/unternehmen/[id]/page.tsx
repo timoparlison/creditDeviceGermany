@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
+import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { ProductPicker } from '@/components/auskunft/ProductPicker';
@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function CompanyDetailPage({ params }: Props) {
   const { locale, id } = await params;
   const t = await getTranslations({ locale, namespace: 'AuskunftDetail' });
+  const prefix = locale === 'de' ? '' : `/${locale}`;
 
   let company: Company | null = null;
   try {
@@ -39,9 +40,8 @@ export default async function CompanyDetailPage({ params }: Props) {
     <>
       <section className="bg-navy text-white py-8">
         <Container>
-          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           <Link
-            href={'/auskunft/ergebnisse' as any}
+            href={`${prefix}/auskunft/ergebnisse`}
             className="inline-flex items-center gap-2 text-gray-300 hover:text-primary text-sm mb-3"
           >
             <ArrowLeft className="w-4 h-4" />

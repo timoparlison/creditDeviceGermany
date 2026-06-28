@@ -2,8 +2,8 @@
 
 import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 import { AlertCircle, ArrowRight, Loader2 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { SearchForm } from '@/components/auskunft/SearchForm';
@@ -92,6 +92,8 @@ function ResultsInner() {
 
 function ResultsTable({ companies, total }: { companies: Company[]; total: number }) {
   const t = useTranslations('AuskunftResults');
+  const locale = useLocale();
+  const prefix = locale === 'de' ? '' : `/${locale}`;
   return (
     <>
       <p className="text-sm text-gray-600 mb-4">{total} {t('hits')}</p>
@@ -114,8 +116,7 @@ function ResultsTable({ companies, total }: { companies: Company[]; total: numbe
                 <tr key={c.id} className="border-t hover:bg-gray-50 transition-colors">
                   <td className="p-3">
                     <Link
-                      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                      href={`/auskunft/unternehmen/${encodeURIComponent(c.id)}` as any}
+                      href={`${prefix}/auskunft/unternehmen/${encodeURIComponent(c.id)}`}
                       className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary text-white hover:bg-primary-dark transition-colors"
                       aria-label={`Details zu ${c.name}`}
                     >

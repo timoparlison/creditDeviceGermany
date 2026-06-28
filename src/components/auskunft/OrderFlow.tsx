@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import { Elements, PaymentElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
 import { Download, Loader2, ShieldCheck } from 'lucide-react';
@@ -302,6 +303,8 @@ function PaymentStep({
   const stripe = useStripe();
   const elements = useElements();
   const [processing, setProcessing] = useState(false);
+  const locale = useLocale();
+  const localePrefix = locale === 'de' ? '' : `/${locale}`;
 
   const onPay = async () => {
     if (!stripe || !elements) return;
@@ -316,7 +319,7 @@ function PaymentStep({
       elements,
       redirect: 'if_required',
       confirmParams: {
-        return_url: `${window.location.origin}/auskunft/bestaetigung`,
+        return_url: `${window.location.origin}${localePrefix}/auskunft/bestaetigung`,
       },
     });
     if (payError) {
