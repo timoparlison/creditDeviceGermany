@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Elements, PaymentElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
 import { Download, Loader2, ShieldCheck } from 'lucide-react';
@@ -38,14 +38,9 @@ const DEFAULT_FORM: OrdererForm = {
   reasonCode: 1,
 };
 
-const REASON_CODES = [
-  { code: 1, label: 'Kreditentscheidung' },
-  { code: 2, label: 'Geschäftsanbahnung' },
-  { code: 3, label: 'Forderungseinzug' },
-  { code: 4, label: 'Risikomanagement' },
-];
-
 export function OrderFlow({ company, productIds }: Props) {
+  const t = useTranslations('OrderFlow');
+
   const products = useMemo<ProductDefinition[]>(
     () =>
       productIds
@@ -79,6 +74,13 @@ export function OrderFlow({ company, productIds }: Props) {
   const update = <K extends keyof OrdererForm>(key: K, value: OrdererForm[K]) => {
     setForm((f) => ({ ...f, [key]: value }));
   };
+
+  const reasonCodes = [
+    { code: 1, label: t('reasonCreditDecision') },
+    { code: 2, label: t('reasonBusinessInitiation') },
+    { code: 3, label: t('reasonDebtCollection') },
+    { code: 4, label: t('reasonRiskManagement') },
+  ];
 
   const onContinue = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -123,48 +125,48 @@ export function OrderFlow({ company, productIds }: Props) {
       <div className="lg:col-span-2 space-y-6">
         {step === 'form' || step === 'submitting' ? (
           <form onSubmit={onContinue} className="bg-white rounded-xl shadow border border-gray-100 p-6 space-y-4">
-            <h2 className="text-xl font-bold text-navy mb-2">Besteller-Angaben</h2>
+            <h2 className="text-xl font-bold text-navy mb-2">{t('ordererTitle')}</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Field label="Vorname" required>
+              <Field label={t('firstName')} required>
                 <input type="text" required value={form.firstname} onChange={(e) => update('firstname', e.target.value)} className={inputCls} />
               </Field>
-              <Field label="Nachname" required>
+              <Field label={t('lastName')} required>
                 <input type="text" required value={form.lastname} onChange={(e) => update('lastname', e.target.value)} className={inputCls} />
               </Field>
             </div>
 
-            <Field label="E-Mail" required>
+            <Field label={t('email')} required>
               <input type="email" required value={form.email} onChange={(e) => update('email', e.target.value)} className={inputCls} />
             </Field>
 
-            <Field label="Firma" required>
+            <Field label={t('company')} required>
               <input type="text" required value={form.company} onChange={(e) => update('company', e.target.value)} className={inputCls} />
             </Field>
 
-            <Field label="Straße & Nr." required>
+            <Field label={t('street')} required>
               <input type="text" required value={form.street} onChange={(e) => update('street', e.target.value)} className={inputCls} />
             </Field>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Field label="PLZ" required>
+              <Field label={t('zip')} required>
                 <input type="text" required value={form.zip} onChange={(e) => update('zip', e.target.value)} className={inputCls} />
               </Field>
-              <Field label="Stadt" required>
+              <Field label={t('city')} required>
                 <input type="text" required value={form.city} onChange={(e) => update('city', e.target.value)} className={inputCls} />
               </Field>
-              <Field label="Land" required>
+              <Field label={t('country')} required>
                 <input type="text" required value={form.country} onChange={(e) => update('country', e.target.value.toUpperCase())} className={inputCls} maxLength={2} />
               </Field>
             </div>
 
-            <Field label="USt-IdNr. (optional, für Reverse Charge)">
+            <Field label={t('vatId')}>
               <input type="text" value={form.vatId ?? ''} onChange={(e) => update('vatId', e.target.value)} className={inputCls} />
             </Field>
 
-            <Field label="Bestellgrund" required>
+            <Field label={t('orderReason')} required>
               <select value={form.reasonCode} onChange={(e) => update('reasonCode', Number(e.target.value))} className={inputCls}>
-                {REASON_CODES.map((r) => (
+                {reasonCodes.map((r) => (
                   <option key={r.code} value={r.code}>{r.label}</option>
                 ))}
               </select>
@@ -178,7 +180,7 @@ export function OrderFlow({ company, productIds }: Props) {
                 onChange={(e) => update('adult', e.target.checked)}
                 className="mt-1"
               />
-              <span>Ich bestätige, dass ich volljährig bin und die Auskunft zu geschäftlichen Zwecken bestelle.</span>
+              <span>{t('adultConfirmation')}</span>
             </label>
 
             {error && <p className="text-red-600 text-sm">{error}</p>}
@@ -189,14 +191,14 @@ export function OrderFlow({ company, productIds }: Props) {
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors disabled:opacity-60"
             >
               {step === 'submitting' && <Loader2 className="w-4 h-4 animate-spin" />}
-              Weiter zur Zahlung
+              {t('continueToPayment')}
             </button>
           </form>
         ) : null}
 
         {step === 'payment' && clientSecret && stripePromise && (
           <div className="bg-white rounded-xl shadow border border-gray-100 p-6">
-            <h2 className="text-xl font-bold text-navy mb-4">Zahlung</h2>
+            <h2 className="text-xl font-bold text-navy mb-4">{t('paymentTitle')}</h2>
             <Elements
               stripe={stripePromise}
               options={{
@@ -221,16 +223,13 @@ export function OrderFlow({ company, productIds }: Props) {
 
         {step === 'error' && (
           <div className="bg-red-50 border border-red-200 rounded-xl p-6">
-            <p className="text-red-700 font-semibold">Fehler</p>
+            <p className="text-red-700 font-semibold">{t('errorTitle')}</p>
             <p className="text-red-600 text-sm mt-1">{error}</p>
             <button
-              onClick={() => {
-                setError(null);
-                setStep('form');
-              }}
+              onClick={() => { setError(null); setStep('form'); }}
               className="mt-3 text-sm text-primary underline"
             >
-              Erneut versuchen
+              {t('retryError')}
             </button>
           </div>
         )}
@@ -250,11 +249,14 @@ function OrderSummary({
   products: ProductDefinition[];
   totals: { net: number; gross: number; currency: string };
 }) {
+  const t = useTranslations('OrderFlow');
+  const tp = useTranslations('ProductPicker');
+
   return (
     <aside className="bg-white rounded-xl shadow border border-gray-100 p-6 h-fit sticky top-24">
-      <h3 className="text-lg font-bold text-navy mb-4">Zusammenfassung</h3>
+      <h3 className="text-lg font-bold text-navy mb-4">{t('summaryTitle')}</h3>
       <div className="mb-4 pb-4 border-b">
-        <p className="text-xs text-gray-500 uppercase tracking-wide">Unternehmen</p>
+        <p className="text-xs text-gray-500 uppercase tracking-wide">{t('companyLabel')}</p>
         <p className="font-semibold text-navy">{company.name}</p>
         {company.address?.simpleValue && (
           <p className="text-sm text-gray-600">{company.address.simpleValue}</p>
@@ -265,7 +267,7 @@ function OrderSummary({
           const price = priceFor(company.pricing, def.apiName);
           return (
             <div key={def.id} className="flex justify-between text-sm">
-              <span className="text-gray-700">{def.label}</span>
+              <span className="text-gray-700">{tp(`${def.id}.label`)}</span>
               <span className="font-medium text-navy">{formatPrice(price?.gross, price?.currency)}</span>
             </div>
           );
@@ -273,11 +275,11 @@ function OrderSummary({
       </div>
       <div className="space-y-1">
         <div className="flex justify-between text-sm">
-          <span className="text-gray-600">Netto</span>
+          <span className="text-gray-600">{t('netLabel')}</span>
           <span className="text-gray-800">{formatPrice(totals.net, totals.currency)}</span>
         </div>
         <div className="flex justify-between">
-          <span className="font-semibold text-navy">Brutto</span>
+          <span className="font-semibold text-navy">{t('grossLabel')}</span>
           <span className="text-xl font-bold text-navy">{formatPrice(totals.gross, totals.currency)}</span>
         </div>
       </div>
@@ -305,13 +307,14 @@ function PaymentStep({
   const [processing, setProcessing] = useState(false);
   const locale = useLocale();
   const localePrefix = locale === 'de' ? '' : `/${locale}`;
+  const t = useTranslations('OrderFlow');
 
   const onPay = async () => {
     if (!stripe || !elements) return;
     setProcessing(true);
     const { error: submitError } = await elements.submit();
     if (submitError) {
-      onError(submitError.message ?? 'Eingaben prüfen');
+      onError(submitError.message ?? t('errorTitle'));
       setProcessing(false);
       return;
     }
@@ -323,7 +326,7 @@ function PaymentStep({
       },
     });
     if (payError) {
-      onError(payError.message ?? 'Zahlung fehlgeschlagen');
+      onError(payError.message ?? t('errorTitle'));
       setProcessing(false);
       return;
     }
@@ -357,7 +360,7 @@ function PaymentStep({
     });
     if (!orderRes.ok) {
       const err = await orderRes.json().catch(() => ({}));
-      onError(err?.error ?? 'Bestellung konnte nicht erfasst werden.');
+      onError(err?.error ?? t('errorTitle'));
       setProcessing(false);
       return;
     }
@@ -374,13 +377,14 @@ function PaymentStep({
         className="mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors disabled:opacity-60"
       >
         {processing && <Loader2 className="w-4 h-4 animate-spin" />}
-        Jetzt kostenpflichtig bestellen
+        {t('payNow')}
       </button>
     </div>
   );
 }
 
 function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
+  const t = useTranslations('OrderFlow');
   const [downloading, setDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
 
@@ -402,7 +406,7 @@ function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
       a.remove();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setDownloadError(e instanceof Error ? e.message : 'Download fehlgeschlagen');
+      setDownloadError(e instanceof Error ? e.message : t('downloadError'));
     } finally {
       setDownloading(false);
     }
@@ -411,10 +415,8 @@ function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
   return (
     <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
       <ShieldCheck className="w-12 h-12 text-green-600 mx-auto mb-3" />
-      <h2 className="text-2xl font-bold text-navy mb-2">Bestellung erfolgreich</h2>
-      <p className="text-gray-700 mb-6">
-        Vielen Dank für Ihre Bestellung. Sie erhalten in Kürze eine Bestätigung per E-Mail.
-      </p>
+      <h2 className="text-2xl font-bold text-navy mb-2">{t('orderSuccess')}</h2>
+      <p className="text-gray-700 mb-6">{t('orderSuccessBody')}</p>
       <button
         type="button"
         onClick={onDownload}
@@ -422,7 +424,7 @@ function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
         className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors disabled:opacity-60"
       >
         {downloading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
-        PDF herunterladen
+        {t('downloadPdf')}
       </button>
       {downloadError && <p className="text-red-600 text-sm mt-3">{downloadError}</p>}
     </div>

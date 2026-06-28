@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Button } from '../ui/Button';
 import { Send, CheckCircle } from 'lucide-react';
 
@@ -14,6 +16,7 @@ interface FormData {
 }
 
 export function ContactForm() {
+  const t = useTranslations('ContactForm');
   const [formData, setFormData] = useState<FormData>({
     vorname: '',
     nachname: '',
@@ -41,12 +44,12 @@ export function ContactForm() {
 
       if (!res.ok) {
         const data = (await res.json().catch(() => ({}))) as { error?: string };
-        throw new Error(data.error ?? 'Versand fehlgeschlagen.');
+        throw new Error(data.error ?? t('sendFailed'));
       }
 
       setIsSubmitted(true);
     } catch (err) {
-      setErrorMessage(err instanceof Error ? err.message : 'Versand fehlgeschlagen.');
+      setErrorMessage(err instanceof Error ? err.message : t('sendFailed'));
     } finally {
       setIsSubmitting(false);
     }
@@ -56,10 +59,8 @@ export function ContactForm() {
     return (
       <div className="bg-green-50 rounded-xl p-8 text-center">
         <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-        <h3 className="text-2xl font-bold text-navy mb-2">Vielen Dank!</h3>
-        <p className="text-gray-600">
-          Wir haben Ihre Nachricht erhalten und melden uns schnellstmöglich bei Ihnen.
-        </p>
+        <h3 className="text-2xl font-bold text-navy mb-2">{t('successTitle')}</h3>
+        <p className="text-gray-600">{t('successBody')}</p>
       </div>
     );
   }
@@ -78,10 +79,11 @@ export function ContactForm() {
           onChange={(e) => setWebsite(e.target.value)}
         />
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="vorname" className="block text-sm font-medium text-navy mb-2">
-            Vorname *
+            {t('firstName')} {t('required')}
           </label>
           <input
             type="text"
@@ -90,12 +92,12 @@ export function ContactForm() {
             value={formData.vorname}
             onChange={(e) => setFormData({ ...formData, vorname: e.target.value })}
             className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors"
-            placeholder="Ihr Vorname"
+            placeholder={t('firstNamePlaceholder')}
           />
         </div>
         <div>
           <label htmlFor="nachname" className="block text-sm font-medium text-navy mb-2">
-            Nachname *
+            {t('lastName')} {t('required')}
           </label>
           <input
             type="text"
@@ -104,7 +106,7 @@ export function ContactForm() {
             value={formData.nachname}
             onChange={(e) => setFormData({ ...formData, nachname: e.target.value })}
             className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors"
-            placeholder="Ihr Nachname"
+            placeholder={t('lastNamePlaceholder')}
           />
         </div>
       </div>
@@ -112,7 +114,7 @@ export function ContactForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="email" className="block text-sm font-medium text-navy mb-2">
-            E-Mail *
+            {t('email')} {t('required')}
           </label>
           <input
             type="email"
@@ -121,12 +123,12 @@ export function ContactForm() {
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
             className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors"
-            placeholder="ihre@email.de"
+            placeholder={t('emailPlaceholder')}
           />
         </div>
         <div>
           <label htmlFor="telefon" className="block text-sm font-medium text-navy mb-2">
-            Telefon
+            {t('phone')}
           </label>
           <input
             type="tel"
@@ -141,7 +143,7 @@ export function ContactForm() {
 
       <div>
         <label htmlFor="unternehmen" className="block text-sm font-medium text-navy mb-2">
-          Unternehmen
+          {t('company')}
         </label>
         <input
           type="text"
@@ -149,13 +151,13 @@ export function ContactForm() {
           value={formData.unternehmen}
           onChange={(e) => setFormData({ ...formData, unternehmen: e.target.value })}
           className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors"
-          placeholder="Ihr Unternehmen"
+          placeholder={t('companyPlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="nachricht" className="block text-sm font-medium text-navy mb-2">
-          Nachricht *
+          {t('message')} {t('required')}
         </label>
         <textarea
           id="nachricht"
@@ -164,47 +166,33 @@ export function ContactForm() {
           value={formData.nachricht}
           onChange={(e) => setFormData({ ...formData, nachricht: e.target.value })}
           className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors resize-none"
-          placeholder="Wie können wir Ihnen helfen?"
+          placeholder={t('messagePlaceholder')}
         />
       </div>
 
       <div className="flex items-start">
-        <input
-          type="checkbox"
-          id="datenschutz"
-          required
-          className="mt-1 mr-3"
-        />
+        <input type="checkbox" id="datenschutz" required className="mt-1 mr-3" />
         <label htmlFor="datenschutz" className="text-sm text-gray-600">
-          Ich habe die{' '}
-          <a href="/datenschutz" className="text-primary hover:underline">
-            Datenschutzerklärung
-          </a>{' '}
-          gelesen und stimme der Verarbeitung meiner Daten zu. *
+          {t('privacyText')}{' '}
+          <Link href="/datenschutz" className="text-primary hover:underline">
+            {t('privacyLink')}
+          </Link>{' '}
+          {t('privacyText2')} {t('required')}
         </label>
       </div>
 
       {errorMessage && (
-        <div
-          role="alert"
-          className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"
-        >
+        <div role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
           {errorMessage}
         </div>
       )}
 
-      <Button
-        type="submit"
-        variant="primary"
-        size="lg"
-        className="w-full md:w-auto"
-        disabled={isSubmitting}
-      >
+      <Button type="submit" variant="primary" size="lg" className="w-full md:w-auto" disabled={isSubmitting}>
         {isSubmitting ? (
-          'Wird gesendet...'
+          t('sending')
         ) : (
           <>
-            Nachricht senden
+            {t('send')}
             <Send className="w-4 h-4 ml-2" />
           </>
         )}
