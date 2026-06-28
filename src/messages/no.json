@@ -1,0 +1,556 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Din partner for kredittforvaltning",
+      "description": "Unngå finansielle risikoer og administrer hele kredittforvaltningen din i én kraftig applikasjon. Kredittopplysninger, debitorhåndtering og handelskredittforsikring."
+    },
+    "creditInformation": {
+      "title": "Kredittopplysninger fra over 200 land",
+      "description": "Pålitelige kredittopplysninger og bedriftsrapporter fra over 200 land. Velfunderte forretningsbeslutninger med oppdaterte data — minimer din kredittrisiko."
+    },
+    "creditManagementSoftware": {
+      "title": "Programvare for kredittforvaltning — Profesjonell debitorhåndtering",
+      "description": "Bedre kontantstrøm, klare rapporter og effektiv kommunikasjon takket være én applikasjon."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Din nye beste venn for handelskredittforsikring",
+      "description": "PolicyManager er utviklet i samarbeid med Allianz Trade, Atradius og Coface for å optimalisere forvaltningen av din handelskredittforsikringspolicy."
+    },
+    "creditInquiry": {
+      "title": "Bestill bedriftskredittrapport — Globale bedriftsrapporter",
+      "description": "Nettbaserte rapporter om bedrifter og handelskredittrapporter fra over 200 land. Raske, pålitelige og bestillbare på nett med ett klikk."
+    },
+    "contact": {
+      "title": "Kontakt — CreditDevice GmbH Hamburg",
+      "description": "Kontakt CreditDevice GmbH i Hamburg. Vi gir personlig rådgivning om kredittopplysninger, programvare for kredittforvaltning og handelskredittforsikring."
+    },
+    "about": {
+      "title": "Om oss — CreditDevice GmbH Hamburg",
+      "description": "CreditDevice GmbH ble grunnlagt i 2017 — resultatet av over 30 års ekspertise innen kredittforvaltning."
+    },
+    "privacy": {
+      "title": "Personvernerklæring",
+      "description": "Personvernerklæring for CreditDevice GmbH i henhold til GDPR."
+    },
+    "imprint": {
+      "title": "Impressum",
+      "description": "Impressum for CreditDevice GmbH, Hamburg."
+    }
+  },
+  "Navigation": {
+    "products": "Produkter",
+    "creditInformation": "Kredittopplysninger",
+    "creditInformationDesc": "Pålitelige data og intelligente innsikter",
+    "creditManagementSoftware": "Programvare for kredittforvaltning",
+    "creditManagementSoftwareDesc": "Effektiv debitorhåndtering",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Forvaltning av din handelskredittforsikring",
+    "aboutUs": "Om oss",
+    "contact": "Kontakt",
+    "login": "Logg inn",
+    "requestDemo": "Be om demo",
+    "selectLanguage": "Språk"
+  },
+  "Footer": {
+    "tagline": "Din partner for profesjonell kredittforvaltning. Unngå finansielle risikoer med vår kraftige programvare.",
+    "products": "Produkter",
+    "company": "Bedrift",
+    "service": "Tjeneste",
+    "legal": "Juridisk",
+    "requestDemo": "Be om demo",
+    "allRightsReserved": "Alle rettigheter forbeholdt."
+  },
+  "CustomerLogos": {
+    "tagline": "betrodd av ledende selskaper over hele verden"
+  },
+  "Hero": {
+    "badge1": "Alt-i-ett-løsningen",
+    "badge2Title": "Spar opptil 40 %",
+    "badge2Subtitle": "Utestående salgsdager"
+  },
+  "ProductCards": {
+    "tagline": "Våre produkter",
+    "title": "Kredittforvaltningsløsninger som gjør arbeidet ditt enklere",
+    "learnMore": "Les mer",
+    "creditInformation": {
+      "title": "Kredittopplysninger",
+      "description": "Høykvalitets bedriftsrapporter — uten kontrakt med minimumsvarighet eller minimumsbestillingsantall.",
+      "feature1": "Nettbaserte bedriftsrapporter over hele verden fra mer enn 200 land",
+      "feature2": "Sjekk kredittverdigheten til prospekter og kunder",
+      "feature3": "Ingen minimumsbestilling",
+      "feature4": "Ingen kontrakt",
+      "feature5": "Ingen minimumsvarighet"
+    },
+    "cms": {
+      "title": "Programvare for kredittforvaltning",
+      "description": "Innsikt i betalingsatferden til kundene dine for proaktive beslutninger og risikoreduksjon.",
+      "feature1": "Profesjonell debitorhåndtering",
+      "feature2": "Bedre kontantstrøm",
+      "feature3": "Klare rapporter",
+      "feature4": "Effektiv kommunikasjon"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Administrer handelskredittforsikringen din enkelt — all viktig og relevant informasjon samlet.",
+      "feature1": "Aktuelle kredittgrenser garantert",
+      "feature2": "Varslingssystem mot kompensasjonstap",
+      "feature3": "Utviklet med Allianz Trade, Atradius, Coface",
+      "feature4": "Høy automatiseringsgrad"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Kombiner moduler",
+    "title": "Alt for fullstendig kredittforvaltning i én pakke",
+    "subtitle": "Vi utvikler produktene våre selv — fordi vi kjenner behovene til kundene våre.",
+    "customers": "Aktive kunder",
+    "dossiers": "Saker",
+    "countries": "Land",
+    "partner": {
+      "title": "Partner innen kredittforvaltning",
+      "description": "Gjennom nært samarbeid med kundene våre utvikler vi kontinuerlig nye og verdifulle løsninger.",
+      "feature1": "Nært kundesamarbeid",
+      "feature2": "Kontinuerlig utvikling",
+      "feature3": "Egen produktutvikling"
+    },
+    "integrated": {
+      "title": "Én integrert applikasjon",
+      "description": "Nettapplikasjonen vår tilbyr ulike interaktive moduler som fungerer uavhengig, men best som en totalpakke.",
+      "feature1": "Modulært kombinerbar",
+      "feature2": "Én sentral applikasjon",
+      "feature3": "Sømløst integrerte data"
+    },
+    "directContact": {
+      "title": "Rask, direkte kontakt",
+      "description": "Vi er et uavhengig selskap. I praksis betyr dette korte kommunikasjonsveier og rask kontakt.",
+      "feature1": "Korte kommunikasjonsveier",
+      "feature2": "Personlige kontakter",
+      "feature3": "Uavhengig selskap"
+    }
+  },
+  "WhyUs": {
+    "title": "Hvorfor CreditDevice?",
+    "subtitle": "Vi er mer enn bare en programvareleverandør — vi er din partner for vellykket kredittforvaltning",
+    "reachable": { "title": "Tilgjengelig", "description": "Det dedikerte teamet vårt er alltid tilgjengelig for deg. Personlig støtte som virkelig hjelper." },
+    "innovative": { "title": "Innovativ", "description": "Vi utvikler kontinuerlig løsningene våre og stoler på den nyeste teknologien." },
+    "committed": { "title": "Engasjert", "description": "Suksessen din er drivkraften vår. Vi går den ekstra milen for å nå målene dine." },
+    "flexible": { "title": "Fleksibel", "description": "Løsningene våre tilpasser seg behovene dine. Skalerbart fra SMB til store bedrifter." }
+  },
+  "CTABanner": {
+    "title": "Oppdag CreditDevice selv",
+    "subtitle": "Finn ut hvordan løsningene våre kan optimalisere kredittforvaltningen din. Planlegg en demo i dag.",
+    "primaryCta": "Be om demo",
+    "secondaryCta": "Kredittopplysninger"
+  },
+  "Home": {
+    "hero": {
+      "title": "Den komplette løsningen for kredittforvaltning",
+      "subtitle": "CreditDevice tilbyr en komplett løsning for hele kredittforvaltningen din. Hvert produkt har sin egen styrke — kombiner moduler for en effektiv totalløsning.",
+      "primaryCta": "Be om demo",
+      "secondaryCta": "Kredittopplysninger",
+      "imageAlt": "CreditDevice-team i diskusjon etter en kredittforvaltningskonsultasjon"
+    },
+    "faq": {
+      "title": "Vanlige spørsmål",
+      "subtitle": "Finn svar på de viktigste spørsmålene om løsningene våre",
+      "q1": "Hva gjør CreditDevice unikt?",
+      "a1": "CreditDevice tilbyr en komplett løsning for hele kredittforvaltningen din. Vi utvikler produktene våre selv fordi vi kjenner behovene til kundene våre.",
+      "q2": "Kan modulene brukes individuelt?",
+      "a2": "Ja. De interaktive modulene våre fungerer uavhengig, men som totalløsning utvikler de sitt fulle potensial.",
+      "q3": "Hvor raskt kan jeg nå en kontaktperson?",
+      "a3": "Vi er et uavhengig selskap med korte kommunikasjonsveier og direktekontakt.",
+      "q4": "Hvordan får jeg internasjonale kredittopplysninger?",
+      "a4": "Med de internasjonale nettbaserte bedriftsrapportene våre mottar du verdensomspennende kredittopplysninger på kortest mulig tid, uten kontrakt eller minimumsbestilling.",
+      "q5": "Hvordan hjelper PolicyManager med handelskredittforsikring?",
+      "a5": "PolicyManager samler all viktig informasjon fra handelskredittforsikringen din. Varslingssystemet forhindrer kompensasjonstap.",
+      "q6": "Hvilken rolle spiller programvaren for kredittforvaltning?",
+      "a6": "Programvaren vår går utover ren debitorhåndtering. Den gir innsikt i betalingsatferden til kundene dine."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Kredittopplysninger",
+    "hero": {
+      "tagline": "Internasjonale kredittopplysninger",
+      "titlePart1": "Nettbaserte bedriftsrapporter",
+      "titlePart2": "over hele verden",
+      "subtitle": "Vi leverer verdensomspennende kredittrapporter til deg på kortest mulig tid — for pålitelig sjekk av kredittverdigheten til prospektene og kundene dine. Uten kontrakt, uten varighet eller minimumsbestilling."
+    },
+    "features": {
+      "title": "Tjenestene våre",
+      "subtitle": "Dra nytte av omfattende kredittopplysninger",
+      "international": { "title": "Internasjonalt", "description": "Tilgang til kredittdata fra over 200 land. Uavhengig av hvor forretningspartnerne dine befinner seg." },
+      "payPerUse": { "title": "Betal per bruk", "description": "Betal bare for det du faktisk henter — uten grunngebyr eller minimumsbestilling." },
+      "api": { "title": "Nettjeneste / API", "description": "Kraftig REST API eller webhooks for integrasjon i eksisterende systemer." }
+    },
+    "pricing": {
+      "title": "Priser per rapport",
+      "subtitle": "Alle priser er per hentet rapport. Ingen grunngebyr, ingen minimumsbestilling.",
+      "priceZoneLabel": "Prissone",
+      "netLabel": "Eks. mva.",
+      "grossLabel": "inkl. mva.",
+      "zone1Name": "Tyskland og Østerrike",
+      "zone1Countries": "Tyskland, Østerrike",
+      "zone2Name": "Vest-Europa",
+      "zone2Countries": "Belgia, Danmark, Frankrike, Storbritannia, Irland, Italia, Nederland, Norge, Sverige",
+      "zone3Name": "Øst- og Sør-Europa",
+      "zone3Countries": "Albania, Armenia, Aserbajdsjan, Hviterussland, Bosnia-Hercegovina, Bulgaria, Estland, Finland, Georgia, Hellas, Grønland, Island, Kosovo, Kroatia, Latvia, Liechtenstein, Litauen, Luxemburg, Malta, Moldova, Montenegro, Nord-Makedonia, Polen, Portugal, Romania, Sveits, Serbia, Slovakia, Slovenia, Spania, Svalbard, Tsjekkia, Ukraina, Ungarn, Kypros",
+      "zone4Name": "Verden",
+      "zone4Countries": "Alle andre land (over 160 flere land)"
+    },
+    "riskSection": {
+      "title": "Minimer risiko, voks virksomheten",
+      "body": "Ta bedre og raskere beslutninger med førsteklasses rapporter og sikre virksomheten din bærekraftig.",
+      "bullet1": "Globale sanntidsforespørsler i over 200 land: ta velfunderte beslutninger umiddelbart",
+      "bullet2": "Sømløs integrasjon i eksisterende prosesser med minimal innsats",
+      "bullet3": "Maksimal fleksibilitet: fakturering nøyaktig etter dine behov",
+      "cta": "Gratis konsultasjon",
+      "infoTitle": "Tilgjengelig informasjon",
+      "info1Label": "Bedriftsstamdata og juridisk form",
+      "info1Value": "200+ land",
+      "info2Label": "Kredittscore og kredittgrense",
+      "info2Value": "Risikovurdering",
+      "info3Label": "Styremedlemmer og aksjonærer",
+      "info3Value": "Nåværende og historisk",
+      "info4Label": "Konsern- og eierstruktur",
+      "info4Value": "Verden",
+      "info5Label": "Balansedata og nøkkeltall",
+      "info5Value": "Flerårig",
+      "info6Label": "Negative egenskaper",
+      "info6Value": "Verifisert"
+    },
+    "faq": {
+      "title": "Vanlige spørsmål",
+      "subtitle": "Lær mer om kredittopplysningene våre",
+      "q1": "Hvem leverer kredittopplysningene?",
+      "a1": "Vi henter dataene våre direkte fra de ledende kredittbyråene i de respektive landene.",
+      "q2": "Hvor oppdaterte er kredittopplysningene?",
+      "a2": "Dataene våre oppdateres regelmessig. Avhengig av land og kilde mottar du daglig oppdatert informasjon.",
+      "q3": "Kan jeg integrere kredittopplysningene?",
+      "a3": "Ja, vi tilbyr et REST API samt webhooks for individuelle integrasjoner.",
+      "q4": "Hvilken informasjon inneholder en kredittrapport?",
+      "a4": "En typisk rapport inneholder bedriftsstamdata, kredittscore med risikovurdering og kredittgrense, aksjonærstruktur, nåværende og tidligere styremedlemmer, bankopplysninger, konsernstruktur, årsregnskap og balansedata (flere år), negative egenskaper og nøkkeltall sammenlignet med bransjen."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Programvare for kredittforvaltning",
+    "hero": {
+      "title": "Profesjonell debitorhåndtering",
+      "subtitle": "Bedre kontantstrøm, klare rapporter og effektiv kommunikasjon takket være én applikasjon.",
+      "primaryCta": "Be om demo",
+      "secondaryCta": "Be om tilbud",
+      "imageAlt": "CreditDevice programvare for kredittforvaltning — sentral oversikt for debitorhåndtering og betalingspåminnelser"
+    },
+    "features": {
+      "title": "Hva skiller programvaren vår",
+      "subtitle": "Hos CreditDevice velger du pakken som passer deg — moduler for kredittopplysninger, debitorhåndtering, risikoanalyse og handelskredittforsikring i én applikasjon.",
+      "transparency": { "title": "Full åpenhet om debitorene dine", "description": "Moduler for kredittopplysninger, debitorhåndtering, risikoanalyse og handelskredittforsikring i én applikasjon." },
+      "earlyPayment": { "title": "Fakturaer betales tidligere", "description": "Snakk debitorens språk: tilpass rekkefølge, innhold, språk og struktur i arbeidsflyten per kundeprofil." },
+      "reports": { "title": "Skreddersydde rapporter", "description": "Informer ledelsen månedlig om de største debitorene eller kontoansvarlige ukentlig om åpne poster. Automatisk." },
+      "actionLists": { "title": "Spar tid med handlingslister", "description": "Arbeid daglig basert på handlingslister og unngå sen betaling." },
+      "groupLevel": { "title": "Purringer på konsernnivå", "description": "Koble flere debitornumre for samme kunde. Svært praktisk for mor- og datterselskaper." },
+      "complaints": { "title": "Rask klagebehandling", "description": "Registrer klager enkelt og sørg for rask behandling gjennom tydelig kommunikasjon og eskalering." }
+    },
+    "uniqueness": {
+      "title": "Hvor unikt er CreditDevice?",
+      "body1": "Vi mener at enhver kredittsjef drar nytte av kun én applikasjon for alle kredittforvalningstjenester.",
+      "body2": "Programvaren vår for kredittforvaltning, som er utviklet internt, er koblet til ulike kredittopplysningsdatabaser: direkte netttilgang til mer enn 430 millioner selskaper over hele verden.",
+      "bullet1": "Én bedriftslisens — alle brukere inkludert",
+      "bullet2": "Over 430 millioner selskaper over hele verden",
+      "bullet3": "Kombinerbar med PolicyManager",
+      "cta": "Be om demo"
+    },
+    "dashboard": {
+      "overview": "Debitoroversikt",
+      "today": "I dag",
+      "openItems": "Åpne poster",
+      "overdue": "Forfalte",
+      "inCollection": "I inkasso",
+      "activeWorkflows": "Aktive arbeidsflyter",
+      "active": "aktive",
+      "paymentReminder": "Betalingspåminnelse",
+      "firstReminder": "1. purring",
+      "collections": "Inkasso"
+    },
+    "faq": {
+      "title": "Vanlige spørsmål",
+      "subtitle": "Lær mer om programvaren vår for kredittforvaltning",
+      "q1": "Hvorfor bruke programvare for kredittforvaltning i tillegg til regnskap?",
+      "a1": "Du har allerede regnskapsprogramvare, men et tradisjonelt pakke er ofte ikke fleksibelt nok for moderne kredittforvaltning.",
+      "q2": "Hvordan er programvaren for kredittforvaltning koblet til kredittopplysninger?",
+      "a2": "Programvaren er direkte koblet til kredittopplysningsdatabaser. Du har netttilgang til mer enn 430 millioner selskaper over hele verden.",
+      "q3": "Hvordan forholder programvaren seg til PolicyManager?",
+      "a3": "Med varslingssystemet til PolicyManager oppfyller du kredittforsikringsforpliktelsene dine i tide.",
+      "q4": "Finnes det brukerlisenser?",
+      "a4": "Nei. CreditDevice bruker bedriftslisenser som inkluderer alle brukere.",
+      "q5": "Hvilke autorisasjonsstrukturer er tilgjengelige for brukere?",
+      "a5": "Det finnes både et fleksibelt rollesystem og mulighet for datafiltrering, som representasjon av kundestrukturer og land."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Din nye beste venn",
+      "subtitle": "PolicyManager er utviklet i samarbeid med Allianz Trade, Atradius og Coface for å optimalisere forvaltningen av din handelskredittforsikringspolicy.",
+      "primaryCta": "Be om demo",
+      "secondaryCta": "Oppdag fordeler",
+      "imageAlt": "PolicyManager-grensesnitt for håndtering av handelskredittgrenser og omsetningsdeklarasjoner"
+    },
+    "features": {
+      "title": "Oppdag fordelene dine",
+      "subtitle": "Manuell håndtering av en handelskredittforsikringspolicy er mye arbeid. PolicyManager tar seg av alt det for deg.",
+      "subscription": { "title": "Rimelig abonnement", "description": "PolicyManager er tilgjengelig fra 200 euro per måned — innen rekkevidde selv for SMB." },
+      "reminder": { "title": "Automatisk påminnelse", "description": "Du mottar automatisk et signal, for eksempel når en grense overskrides." },
+      "timeSaving": { "title": "Du sparer tid", "description": "Manuelle operasjoner og søk elimineres. Tid du kan bruke til å forhindre tap av forsikringsdekning." },
+      "currentData": { "title": "Alltid oppdaterte data", "description": "Oppdateringer om statusen til kredittgrensene dine minst én gang om dagen." },
+      "costAnalysis": { "title": "Analyser kredittgrensekostnader", "description": "Analyser hvilken kredittgrense som passer best for kunden din." },
+      "creditReports": { "title": "Verdifulle kredittrapporter", "description": "Kredittrapporter er det ideelle instrumentet for å fastsette en dekket kredittgrense." },
+      "oneLimit": { "title": "Én bedrift, én grense", "description": "PolicyManager identifiserer selskaper med flere debitornumre og kobler alle fakturaer til én enkelt grense." },
+      "followUp": { "title": "Organisert oppfølging", "description": "Ved et krav lager du et Excel-dokument med forfalte fakturaer og historikk med to museklikk." }
+    },
+    "allInOne": {
+      "title": "Alt i én applikasjon",
+      "body1": "Med kredittforvaltningsmodulene til CreditDevice kombinerer du alt i én applikasjon.",
+      "body2": "Med PolicyManager forvalter du handelskredittforsikringspolicyen din perfekt.",
+      "bullet1": "Direkte kobling til kredittforsikringsselskapets system",
+      "bullet2": "Oppdateringer om statusen til kredittgrensene dine minst én gang om dagen",
+      "bullet3": "Kompatibel med Allianz Trade, Atradius, Coface",
+      "bullet4": "Forpliktelser ved krav oppfylles fullt ut",
+      "cta": "Be om demo"
+    },
+    "dashboard": {
+      "title": "Kredittgrenseoversikt",
+      "limit": "Grense",
+      "usage": "Bruk",
+      "limitRequested": "Forespurt grense",
+      "status": "Status",
+      "statusActive": "Aktiv",
+      "statusReview": "Under gjennomgang",
+      "statusWarning": "Advarsel",
+      "statusInProgress": "Pågående"
+    },
+    "faq": {
+      "title": "Vanlige spørsmål",
+      "subtitle": "Lær mer om PolicyManager",
+      "q1": "Med hvilke kredittforsikringsselskaper ble PolicyManager utviklet?",
+      "a1": "PolicyManager ble utviklet i samarbeid med Allianz Trade, Atradius og Coface.",
+      "q2": "Hva koster PolicyManager?",
+      "a2": "PolicyManager er tilgjengelig fra 200 euro per måned. Produktet er derfor også prisgunstig for SMB.",
+      "q3": "Hvordan utveksles data med forsikringsselskapet?",
+      "a3": "En praktisk nettjeneste med forsikringsselskapet sørger for at informasjon utveksles automatisk.",
+      "q4": "Hvordan hjelper PolicyManager med egenvurderinger?",
+      "a4": "PolicyManager bruker den samme beregningsmetoden som forsikringsselskapene — du mottar umiddelbart kredittgrensen din med beregningen."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Kredittforespørsel",
+    "tagline": "raskt og pålitelig",
+    "title": "Nettbaserte rapporter — Globale kredittsjekker gjort enkelt",
+    "subtitle": "Bestillbart med ett klikk. Etter bestillingen din undersøker de erfarne kredittanalytikerne våre ønsket informasjon og gir deg rapporten raskt.",
+    "worldwide": "Verden",
+    "worldwideDesc": "Bedriftsdata fra over 200 land — EU, UK, USA og verden.",
+    "fastDelivery": "Rask levering",
+    "fastDeliveryDesc": "Undersøkelse og levering av erfarne kredittanalytikere.",
+    "securePayment": "Sikker betaling",
+    "securePaymentDesc": "Kortbetaling og SEPA, behandlet via Stripe."
+  },
+  "Contact": {
+    "breadcrumb": "Kontakt",
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Har du spørsmål eller vil du vite mer om løsningene våre? Vi ser frem til å høre fra deg.",
+      "imageAlt": "CreditDevice-team i diskusjon etter en kredittforvaltningskonsultasjon"
+    },
+    "contactPerson": "Kontaktpersonen din",
+    "email": "E-post",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "businessHours": "Åpningstider",
+    "businessHoursValue": "Man - Fre: 9:00 - 17:00",
+    "demoBox": {
+      "title": "Planlegg en demo",
+      "body": "Vil du se CreditDevice i aksjon? Planlegg en demo med ekspertene våre.",
+      "cta": "Fyll ut skjemaet nå"
+    },
+    "formSection": {
+      "title": "Skriv til oss",
+      "subtitle": "Fyll ut skjemaet så kommer vi tilbake til deg så snart som mulig."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Besøk oss i Hamburg eller kontakt oss per telefon — vi gir deg gjerne personlig rådgivning.",
+      "activeCustomers": "Aktive kunder",
+      "countries": "Land",
+      "yearsExperience": "Års erfaring"
+    }
+  },
+  "About": {
+    "breadcrumb": "Om oss",
+    "hero": {
+      "tagline": "Om oss",
+      "title": "Kredittforvaltning — med lidenskap",
+      "subtitle": "CreditDevice GmbH ble grunnlagt i 2017 — resultatet av over 30 års samarbeid og ekspertise innen kredittforvaltning."
+    },
+    "stats": {
+      "founded": "Grunnlagt",
+      "experience": "Års erfaring",
+      "customers": "Aktive kunder",
+      "countries": "Land over hele verden"
+    },
+    "history": {
+      "title": "Historien vår",
+      "body1": "CreditDevice GmbH oppsto i 2017 fra et langvarig partnerskap mellom Hans Geluk (CreditDevice B.V., Nederland) og Sven Buckenberger.",
+      "body2": "I 2020 kjøpte CreditDevice inkassovirksomheten til Hanse Debitoren Management.",
+      "body3": "I 2021 kjøpte vi GlobalCompanyCheck e.U. og utvidet dermed tilbudet vårt med globale nettbaserte bedriftsrapporter fra over 200 land.",
+      "body4": "I dag tilbyr vi en komplett løsning: Programvare for kredittforvaltning, PolicyManager, internasjonale kredittopplysninger og inkasso — alt fra én kilde.",
+      "claimTitle": "Ambisjonen vår",
+      "claim": "\"En digital alt-i-ett-pakke for kredittforvaltning.\"",
+      "claimAuthor": "— Sven G. Buckenberger, Administrerende direktør"
+    },
+    "management": {
+      "title": "Ledelse",
+      "name": "Sven G. Buckenberger",
+      "role": "Medeier og direktør",
+      "details": "Bedriftsøkonom (WA) · født 1967",
+      "bio": "Sven Buckenberger har over 35 års erfaring innen europeisk kredittforvaltning.",
+      "quote": "\"En mann av sitt ord.\"",
+      "careerTitle": "Karriere",
+      "career1": "Lærling hos Hermes Kreditversicherungs-AG med dobbelt utdanning",
+      "career2": "19 år hos Bürgel Wirtschaftsinformationen GmbH & Co. KG som CFO — inkludert 28 oppkjøp",
+      "career3": "Grunnla Hanse Debitoren Management",
+      "career4": "Grunnla CreditDevice GmbH",
+      "career5": "Oppkjøp av forretningsaktivitetene til Hanse Debitoren Management av CreditDevice GmbH",
+      "career6": "Oppkjøp av GlobalCompanyCheck e.U.",
+      "membershipsTitle": "Foreningsmedlemskap og verv",
+      "membership1": "Styremedlem i Federation of Business Information Services (FEBIS) — siden 1997",
+      "membership2": "Rådgivende organ for Maritime Cluster Northern Germany (2013 – 2016)",
+      "membership3": "Revisor for Maritime Cluster Northern Germany (2025 – nå)",
+      "membership4": "Forsamlingen av ærverdige kjøpmenn i Hamburg e.V. (VEEK)",
+      "membership5": "Medlem av diverse næringslivsforeninger i Hamburg"
+    },
+    "cta": {
+      "title": "Bli kjent med oss personlig",
+      "subtitle": "Kontakt oss — vi gir deg gjerne rådgivning om løsningene våre for kredittforvaltning.",
+      "button": "Ta kontakt"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Personvern",
+    "title": "Personvernerklæring",
+    "notice": "Denne personvernerklæringen er tilgjengelig på tysk fordi den er regulert av tysk lov (GDPR). Bruk en oversettelsestjeneste om nødvendig."
+  },
+  "Imprint": {
+    "breadcrumb": "Impressum",
+    "title": "Impressum"
+  },
+  "SearchForm": {
+    "placeholder": "Bedriftsnavn",
+    "countryLabel": "Land",
+    "search": "Søk",
+    "searching": "Søker...",
+    "minCharsError": "Skriv inn minst 2 tegn."
+  },
+  "ContactForm": {
+    "firstName": "Fornavn",
+    "firstNamePlaceholder": "Fornavnet ditt",
+    "lastName": "Etternavn",
+    "lastNamePlaceholder": "Etternavnet ditt",
+    "email": "E-post",
+    "emailPlaceholder": "din@email.com",
+    "phone": "Telefon",
+    "company": "Bedrift",
+    "companyPlaceholder": "Bedriften din",
+    "message": "Melding",
+    "messagePlaceholder": "Hvordan kan vi hjelpe deg?",
+    "privacyText": "Jeg har lest",
+    "privacyLink": "personvernerklæringen",
+    "privacyText2": "og samtykker til behandling av dataene mine.",
+    "required": "*",
+    "send": "Send melding",
+    "sending": "Sender...",
+    "successTitle": "Takk!",
+    "successBody": "Vi har mottatt meldingen din og kommer tilbake til deg så snart som mulig.",
+    "sendFailed": "Sending mislyktes."
+  },
+  "AuskunftResults": {
+    "heading": "Velg selskapet du leter etter for å bestille en rapport.",
+    "loading": "Søker etter selskaper...",
+    "errorTitle": "Søkefeil",
+    "noResults": "Ingen resultater for",
+    "noResultsIn": "i valgt region.",
+    "hits": "Resultater",
+    "colName": "Navn",
+    "colAddress": "Adresse",
+    "colRegNo": "Reg. nr.",
+    "colVatNo": "Mva-nr.",
+    "colStatus": "Status",
+    "colType": "Type",
+    "loading2": "Laster..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Tilbake til søk",
+    "selectedCompany": "Valgt selskap",
+    "street": "Gate",
+    "postCode": "Postnummer",
+    "city": "By",
+    "country": "Land",
+    "status": "Status",
+    "name": "Navn",
+    "regNo": "Reg. nr.",
+    "vatNo": "Mva-nr.",
+    "type": "Type",
+    "titleSuffix": "— Bestill rapport",
+    "titleDefault": "Bestill rapport"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Tilbake til selskapet",
+    "title": "Fullfør bestilling"
+  },
+  "AuskunftConfirmation": {
+    "title": "Takk for bestillingen din!",
+    "body": "Vi har mottatt bestillingen din. Kredittanalytikerne våre undersøker nå den forespurte informasjonen og gir deg rapporten raskt. En bekreftelse er sendt til e-postadressen din.",
+    "cta": "Bestill en annen rapport"
+  },
+  "ProductPicker": {
+    "title": "Velg produkter",
+    "subtitle": "Flere produkter kan kombineres",
+    "net": "Eks. mva.",
+    "gross": "Inkl. mva.",
+    "order": "Bestill",
+    "comingSoon": "kommer snart",
+    "netPrice": "Eks. mva.",
+    "plusVat": "pluss mva.",
+    "full": { "label": "Fullstendig rapport", "shortLabel": "Fullstendig", "description": "Omfattende kredittopplysning med bedriftsstamdata, balansedata, betalingserfaringer, score og risikovurdering." },
+    "compact": { "label": "Kompakt rapport", "shortLabel": "Kompakt", "description": "Redusert kredittopplysning med de viktigste nøkkeltallene." },
+    "monitoring": { "label": "Overvåking", "shortLabel": "Overvåking", "description": "Løpende overvåking av et selskaps kredittverdighet." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Bestillerdetaljer",
+    "firstName": "Fornavn",
+    "lastName": "Etternavn",
+    "email": "E-post",
+    "company": "Bedrift",
+    "street": "Gate og nr.",
+    "zip": "Postnummer",
+    "city": "By",
+    "country": "Land",
+    "vatId": "Mva-ID (valgfritt, for omvendt avgiftsplikt)",
+    "orderReason": "Bestillingsårsak",
+    "adultConfirmation": "Jeg bekrefter at jeg er myndig og bestiller rapporten for forretningsformål.",
+    "continueToPayment": "Fortsett til betaling",
+    "paymentTitle": "Betaling",
+    "payNow": "Bestill nå (mot avgift)",
+    "retryError": "Prøv igjen",
+    "errorTitle": "Feil",
+    "summaryTitle": "Sammendrag",
+    "companyLabel": "Bedrift",
+    "netLabel": "Eks. mva.",
+    "grossLabel": "Inkl. mva.",
+    "orderSuccess": "Bestilling vellykket",
+    "orderSuccessBody": "Takk for bestillingen din. Du vil snart motta en bekreftelse via e-post.",
+    "downloadPdf": "Last ned PDF",
+    "downloadError": "Nedlasting mislyktes",
+    "reasonCreditDecision": "Kredittbeslutning",
+    "reasonBusinessInitiation": "Forretningsinitiativen",
+    "reasonDebtCollection": "Inkasso",
+    "reasonRiskManagement": "Risikostyring"
+  }
+}

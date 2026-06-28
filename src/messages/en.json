@@ -1,0 +1,568 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Your Partner for Credit Management",
+      "description": "Avoid financial risks and manage your entire credit management in one powerful application. Credit information, accounts receivable management and trade credit insurance."
+    },
+    "creditInformation": {
+      "title": "Credit Information from over 200 Countries",
+      "description": "Reliable credit information and business reports from over 200 countries. Well-informed business decisions with up-to-date data — minimise your debtor risk."
+    },
+    "creditManagementSoftware": {
+      "title": "Credit Management Software — Professional Accounts Receivable Management",
+      "description": "Better cash flow, clear reports and effective communication thanks to one application. CreditDevice's Credit Management Software goes beyond pure accounts receivable management."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Your New Best Friend for Trade Credit Insurance",
+      "description": "The PolicyManager was developed in collaboration with Allianz Trade, Atradius and Coface to optimise the management of your trade credit insurance policy."
+    },
+    "creditInquiry": {
+      "title": "Order Company Credit Report — Global Business Reports",
+      "description": "Online reports on companies and business credit reports from over 200 countries. Fast, reliable and orderable online with one click."
+    },
+    "contact": {
+      "title": "Contact — CreditDevice GmbH Hamburg",
+      "description": "Contact CreditDevice GmbH in Hamburg. We advise you personally on credit information, credit management software and trade credit insurance."
+    },
+    "about": {
+      "title": "About Us — CreditDevice GmbH Hamburg",
+      "description": "CreditDevice GmbH was founded in 2017 – as the result of over 30 years of expertise in credit management. Get to know our team and our history."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy of CreditDevice GmbH in accordance with GDPR."
+    },
+    "imprint": {
+      "title": "Legal Notice",
+      "description": "Legal notice of CreditDevice GmbH, Hamburg."
+    }
+  },
+  "Navigation": {
+    "products": "Products",
+    "creditInformation": "Credit Information",
+    "creditInformationDesc": "Reliable data and intelligent insights",
+    "creditManagementSoftware": "Credit Management Software",
+    "creditManagementSoftwareDesc": "Efficient accounts receivable management",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Management of your trade credit insurance",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "login": "Login",
+    "requestDemo": "Request Demo",
+    "selectLanguage": "Language"
+  },
+  "Footer": {
+    "tagline": "Your partner for professional credit management. Avoid financial risks with our powerful software.",
+    "products": "Products",
+    "company": "Company",
+    "service": "Service",
+    "legal": "Legal",
+    "requestDemo": "Request Demo",
+    "allRightsReserved": "All rights reserved."
+  },
+  "CustomerLogos": {
+    "tagline": "trusted by leading companies worldwide"
+  },
+  "Hero": {
+    "badge1": "The All-in-One Solution",
+    "badge2Title": "Save up to 40%",
+    "badge2Subtitle": "Days Sales Outstanding"
+  },
+  "ProductCards": {
+    "tagline": "Our Products",
+    "title": "Credit management solutions that make your work easier",
+    "learnMore": "Learn more",
+    "creditInformation": {
+      "title": "Credit Information",
+      "description": "High-quality company reports – without a contract with minimum term or minimum order quantity.",
+      "feature1": "Online company reports worldwide from more than 200 countries",
+      "feature2": "Check creditworthiness of prospects and customers",
+      "feature3": "No minimum order",
+      "feature4": "No contract",
+      "feature5": "No minimum term"
+    },
+    "cms": {
+      "title": "Credit Management Software",
+      "description": "Insights into the payment behaviour of your customers – so you can make decisions in advance and minimise risks.",
+      "feature1": "Professional accounts receivable management",
+      "feature2": "Better cash flow",
+      "feature3": "Clear reports",
+      "feature4": "Effective communication"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Manage your trade credit insurance easily – all important and relevant information brought together.",
+      "feature1": "Current credit limits guaranteed",
+      "feature2": "Notification system against compensation losses",
+      "feature3": "Developed with Allianz Trade, Atradius, Coface",
+      "feature4": "High level of automation"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Combine modules",
+    "title": "Everything for complete credit management in one package",
+    "subtitle": "We develop our products ourselves – because we know the needs of our customers.",
+    "customers": "Active customers",
+    "dossiers": "Dossiers",
+    "countries": "Countries",
+    "partner": {
+      "title": "Partner in credit management",
+      "description": "Through close collaboration with our customers, we continuously develop new and valuable solutions to improve credit management.",
+      "feature1": "Close customer collaboration",
+      "feature2": "Continuous development",
+      "feature3": "Own product development"
+    },
+    "integrated": {
+      "title": "One integrated application",
+      "description": "Our online application offers various interactive modules. These work independently of each other, but best as a complete solution.",
+      "feature1": "Modularly combinable",
+      "feature2": "One central application",
+      "feature3": "Seamlessly integrated data"
+    },
+    "directContact": {
+      "title": "Fast, direct contact",
+      "description": "We are an independent company. In practice, this means short communication channels and fast contact. The close relationship with our customers is also reflected in the development process of new products.",
+      "feature1": "Short communication channels",
+      "feature2": "Personal contacts",
+      "feature3": "Independent company"
+    }
+  },
+  "WhyUs": {
+    "title": "Why CreditDevice?",
+    "subtitle": "We are more than just a software provider – we are your partner for successful credit management",
+    "reachable": {
+      "title": "Reachable",
+      "description": "Our dedicated team is available to you at all times. Personal support that really helps – no anonymous call centres, but real experts."
+    },
+    "innovative": {
+      "title": "Innovative",
+      "description": "We continuously develop our solutions and rely on the latest technologies. Innovation is part of our DNA."
+    },
+    "committed": {
+      "title": "Committed",
+      "description": "Your success is our drive. We go the extra mile to achieve your goals and exceed your expectations."
+    },
+    "flexible": {
+      "title": "Flexible",
+      "description": "Our solutions adapt to your needs, not the other way around. Scalable from SMEs to large corporations."
+    }
+  },
+  "CTABanner": {
+    "title": "Discover CreditDevice for yourself",
+    "subtitle": "Find out how our solutions can optimise your credit management. Schedule a demo today.",
+    "primaryCta": "Request Demo",
+    "secondaryCta": "Credit Information"
+  },
+  "Home": {
+    "hero": {
+      "title": "The complete solution for credit management",
+      "subtitle": "CreditDevice offers a complete solution for your entire credit management. Each product has its own strength – combine modules for an efficient overall solution.",
+      "primaryCta": "Request Demo",
+      "secondaryCta": "Credit Information",
+      "imageAlt": "CreditDevice team in discussion after a credit management consultation"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to the most important questions about our solutions",
+      "q1": "What makes CreditDevice unique?",
+      "a1": "CreditDevice offers a complete solution for your entire credit management. We develop our products ourselves because we know the needs of our customers. Each product has its own strength – combined, our solutions become even more powerful.",
+      "q2": "Can the modules be used individually?",
+      "a2": "Yes. Our interactive modules — Credit Management Software, PolicyManager, Credit Information and Debt Collection — work independently of each other. However, as a complete solution, they develop their full strength.",
+      "q3": "How quickly can I reach a contact person?",
+      "a3": "We are an independent company. In practice, this means short communication channels and direct contact. The close relationship with our customers is also reflected in the development process of new products.",
+      "q4": "How do I get international credit information?",
+      "a4": "With our international online company reports, you receive worldwide credit information in the shortest possible time — without a contract, without a term or minimum order.",
+      "q5": "How does the PolicyManager help with trade credit insurance?",
+      "a5": "The PolicyManager brings together all important and relevant information from your trade credit insurance. Thanks to the notification system, you prevent compensation losses and keep credit limits always up to date.",
+      "q6": "What role does the Credit Management Software play?",
+      "a6": "Our Credit Management Software goes beyond pure accounts receivable management. It provides insights into the payment behaviour of your customers, so you can make decisions in advance, take targeted measures and minimise risks."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Credit Information",
+    "hero": {
+      "tagline": "International Credit Information",
+      "titlePart1": "Online Company Reports",
+      "titlePart2": "worldwide",
+      "subtitle": "We deliver worldwide credit reports to you in the shortest possible time – to reliably check the creditworthiness of your prospects and customers. Without a contract, without a term or minimum order."
+    },
+    "features": {
+      "title": "Our Services",
+      "subtitle": "Benefit from comprehensive credit information",
+      "international": { "title": "International", "description": "Access to credit data from over 200 countries worldwide. Regardless of where your business partners are located." },
+      "payPerUse": { "title": "Pay per Use", "description": "Pay only for what you actually retrieve – without a basic fee or minimum order." },
+      "api": { "title": "Web Service / API", "description": "Powerful REST API or webhooks for integration into your existing systems." }
+    },
+    "pricing": {
+      "title": "Prices per Report",
+      "subtitle": "All prices are per retrieved report. No basic fee, no minimum order.",
+      "priceZoneLabel": "Price Zone",
+      "netLabel": "Net",
+      "grossLabel": "gross",
+      "zone1Name": "Germany & Austria",
+      "zone1Countries": "Germany, Austria",
+      "zone2Name": "Western Europe",
+      "zone2Countries": "Belgium, Denmark, France, United Kingdom, Ireland, Italy, Netherlands, Norway, Sweden",
+      "zone3Name": "Eastern & Southern Europe",
+      "zone3Countries": "Albania, Armenia, Azerbaijan, Belarus, Bosnia-Herzegovina, Bulgaria, Estonia, Finland, Georgia, Greece, Greenland, Iceland, Kosovo, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Montenegro, North Macedonia, Poland, Portugal, Romania, Switzerland, Serbia, Slovakia, Slovenia, Spain, Svalbard, Czech Republic, Ukraine, Hungary, Cyprus",
+      "zone4Name": "Worldwide",
+      "zone4Countries": "All other countries (over 160 more countries)"
+    },
+    "riskSection": {
+      "title": "Minimise risk, grow business",
+      "body": "Make better, faster decisions with first-class online reports – and secure your business sustainably. Increase your revenue in a targeted manner while consistently reducing default risks. The perfect extension of your credit management software for measurable success.",
+      "bullet1": "Worldwide real-time queries in over 200 countries – make well-informed decisions immediately",
+      "bullet2": "Seamless integration – incorporate into your existing processes with minimal effort",
+      "bullet3": "Maximum flexibility – billing exactly according to your needs",
+      "cta": "Free Consultation",
+      "infoTitle": "Available Information",
+      "info1Label": "Company master data & legal form",
+      "info1Value": "200+ countries",
+      "info2Label": "Credit score & credit limit",
+      "info2Value": "Risk assessment",
+      "info3Label": "Directors & shareholders",
+      "info3Value": "Current & historical",
+      "info4Label": "Group & ownership structure",
+      "info4Value": "Worldwide",
+      "info5Label": "Balance sheet data & key figures",
+      "info5Value": "Multi-year",
+      "info6Label": "Negative features",
+      "info6Value": "Verified"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Learn more about our credit information",
+      "q1": "Who provides the credit information?",
+      "a1": "We source our data directly from the leading credit agencies in the respective countries – for maximum timeliness, reliability and international coverage.",
+      "q2": "How up-to-date is the credit information?",
+      "a2": "Our data is regularly updated. Depending on the country and source, you receive daily updated information or data updated within a few days.",
+      "q3": "Can I integrate the credit information?",
+      "a3": "Yes, we offer a REST API as well as webhooks for individual integrations.",
+      "q4": "What information is included in a credit report?",
+      "a4": "A typical report contains company master data (name, legal form, commercial register number, address, areas of activity), credit score with risk assessment and credit limit, shareholder structure and capital ratios, current and former directors, employee numbers, bank details, group and ownership structure, annual financial statements and balance sheet data (multiple years), negative features and key figures compared to the industry. The scope of information may vary by country."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Credit Management Software",
+    "hero": {
+      "title": "Professional Accounts Receivable Management",
+      "subtitle": "Better cash flow, clear reports and effective communication thanks to one application.",
+      "primaryCta": "Request Demo",
+      "secondaryCta": "Request Quote",
+      "imageAlt": "CreditDevice Credit Management Software — central overview for accounts receivable management and dunning"
+    },
+    "features": {
+      "title": "What sets our software apart",
+      "subtitle": "At CreditDevice you choose the package that suits you – modules for credit information, accounts receivable management, risk analysis and trade credit insurance in one application.",
+      "transparency": { "title": "Full transparency about your debtors", "description": "Modules for credit information, accounts receivable management, risk analysis and trade credit insurance in one application. The current status of every debtor is clear to everyone in the company." },
+      "earlyPayment": { "title": "Invoices paid earlier", "description": "Speak your debtor's language: adapt the sequence, content, language and structure of the workflow per customer profile. The right tone – and you will be paid earlier." },
+      "reports": { "title": "Tailored reports", "description": "Inform management monthly about the largest debtors or account managers weekly about open items. Automatically via our flexible reporting tool." },
+      "actionLists": { "title": "Save time with action lists", "description": "Work daily based on action lists and avoid late payments. Customer profiles determine which action is planned for when." },
+      "groupLevel": { "title": "Dunning at group level", "description": "Link multiple debtor numbers for the same customer. Very practical for parent and subsidiary companies – dun all at once, with comparison to the credit limit at each level." },
+      "complaints": { "title": "Fast complaint processing", "description": "Record complaints easily and ensure they are processed quickly through clear communication and escalation." }
+    },
+    "uniqueness": {
+      "title": "How unique is CreditDevice?",
+      "body1": "We believe that every credit manager benefits from just one application for all credit management services: the management of your trade credit insurance policy, your accounts receivable management, the retrieval of credit information and the analysis of risks.",
+      "body2": "Our in-house developed Credit Management Software is linked to various credit information databases – direct online access to more than 430 million companies worldwide.",
+      "bullet1": "One company licence – all users included",
+      "bullet2": "Over 430 million companies worldwide",
+      "bullet3": "Combinable with PolicyManager",
+      "cta": "Request Demo"
+    },
+    "dashboard": {
+      "overview": "Debtor Overview",
+      "today": "Today",
+      "openItems": "Open Items",
+      "overdue": "Overdue",
+      "inCollection": "In Collection",
+      "activeWorkflows": "Active Workflows",
+      "active": "active",
+      "paymentReminder": "Payment reminder",
+      "firstReminder": "1st reminder",
+      "collections": "Collections"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Learn more about our Credit Management Software",
+      "q1": "Why use Credit Management Software in addition to accounting?",
+      "a1": "You already have accounting software – but often a traditional package is not flexible and versatile enough for modern credit management. Our software is built exactly for that.",
+      "q2": "How is the Credit Management Software linked to credit information?",
+      "a2": "The software is directly connected to credit information databases. You have online access to more than 430 million companies worldwide – a valuable combination for a complete picture of your debtors.",
+      "q3": "How does the software relate to the PolicyManager?",
+      "a3": "With the PolicyManager's notification system, you fulfil your credit insurer's obligations on time. You never lose insurance coverage and fulfil the obligations for compensation claims.",
+      "q4": "Are there user licences?",
+      "a4": "No. CreditDevice uses company licences that include all users.",
+      "q5": "What authorisation structures are available for users?",
+      "a5": "There is both a flexible role system and a possibility for data filtering, such as representing client structures and countries."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Your New Best Friend",
+      "subtitle": "The PolicyManager was developed in collaboration with Allianz Trade, Atradius and Coface to optimise the management of your trade credit insurance policy. A tool that avoids risks – through timely measures.",
+      "primaryCta": "Request Demo",
+      "secondaryCta": "Discover Benefits",
+      "imageAlt": "PolicyManager interface for managing trade credit insurance limits and revenue declarations"
+    },
+    "features": {
+      "title": "Discover your benefits",
+      "subtitle": "Manual management of a trade credit insurance policy is a lot of work. The PolicyManager takes care of all that for you – and minimises the potential for errors.",
+      "subscription": { "title": "Affordable subscription", "description": "The PolicyManager is available from 200 euros per month – within reach even for SMEs." },
+      "reminder": { "title": "Automatic reminder", "description": "You automatically receive a signal, for example when a limit is exceeded." },
+      "timeSaving": { "title": "You save time", "description": "Manual operations and searches are eliminated. Time you can use to prevent the loss of insurance cover." },
+      "currentData": { "title": "Always current data", "description": "Updates on the status of your credit limits at least once a day. Decisions, cancellations and reductions are immediately visible." },
+      "costAnalysis": { "title": "Analyse credit limit costs", "description": "Analyse which credit limit is best suited for your customer – or replace a paid limit with a free self-assessment limit." },
+      "creditReports": { "title": "Valuable credit reports", "description": "Credit reports are the ideal instrument for setting a covered credit limit – fully integrated into all modules and affordable." },
+      "oneLimit": { "title": "One company, one limit", "description": "The PolicyManager recognises companies with multiple debtor numbers and links all invoices to a single limit – via the commercial register number." },
+      "followUp": { "title": "Organised follow-up", "description": "In the event of a claim, create an Excel document with overdue invoices and history with two mouse clicks – the insurer's obligations are fully met." }
+    },
+    "allInOne": {
+      "title": "Everything in one application",
+      "body1": "With CreditDevice's credit management modules, you combine everything in one application: the management of your trade credit insurance, your accounts receivable management, the retrieval of credit information and the analysis of risks.",
+      "body2": "With the PolicyManager, you manage your trade credit insurance policy perfectly – all modules are compatible with each other and you don't have to switch between systems.",
+      "bullet1": "Direct connection to your credit insurer's system",
+      "bullet2": "Updates on the status of your credit limits at least once a day",
+      "bullet3": "Compatible with Allianz Trade, Atradius, Coface",
+      "bullet4": "Obligations in the event of a claim are fully met",
+      "cta": "Request Demo"
+    },
+    "dashboard": {
+      "title": "Credit Limit Overview",
+      "limit": "Limit",
+      "usage": "Usage",
+      "limitRequested": "Limit requested",
+      "status": "Status",
+      "statusActive": "Active",
+      "statusReview": "Review",
+      "statusWarning": "Warning",
+      "statusInProgress": "In Progress"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Learn more about PolicyManager",
+      "q1": "Which credit insurers was the PolicyManager developed with?",
+      "a1": "The PolicyManager was developed in collaboration with Allianz Trade, Atradius and Coface to optimise and simplify the management of your trade credit insurance policy.",
+      "q2": "What does the PolicyManager cost?",
+      "a2": "The PolicyManager is available from 200 euros per month. The product is therefore also affordable for SMEs.",
+      "q3": "How is data exchanged with the insurer?",
+      "a3": "A convenient web service with the insurer ensures that information is automatically exchanged. With each update, the system automatically generates new lists and notifications – this minimises errors and saves time.",
+      "q4": "How does the PolicyManager help with self-assessments?",
+      "a4": "The PolicyManager uses the same calculation method as the insurers – you immediately receive your credit limit along with the calculation."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Credit Inquiry",
+    "tagline": "fast & reliable",
+    "title": "Online reports — global credit checks made easy",
+    "subtitle": "Orderable with one click. After your order, our experienced credit analysts research the desired information and provide you with the report promptly.",
+    "worldwide": "Worldwide",
+    "worldwideDesc": "Company data from over 200 countries – EU, UK, USA and worldwide.",
+    "fastDelivery": "Fast Delivery",
+    "fastDeliveryDesc": "Research and provision by experienced credit analysts.",
+    "securePayment": "Secure Payment",
+    "securePaymentDesc": "Card payment and SEPA, processed via Stripe."
+  },
+  "Contact": {
+    "breadcrumb": "Contact",
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Do you have questions or would you like to learn more about our solutions? We look forward to hearing from you.",
+      "imageAlt": "CreditDevice team in discussion after a credit management consultation"
+    },
+    "contactPerson": "Your Contact Person",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "businessHours": "Business Hours",
+    "businessHoursValue": "Mon - Fri: 9:00 AM - 5:00 PM",
+    "demoBox": {
+      "title": "Schedule a Demo",
+      "body": "Would you like to see CreditDevice in action? Schedule a demo with our experts.",
+      "cta": "Fill in the form now"
+    },
+    "formSection": {
+      "title": "Write to us",
+      "subtitle": "Fill in the form and we will get back to you as soon as possible."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Visit us in Hamburg or contact us by phone – we would be happy to advise you personally on our credit management solutions.",
+      "activeCustomers": "Active Customers",
+      "countries": "Countries",
+      "yearsExperience": "Years of Experience"
+    }
+  },
+  "About": {
+    "breadcrumb": "About Us",
+    "hero": {
+      "tagline": "About Us",
+      "title": "Credit Management — with passion",
+      "subtitle": "CreditDevice GmbH was founded in 2017 – as the result of over 30 years of collaboration and expertise in credit management. Our goal: a digital all-in-one package for credit management."
+    },
+    "stats": {
+      "founded": "Year Founded",
+      "experience": "Years of Experience",
+      "customers": "Active Customers",
+      "countries": "Countries Worldwide"
+    },
+    "history": {
+      "title": "Our History",
+      "body1": "CreditDevice GmbH emerged in 2017 from a long-standing partnership between Hans Geluk (CreditDevice B.V., Netherlands) and Sven Buckenberger. The idea: to bundle the accumulated know-how from decades in European credit management in a modern, digital product.",
+      "body2": "In 2020, CreditDevice acquired the debt collection business of Hanse Debitoren Management, which had existed since 2011.",
+      "body3": "In 2021, we acquired GlobalCompanyCheck e.U. and thus expanded our offering to include worldwide online company reports from over 200 countries – directly integrated into our Credit Management Software.",
+      "body4": "Today we offer a complete solution: Credit Management Software, PolicyManager, international credit information and debt collection – all from one source.",
+      "claimTitle": "Our Claim",
+      "claim": "\"A digital all-in-one package for credit management.\"",
+      "claimAuthor": "— Sven G. Buckenberger, Managing Director"
+    },
+    "management": {
+      "title": "Management",
+      "name": "Sven G. Buckenberger",
+      "role": "Managing Partner",
+      "details": "Business Administrator (WA) · born 1967",
+      "bio": "Sven Buckenberger brings over 35 years of experience in European credit management. As a long-standing board member of the Federation of Business Information Services (FEBIS) – since 1997 – he is well connected in the international credit information industry.",
+      "quote": "\"A man of his word.\"",
+      "careerTitle": "Career",
+      "career1": "Trainee at Hermes Kreditversicherungs-AG with dual studies",
+      "career2": "19 years at Bürgel Wirtschaftsinformationen GmbH & Co. KG as CFO – including 28 company acquisitions",
+      "career3": "Founded Hanse Debitoren Management",
+      "career4": "Founded CreditDevice GmbH",
+      "career5": "Acquisition of Hanse Debitoren Management's business activities by CreditDevice GmbH",
+      "career6": "Acquisition of GlobalCompanyCheck e.U.",
+      "membershipsTitle": "Association Memberships & Mandates",
+      "membership1": "Board member of the Federation of Business Information Services (FEBIS) – since 1997",
+      "membership2": "Advisory Board of Maritime Cluster Northern Germany (2013 – 2016)",
+      "membership3": "Auditor of Maritime Cluster Northern Germany (2025 – present)",
+      "membership4": "Assembly of Honourable Merchants of Hamburg e.V. (VEEK)",
+      "membership5": "Member of various Hamburg business associations"
+    },
+    "cta": {
+      "title": "Get to know us personally",
+      "subtitle": "Contact us – we would be happy to advise you on our credit management solutions.",
+      "button": "Get in Touch"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Privacy",
+    "title": "Privacy Policy",
+    "notice": "This privacy policy is provided in German as it is governed by German law (GDPR). Please use a translation service if needed."
+  },
+  "Imprint": {
+    "breadcrumb": "Legal Notice",
+    "title": "Legal Notice"
+  },
+  "SearchForm": {
+    "placeholder": "Company name",
+    "countryLabel": "Country",
+    "search": "Search",
+    "searching": "Searching...",
+    "minCharsError": "Please enter at least 2 characters."
+  },
+  "ContactForm": {
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Your first name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Your last name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone",
+    "company": "Company",
+    "companyPlaceholder": "Your company",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "privacyText": "I have read the",
+    "privacyLink": "Privacy Policy",
+    "privacyText2": "and agree to the processing of my data.",
+    "required": "*",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Thank you!",
+    "successBody": "We have received your message and will get back to you as soon as possible.",
+    "sendFailed": "Sending failed."
+  },
+  "AuskunftResults": {
+    "heading": "Select the company you are looking for to order a report.",
+    "loading": "Searching for companies ...",
+    "errorTitle": "Search error",
+    "noResults": "No results for",
+    "noResultsIn": "in the selected region.",
+    "hits": "Results",
+    "colName": "Name",
+    "colAddress": "Address",
+    "colRegNo": "Reg. No.",
+    "colVatNo": "VAT No.",
+    "colStatus": "Status",
+    "colType": "Type",
+    "loading2": "Loading ..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Back to search",
+    "selectedCompany": "Selected Company",
+    "street": "Street",
+    "postCode": "Post Code",
+    "city": "City",
+    "country": "Country",
+    "status": "Status",
+    "name": "Name",
+    "regNo": "Reg. No.",
+    "vatNo": "VAT No.",
+    "type": "Type",
+    "titleSuffix": "– Order Report",
+    "titleDefault": "Order Report"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Back to company",
+    "title": "Complete Order"
+  },
+  "AuskunftConfirmation": {
+    "title": "Thank you for your order!",
+    "body": "We have received your order. Our credit analysts are now researching the requested information and will provide you with the report promptly. A confirmation has been sent to your email address.",
+    "cta": "Order another report"
+  },
+  "ProductPicker": {
+    "title": "Select products",
+    "subtitle": "Multiple products can be combined",
+    "net": "Net",
+    "gross": "Gross",
+    "order": "Order",
+    "comingSoon": "coming soon",
+    "netPrice": "Net",
+    "plusVat": "plus VAT",
+    "full": { "label": "Full Report", "shortLabel": "Full", "description": "Comprehensive credit report with company master data, balance sheet figures, payment experiences, score and risk assessment." },
+    "compact": { "label": "Compact Report", "shortLabel": "Compact", "description": "Reduced credit report with the most important key figures." },
+    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Ongoing monitoring of a company's creditworthiness." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Orderer Details",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "company": "Company",
+    "street": "Street & No.",
+    "zip": "ZIP Code",
+    "city": "City",
+    "country": "Country",
+    "vatId": "VAT ID (optional, for reverse charge)",
+    "orderReason": "Order Reason",
+    "adultConfirmation": "I confirm that I am of legal age and am ordering the report for business purposes.",
+    "continueToPayment": "Continue to Payment",
+    "paymentTitle": "Payment",
+    "payNow": "Order now (subject to charge)",
+    "retryError": "Try again",
+    "errorTitle": "Error",
+    "summaryTitle": "Summary",
+    "companyLabel": "Company",
+    "netLabel": "Net",
+    "grossLabel": "Gross",
+    "orderSuccess": "Order successful",
+    "orderSuccessBody": "Thank you for your order. You will receive a confirmation by email shortly.",
+    "downloadPdf": "Download PDF",
+    "downloadError": "Download failed",
+    "reasonCreditDecision": "Credit decision",
+    "reasonBusinessInitiation": "Business initiation",
+    "reasonDebtCollection": "Debt collection",
+    "reasonRiskManagement": "Risk management"
+  }
+}

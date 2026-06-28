@@ -1,0 +1,556 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Kumppanisi luotonhallintaan",
+      "description": "Vältä taloudelliset riskit ja hallitse koko luotonhallintaasi yhdessä tehokkaassa sovelluksessa. Luottotiedot, saatavienhallinta ja kaupallinen luottovakuutus."
+    },
+    "creditInformation": {
+      "title": "Luottotiedot yli 200 maasta",
+      "description": "Luotettavia luottotietoja ja yritysraportteja yli 200 maasta. Perustellut liiketoimintapäätökset ajantasaisilla tiedoilla — minimoi luottoriskisi."
+    },
+    "creditManagementSoftware": {
+      "title": "Luotonhallintaohjelmisto — Ammattimainen saatavienhallinta",
+      "description": "Parempi kassavirta, selkeät raportit ja tehokas viestintä yhden sovelluksen ansiosta."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Uusi parhaan ystäväsi kaupalliseen luottovakuutukseen",
+      "description": "PolicyManager on kehitetty yhteistyössä Allianz Traden, Atradiuksen ja Cofacen kanssa kaupallisen luottovakuutuksesi hallinnan optimoimiseksi."
+    },
+    "creditInquiry": {
+      "title": "Tilaa yritysluottoraportti — Globaalit yritysraportit",
+      "description": "Verkkoraportit yrityksistä ja kaupallisia luottoraportteja yli 200 maasta. Nopeita, luotettavia ja tilattavia verkossa yhdellä klikkauksella."
+    },
+    "contact": {
+      "title": "Yhteystiedot — CreditDevice GmbH Hamburg",
+      "description": "Ota yhteyttä CreditDevice GmbH:een Hamburgissa. Neuvomme sinua henkilökohtaisesti luottotiedoista, luotonhallintaohjelmistosta ja kaupallisesta luottovakuutuksesta."
+    },
+    "about": {
+      "title": "Meistä — CreditDevice GmbH Hamburg",
+      "description": "CreditDevice GmbH perustettiin 2017 — tuloksena yli 30 vuoden asiantuntemuksesta luotonhallinnassa."
+    },
+    "privacy": {
+      "title": "Tietosuojakäytäntö",
+      "description": "CreditDevice GmbH:n tietosuojakäytäntö GDPR:n mukaisesti."
+    },
+    "imprint": {
+      "title": "Impressum",
+      "description": "CreditDevice GmbH:n impressum, Hamburg."
+    }
+  },
+  "Navigation": {
+    "products": "Tuotteet",
+    "creditInformation": "Luottotiedot",
+    "creditInformationDesc": "Luotettavaa dataa ja älykkäitä oivalluksia",
+    "creditManagementSoftware": "Luotonhallintaohjelmisto",
+    "creditManagementSoftwareDesc": "Tehokas saatavienhallinta",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Kaupallisen luottovakuutuksesi hallinta",
+    "aboutUs": "Meistä",
+    "contact": "Yhteystiedot",
+    "login": "Kirjaudu",
+    "requestDemo": "Pyydä demo",
+    "selectLanguage": "Kieli"
+  },
+  "Footer": {
+    "tagline": "Kumppanisi ammattimaiseen luotonhallintaan. Vältä taloudelliset riskit tehokkaalla ohjelmistollamme.",
+    "products": "Tuotteet",
+    "company": "Yritys",
+    "service": "Palvelu",
+    "legal": "Oikeudellinen",
+    "requestDemo": "Pyydä demo",
+    "allRightsReserved": "Kaikki oikeudet pidätetään."
+  },
+  "CustomerLogos": {
+    "tagline": "johtavien yritysten luottama ympäri maailmaa"
+  },
+  "Hero": {
+    "badge1": "Kaikki yhdessä -ratkaisu",
+    "badge2Title": "Säästä jopa 40 %",
+    "badge2Subtitle": "Myyntisaatavien kiertonopeus"
+  },
+  "ProductCards": {
+    "tagline": "Tuotteemme",
+    "title": "Luotonhallintaratkaisut, jotka helpottavat työtäsi",
+    "learnMore": "Lue lisää",
+    "creditInformation": {
+      "title": "Luottotiedot",
+      "description": "Laadukkaat yritysraportit — ilman sopimusta vähimmäiskestosta tai vähimmäistilausmäärästä.",
+      "feature1": "Verkossa yritysraportit maailmanlaajuisesti yli 200 maasta",
+      "feature2": "Tarkista potentiaalisten asiakkaiden ja asiakkaiden luottokelpoisuus",
+      "feature3": "Ei vähimmäistilausta",
+      "feature4": "Ei sopimusta",
+      "feature5": "Ei vähimmäiskestoa"
+    },
+    "cms": {
+      "title": "Luotonhallintaohjelmisto",
+      "description": "Tietoja asiakkaidesi maksukäyttäytymisestä ennakoivaan päätöksentekoon ja riskien minimointiin.",
+      "feature1": "Ammattimainen saatavienhallinta",
+      "feature2": "Parempi kassavirta",
+      "feature3": "Selkeät raportit",
+      "feature4": "Tehokas viestintä"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Hallitse kaupallista luottovakuutustasi helposti — kaikki tärkeä ja oleellinen tieto koottuna.",
+      "feature1": "Ajantasaiset luottorajat taattu",
+      "feature2": "Ilmoitusjärjestelmä korvausmenetysten varalle",
+      "feature3": "Kehitetty Allianz Traden, Atradiuksen, Cofacen kanssa",
+      "feature4": "Korkea automaatioaste"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Yhdistä moduulit",
+    "title": "Kaikki täydelliseen luotonhallintaan yhdessä paketissa",
+    "subtitle": "Kehitämme tuotteemme itse — koska tunnemme asiakkaidemme tarpeet.",
+    "customers": "Aktiiviset asiakkaat",
+    "dossiers": "Tapaukset",
+    "countries": "Maat",
+    "partner": {
+      "title": "Kumppani luotonhallinnassa",
+      "description": "Tiiviissä yhteistyössä asiakkaidemme kanssa kehitämme jatkuvasti uusia ja arvokkaita ratkaisuja.",
+      "feature1": "Tiivis asiakasyhteistyö",
+      "feature2": "Jatkuva kehitys",
+      "feature3": "Oma tuotekehitys"
+    },
+    "integrated": {
+      "title": "Yksi integroitu sovellus",
+      "description": "Verkkosovelluksemme tarjoaa erilaisia interaktiivisia moduuleja, jotka toimivat itsenäisesti, mutta parhaiten kokonaisratkaisuna.",
+      "feature1": "Modulaarisesti yhdistettävissä",
+      "feature2": "Yksi keskeinen sovellus",
+      "feature3": "Saumattomasti integroitu data"
+    },
+    "directContact": {
+      "title": "Nopea, suora yhteys",
+      "description": "Olemme itsenäinen yritys. Käytännössä se tarkoittaa lyhyitä viestintäkanavia ja nopeaa yhteydenpitoa.",
+      "feature1": "Lyhyet viestintäkanavat",
+      "feature2": "Henkilökohtaiset kontaktit",
+      "feature3": "Itsenäinen yritys"
+    }
+  },
+  "WhyUs": {
+    "title": "Miksi CreditDevice?",
+    "subtitle": "Olemme enemmän kuin pelkkä ohjelmistotoimittaja — olemme kumppanisi menestyksekkääseen luotonhallintaan",
+    "reachable": { "title": "Tavoitettavissa", "description": "Omistautunut tiimimme on aina käytettävissäsi. Henkilökohtaista tukea, joka todella auttaa." },
+    "innovative": { "title": "Innovatiivinen", "description": "Kehitämme ratkaisujamme jatkuvasti ja luotamme uusimpiin teknologioihin." },
+    "committed": { "title": "Sitoutunut", "description": "Menestyksesi on motivaatiomme. Teemme enemmän kuin vaaditaan tavoitteidesi saavuttamiseksi." },
+    "flexible": { "title": "Joustava", "description": "Ratkaisumme mukautuvat tarpeisiisi. Skaalautuu pk-yrityksistä suuryrityksiin." }
+  },
+  "CTABanner": {
+    "title": "Tutustu CreditDeviceen itse",
+    "subtitle": "Ota selvää, miten ratkaisumme voivat optimoida luotonhallintaasi. Varaa demo tänään.",
+    "primaryCta": "Pyydä demo",
+    "secondaryCta": "Luottotiedot"
+  },
+  "Home": {
+    "hero": {
+      "title": "Täydellinen ratkaisu luotonhallintaan",
+      "subtitle": "CreditDevice tarjoaa täydellisen ratkaisun koko luotonhallintaasi. Jokaisella tuotteella on oma vahvuutensa — yhdistä moduulit tehokkaaksi kokonaisratkaisuksi.",
+      "primaryCta": "Pyydä demo",
+      "secondaryCta": "Luottotiedot",
+      "imageAlt": "CreditDevice-tiimi keskustelussa luotonhallintakonsultaation jälkeen"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Löydä vastaukset tärkeimpiin kysymyksiin ratkaisuistamme",
+      "q1": "Mikä tekee CreditDevicesta ainutlaatuisen?",
+      "a1": "CreditDevice tarjoaa täydellisen ratkaisun koko luotonhallintaasi. Kehitämme tuotteemme itse, koska tunnemme asiakkaidemme tarpeet.",
+      "q2": "Voiko moduuleja käyttää erikseen?",
+      "a2": "Kyllä. Interaktiiviset moduulimme toimivat itsenäisesti, mutta kokonaisratkaisuna ne kehittävät täyden potentiaalinsa.",
+      "q3": "Kuinka nopeasti voin tavoittaa yhteyshenkilön?",
+      "a3": "Olemme itsenäinen yritys lyhyine viestintäkanavineen ja suorine yhteyksineen.",
+      "q4": "Miten saan kansainvälisiä luottotietoja?",
+      "a4": "Kansainvälisten verkkoyritysraporttien avulla saat maailmanlaajuiset luottotiedot mahdollisimman nopeasti, ilman sopimusta tai vähimmäistilausta.",
+      "q5": "Miten PolicyManager auttaa kaupallisessa luottovakuutuksessa?",
+      "a5": "PolicyManager kokoaa kaikki tärkeät tiedot kaupallisesta luottovakuutuksestasi. Ilmoitusjärjestelmä estää korvausmenetykset.",
+      "q6": "Mikä rooli luotonhallintaohjelmistolla on?",
+      "a6": "Ohjelmistomme menee pidemmälle kuin pelkkä saatavienhallinta. Se tarjoaa tietoja asiakkaidesi maksukäyttäytymisestä."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Luottotiedot",
+    "hero": {
+      "tagline": "Kansainväliset luottotiedot",
+      "titlePart1": "Verkon yritysraportit",
+      "titlePart2": "maailmanlaajuisesti",
+      "subtitle": "Toimitamme maailmanlaajuiset luottoraporttisi mahdollisimman nopeasti — potentiaalisten asiakkaiden ja asiakkaidesi luottokelpoisuuden luotettavaan tarkistukseen. Ilman sopimusta, kestoa tai vähimmäistilausta."
+    },
+    "features": {
+      "title": "Palvelumme",
+      "subtitle": "Hyödynny kattavista luottotiedoista",
+      "international": { "title": "Kansainvälinen", "description": "Pääsy luottodataan yli 200 maasta. Riippumatta siitä, missä liiketoimintakumppanisi sijaitsevat." },
+      "payPerUse": { "title": "Maksa käytön mukaan", "description": "Maksa vain siitä, mitä todella haet — ilman perusmaksua tai vähimmäistilausta." },
+      "api": { "title": "Verkkopalvelu / API", "description": "Tehokas REST API tai webhooks integroitavaksi olemassa oleviin järjestelmiisi." }
+    },
+    "pricing": {
+      "title": "Hinnat per raportti",
+      "subtitle": "Kaikki hinnat ovat per haettu raportti. Ei perusmaksua, ei vähimmäistilausta.",
+      "priceZoneLabel": "Hintavyöhyke",
+      "netLabel": "Alv 0 %",
+      "grossLabel": "sis. alv",
+      "zone1Name": "Saksa ja Itävalta",
+      "zone1Countries": "Saksa, Itävalta",
+      "zone2Name": "Länsi-Eurooppa",
+      "zone2Countries": "Belgia, Tanska, Ranska, Iso-Britannia, Irlanti, Italia, Alankomaat, Norja, Ruotsi",
+      "zone3Name": "Itä- ja Etelä-Eurooppa",
+      "zone3Countries": "Albania, Armenia, Azerbaidžan, Valko-Venäjä, Bosnia-Hertsegovina, Bulgaria, Viro, Suomi, Georgia, Kreikka, Grönlanti, Islanti, Kosovo, Kroatia, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Moldova, Montenegro, Pohjois-Makedonia, Puola, Portugali, Romania, Sveitsi, Serbia, Slovakia, Slovenia, Espanja, Svalbard, Tšekki, Ukraina, Unkari, Kypros",
+      "zone4Name": "Maailmanlaajuinen",
+      "zone4Countries": "Kaikki muut maat (yli 160 lisämaata)"
+    },
+    "riskSection": {
+      "title": "Minimoi riskejä, kasvata liiketoimintaa",
+      "body": "Tee parempia ja nopeampia päätöksiä ensiluokkaisilla raporteilla ja turvaa liiketoimintasi kestävästi.",
+      "bullet1": "Maailmanlaajuiset reaaliaikaiset kyselyt yli 200 maassa: tee perusteltuja päätöksiä välittömästi",
+      "bullet2": "Saumaton integraatio olemassa oleviin prosesseihisi minimaalisella vaivalla",
+      "bullet3": "Maksimaalinen joustavuus: laskutus täsmälleen tarpeidesi mukaan",
+      "cta": "Ilmainen konsultaatio",
+      "infoTitle": "Saatavilla olevat tiedot",
+      "info1Label": "Yrityksen perustiedot ja oikeudellinen muoto",
+      "info1Value": "200+ maata",
+      "info2Label": "Luottopisteet ja luottoraja",
+      "info2Value": "Riskiarviointi",
+      "info3Label": "Hallituksen jäsenet ja osakkeenomistajat",
+      "info3Value": "Nykyiset ja historialliset",
+      "info4Label": "Konserni- ja omistusrakenne",
+      "info4Value": "Maailmanlaajuinen",
+      "info5Label": "Tasedata ja tunnusluvut",
+      "info5Value": "Monivuotinen",
+      "info6Label": "Negatiiviset ominaisuudet",
+      "info6Value": "Vahvistettu"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Lue lisää luottotiedoistamme",
+      "q1": "Kuka toimittaa luottotiedot?",
+      "a1": "Hankimme tietomme suoraan johtavilta luottolaitoksilta kussakin maassa.",
+      "q2": "Kuinka ajantasaisia luottotiedot ovat?",
+      "a2": "Tietomme päivitetään säännöllisesti. Maasta ja lähteestä riippuen saat päivittäin päivitettyä tietoa.",
+      "q3": "Voinko integroida luottotiedot?",
+      "a3": "Kyllä, tarjoamme REST API:n sekä webhookit yksilöllisiin integraatioihin.",
+      "q4": "Mitä tietoja luottoraportti sisältää?",
+      "a4": "Tyypillinen raportti sisältää yrityksen perustiedot, luottopisteet riskiarvioinnilla ja luottorajalla, osakasrakenteen, nykyiset ja entiset hallituksen jäsenet, pankkitiedot, konsernirakenteen, tilinpäätökset ja tasedata (useita vuosia), negatiiviset ominaisuudet ja tunnusluvut verrattuna toimialaan."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Luotonhallintaohjelmisto",
+    "hero": {
+      "title": "Ammattimainen saatavienhallinta",
+      "subtitle": "Parempi kassavirta, selkeät raportit ja tehokas viestintä yhden sovelluksen ansiosta.",
+      "primaryCta": "Pyydä demo",
+      "secondaryCta": "Pyydä tarjous",
+      "imageAlt": "CreditDevice luotonhallintaohjelmisto — keskeinen yleiskatsaus saatavienhallinnan ja maksumuistutusten hallintaan"
+    },
+    "features": {
+      "title": "Mikä erottaa ohjelmistomme",
+      "subtitle": "CreditDevicella valitset sinulle sopivan paketin — moduulit luottotiedoille, saatavienhallinalle, riskianalyysille ja kaupalliselle luottovakuutukselle yhdessä sovelluksessa.",
+      "transparency": { "title": "Täysi läpinäkyvyys velallisistasi", "description": "Moduulit luottotiedoille, saatavienhallinalle, riskianalyysille ja kaupalliselle luottovakuutukselle yhdessä sovelluksessa." },
+      "earlyPayment": { "title": "Laskut maksetaan aiemmin", "description": "Puhu velallisesi kieltä: mukauta työnkulun järjestys, sisältö, kieli ja rakenne asiakasprofiilittain." },
+      "reports": { "title": "Räätälöidyt raportit", "description": "Informoi johtoa kuukausittain suurimmista velallisista tai tilivastaavia viikoittain avoimista eristä. Automaattisesti." },
+      "actionLists": { "title": "Säästä aikaa toimintalistoilla", "description": "Tee töitä päivittäin toimintalistojen pohjalta ja vältä myöhäiset maksut." },
+      "groupLevel": { "title": "Maksumuistutukset konsernitasolla", "description": "Yhdistä useita velallisten numeroita samalle asiakkaalle. Erittäin käytännöllistä emo- ja tytäryrityksille." },
+      "complaints": { "title": "Nopea reklamaatiokäsittely", "description": "Kirjaa reklamaatiot helposti ja varmista niiden nopea käsittely selkeällä viestinnällä ja eskaloinnilla." }
+    },
+    "uniqueness": {
+      "title": "Kuinka ainutlaatuinen CreditDevice on?",
+      "body1": "Uskomme, että jokainen luottopäällikkö hyötyy vain yhdestä sovelluksesta kaikkiin luotonhallintapalveluihin.",
+      "body2": "Sisäisesti kehitetty luotonhallintaohjelmistomme on yhdistetty useisiin luottotietokantoihin: suora verkkoyhteys yli 430 miljoonaan yritykseen maailmanlaajuisesti.",
+      "bullet1": "Yksi yrityslisenssit — kaikki käyttäjät mukana",
+      "bullet2": "Yli 430 miljoonaa yritystä maailmanlaajuisesti",
+      "bullet3": "Yhdistettävissä PolicyManagerin kanssa",
+      "cta": "Pyydä demo"
+    },
+    "dashboard": {
+      "overview": "Velallisten yleiskatsaus",
+      "today": "Tänään",
+      "openItems": "Avoimet erät",
+      "overdue": "Erääntyneet",
+      "inCollection": "Perinässä",
+      "activeWorkflows": "Aktiiviset työnkulut",
+      "active": "aktiivisia",
+      "paymentReminder": "Maksumuistutus",
+      "firstReminder": "1. muistutus",
+      "collections": "Perintä"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Lue lisää luotonhallintaohjelmistostamme",
+      "q1": "Miksi käyttää luotonhallintaohjelmistoa kirjanpidon lisäksi?",
+      "a1": "Sinulla on jo kirjanpito-ohjelmisto, mutta perinteinen paketti ei usein ole tarpeeksi joustava moderniin luotonhallintaan.",
+      "q2": "Miten luotonhallintaohjelmisto on yhdistetty luottotietoihin?",
+      "a2": "Ohjelmisto on suoraan yhteydessä luottotietokantoihin. Sinulla on verkkoyhteys yli 430 miljoonaan yritykseen maailmanlaajuisesti.",
+      "q3": "Miten ohjelmisto liittyy PolicyManageriin?",
+      "a3": "PolicyManagerin ilmoitusjärjestelmän avulla täytät luottovakuuttajasi velvoitteet ajallaan.",
+      "q4": "Onko käyttäjälisenssejä?",
+      "a4": "Ei. CreditDevice käyttää yrityslisenssejä, jotka sisältävät kaikki käyttäjät.",
+      "q5": "Mitä käyttöoikeusrakenteita on saatavilla käyttäjille?",
+      "a5": "Saatavilla on sekä joustava roolijärjestelmä että mahdollisuus tietojen suodattamiseen, kuten asiakasrakenteiden ja maiden esittäminen."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Uusi parhaan ystäväsi",
+      "subtitle": "PolicyManager on kehitetty yhteistyössä Allianz Traden, Atradiuksen ja Cofacen kanssa kaupallisen luottovakuutuksesi hallinnan optimoimiseksi.",
+      "primaryCta": "Pyydä demo",
+      "secondaryCta": "Tutustu etuihin",
+      "imageAlt": "PolicyManager-käyttöliittymä kaupallisten luottovakuutusrajojen ja liikevaihtojulistusten hallintaan"
+    },
+    "features": {
+      "title": "Tutustu etuihisi",
+      "subtitle": "Kaupallisen luottovakuutuksen manuaalinen hallinta on paljon työtä. PolicyManager hoitaa sen puolestasi.",
+      "subscription": { "title": "Edullinen tilaus", "description": "PolicyManager on saatavilla alkaen 200 euroa kuukaudessa — saavutettavissa myös pk-yrityksille." },
+      "reminder": { "title": "Automaattinen muistutus", "description": "Saat automaattisesti signaalin, esimerkiksi kun raja ylittyy." },
+      "timeSaving": { "title": "Säästät aikaa", "description": "Manuaaliset toiminnot ja haut eliminoituvat. Aikaa, jota voit käyttää vakuutussuojan menetyksen estämiseen." },
+      "currentData": { "title": "Aina ajantasainen tieto", "description": "Päivitykset luottoraja-tilanteesta vähintään kerran päivässä." },
+      "costAnalysis": { "title": "Analysoi luottoraja-kustannukset", "description": "Analysoi, mikä luottoraja sopii parhaiten asiakkaallesi." },
+      "creditReports": { "title": "Arvokkaat luottoraportit", "description": "Luottoraportit ovat ihanteellinen väline katetun luottorajan määrittämiseen." },
+      "oneLimit": { "title": "Yksi yritys, yksi raja", "description": "PolicyManager tunnistaa useilla velallisnumeroilla varustetut yritykset ja yhdistää kaikki laskut yhteen rajaan." },
+      "followUp": { "title": "Järjestetty seuranta", "description": "Vaatimuksen sattuessa luot Excel-dokumentin erääntyneistä laskuista ja historiasta kahdella hiiren klikkauksella." }
+    },
+    "allInOne": {
+      "title": "Kaikki yhdessä sovelluksessa",
+      "body1": "CreditDevicen luotonhallintamoduuleilla yhdistät kaiken yhdessä sovelluksessa.",
+      "body2": "PolicyManagerin avulla hallitset kaupallista luottovakuutustasi täydellisesti.",
+      "bullet1": "Suora yhteys luottovakuuttajasi järjestelmään",
+      "bullet2": "Päivitykset luottoraja-tilanteesta vähintään kerran päivässä",
+      "bullet3": "Yhteensopiva Allianz Traden, Atradiuksen, Cofacen kanssa",
+      "bullet4": "Vaatimuksen velvoitteet täytetään täysimääräisesti",
+      "cta": "Pyydä demo"
+    },
+    "dashboard": {
+      "title": "Luottoraja-yleiskatsaus",
+      "limit": "Raja",
+      "usage": "Käyttö",
+      "limitRequested": "Pyydetty raja",
+      "status": "Tila",
+      "statusActive": "Aktiivinen",
+      "statusReview": "Arvioinnissa",
+      "statusWarning": "Varoitus",
+      "statusInProgress": "Käynnissä"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Lue lisää PolicyManagerista",
+      "q1": "Keiden luottovakuuttajien kanssa PolicyManager kehitettiin?",
+      "a1": "PolicyManager kehitettiin yhteistyössä Allianz Traden, Atradiuksen ja Cofacen kanssa.",
+      "q2": "Mitä PolicyManager maksaa?",
+      "a2": "PolicyManager on saatavilla alkaen 200 euroa kuukaudessa. Tuote on siksi myös pk-yrityksille kohtuuhintainen.",
+      "q3": "Miten data vaihdetaan vakuuttajan kanssa?",
+      "a3": "Käytännöllinen verkkopalvelu vakuuttajan kanssa varmistaa, että tietoja vaihdetaan automaattisesti.",
+      "q4": "Miten PolicyManager auttaa itsearvioinneissa?",
+      "a4": "PolicyManager käyttää samaa laskentamenetelmää kuin vakuuttajat — saat välittömästi luottorajasi laskelman kera."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Luottotietopyyntö",
+    "tagline": "nopeasti ja luotettavasti",
+    "title": "Verkon raportit — Globaalit luottotarkistukset helposti",
+    "subtitle": "Tilattavissa yhdellä klikkauksella. Tilauksesi jälkeen kokeneet luottoanalyytikkimme tutkivat halutut tiedot ja toimittavat raportin sinulle nopeasti.",
+    "worldwide": "Maailmanlaajuinen",
+    "worldwideDesc": "Yritystiedot yli 200 maasta — EU, UK, USA ja maailmanlaajuisesti.",
+    "fastDelivery": "Nopea toimitus",
+    "fastDeliveryDesc": "Tutkimus ja toimitus kokeneiden luottoanalyytikoiden toimesta.",
+    "securePayment": "Turvallinen maksaminen",
+    "securePaymentDesc": "Korttimax ja SEPA, käsitelty Stripen kautta."
+  },
+  "Contact": {
+    "breadcrumb": "Yhteystiedot",
+    "hero": {
+      "title": "Yhteystiedot",
+      "subtitle": "Onko sinulla kysymyksiä tai haluatko tietää enemmän ratkaisuistamme? Olemme kuulleet sinusta mielellämme.",
+      "imageAlt": "CreditDevice-tiimi keskustelussa luotonhallintakonsultaation jälkeen"
+    },
+    "contactPerson": "Yhteyshenkilösi",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "address": "Osoite",
+    "businessHours": "Aukioloajat",
+    "businessHoursValue": "Ma - Pe: 9:00 - 17:00",
+    "demoBox": {
+      "title": "Varaa demo",
+      "body": "Haluatko nähdä CreditDevicen toiminnassa? Varaa demo asiantuntijoidemme kanssa.",
+      "cta": "Täytä lomake nyt"
+    },
+    "formSection": {
+      "title": "Kirjoita meille",
+      "subtitle": "Täytä lomake, niin palaamme asiaan mahdollisimman pian."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Vieraile Hamburgissa tai ota yhteyttä puhelimitse — neuvomme sinua mielellämme henkilökohtaisesti.",
+      "activeCustomers": "Aktiiviset asiakkaat",
+      "countries": "Maat",
+      "yearsExperience": "Vuoden kokemus"
+    }
+  },
+  "About": {
+    "breadcrumb": "Meistä",
+    "hero": {
+      "tagline": "Meistä",
+      "title": "Luotonhallinta — intohimolla",
+      "subtitle": "CreditDevice GmbH perustettiin 2017 — tuloksena yli 30 vuoden yhteistyöstä ja asiantuntemuksesta luotonhallinnassa."
+    },
+    "stats": {
+      "founded": "Perustettu",
+      "experience": "Vuoden kokemus",
+      "customers": "Aktiiviset asiakkaat",
+      "countries": "Maata maailmanlaajuisesti"
+    },
+    "history": {
+      "title": "Historiamme",
+      "body1": "CreditDevice GmbH syntyi 2017 pitkäaikaisesta kumppanuudesta Hans Gelukin (CreditDevice B.V., Alankomaat) ja Sven Buckenbergerin välillä.",
+      "body2": "Vuonna 2020 CreditDevice osti Hanse Debitoren Managementin perintätoiminnan.",
+      "body3": "Vuonna 2021 ostimme GlobalCompanyCheck e.U:n ja laajensimme siten tarjontaamme maailmanlaajuisilla verkkoyrityysraporteilla yli 200 maasta.",
+      "body4": "Tänään tarjoamme täydellisen ratkaisun: luotonhallintaohjelmiston, PolicyManagerin, kansainväliset luottotiedot ja perinnän — kaikki yhdestä lähteestä.",
+      "claimTitle": "Tavoitteemme",
+      "claim": "\"Digitaalinen all-in-one-paketti luotonhallintaan.\"",
+      "claimAuthor": "— Sven G. Buckenberger, Toimitusjohtaja"
+    },
+    "management": {
+      "title": "Johto",
+      "name": "Sven G. Buckenberger",
+      "role": "Osakas ja johtaja",
+      "details": "Liiketaloustieteilijä (WA) · syntynyt 1967",
+      "bio": "Sven Buckenberger tuo mukanaan yli 35 vuoden kokemuksen eurooppalaisesta luotonhallinnasta.",
+      "quote": "\"Sanansa pitävä mies.\"",
+      "careerTitle": "Ura",
+      "career1": "Harjoittelija Hermes Kreditversicherungs-AG:ssa kaksoistutkinnolla",
+      "career2": "19 vuotta Bürgel Wirtschaftsinformationen GmbH & Co. KG:ssa talousjohtajana — mukaan lukien 28 yritysostoa",
+      "career3": "Perusti Hanse Debitoren Managementin",
+      "career4": "Perusti CreditDevice GmbH:n",
+      "career5": "Hanse Debitoren Managementin liiketoiminnan osto CreditDevice GmbH:n toimesta",
+      "career6": "GlobalCompanyCheck e.U:n osto",
+      "membershipsTitle": "Järjestöjäsenyydet ja toimeksiannot",
+      "membership1": "Hallituksen jäsen, Federation of Business Information Services (FEBIS) — vuodesta 1997",
+      "membership2": "Neuvoa-antava elin, Maritime Cluster Northern Germany (2013 – 2016)",
+      "membership3": "Tilintarkastaja, Maritime Cluster Northern Germany (2025 – nyt)",
+      "membership4": "Hampurin kunniakauppiaiden kokous e.V. (VEEK)",
+      "membership5": "Jäsen useissa hampurilaisissa elinkeinoelämän yhdistyksissä"
+    },
+    "cta": {
+      "title": "Tutustu meihin henkilökohtaisesti",
+      "subtitle": "Ota yhteyttä — neuvomme sinua mielellämme luotonhallintaratkaisuistamme.",
+      "button": "Ota yhteyttä"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Tietosuoja",
+    "title": "Tietosuojakäytäntö",
+    "notice": "Tämä tietosuojakäytäntö on saatavilla saksaksi, koska sitä säätelee Saksan laki (GDPR). Käytä tarvittaessa käännöspalvelua."
+  },
+  "Imprint": {
+    "breadcrumb": "Impressum",
+    "title": "Impressum"
+  },
+  "SearchForm": {
+    "placeholder": "Yrityksen nimi",
+    "countryLabel": "Maa",
+    "search": "Hae",
+    "searching": "Haetaan...",
+    "minCharsError": "Syötä vähintään 2 merkkiä."
+  },
+  "ContactForm": {
+    "firstName": "Etunimi",
+    "firstNamePlaceholder": "Etunimesi",
+    "lastName": "Sukunimi",
+    "lastNamePlaceholder": "Sukunimesi",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sinun@email.com",
+    "phone": "Puhelin",
+    "company": "Yritys",
+    "companyPlaceholder": "Yrityksesi",
+    "message": "Viesti",
+    "messagePlaceholder": "Miten voimme auttaa sinua?",
+    "privacyText": "Olen lukenut",
+    "privacyLink": "tietosuojakäytännön",
+    "privacyText2": "ja hyväksyn tietojeni käsittelyn.",
+    "required": "*",
+    "send": "Lähetä viesti",
+    "sending": "Lähetetään...",
+    "successTitle": "Kiitos!",
+    "successBody": "Olemme vastaanottaneet viestisi ja palaamme asiaan mahdollisimman pian.",
+    "sendFailed": "Lähetys epäonnistui."
+  },
+  "AuskunftResults": {
+    "heading": "Valitse etsimäsi yritys tilataksesi raportin.",
+    "loading": "Etsitään yrityksiä...",
+    "errorTitle": "Hakuvirhe",
+    "noResults": "Ei tuloksia haulle",
+    "noResultsIn": "valitulla alueella.",
+    "hits": "Tulokset",
+    "colName": "Nimi",
+    "colAddress": "Osoite",
+    "colRegNo": "Rek. nro",
+    "colVatNo": "ALV-nro",
+    "colStatus": "Tila",
+    "colType": "Tyyppi",
+    "loading2": "Ladataan..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Takaisin hakuun",
+    "selectedCompany": "Valittu yritys",
+    "street": "Katu",
+    "postCode": "Postinumero",
+    "city": "Kaupunki",
+    "country": "Maa",
+    "status": "Tila",
+    "name": "Nimi",
+    "regNo": "Rek. nro",
+    "vatNo": "ALV-nro",
+    "type": "Tyyppi",
+    "titleSuffix": "— Tilaa raportti",
+    "titleDefault": "Tilaa raportti"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Takaisin yritykseen",
+    "title": "Viimeistele tilaus"
+  },
+  "AuskunftConfirmation": {
+    "title": "Kiitos tilauksestasi!",
+    "body": "Olemme vastaanottaneet tilauksesi. Luottoanalyytikkimme tutkivat nyt pyydetyt tiedot ja toimittavat raportin sinulle nopeasti. Vahvistus on lähetetty sähköpostiosoitteeseesi.",
+    "cta": "Tilaa toinen raportti"
+  },
+  "ProductPicker": {
+    "title": "Valitse tuotteet",
+    "subtitle": "Useita tuotteita voidaan yhdistää",
+    "net": "Alv 0 %",
+    "gross": "Sis. alv",
+    "order": "Tilaa",
+    "comingSoon": "tulossa pian",
+    "netPrice": "Alv 0 %",
+    "plusVat": "plus alv",
+    "full": { "label": "Täysraportti", "shortLabel": "Täys", "description": "Kattava luottoraportti yrityksen perustiedoilla, tasetiedoilla, maksukokemuksilla, pisteillä ja riskiarvioinnilla." },
+    "compact": { "label": "Kompakti raportti", "shortLabel": "Kompakti", "description": "Supistettu luottoraportti tärkeimmillä tunnusluvuilla." },
+    "monitoring": { "label": "Seuranta", "shortLabel": "Seuranta", "description": "Jatkuva yrityksen luottokelpoisuuden seuranta." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Tilaajan tiedot",
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+    "email": "Sähköposti",
+    "company": "Yritys",
+    "street": "Katu ja nro",
+    "zip": "Postinumero",
+    "city": "Kaupunki",
+    "country": "Maa",
+    "vatId": "ALV-tunnus (valinnainen, käänteistä verovelvollisuutta varten)",
+    "orderReason": "Tilauksen syy",
+    "adultConfirmation": "Vahvistan olevani täysi-ikäinen ja tilaavani raportin liiketarkoituksiin.",
+    "continueToPayment": "Jatka maksuun",
+    "paymentTitle": "Maksaminen",
+    "payNow": "Tilaa nyt (maksullinen)",
+    "retryError": "Yritä uudelleen",
+    "errorTitle": "Virhe",
+    "summaryTitle": "Yhteenveto",
+    "companyLabel": "Yritys",
+    "netLabel": "Alv 0 %",
+    "grossLabel": "Sis. alv",
+    "orderSuccess": "Tilaus onnistui",
+    "orderSuccessBody": "Kiitos tilauksestasi. Saat pian vahvistuksen sähköpostitse.",
+    "downloadPdf": "Lataa PDF",
+    "downloadError": "Lataus epäonnistui",
+    "reasonCreditDecision": "Luottopäätös",
+    "reasonBusinessInitiation": "Liiketoiminnan aloittaminen",
+    "reasonDebtCollection": "Perintä",
+    "reasonRiskManagement": "Riskienhallinta"
+  }
+}

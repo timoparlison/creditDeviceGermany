@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { Section } from '../ui/Section';
 import { Card } from '../ui/Card';
 import { LucideIcon } from 'lucide-react';

@@ -1,0 +1,556 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Uw partner voor creditmanagement",
+      "description": "Vermijd financiële risico's en beheer uw volledige creditadministratie in één krachtige applicatie. Kredietinformatie, debiteurenbeheer en handelskredietverzekering."
+    },
+    "creditInformation": {
+      "title": "Kredietinformatie uit meer dan 200 landen",
+      "description": "Betrouwbare kredietinformatie en bedrijfsrapporten uit meer dan 200 landen. Goed onderbouwde zakelijke beslissingen met actuele gegevens — minimaliseer uw debiteurenrisico."
+    },
+    "creditManagementSoftware": {
+      "title": "Creditmanagement Software — Professioneel debiteurenbeheer",
+      "description": "Betere cashflow, duidelijke rapportages en effectieve communicatie dankzij één applicatie."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Uw nieuwe beste vriend voor handelskredietverzekering",
+      "description": "De PolicyManager is ontwikkeld in samenwerking met Allianz Trade, Atradius en Coface om het beheer van uw handelskredietpolis te optimaliseren."
+    },
+    "creditInquiry": {
+      "title": "Bedrijfskredietrapport bestellen — Wereldwijde bedrijfsrapporten",
+      "description": "Online rapporten over bedrijven en handelskredietrapporten uit meer dan 200 landen. Snel, betrouwbaar en online te bestellen met één klik."
+    },
+    "contact": {
+      "title": "Contact — CreditDevice GmbH Hamburg",
+      "description": "Neem contact op met CreditDevice GmbH in Hamburg. Wij adviseren u persoonlijk over kredietinformatie, creditmanagement software en handelskredietverzekering."
+    },
+    "about": {
+      "title": "Over ons — CreditDevice GmbH Hamburg",
+      "description": "CreditDevice GmbH is opgericht in 2017, als resultaat van meer dan 30 jaar expertise in creditmanagement."
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "description": "Privacybeleid van CreditDevice GmbH conform de AVG."
+    },
+    "imprint": {
+      "title": "Impressum",
+      "description": "Impressum van CreditDevice GmbH, Hamburg."
+    }
+  },
+  "Navigation": {
+    "products": "Producten",
+    "creditInformation": "Kredietinformatie",
+    "creditInformationDesc": "Betrouwbare gegevens en intelligente inzichten",
+    "creditManagementSoftware": "Creditmanagement Software",
+    "creditManagementSoftwareDesc": "Efficiënt debiteurenbeheer",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Beheer van uw handelskredietverzekering",
+    "aboutUs": "Over ons",
+    "contact": "Contact",
+    "login": "Inloggen",
+    "requestDemo": "Demo aanvragen",
+    "selectLanguage": "Taal"
+  },
+  "Footer": {
+    "tagline": "Uw partner voor professioneel creditmanagement. Vermijd financiële risico's met onze krachtige software.",
+    "products": "Producten",
+    "company": "Bedrijf",
+    "service": "Service",
+    "legal": "Juridisch",
+    "requestDemo": "Demo aanvragen",
+    "allRightsReserved": "Alle rechten voorbehouden."
+  },
+  "CustomerLogos": {
+    "tagline": "vertrouwd door toonaangevende bedrijven wereldwijd"
+  },
+  "Hero": {
+    "badge1": "De alles-in-één oplossing",
+    "badge2Title": "Bespaar tot 40%",
+    "badge2Subtitle": "Days Sales Outstanding"
+  },
+  "ProductCards": {
+    "tagline": "Onze producten",
+    "title": "Creditmanagement oplossingen die uw werk eenvoudiger maken",
+    "learnMore": "Meer informatie",
+    "creditInformation": {
+      "title": "Kredietinformatie",
+      "description": "Hoogwaardige bedrijfsrapporten — zonder contract met minimale looptijd of minimale bestelomvang.",
+      "feature1": "Online bedrijfsrapporten wereldwijd uit meer dan 200 landen",
+      "feature2": "Controleer de kredietwaardigheid van prospects en klanten",
+      "feature3": "Geen minimumbestelling",
+      "feature4": "Geen contract",
+      "feature5": "Geen minimale looptijd"
+    },
+    "cms": {
+      "title": "Creditmanagement Software",
+      "description": "Inzicht in het betalingsgedrag van uw klanten voor vooruitlopende beslissingen en risicominimalisatie.",
+      "feature1": "Professioneel debiteurenbeheer",
+      "feature2": "Betere cashflow",
+      "feature3": "Duidelijke rapportages",
+      "feature4": "Effectieve communicatie"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Beheer uw handelskredietverzekering eenvoudig — alle belangrijke en relevante informatie samengebracht.",
+      "feature1": "Actuele kredietlimieten gegarandeerd",
+      "feature2": "Meldingssysteem tegen vergoedingsverliezen",
+      "feature3": "Ontwikkeld met Allianz Trade, Atradius, Coface",
+      "feature4": "Hoog automatiseringsniveau"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Modules combineren",
+    "title": "Alles voor volledig creditmanagement in één pakket",
+    "subtitle": "Wij ontwikkelen onze producten zelf, omdat wij de behoeften van onze klanten kennen.",
+    "customers": "Actieve klanten",
+    "dossiers": "Dossiers",
+    "countries": "Landen",
+    "partner": {
+      "title": "Partner in creditmanagement",
+      "description": "Door nauwe samenwerking met onze klanten ontwikkelen wij voortdurend nieuwe en waardevolle oplossingen.",
+      "feature1": "Nauwe samenwerking met klanten",
+      "feature2": "Continue ontwikkeling",
+      "feature3": "Eigen productontwikkeling"
+    },
+    "integrated": {
+      "title": "Één geïntegreerde applicatie",
+      "description": "Onze online applicatie biedt verschillende interactieve modules die onafhankelijk werken, maar het beste als totaaloplossing.",
+      "feature1": "Modulair combineerbaar",
+      "feature2": "Één centrale applicatie",
+      "feature3": "Naadloos geïntegreerde gegevens"
+    },
+    "directContact": {
+      "title": "Snel, direct contact",
+      "description": "Wij zijn een onafhankelijk bedrijf. In de praktijk betekent dit korte communicatielijnen en snel contact.",
+      "feature1": "Korte communicatielijnen",
+      "feature2": "Persoonlijke contacten",
+      "feature3": "Onafhankelijk bedrijf"
+    }
+  },
+  "WhyUs": {
+    "title": "Waarom CreditDevice?",
+    "subtitle": "Wij zijn meer dan alleen een softwareleverancier — wij zijn uw partner voor succesvol creditmanagement",
+    "reachable": { "title": "Bereikbaar", "description": "Ons toegewijde team staat altijd voor u klaar. Persoonlijke ondersteuning die echt helpt." },
+    "innovative": { "title": "Innovatief", "description": "Wij ontwikkelen onze oplossingen voortdurend en vertrouwen op de nieuwste technologieën." },
+    "committed": { "title": "Betrokken", "description": "Uw succes is onze drijfveer. Wij gaan de extra mijl om uw doelen te bereiken." },
+    "flexible": { "title": "Flexibel", "description": "Onze oplossingen passen zich aan uw behoeften aan. Schaalbaar van het MKB tot grote ondernemingen." }
+  },
+  "CTABanner": {
+    "title": "Ontdek CreditDevice zelf",
+    "subtitle": "Ontdek hoe onze oplossingen uw creditmanagement kunnen optimaliseren. Plan vandaag een demo.",
+    "primaryCta": "Demo aanvragen",
+    "secondaryCta": "Kredietinformatie"
+  },
+  "Home": {
+    "hero": {
+      "title": "De complete oplossing voor creditmanagement",
+      "subtitle": "CreditDevice biedt een complete oplossing voor uw gehele creditmanagement. Elk product heeft zijn eigen kracht — combineer modules voor een efficiënte totaaloplossing.",
+      "primaryCta": "Demo aanvragen",
+      "secondaryCta": "Kredietinformatie",
+      "imageAlt": "CreditDevice team in gesprek na een creditmanagement consultatie"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Vind antwoorden op de belangrijkste vragen over onze oplossingen",
+      "q1": "Wat maakt CreditDevice uniek?",
+      "a1": "CreditDevice biedt een complete oplossing voor uw gehele creditmanagement. Wij ontwikkelen onze producten zelf omdat wij de behoeften van onze klanten kennen.",
+      "q2": "Kunnen de modules afzonderlijk worden gebruikt?",
+      "a2": "Ja. Onze interactieve modules werken onafhankelijk, maar als totaaloplossing ontwikkelen ze hun volledige kracht.",
+      "q3": "Hoe snel kan ik een contactpersoon bereiken?",
+      "a3": "Wij zijn een onafhankelijk bedrijf met korte communicatielijnen en direct contact.",
+      "q4": "Hoe kom ik aan internationale kredietinformatie?",
+      "a4": "Met onze internationale online bedrijfsrapporten ontvangt u wereldwijde kredietinformatie in de kortst mogelijke tijd, zonder contract of minimumbestelling.",
+      "q5": "Hoe helpt de PolicyManager bij handelskredietverzekering?",
+      "a5": "De PolicyManager brengt alle belangrijke informatie van uw handelskredietverzekering samen. Het meldingssysteem voorkomt vergoedingsverliezen.",
+      "q6": "Welke rol speelt de Creditmanagement Software?",
+      "a6": "Onze software gaat verder dan puur debiteurenbeheer. Het biedt inzicht in het betalingsgedrag van uw klanten."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Kredietinformatie",
+    "hero": {
+      "tagline": "Internationale kredietinformatie",
+      "titlePart1": "Online bedrijfsrapporten",
+      "titlePart2": "wereldwijd",
+      "subtitle": "Wij leveren u wereldwijde kredietrapporten in de kortst mogelijke tijd — voor een betrouwbare controle van de kredietwaardigheid van uw prospects en klanten. Zonder contract, zonder looptijd of minimumbestelling."
+    },
+    "features": {
+      "title": "Onze diensten",
+      "subtitle": "Profiteer van uitgebreide kredietinformatie",
+      "international": { "title": "Internationaal", "description": "Toegang tot kredietgegevens uit meer dan 200 landen. Ongeacht waar uw zakenpartners zich bevinden." },
+      "payPerUse": { "title": "Pay per use", "description": "Betaal alleen voor wat u daadwerkelijk opvraagt, zonder basisvergoeding of minimumbestelling." },
+      "api": { "title": "Webservice / API", "description": "Krachtige REST API of webhooks voor integratie in uw bestaande systemen." }
+    },
+    "pricing": {
+      "title": "Prijzen per rapport",
+      "subtitle": "Alle prijzen zijn per opgevraagd rapport. Geen basisvergoeding, geen minimumbestelling.",
+      "priceZoneLabel": "Prijszone",
+      "netLabel": "Excl. btw",
+      "grossLabel": "incl. btw",
+      "zone1Name": "Duitsland en Oostenrijk",
+      "zone1Countries": "Duitsland, Oostenrijk",
+      "zone2Name": "West-Europa",
+      "zone2Countries": "België, Denemarken, Frankrijk, Verenigd Koninkrijk, Ierland, Italië, Nederland, Noorwegen, Zweden",
+      "zone3Name": "Oost- en Zuid-Europa",
+      "zone3Countries": "Albanië, Armenië, Azerbeidzjan, Wit-Rusland, Bosnië-Herzegovina, Bulgarije, Estland, Finland, Georgië, Griekenland, Groenland, IJsland, Kosovo, Kroatië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta, Moldavië, Montenegro, Noord-Macedonië, Polen, Portugal, Roemenië, Zwitserland, Servië, Slowakije, Slovenië, Spanje, Svalbard, Tsjechië, Oekraïne, Hongarije, Cyprus",
+      "zone4Name": "Wereldwijd",
+      "zone4Countries": "Alle andere landen (meer dan 160 extra landen)"
+    },
+    "riskSection": {
+      "title": "Minimaliseer risico, laat uw bedrijf groeien",
+      "body": "Neem betere, snellere beslissingen met eersteklas rapporten en zeker uw bedrijf duurzaam.",
+      "bullet1": "Wereldwijde realtime opvragingen in meer dan 200 landen: neem direct goed onderbouwde beslissingen",
+      "bullet2": "Naadloze integratie in uw bestaande processen met minimale inspanning",
+      "bullet3": "Maximale flexibiliteit: facturering precies naar uw behoeften",
+      "cta": "Gratis adviesgesprek",
+      "infoTitle": "Beschikbare informatie",
+      "info1Label": "Bedrijfsstamgegevens en rechtsvorm",
+      "info1Value": "200+ landen",
+      "info2Label": "Kredietscore en kredietlimiet",
+      "info2Value": "Risicobeoordeling",
+      "info3Label": "Bestuurders en aandeelhouders",
+      "info3Value": "Huidig en historisch",
+      "info4Label": "Groeps- en eigendomsstructuur",
+      "info4Value": "Wereldwijd",
+      "info5Label": "Balansgegevens en kengetallen",
+      "info5Value": "Meerjarig",
+      "info6Label": "Negatieve kenmerken",
+      "info6Value": "Geverifieerd"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Meer informatie over onze kredietinformatie",
+      "q1": "Wie levert de kredietinformatie?",
+      "a1": "Wij betrekken onze gegevens rechtstreeks van de toonaangevende kredietbureaus in de respectieve landen.",
+      "q2": "Hoe actueel is de kredietinformatie?",
+      "a2": "Onze gegevens worden regelmatig bijgewerkt. Afhankelijk van het land en de bron ontvangt u dagelijks bijgewerkte informatie.",
+      "q3": "Kan ik de kredietinformatie integreren?",
+      "a3": "Ja, wij bieden een REST API en webhooks voor individuele integraties.",
+      "q4": "Welke informatie bevat een kredietrapport?",
+      "a4": "Een typisch rapport bevat bedrijfsstamgegevens, kredietscore met risicobeoordeling en kredietlimiet, aandeelhoudersstructuur, huidige en voormalige bestuurders, bankgegevens, groepsstructuur, jaarrekeningen en balansgegevens (meerdere jaren), negatieve kenmerken en kengetallen vergeleken met de branche."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Creditmanagement Software",
+    "hero": {
+      "title": "Professioneel debiteurenbeheer",
+      "subtitle": "Betere cashflow, duidelijke rapportages en effectieve communicatie dankzij één applicatie.",
+      "primaryCta": "Demo aanvragen",
+      "secondaryCta": "Offerte aanvragen",
+      "imageAlt": "CreditDevice Creditmanagement Software — centraal overzicht voor debiteurenbeheer en aanmaningen"
+    },
+    "features": {
+      "title": "Wat onze software onderscheidt",
+      "subtitle": "Bij CreditDevice kiest u het pakket dat bij u past: modules voor kredietinformatie, debiteurenbeheer, risicoanalyse en handelskredietverzekering in één applicatie.",
+      "transparency": { "title": "Volledige transparantie over uw debiteuren", "description": "Modules voor kredietinformatie, debiteurenbeheer, risicoanalyse en handelskredietverzekering in één applicatie." },
+      "earlyPayment": { "title": "Facturen eerder betaald", "description": "Spreek de taal van uw debiteur: pas de volgorde, inhoud, taal en structuur van de workflow aan per klantprofiel." },
+      "reports": { "title": "Rapporten op maat", "description": "Informeer management maandelijks over de grootste debiteuren of accountmanagers wekelijks over openstaande posten. Automatisch." },
+      "actionLists": { "title": "Bespaar tijd met actielijsten", "description": "Werk dagelijks op basis van actielijsten en voorkom late betalingen." },
+      "groupLevel": { "title": "Aanmanen op groepsniveau", "description": "Koppel meerdere debiteurennummers voor dezelfde klant. Zeer praktisch voor moeder- en dochterondernemingen." },
+      "complaints": { "title": "Snelle klachtenafhandeling", "description": "Registreer klachten eenvoudig en zorg voor snelle afhandeling via duidelijke communicatie en escalatie." }
+    },
+    "uniqueness": {
+      "title": "Hoe uniek is CreditDevice?",
+      "body1": "Wij geloven dat elke creditmanager profiteert van slechts één applicatie voor alle creditmanagementdiensten.",
+      "body2": "Onze intern ontwikkelde Creditmanagement Software is gekoppeld aan verschillende kredietinformatiedatabases: directe online toegang tot meer dan 430 miljoen bedrijven wereldwijd.",
+      "bullet1": "Één bedrijfslicentie — alle gebruikers inbegrepen",
+      "bullet2": "Meer dan 430 miljoen bedrijven wereldwijd",
+      "bullet3": "Combineerbaar met PolicyManager",
+      "cta": "Demo aanvragen"
+    },
+    "dashboard": {
+      "overview": "Debiteurenoverzicht",
+      "today": "Vandaag",
+      "openItems": "Openstaande posten",
+      "overdue": "Achterstallig",
+      "inCollection": "In incasso",
+      "activeWorkflows": "Actieve workflows",
+      "active": "actief",
+      "paymentReminder": "Betalingsherinnering",
+      "firstReminder": "1e aanmaning",
+      "collections": "Incasso's"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Meer informatie over onze Creditmanagement Software",
+      "q1": "Waarom Creditmanagement Software naast boekhouding gebruiken?",
+      "a1": "U heeft al boekhoudsoftware, maar een traditioneel pakket is vaak niet flexibel en veelzijdig genoeg voor modern creditmanagement.",
+      "q2": "Hoe is de Creditmanagement Software gekoppeld aan kredietinformatie?",
+      "a2": "De software is rechtstreeks verbonden met kredietinformatiedatabases. U heeft online toegang tot meer dan 430 miljoen bedrijven wereldwijd.",
+      "q3": "Hoe verhoudt de software zich tot de PolicyManager?",
+      "a3": "Met het meldingssysteem van de PolicyManager voldoet u tijdig aan de verplichtingen van uw kredietverzekeraar.",
+      "q4": "Zijn er gebruikerslicenties?",
+      "a4": "Nee. CreditDevice gebruikt bedrijfslicenties die alle gebruikers omvatten.",
+      "q5": "Welke autorisatiestructuren zijn beschikbaar voor gebruikers?",
+      "a5": "Er is zowel een flexibel rolsysteem als een mogelijkheid voor datafiltering, zoals het weergeven van klantenstructuren en landen."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Uw nieuwe beste vriend",
+      "subtitle": "De PolicyManager is ontwikkeld in samenwerking met Allianz Trade, Atradius en Coface om het beheer van uw handelskredietpolis te optimaliseren.",
+      "primaryCta": "Demo aanvragen",
+      "secondaryCta": "Ontdek voordelen",
+      "imageAlt": "PolicyManager interface voor het beheren van handelskredietlimieten en omzetdeclaraties"
+    },
+    "features": {
+      "title": "Ontdek uw voordelen",
+      "subtitle": "Handmatig beheer van een handelskredietpolis is veel werk. De PolicyManager neemt dat voor u over.",
+      "subscription": { "title": "Betaalbaar abonnement", "description": "De PolicyManager is beschikbaar vanaf 200 euro per maand — bereikbaar ook voor het MKB." },
+      "reminder": { "title": "Automatische herinnering", "description": "U ontvangt automatisch een signaal, bijvoorbeeld wanneer een limiet wordt overschreden." },
+      "timeSaving": { "title": "U bespaart tijd", "description": "Handmatige handelingen en zoekopdrachten worden geëlimineerd. Tijd die u kunt gebruiken om verlies van verzekeringsdekking te voorkomen." },
+      "currentData": { "title": "Altijd actuele gegevens", "description": "Updates over de status van uw kredietlimieten minimaal één keer per dag." },
+      "costAnalysis": { "title": "Analyseer kredietlimietkosten", "description": "Analyseer welk kredietlimiet het meest geschikt is voor uw klant." },
+      "creditReports": { "title": "Waardevolle kredietrapporten", "description": "Kredietrapporten zijn het ideale instrument voor het vaststellen van een gedekt kredietlimiet." },
+      "oneLimit": { "title": "Één bedrijf, één limiet", "description": "De PolicyManager herkent bedrijven met meerdere debiteurennummers en koppelt alle facturen aan één limiet." },
+      "followUp": { "title": "Georganiseerde opvolging", "description": "Maak bij een claim met twee muisklikken een Excel-document met achterstallige facturen en historie." }
+    },
+    "allInOne": {
+      "title": "Alles in één applicatie",
+      "body1": "Met de creditmanagementmodules van CreditDevice combineert u alles in één applicatie.",
+      "body2": "Met de PolicyManager beheert u uw handelskredietpolis perfect.",
+      "bullet1": "Directe koppeling met het systeem van uw kredietverzekeraar",
+      "bullet2": "Updates over de status van uw kredietlimieten minimaal één keer per dag",
+      "bullet3": "Compatibel met Allianz Trade, Atradius, Coface",
+      "bullet4": "Verplichtingen bij een claim worden volledig nagekomen",
+      "cta": "Demo aanvragen"
+    },
+    "dashboard": {
+      "title": "Kredietlimietoverzicht",
+      "limit": "Limiet",
+      "usage": "Gebruik",
+      "limitRequested": "Limiet aangevraagd",
+      "status": "Status",
+      "statusActive": "Actief",
+      "statusReview": "In beoordeling",
+      "statusWarning": "Waarschuwing",
+      "statusInProgress": "In behandeling"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Meer informatie over PolicyManager",
+      "q1": "Met welke kredietverzekeraars is de PolicyManager ontwikkeld?",
+      "a1": "De PolicyManager is ontwikkeld in samenwerking met Allianz Trade, Atradius en Coface.",
+      "q2": "Wat kost de PolicyManager?",
+      "a2": "De PolicyManager is beschikbaar vanaf 200 euro per maand. Het product is daarmee ook betaalbaar voor het MKB.",
+      "q3": "Hoe worden gegevens uitgewisseld met de verzekeraar?",
+      "a3": "Een handige webservice met de verzekeraar zorgt ervoor dat informatie automatisch wordt uitgewisseld.",
+      "q4": "Hoe helpt de PolicyManager bij zelfbeoordelingen?",
+      "a4": "De PolicyManager gebruikt dezelfde berekeningsmethode als de verzekeraars — u ontvangt direct uw kredietlimiet inclusief de berekening."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Kredietaanvraag",
+    "tagline": "snel & betrouwbaar",
+    "title": "Online rapporten — Wereldwijde kredietcontroles eenvoudig gemaakt",
+    "subtitle": "Bestelbaar met één klik. Na uw bestelling onderzoeken onze ervaren kredietanalisten de gewenste informatie en leveren u het rapport snel.",
+    "worldwide": "Wereldwijd",
+    "worldwideDesc": "Bedrijfsgegevens uit meer dan 200 landen: EU, VK, VS en wereldwijd.",
+    "fastDelivery": "Snelle levering",
+    "fastDeliveryDesc": "Onderzoek en levering door ervaren kredietanalisten.",
+    "securePayment": "Veilige betaling",
+    "securePaymentDesc": "Betaling per kaart en SEPA, verwerkt via Stripe."
+  },
+  "Contact": {
+    "breadcrumb": "Contact",
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Heeft u vragen of wilt u meer weten over onze oplossingen? Wij staan voor u klaar.",
+      "imageAlt": "CreditDevice team in gesprek na een creditmanagement consultatie"
+    },
+    "contactPerson": "Uw contactpersoon",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "address": "Adres",
+    "businessHours": "Openingstijden",
+    "businessHoursValue": "Ma - Vr: 9:00 - 17:00",
+    "demoBox": {
+      "title": "Een demo plannen",
+      "body": "Wilt u CreditDevice in actie zien? Plan een demo met onze experts.",
+      "cta": "Formulier nu invullen"
+    },
+    "formSection": {
+      "title": "Schrijf ons",
+      "subtitle": "Vul het formulier in en we nemen zo snel mogelijk contact met u op."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Bezoek ons in Hamburg of bel ons — wij adviseren u graag persoonlijk.",
+      "activeCustomers": "Actieve klanten",
+      "countries": "Landen",
+      "yearsExperience": "Jaar ervaring"
+    }
+  },
+  "About": {
+    "breadcrumb": "Over ons",
+    "hero": {
+      "tagline": "Over ons",
+      "title": "Creditmanagement — met passie",
+      "subtitle": "CreditDevice GmbH is opgericht in 2017, als resultaat van meer dan 30 jaar samenwerking en expertise in creditmanagement."
+    },
+    "stats": {
+      "founded": "Oprichtingsjaar",
+      "experience": "Jaar ervaring",
+      "customers": "Actieve klanten",
+      "countries": "Landen wereldwijd"
+    },
+    "history": {
+      "title": "Onze geschiedenis",
+      "body1": "CreditDevice GmbH ontstond in 2017 uit een langdurig partnerschap tussen Hans Geluk (CreditDevice B.V., Nederland) en Sven Buckenberger.",
+      "body2": "In 2020 nam CreditDevice de incassoactiviteiten van Hanse Debitoren Management over.",
+      "body3": "In 2021 namen wij GlobalCompanyCheck e.U. over en breidden daarmee ons aanbod uit met wereldwijde online bedrijfsrapporten uit meer dan 200 landen.",
+      "body4": "Vandaag bieden wij een complete oplossing: Creditmanagement Software, PolicyManager, internationale kredietinformatie en incasso — alles uit één hand.",
+      "claimTitle": "Onze ambitie",
+      "claim": "\"Een digitaal alles-in-één pakket voor creditmanagement.\"",
+      "claimAuthor": "— Sven G. Buckenberger, Directeur"
+    },
+    "management": {
+      "title": "Directie",
+      "name": "Sven G. Buckenberger",
+      "role": "Directeur-aandeelhouder",
+      "details": "Bedrijfskundige (WA) · geboren 1967",
+      "bio": "Sven Buckenberger brengt meer dan 35 jaar ervaring in Europees creditmanagement mee.",
+      "quote": "\"Een man van zijn woord.\"",
+      "careerTitle": "Carrière",
+      "career1": "Leerling bij Hermes Kreditversicherungs-AG met duale opleiding",
+      "career2": "19 jaar bij Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO — inclusief 28 bedrijfsovernames",
+      "career3": "Oprichting van Hanse Debitoren Management",
+      "career4": "Oprichting van CreditDevice GmbH",
+      "career5": "Overname van de bedrijfsactiviteiten van Hanse Debitoren Management door CreditDevice GmbH",
+      "career6": "Overname van GlobalCompanyCheck e.U.",
+      "membershipsTitle": "Lidmaatschappen en mandaten",
+      "membership1": "Bestuurslid van de Federation of Business Information Services (FEBIS) — sinds 1997",
+      "membership2": "Adviesraad Maritiem Cluster Noord-Duitsland (2013 – 2016)",
+      "membership3": "Accountant Maritiem Cluster Noord-Duitsland (2025 – heden)",
+      "membership4": "Vergadering van Eervolle Kooplieden van Hamburg e.V. (VEEK)",
+      "membership5": "Lid van diverse Hamburgse ondernemersverenigingen"
+    },
+    "cta": {
+      "title": "Maak persoonlijk kennis met ons",
+      "subtitle": "Neem contact op — wij adviseren u graag over onze creditmanagement oplossingen.",
+      "button": "Contact opnemen"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Privacy",
+    "title": "Privacybeleid",
+    "notice": "Dit privacybeleid is beschikbaar in het Duits omdat het wordt geregeld door de Duitse wetgeving (AVG). Gebruik indien nodig een vertaaldienst."
+  },
+  "Imprint": {
+    "breadcrumb": "Impressum",
+    "title": "Impressum"
+  },
+  "SearchForm": {
+    "placeholder": "Bedrijfsnaam",
+    "countryLabel": "Land",
+    "search": "Zoeken",
+    "searching": "Zoeken...",
+    "minCharsError": "Voer minimaal 2 tekens in."
+  },
+  "ContactForm": {
+    "firstName": "Voornaam",
+    "firstNamePlaceholder": "Uw voornaam",
+    "lastName": "Achternaam",
+    "lastNamePlaceholder": "Uw achternaam",
+    "email": "E-mail",
+    "emailPlaceholder": "uw@email.com",
+    "phone": "Telefoon",
+    "company": "Bedrijf",
+    "companyPlaceholder": "Uw bedrijf",
+    "message": "Bericht",
+    "messagePlaceholder": "Hoe kunnen wij u helpen?",
+    "privacyText": "Ik heb het",
+    "privacyLink": "Privacybeleid",
+    "privacyText2": "gelezen en ga akkoord met de verwerking van mijn gegevens.",
+    "required": "*",
+    "send": "Bericht versturen",
+    "sending": "Versturen...",
+    "successTitle": "Bedankt!",
+    "successBody": "Wij hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.",
+    "sendFailed": "Verzenden mislukt."
+  },
+  "AuskunftResults": {
+    "heading": "Selecteer het bedrijf dat u zoekt om een rapport te bestellen.",
+    "loading": "Bedrijven zoeken...",
+    "errorTitle": "Zoekfout",
+    "noResults": "Geen resultaten voor",
+    "noResultsIn": "in de geselecteerde regio.",
+    "hits": "Resultaten",
+    "colName": "Naam",
+    "colAddress": "Adres",
+    "colRegNo": "Reg. nr.",
+    "colVatNo": "Btw-nr.",
+    "colStatus": "Status",
+    "colType": "Type",
+    "loading2": "Laden..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Terug naar zoeken",
+    "selectedCompany": "Geselecteerd bedrijf",
+    "street": "Straat",
+    "postCode": "Postcode",
+    "city": "Stad",
+    "country": "Land",
+    "status": "Status",
+    "name": "Naam",
+    "regNo": "Reg. nr.",
+    "vatNo": "Btw-nr.",
+    "type": "Type",
+    "titleSuffix": "— Rapport bestellen",
+    "titleDefault": "Rapport bestellen"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Terug naar bedrijf",
+    "title": "Bestelling afronden"
+  },
+  "AuskunftConfirmation": {
+    "title": "Bedankt voor uw bestelling!",
+    "body": "Wij hebben uw bestelling ontvangen. Onze kredietanalisten onderzoeken nu de gevraagde informatie en leveren u het rapport snel. Een bevestiging is verzonden naar uw e-mailadres.",
+    "cta": "Nog een rapport bestellen"
+  },
+  "ProductPicker": {
+    "title": "Producten selecteren",
+    "subtitle": "Meerdere producten kunnen worden gecombineerd",
+    "net": "Excl. btw",
+    "gross": "Incl. btw",
+    "order": "Bestellen",
+    "comingSoon": "binnenkort beschikbaar",
+    "netPrice": "Excl. btw",
+    "plusVat": "plus btw",
+    "full": { "label": "Volledig rapport", "shortLabel": "Volledig", "description": "Uitgebreid kredietrapport met bedrijfsstamgegevens, balansgegevens, betalingservaringen, score en risicobeoordeling." },
+    "compact": { "label": "Compact rapport", "shortLabel": "Compact", "description": "Beperkt kredietrapport met de belangrijkste kengetallen." },
+    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Continue monitoring van de kredietwaardigheid van een bedrijf." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Gegevens besteller",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "company": "Bedrijf",
+    "street": "Straat en huisnr.",
+    "zip": "Postcode",
+    "city": "Stad",
+    "country": "Land",
+    "vatId": "Btw-nummer (optioneel, voor verlegging)",
+    "orderReason": "Reden bestelling",
+    "adultConfirmation": "Ik bevestig dat ik meerderjarig ben en het rapport voor zakelijke doeleinden bestel.",
+    "continueToPayment": "Doorgaan naar betaling",
+    "paymentTitle": "Betaling",
+    "payNow": "Nu bestellen (onder belasting)",
+    "retryError": "Opnieuw proberen",
+    "errorTitle": "Fout",
+    "summaryTitle": "Samenvatting",
+    "companyLabel": "Bedrijf",
+    "netLabel": "Excl. btw",
+    "grossLabel": "Incl. btw",
+    "orderSuccess": "Bestelling geslaagd",
+    "orderSuccessBody": "Bedankt voor uw bestelling. U ontvangt binnenkort een bevestiging per e-mail.",
+    "downloadPdf": "PDF downloaden",
+    "downloadError": "Download mislukt",
+    "reasonCreditDecision": "Kredietbeslissing",
+    "reasonBusinessInitiation": "Zakelijke initiatie",
+    "reasonDebtCollection": "Incasso",
+    "reasonRiskManagement": "Risicobeheer"
+  }
+}

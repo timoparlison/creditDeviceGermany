@@ -1,27 +1,34 @@
-import Link from 'next/link';
+'use client';
+
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Container } from '../ui/Container';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
-const footerLinks = {
-  produkte: [
-    { name: 'Bonitätsinformationen', href: '/bonitaetsinformationen' },
-    { name: 'Credit Management Software', href: '/credit-management-software' },
-    { name: 'PolicyManager', href: '/policymanager' },
-  ],
-  unternehmen: [
-    { name: 'Kontakt', href: '/kontakt' },
-  ],
-  service: [
-    { name: 'Demo anfordern', href: '/kontakt' },
-  ],
-  rechtliches: [
-    { name: 'Impressum', href: '/impressum' },
-    { name: 'Datenschutz', href: '/datenschutz' },
-  ],
-};
-
 export function Footer() {
+  const t = useTranslations('Footer');
+  const nav = useTranslations('Navigation');
+
+  const footerLinks = {
+    produkte: [
+      { name: nav('creditInformation'), href: '/bonitaetsinformationen' as const },
+      { name: nav('creditManagementSoftware'), href: '/credit-management-software' as const },
+      { name: nav('policyManager'), href: '/policymanager' as const },
+    ],
+    unternehmen: [
+      { name: nav('aboutUs'), href: '/ueber-uns' as const },
+      { name: nav('contact'), href: '/kontakt' as const },
+    ],
+    service: [
+      { name: t('requestDemo'), href: '/kontakt' as const },
+    ],
+    rechtliches: [
+      { name: 'Impressum', href: '/impressum' as const },
+      { name: 'Datenschutz', href: '/datenschutz' as const },
+    ],
+  };
+
   return (
     <footer className="bg-navy text-white">
       <Container className="py-16 md:py-20">
@@ -36,9 +43,7 @@ export function Footer() {
               className="h-9 w-auto mb-6"
               unoptimized
             />
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Ihr Partner für professionelles Credit Management. Vermeiden Sie finanzielle Risiken mit unserer leistungsstarken Software.
-            </p>
+            <p className="text-gray-300 mb-6 leading-relaxed">{t('tagline')}</p>
             <div className="space-y-3 mb-6">
               <a
                 href="mailto:info@creditdevice.de"
@@ -63,19 +68,15 @@ export function Footer() {
                 </span>
               </div>
             </div>
-
           </div>
 
           {/* Products */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Produkte</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('products')}</h3>
             <ul className="space-y-3">
               {footerLinks.produkte.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-300 hover:text-primary transition-colors"
-                  >
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-300 hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -85,14 +86,11 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Unternehmen</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('company')}</h3>
             <ul className="space-y-3">
               {footerLinks.unternehmen.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-300 hover:text-primary transition-colors"
-                  >
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-300 hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -102,14 +100,11 @@ export function Footer() {
 
           {/* Service */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Service</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('service')}</h3>
             <ul className="space-y-3">
               {footerLinks.service.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-300 hover:text-primary transition-colors"
-                  >
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-300 hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -119,21 +114,16 @@ export function Footer() {
 
           {/* Legal + ISO Badge */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Rechtliches</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('legal')}</h3>
             <ul className="space-y-3 mb-6">
               {footerLinks.rechtliches.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-300 hover:text-primary transition-colors"
-                  >
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-300 hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
-
-            {/* ISO Badge */}
             <Image
               src="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2022/03/ISOIEC-27001.png"
               alt="ISO/IEC 27001 Zertifiziert"
@@ -148,7 +138,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} CreditDevice GmbH. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} CreditDevice GmbH. {t('allRightsReserved')}
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
             <Link href="/impressum" className="hover:text-primary transition-colors">

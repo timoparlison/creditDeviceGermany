@@ -1,37 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Container } from '../ui/Container';
 import { Button } from '../ui/Button';
-
-const navigation = [
-  {
-    name: 'Produkte',
-    href: '#',
-    children: [
-      {
-        name: 'Bonitätsinformationen',
-        href: '/bonitaetsinformationen',
-        description: 'Zuverlässige Daten und intelligente Einblicke',
-      },
-      {
-        name: 'Credit Management Software',
-        href: '/credit-management-software',
-        description: 'Effizientes Debitorenmanagement',
-      },
-      {
-        name: 'PolicyManager',
-        href: '/policymanager',
-        description: 'Verwaltung Ihrer Kreditversicherung',
-      },
-    ],
-  },
-  { name: 'Über uns', href: '/ueber-uns' },
-  { name: 'Kontakt', href: '/kontakt' },
-];
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const loginLinks = [
   { name: 'CreditManagement', href: 'https://app.directdevice.info/dam/auth/login/' },
@@ -39,9 +15,36 @@ const loginLinks = [
 ];
 
 export function Header() {
+  const t = useTranslations('Navigation');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [loginDropdownOpen, setLoginDropdownOpen] = useState(false);
+
+  const navigation = [
+    {
+      name: t('products'),
+      href: '#' as const,
+      children: [
+        {
+          name: t('creditInformation'),
+          href: '/bonitaetsinformationen' as const,
+          description: t('creditInformationDesc'),
+        },
+        {
+          name: t('creditManagementSoftware'),
+          href: '/credit-management-software' as const,
+          description: t('creditManagementSoftwareDesc'),
+        },
+        {
+          name: t('policyManager'),
+          href: '/policymanager' as const,
+          description: t('policyManagerDesc'),
+        },
+      ],
+    },
+    { name: t('aboutUs'), href: '/ueber-uns' as const },
+    { name: t('contact'), href: '/kontakt' as const },
+  ];
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -82,20 +85,19 @@ export function Header() {
                   </Link>
                 )}
 
-                {/* Dropdown Menu */}
                 {item.children && activeDropdown === item.name && (
                   <div className="absolute top-full left-0 w-72 pt-2">
                     <div className="bg-white shadow-lg rounded-lg py-4">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.name}
-                        href={child.href}
-                        className="block px-4 py-3 hover:bg-gray-50 transition-colors"
-                      >
-                        <span className="block font-medium text-navy">{child.name}</span>
-                        <span className="block text-sm text-gray-500">{child.description}</span>
-                      </Link>
-                    ))}
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.name}
+                          href={child.href}
+                          className="block px-4 py-3 hover:bg-gray-50 transition-colors"
+                        >
+                          <span className="block font-medium text-navy">{child.name}</span>
+                          <span className="block text-sm text-gray-500">{child.description}</span>
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 )}
@@ -109,30 +111,32 @@ export function Header() {
               onMouseLeave={() => setLoginDropdownOpen(false)}
             >
               <button className="flex items-center gap-1 text-navy hover:text-primary font-medium transition-colors">
-                Login
+                {t('login')}
                 <ChevronDown className="h-4 w-4" />
               </button>
               {loginDropdownOpen && (
                 <div className="absolute top-full right-0 w-56 pt-2">
                   <div className="bg-white shadow-lg rounded-lg py-2">
-                  {loginLinks.map((link) => (
-                    <a
-                      key={link.name}
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block px-4 py-2 text-navy hover:bg-gray-50 hover:text-primary transition-colors"
-                    >
-                      {link.name}
-                    </a>
-                  ))}
+                    {loginLinks.map((link) => (
+                      <a
+                        key={link.name}
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block px-4 py-2 text-navy hover:bg-gray-50 hover:text-primary transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    ))}
                   </div>
                 </div>
               )}
             </div>
 
+            <LanguageSwitcher />
+
             <Button href="/kontakt" variant="primary">
-              Demo anfordern
+              {t('requestDemo')}
             </Button>
           </div>
 
@@ -142,11 +146,7 @@ export function Header() {
             className="lg:hidden p-2 text-navy"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
+            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </nav>
 
@@ -157,9 +157,7 @@ export function Header() {
               <div key={item.name} className="py-2">
                 {item.children ? (
                   <div>
-                    <span className="block font-medium text-navy px-2 py-2">
-                      {item.name}
-                    </span>
+                    <span className="block font-medium text-navy px-2 py-2">{item.name}</span>
                     <div className="pl-4">
                       {item.children.map((child) => (
                         <Link
@@ -185,9 +183,8 @@ export function Header() {
               </div>
             ))}
 
-            {/* Mobile Login Links */}
             <div className="py-2 border-t mt-2">
-              <span className="block font-medium text-navy px-2 py-2">Login</span>
+              <span className="block font-medium text-navy px-2 py-2">{t('login')}</span>
               <div className="pl-4">
                 {loginLinks.map((link) => (
                   <a
@@ -203,9 +200,13 @@ export function Header() {
               </div>
             </div>
 
+            <div className="py-2 border-t mt-2 px-2">
+              <LanguageSwitcher />
+            </div>
+
             <div className="mt-4 px-2">
               <Button href="/kontakt" variant="primary" className="w-full">
-                Demo anfordern
+                {t('requestDemo')}
               </Button>
             </div>
           </div>

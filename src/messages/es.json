@@ -1,0 +1,556 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Su socio para la gestión de crédito",
+      "description": "Evite riesgos financieros y gestione toda su administración de crédito en una potente aplicación. Informes de crédito, gestión de deudores y seguro de crédito comercial."
+    },
+    "creditInformation": {
+      "title": "Informes de crédito de más de 200 países",
+      "description": "Informes de crédito e informes comerciales fiables de más de 200 países. Tome decisiones empresariales bien fundamentadas con datos actualizados y minimice su riesgo de impago."
+    },
+    "creditManagementSoftware": {
+      "title": "Software de gestión de crédito — Administración profesional de deudores",
+      "description": "Mejor flujo de caja, informes claros y comunicación eficaz gracias a una sola aplicación. El software de gestión de crédito de CreditDevice va más allá de la simple administración de deudores."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Su nuevo mejor amigo para el seguro de crédito comercial",
+      "description": "El PolicyManager fue desarrollado en colaboración con Allianz Trade, Atradius y Coface para optimizar la gestión de su póliza de seguro de crédito comercial."
+    },
+    "creditInquiry": {
+      "title": "Solicitar informe de crédito empresarial — Informes comerciales globales",
+      "description": "Informes en línea sobre empresas e informes de crédito comercial de más de 200 países. Rápidos, fiables y solicitables en línea con un solo clic."
+    },
+    "contact": {
+      "title": "Contacto — CreditDevice GmbH Hamburgo",
+      "description": "Contacte con CreditDevice GmbH en Hamburgo. Le asesoramos personalmente sobre informes de crédito, software de gestión de crédito y seguro de crédito comercial."
+    },
+    "about": {
+      "title": "Sobre nosotros — CreditDevice GmbH Hamburgo",
+      "description": "CreditDevice GmbH fue fundada en 2017, resultado de más de 30 años de experiencia en gestión de crédito. Conozca nuestro equipo y nuestra historia."
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Política de privacidad de CreditDevice GmbH conforme al RGPD."
+    },
+    "imprint": {
+      "title": "Aviso legal",
+      "description": "Aviso legal de CreditDevice GmbH, Hamburgo."
+    }
+  },
+  "Navigation": {
+    "products": "Productos",
+    "creditInformation": "Información crediticia",
+    "creditInformationDesc": "Datos fiables e inteligencia empresarial",
+    "creditManagementSoftware": "Software de gestión de crédito",
+    "creditManagementSoftwareDesc": "Gestión eficiente de deudores",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Gestión de su seguro de crédito comercial",
+    "aboutUs": "Sobre nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "requestDemo": "Solicitar demo",
+    "selectLanguage": "Idioma"
+  },
+  "Footer": {
+    "tagline": "Su socio para la gestión profesional de crédito. Evite riesgos financieros con nuestro potente software.",
+    "products": "Productos",
+    "company": "Empresa",
+    "service": "Servicio",
+    "legal": "Legal",
+    "requestDemo": "Solicitar demo",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "CustomerLogos": {
+    "tagline": "con la confianza de empresas líderes en todo el mundo"
+  },
+  "Hero": {
+    "badge1": "La solución todo en uno",
+    "badge2Title": "Ahorre hasta un 40 %",
+    "badge2Subtitle": "Días de ventas pendientes"
+  },
+  "ProductCards": {
+    "tagline": "Nuestros productos",
+    "title": "Soluciones de gestión de crédito que facilitan su trabajo",
+    "learnMore": "Más información",
+    "creditInformation": {
+      "title": "Información crediticia",
+      "description": "Informes comerciales de alta calidad — sin contrato con plazo mínimo ni cantidad mínima de pedido.",
+      "feature1": "Informes de empresas en línea en todo el mundo, en más de 200 países",
+      "feature2": "Verifique la solvencia de prospectos y clientes",
+      "feature3": "Sin pedido mínimo",
+      "feature4": "Sin contrato",
+      "feature5": "Sin plazo mínimo"
+    },
+    "cms": {
+      "title": "Software de gestión de crédito",
+      "description": "Información sobre el comportamiento de pago de sus clientes para tomar decisiones anticipadas y minimizar riesgos.",
+      "feature1": "Administración profesional de deudores",
+      "feature2": "Mejor flujo de caja",
+      "feature3": "Informes claros",
+      "feature4": "Comunicación eficaz"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Gestione su seguro de crédito comercial fácilmente, con toda la información importante y relevante reunida.",
+      "feature1": "Límites de crédito actuales garantizados",
+      "feature2": "Sistema de notificación contra pérdidas de cobertura",
+      "feature3": "Desarrollado con Allianz Trade, Atradius, Coface",
+      "feature4": "Alto nivel de automatización"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Combinar módulos",
+    "title": "Todo para una gestión de crédito completa en un solo paquete",
+    "subtitle": "Desarrollamos nuestros productos nosotros mismos, porque conocemos las necesidades de nuestros clientes.",
+    "customers": "Clientes activos",
+    "dossiers": "Expedientes",
+    "countries": "Países",
+    "partner": {
+      "title": "Socio en gestión de crédito",
+      "description": "A través de la estrecha colaboración con nuestros clientes, desarrollamos continuamente soluciones nuevas y valiosas para mejorar la gestión de crédito.",
+      "feature1": "Estrecha colaboración con clientes",
+      "feature2": "Desarrollo continuo",
+      "feature3": "Desarrollo propio de productos"
+    },
+    "integrated": {
+      "title": "Una aplicación integrada",
+      "description": "Nuestra aplicación en línea ofrece varios módulos interactivos que funcionan de forma independiente, pero mejor como solución completa.",
+      "feature1": "Combinables de forma modular",
+      "feature2": "Una aplicación central",
+      "feature3": "Datos integrados de forma fluida"
+    },
+    "directContact": {
+      "title": "Contacto rápido y directo",
+      "description": "Somos una empresa independiente. En la práctica, esto significa canales de comunicación cortos y contacto rápido.",
+      "feature1": "Canales de comunicación cortos",
+      "feature2": "Contactos personales",
+      "feature3": "Empresa independiente"
+    }
+  },
+  "WhyUs": {
+    "title": "¿Por qué CreditDevice?",
+    "subtitle": "Somos más que un simple proveedor de software: somos su socio para una gestión de crédito exitosa",
+    "reachable": { "title": "Accesible", "description": "Nuestro equipo dedicado está disponible para usted en todo momento. Soporte personal que realmente ayuda." },
+    "innovative": { "title": "Innovador", "description": "Desarrollamos continuamente nuestras soluciones y confiamos en las últimas tecnologías." },
+    "committed": { "title": "Comprometido", "description": "Su éxito es nuestra motivación. Hacemos un esfuerzo adicional para alcanzar sus objetivos." },
+    "flexible": { "title": "Flexible", "description": "Nuestras soluciones se adaptan a sus necesidades. Escalable desde pymes hasta grandes empresas." }
+  },
+  "CTABanner": {
+    "title": "Descubra CreditDevice por sí mismo",
+    "subtitle": "Descubra cómo nuestras soluciones pueden optimizar su gestión de crédito. Programe una demo hoy.",
+    "primaryCta": "Solicitar demo",
+    "secondaryCta": "Información crediticia"
+  },
+  "Home": {
+    "hero": {
+      "title": "La solución completa para la gestión de crédito",
+      "subtitle": "CreditDevice ofrece una solución completa para toda su gestión de crédito. Cada producto tiene su propia fortaleza: combine módulos para una solución global eficiente.",
+      "primaryCta": "Solicitar demo",
+      "secondaryCta": "Información crediticia",
+      "imageAlt": "Equipo de CreditDevice en discusión tras una consultoría de gestión de crédito"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Encuentre respuestas a las preguntas más importantes sobre nuestras soluciones",
+      "q1": "¿Qué hace único a CreditDevice?",
+      "a1": "CreditDevice ofrece una solución completa para toda su gestión de crédito. Desarrollamos nuestros productos nosotros mismos porque conocemos las necesidades de nuestros clientes.",
+      "q2": "¿Se pueden usar los módulos de forma individual?",
+      "a2": "Sí. Nuestros módulos interactivos funcionan de forma independiente, pero como solución completa desarrollan toda su potencia.",
+      "q3": "¿Con qué rapidez puedo contactar con alguien?",
+      "a3": "Somos una empresa independiente con canales de comunicación cortos y contacto directo.",
+      "q4": "¿Cómo obtengo información crediticia internacional?",
+      "a4": "Con nuestros informes de empresas en línea internacionales, recibe información crediticia mundial en el menor tiempo posible, sin contrato ni pedido mínimo.",
+      "q5": "¿Cómo ayuda el PolicyManager con el seguro de crédito comercial?",
+      "a5": "El PolicyManager reúne toda la información importante de su seguro de crédito comercial. El sistema de notificación previene las pérdidas de cobertura.",
+      "q6": "¿Qué papel juega el Software de gestión de crédito?",
+      "a6": "Nuestro Software de gestión de crédito va más allá de la simple administración de deudores. Proporciona información sobre el comportamiento de pago de sus clientes."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Información crediticia",
+    "hero": {
+      "tagline": "Información crediticia internacional",
+      "titlePart1": "Informes de empresas en línea",
+      "titlePart2": "en todo el mundo",
+      "subtitle": "Le entregamos informes de crédito mundiales en el menor tiempo posible, para verificar de forma fiable la solvencia de sus prospectos y clientes. Sin contrato, sin plazo ni pedido mínimo."
+    },
+    "features": {
+      "title": "Nuestros servicios",
+      "subtitle": "Benefíciese de información crediticia completa",
+      "international": { "title": "Internacional", "description": "Acceso a datos de crédito de más de 200 países. Independientemente de dónde se encuentren sus socios comerciales." },
+      "payPerUse": { "title": "Pago por uso", "description": "Pague solo por lo que realmente consulte, sin tarifa básica ni pedido mínimo." },
+      "api": { "title": "Servicio web / API", "description": "Potente API REST o webhooks para la integración en sus sistemas existentes." }
+    },
+    "pricing": {
+      "title": "Precios por informe",
+      "subtitle": "Todos los precios son por informe consultado. Sin tarifa básica, sin pedido mínimo.",
+      "priceZoneLabel": "Zona de precios",
+      "netLabel": "Neto",
+      "grossLabel": "bruto",
+      "zone1Name": "Alemania y Austria",
+      "zone1Countries": "Alemania, Austria",
+      "zone2Name": "Europa occidental",
+      "zone2Countries": "Bélgica, Dinamarca, Francia, Reino Unido, Irlanda, Italia, Países Bajos, Noruega, Suecia",
+      "zone3Name": "Europa del Este y del Sur",
+      "zone3Countries": "Albania, Armenia, Azerbaiyán, Bielorrusia, Bosnia-Herzegovina, Bulgaria, Estonia, Finlandia, Georgia, Grecia, Groenlandia, Islandia, Kosovo, Croacia, Letonia, Liechtenstein, Lituania, Luxemburgo, Malta, Moldavia, Montenegro, Macedonia del Norte, Polonia, Portugal, Rumanía, Suiza, Serbia, Eslovaquia, Eslovenia, España, Svalbard, República Checa, Ucrania, Hungría, Chipre",
+      "zone4Name": "Mundial",
+      "zone4Countries": "Todos los demás países (más de 160 países adicionales)"
+    },
+    "riskSection": {
+      "title": "Minimice el riesgo, haga crecer el negocio",
+      "body": "Tome mejores decisiones más rápidas con informes de primera clase y asegure su negocio de forma sostenida.",
+      "bullet1": "Consultas en tiempo real en más de 200 países: tome decisiones bien informadas de inmediato",
+      "bullet2": "Integración perfecta en sus procesos existentes con mínimo esfuerzo",
+      "bullet3": "Máxima flexibilidad: facturación exactamente según sus necesidades",
+      "cta": "Consulta gratuita",
+      "infoTitle": "Información disponible",
+      "info1Label": "Datos maestros de la empresa y forma jurídica",
+      "info1Value": "200+ países",
+      "info2Label": "Puntuación y límite de crédito",
+      "info2Value": "Evaluación de riesgos",
+      "info3Label": "Directivos y accionistas",
+      "info3Value": "Actuales e históricos",
+      "info4Label": "Estructura del grupo y de la propiedad",
+      "info4Value": "Mundial",
+      "info5Label": "Datos del balance y cifras clave",
+      "info5Value": "Plurianual",
+      "info6Label": "Características negativas",
+      "info6Value": "Verificadas"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Obtenga más información sobre nuestra información crediticia",
+      "q1": "¿Quién proporciona la información crediticia?",
+      "a1": "Obtenemos nuestros datos directamente de las principales agencias de crédito de los respectivos países.",
+      "q2": "¿Cuán actualizada está la información crediticia?",
+      "a2": "Nuestros datos se actualizan regularmente. Dependiendo del país y la fuente, recibe información actualizada diariamente.",
+      "q3": "¿Puedo integrar la información crediticia?",
+      "a3": "Sí, ofrecemos una API REST así como webhooks para integraciones individuales.",
+      "q4": "¿Qué información incluye un informe de crédito?",
+      "a4": "Un informe típico contiene datos maestros de la empresa, puntuación crediticia con evaluación de riesgos y límite de crédito, estructura accionarial, directivos actuales y anteriores, datos bancarios, estructura del grupo, estados financieros anuales y datos del balance (múltiples años), características negativas y cifras clave comparadas con el sector."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Software de gestión de crédito",
+    "hero": {
+      "title": "Administración profesional de deudores",
+      "subtitle": "Mejor flujo de caja, informes claros y comunicación eficaz gracias a una sola aplicación.",
+      "primaryCta": "Solicitar demo",
+      "secondaryCta": "Solicitar presupuesto",
+      "imageAlt": "Software de gestión de crédito de CreditDevice — vista general central para la administración de deudores y recordatorios de pago"
+    },
+    "features": {
+      "title": "Lo que distingue a nuestro software",
+      "subtitle": "En CreditDevice, elija el paquete que le convenga: módulos para información crediticia, gestión de deudores, análisis de riesgos y seguro de crédito comercial en una sola aplicación.",
+      "transparency": { "title": "Transparencia total sobre sus deudores", "description": "Módulos para información crediticia, administración de deudores, análisis de riesgos y seguro de crédito comercial en una sola aplicación." },
+      "earlyPayment": { "title": "Facturas pagadas antes", "description": "Hable el idioma de su deudor: adapte la secuencia, el contenido, el idioma y la estructura del flujo de trabajo por perfil de cliente." },
+      "reports": { "title": "Informes a medida", "description": "Informe a la dirección mensualmente sobre los mayores deudores o a los gestores de cuentas semanalmente sobre las partidas abiertas. Automáticamente." },
+      "actionLists": { "title": "Ahorre tiempo con listas de acciones", "description": "Trabaje diariamente con listas de acciones y evite los pagos tardíos." },
+      "groupLevel": { "title": "Recordatorios a nivel de grupo", "description": "Vincule varios números de deudor para el mismo cliente. Muy práctico para empresas matrices y filiales." },
+      "complaints": { "title": "Gestión rápida de reclamaciones", "description": "Registre reclamaciones fácilmente y garantice su tramitación rápida a través de una comunicación y escalada claras." }
+    },
+    "uniqueness": {
+      "title": "¿Cuán único es CreditDevice?",
+      "body1": "Creemos que cada gestor de crédito se beneficia de una sola aplicación para todos los servicios de gestión de crédito.",
+      "body2": "Nuestro Software de gestión de crédito desarrollado internamente está vinculado a varias bases de datos de información crediticia: acceso en línea directo a más de 430 millones de empresas en todo el mundo.",
+      "bullet1": "Una licencia empresarial: todos los usuarios incluidos",
+      "bullet2": "Más de 430 millones de empresas en todo el mundo",
+      "bullet3": "Combinable con PolicyManager",
+      "cta": "Solicitar demo"
+    },
+    "dashboard": {
+      "overview": "Vista general de deudores",
+      "today": "Hoy",
+      "openItems": "Partidas abiertas",
+      "overdue": "Vencidas",
+      "inCollection": "En cobro",
+      "activeWorkflows": "Flujos de trabajo activos",
+      "active": "activos",
+      "paymentReminder": "Recordatorio de pago",
+      "firstReminder": "1.ª notificación",
+      "collections": "Cobros"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Obtenga más información sobre nuestro Software de gestión de crédito",
+      "q1": "¿Por qué usar un Software de gestión de crédito además de la contabilidad?",
+      "a1": "Ya tiene software de contabilidad, pero a menudo no es lo suficientemente flexible para la gestión de crédito moderna.",
+      "q2": "¿Cómo está vinculado el Software de gestión de crédito a la información crediticia?",
+      "a2": "El software está directamente conectado a bases de datos de información crediticia. Tiene acceso en línea a más de 430 millones de empresas en todo el mundo.",
+      "q3": "¿Cómo se relaciona el software con el PolicyManager?",
+      "a3": "Con el sistema de notificación del PolicyManager, cumple las obligaciones de su asegurador de crédito a tiempo.",
+      "q4": "¿Existen licencias de usuario?",
+      "a4": "No. CreditDevice utiliza licencias empresariales que incluyen a todos los usuarios.",
+      "q5": "¿Qué estructuras de autorización hay disponibles para los usuarios?",
+      "a5": "Hay tanto un sistema de roles flexible como una posibilidad de filtrado de datos, como la representación de estructuras de clientes y países."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Su nuevo mejor amigo",
+      "subtitle": "El PolicyManager fue desarrollado en colaboración con Allianz Trade, Atradius y Coface para optimizar la gestión de su póliza de seguro de crédito comercial.",
+      "primaryCta": "Solicitar demo",
+      "secondaryCta": "Descubrir ventajas",
+      "imageAlt": "Interfaz del PolicyManager para la gestión de límites de seguro de crédito comercial y declaraciones de ingresos"
+    },
+    "features": {
+      "title": "Descubra sus ventajas",
+      "subtitle": "La gestión manual de una póliza de seguro de crédito comercial supone mucho trabajo. El PolicyManager se encarga de todo eso por usted.",
+      "subscription": { "title": "Suscripción asequible", "description": "El PolicyManager está disponible desde 200 euros al mes, al alcance incluso de las pymes." },
+      "reminder": { "title": "Recordatorio automático", "description": "Recibe automáticamente una señal, por ejemplo cuando se supera un límite." },
+      "timeSaving": { "title": "Ahorra tiempo", "description": "Las operaciones manuales y las búsquedas se eliminan. Tiempo que puede usar para evitar la pérdida de cobertura del seguro." },
+      "currentData": { "title": "Datos siempre actualizados", "description": "Actualizaciones sobre el estado de sus límites de crédito al menos una vez al día." },
+      "costAnalysis": { "title": "Analice los costes de los límites de crédito", "description": "Analice qué límite de crédito es más adecuado para su cliente." },
+      "creditReports": { "title": "Valiosos informes de crédito", "description": "Los informes de crédito son el instrumento ideal para establecer un límite de crédito cubierto." },
+      "oneLimit": { "title": "Una empresa, un límite", "description": "El PolicyManager reconoce empresas con múltiples números de deudor y vincula todas las facturas a un único límite." },
+      "followUp": { "title": "Seguimiento organizado", "description": "En caso de siniestro, cree un documento Excel con facturas vencidas e historial con dos clics del ratón." }
+    },
+    "allInOne": {
+      "title": "Todo en una aplicación",
+      "body1": "Con los módulos de gestión de crédito de CreditDevice, combina todo en una aplicación.",
+      "body2": "Con el PolicyManager, gestiona perfectamente su póliza de seguro de crédito comercial.",
+      "bullet1": "Conexión directa al sistema de su asegurador de crédito",
+      "bullet2": "Actualizaciones sobre el estado de sus límites de crédito al menos una vez al día",
+      "bullet3": "Compatible con Allianz Trade, Atradius, Coface",
+      "bullet4": "Las obligaciones en caso de siniestro se cumplen completamente",
+      "cta": "Solicitar demo"
+    },
+    "dashboard": {
+      "title": "Vista general de límites de crédito",
+      "limit": "Límite",
+      "usage": "Uso",
+      "limitRequested": "Límite solicitado",
+      "status": "Estado",
+      "statusActive": "Activo",
+      "statusReview": "Revisión",
+      "statusWarning": "Advertencia",
+      "statusInProgress": "En proceso"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Obtenga más información sobre el PolicyManager",
+      "q1": "¿Con qué aseguradoras de crédito se desarrolló el PolicyManager?",
+      "a1": "El PolicyManager fue desarrollado en colaboración con Allianz Trade, Atradius y Coface.",
+      "q2": "¿Cuánto cuesta el PolicyManager?",
+      "a2": "El PolicyManager está disponible desde 200 euros al mes. Por lo tanto, también es asequible para las pymes.",
+      "q3": "¿Cómo se intercambian los datos con el asegurador?",
+      "a3": "Un cómodo servicio web con el asegurador garantiza que la información se intercambie automáticamente.",
+      "q4": "¿Cómo ayuda el PolicyManager con las autoevaluaciones?",
+      "a4": "El PolicyManager utiliza el mismo método de cálculo que las aseguradoras: recibe inmediatamente su límite de crédito junto con el cálculo."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Consulta de crédito",
+    "tagline": "rápido y fiable",
+    "title": "Informes en línea — Verificaciones de crédito globales simplificadas",
+    "subtitle": "Solicitables con un solo clic. Tras su pedido, nuestros experimentados analistas de crédito investigan la información deseada y le proporcionan el informe con prontitud.",
+    "worldwide": "Mundial",
+    "worldwideDesc": "Datos de empresas de más de 200 países: UE, Reino Unido, EE. UU. y en todo el mundo.",
+    "fastDelivery": "Entrega rápida",
+    "fastDeliveryDesc": "Investigación y provisión por experimentados analistas de crédito.",
+    "securePayment": "Pago seguro",
+    "securePaymentDesc": "Pago con tarjeta y SEPA, procesado a través de Stripe."
+  },
+  "Contact": {
+    "breadcrumb": "Contacto",
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "¿Tiene preguntas o desea obtener más información sobre nuestras soluciones? Estamos a su disposición.",
+      "imageAlt": "Equipo de CreditDevice en discusión tras una consultoría de gestión de crédito"
+    },
+    "contactPerson": "Su persona de contacto",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "businessHours": "Horario de atención",
+    "businessHoursValue": "Lun - Vie: 9:00 - 17:00",
+    "demoBox": {
+      "title": "Programar una demo",
+      "body": "¿Desea ver CreditDevice en acción? Programe una demo con nuestros expertos.",
+      "cta": "Rellenar formulario ahora"
+    },
+    "formSection": {
+      "title": "Escríbanos",
+      "subtitle": "Rellene el formulario y nos pondremos en contacto con usted lo antes posible."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Visítenos en Hamburgo o contáctenos por teléfono: estaremos encantados de asesorarle personalmente.",
+      "activeCustomers": "Clientes activos",
+      "countries": "Países",
+      "yearsExperience": "Años de experiencia"
+    }
+  },
+  "About": {
+    "breadcrumb": "Sobre nosotros",
+    "hero": {
+      "tagline": "Sobre nosotros",
+      "title": "Gestión de crédito — con pasión",
+      "subtitle": "CreditDevice GmbH fue fundada en 2017, resultado de más de 30 años de colaboración y experiencia en gestión de crédito."
+    },
+    "stats": {
+      "founded": "Año de fundación",
+      "experience": "Años de experiencia",
+      "customers": "Clientes activos",
+      "countries": "Países en todo el mundo"
+    },
+    "history": {
+      "title": "Nuestra historia",
+      "body1": "CreditDevice GmbH surgió en 2017 de una asociación duradera entre Hans Geluk (CreditDevice B.V., Países Bajos) y Sven Buckenberger.",
+      "body2": "En 2020, CreditDevice adquirió el negocio de cobro de deudas de Hanse Debitoren Management.",
+      "body3": "En 2021, adquirimos GlobalCompanyCheck e.U. y así ampliamos nuestra oferta con informes de empresas en línea de todo el mundo de más de 200 países.",
+      "body4": "Hoy ofrecemos una solución completa: Software de gestión de crédito, PolicyManager, información crediticia internacional y cobro de deudas, todo de una sola fuente.",
+      "claimTitle": "Nuestro objetivo",
+      "claim": "\"Un paquete digital todo en uno para la gestión de crédito.\"",
+      "claimAuthor": "— Sven G. Buckenberger, Director General"
+    },
+    "management": {
+      "title": "Dirección",
+      "name": "Sven G. Buckenberger",
+      "role": "Socio director",
+      "details": "Administrador de empresas (WA) · nacido en 1967",
+      "bio": "Sven Buckenberger aporta más de 35 años de experiencia en gestión de crédito europeo.",
+      "quote": "\"Un hombre de palabra.\"",
+      "careerTitle": "Trayectoria",
+      "career1": "Aprendiz en Hermes Kreditversicherungs-AG con estudios duales",
+      "career2": "19 años en Bürgel Wirtschaftsinformationen GmbH & Co. KG como director financiero, incluidas 28 adquisiciones empresariales",
+      "career3": "Fundación de Hanse Debitoren Management",
+      "career4": "Fundación de CreditDevice GmbH",
+      "career5": "Adquisición de las actividades comerciales de Hanse Debitoren Management por CreditDevice GmbH",
+      "career6": "Adquisición de GlobalCompanyCheck e.U.",
+      "membershipsTitle": "Membresías y mandatos en asociaciones",
+      "membership1": "Miembro de la junta de la Federación de Servicios de Información Empresarial (FEBIS), desde 1997",
+      "membership2": "Consejo Asesor del Clúster Marítimo de Alemania del Norte (2013 – 2016)",
+      "membership3": "Auditor del Clúster Marítimo de Alemania del Norte (2025 – presente)",
+      "membership4": "Asamblea de Comerciantes Honorables de Hamburgo e.V. (VEEK)",
+      "membership5": "Miembro de diversas asociaciones empresariales de Hamburgo"
+    },
+    "cta": {
+      "title": "Conózcanos personalmente",
+      "subtitle": "Contáctenos: estaremos encantados de asesorarle sobre nuestras soluciones de gestión de crédito.",
+      "button": "Ponerse en contacto"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Privacidad",
+    "title": "Política de privacidad",
+    "notice": "Esta política de privacidad se proporciona en alemán, ya que está regida por la legislación alemana (RGPD). Si es necesario, utilice un servicio de traducción."
+  },
+  "Imprint": {
+    "breadcrumb": "Aviso legal",
+    "title": "Aviso legal"
+  },
+  "SearchForm": {
+    "placeholder": "Nombre de la empresa",
+    "countryLabel": "País",
+    "search": "Buscar",
+    "searching": "Buscando...",
+    "minCharsError": "Introduzca al menos 2 caracteres."
+  },
+  "ContactForm": {
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Su nombre",
+    "lastName": "Apellidos",
+    "lastNamePlaceholder": "Sus apellidos",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "su@email.com",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "companyPlaceholder": "Su empresa",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿En qué podemos ayudarle?",
+    "privacyText": "He leído la",
+    "privacyLink": "Política de privacidad",
+    "privacyText2": "y consiento el tratamiento de mis datos.",
+    "required": "*",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Gracias!",
+    "successBody": "Hemos recibido su mensaje y nos pondremos en contacto con usted lo antes posible.",
+    "sendFailed": "El envío falló."
+  },
+  "AuskunftResults": {
+    "heading": "Seleccione la empresa que busca para solicitar un informe.",
+    "loading": "Buscando empresas...",
+    "errorTitle": "Error de búsqueda",
+    "noResults": "Sin resultados para",
+    "noResultsIn": "en la región seleccionada.",
+    "hits": "Resultados",
+    "colName": "Nombre",
+    "colAddress": "Dirección",
+    "colRegNo": "N.º reg.",
+    "colVatNo": "N.º IVA",
+    "colStatus": "Estado",
+    "colType": "Tipo",
+    "loading2": "Cargando..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Volver a la búsqueda",
+    "selectedCompany": "Empresa seleccionada",
+    "street": "Calle",
+    "postCode": "Código postal",
+    "city": "Ciudad",
+    "country": "País",
+    "status": "Estado",
+    "name": "Nombre",
+    "regNo": "N.º reg.",
+    "vatNo": "N.º IVA",
+    "type": "Tipo",
+    "titleSuffix": "– Solicitar informe",
+    "titleDefault": "Solicitar informe"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Volver a la empresa",
+    "title": "Completar pedido"
+  },
+  "AuskunftConfirmation": {
+    "title": "¡Gracias por su pedido!",
+    "body": "Hemos recibido su pedido. Nuestros analistas de crédito están investigando la información solicitada y le proporcionarán el informe con prontitud. Se ha enviado una confirmación a su dirección de correo electrónico.",
+    "cta": "Solicitar otro informe"
+  },
+  "ProductPicker": {
+    "title": "Seleccionar productos",
+    "subtitle": "Se pueden combinar varios productos",
+    "net": "Neto",
+    "gross": "Bruto",
+    "order": "Pedir",
+    "comingSoon": "próximamente",
+    "netPrice": "Neto",
+    "plusVat": "más IVA",
+    "full": { "label": "Informe completo", "shortLabel": "Completo", "description": "Informe de crédito exhaustivo con datos maestros de la empresa, cifras del balance, experiencias de pago, puntuación y evaluación de riesgos." },
+    "compact": { "label": "Informe compacto", "shortLabel": "Compacto", "description": "Informe de crédito reducido con las cifras clave más importantes." },
+    "monitoring": { "label": "Monitorización", "shortLabel": "Monitorización", "description": "Monitorización continua de la solvencia de una empresa." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Datos del solicitante",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "email": "Correo electrónico",
+    "company": "Empresa",
+    "street": "Calle y n.º",
+    "zip": "Código postal",
+    "city": "Ciudad",
+    "country": "País",
+    "vatId": "ID de IVA (opcional, para inversión del sujeto pasivo)",
+    "orderReason": "Motivo del pedido",
+    "adultConfirmation": "Confirmo que soy mayor de edad y que solicito el informe con fines comerciales.",
+    "continueToPayment": "Continuar al pago",
+    "paymentTitle": "Pago",
+    "payNow": "Pedir ahora (sujeto a cargo)",
+    "retryError": "Intentar de nuevo",
+    "errorTitle": "Error",
+    "summaryTitle": "Resumen",
+    "companyLabel": "Empresa",
+    "netLabel": "Neto",
+    "grossLabel": "Bruto",
+    "orderSuccess": "Pedido exitoso",
+    "orderSuccessBody": "Gracias por su pedido. Recibirá una confirmación por correo electrónico en breve.",
+    "downloadPdf": "Descargar PDF",
+    "downloadError": "Descarga fallida",
+    "reasonCreditDecision": "Decisión de crédito",
+    "reasonBusinessInitiation": "Inicio de negocio",
+    "reasonDebtCollection": "Cobro de deudas",
+    "reasonRiskManagement": "Gestión de riesgos"
+  }
+}

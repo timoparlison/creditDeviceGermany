@@ -1,0 +1,568 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "CreditDevice — Ihr Partner für Credit Management",
+      "description": "Vermeiden Sie finanzielle Risiken und verwalten Sie Ihr gesamtes Credit Management in einer leistungsstarken Anwendung. Bonitätsinformationen, Debitorenmanagement und Kreditversicherung."
+    },
+    "creditInformation": {
+      "title": "Bonitätsinformationen aus über 200 Ländern",
+      "description": "Zuverlässige Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern. Fundierte Geschäftsentscheidungen mit tagesaktuellen Daten — minimieren Sie Ihr Debitorenrisiko."
+    },
+    "creditManagementSoftware": {
+      "title": "Credit Management Software — Professionelles Debitoren-Management",
+      "description": "Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung. Die Credit Management Software von CreditDevice geht über reines Debitoren-Management hinaus."
+    },
+    "policyManager": {
+      "title": "PolicyManager — Ihr neuer bester Freund für die Kreditversicherung",
+      "description": "Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren."
+    },
+    "creditInquiry": {
+      "title": "Unternehmensauskunft bestellen — globale Wirtschaftsauskünfte",
+      "description": "Onlineauskünfte zu Unternehmen und Wirtschaftsauskünfte aus über 200 Ländern. Schnell, zuverlässig und mit einem Klick online bestellbar."
+    },
+    "contact": {
+      "title": "Kontakt — CreditDevice GmbH Hamburg",
+      "description": "Kontaktieren Sie die CreditDevice GmbH in Hamburg. Wir beraten Sie persönlich zu Bonitätsinformationen, Credit Management Software und Kreditversicherung."
+    },
+    "about": {
+      "title": "Über uns — CreditDevice GmbH Hamburg",
+      "description": "CreditDevice GmbH wurde 2017 gegründet – als Resultat einer über 30-jährigen Expertise im Credit Management. Lernen Sie unser Team und unsere Geschichte kennen."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Datenschutzerklärung der CreditDevice GmbH gemäß DSGVO und TTDSG."
+    },
+    "imprint": {
+      "title": "Impressum",
+      "description": "Impressum der CreditDevice GmbH, Hamburg — Angaben gemäß § 5 DDG."
+    }
+  },
+  "Navigation": {
+    "products": "Produkte",
+    "creditInformation": "Bonitätsinformationen",
+    "creditInformationDesc": "Zuverlässige Daten und intelligente Einblicke",
+    "creditManagementSoftware": "Credit Management Software",
+    "creditManagementSoftwareDesc": "Effizientes Debitorenmanagement",
+    "policyManager": "PolicyManager",
+    "policyManagerDesc": "Verwaltung Ihrer Kreditversicherung",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "login": "Login",
+    "requestDemo": "Demo anfordern",
+    "selectLanguage": "Sprache"
+  },
+  "Footer": {
+    "tagline": "Ihr Partner für professionelles Credit Management. Vermeiden Sie finanzielle Risiken mit unserer leistungsstarken Software.",
+    "products": "Produkte",
+    "company": "Unternehmen",
+    "service": "Service",
+    "legal": "Rechtliches",
+    "requestDemo": "Demo anfordern",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "CustomerLogos": {
+    "tagline": "von führenden Unternehmen weltweit geschätzt"
+  },
+  "Hero": {
+    "badge1": "Die All-in-One Lösung",
+    "badge2Title": "Sparen Sie bis zu 40%",
+    "badge2Subtitle": "Days Sales Outstanding"
+  },
+  "ProductCards": {
+    "tagline": "Unsere Produkte",
+    "title": "Kreditmanagement-Lösungen, die Ihnen die Arbeit erleichtern",
+    "learnMore": "Mehr erfahren",
+    "creditInformation": {
+      "title": "Kreditinformationen",
+      "description": "Firmenauskünfte in hoher Informationsqualität – ohne Vertrag mit Laufzeit oder Mindestabnahme.",
+      "feature1": "Onlinefirmenauskünfte weltweit aus mehr als 200 Ländern",
+      "feature2": "Bonität von Interessenten und Kunden prüfen",
+      "feature3": "Keine Mindestabnahme",
+      "feature4": "Kein Vertrag",
+      "feature5": "Keine Laufzeit"
+    },
+    "cms": {
+      "title": "Credit Management Software",
+      "description": "Einblicke in das Zahlungsverhalten Ihrer Kunden – damit Sie im Voraus Entscheidungen treffen und Risiken minimieren.",
+      "feature1": "Professionelles Debitoren-Management",
+      "feature2": "Besserer Cashflow",
+      "feature3": "Klare Berichte",
+      "feature4": "Effektive Kommunikation"
+    },
+    "policyManager": {
+      "title": "PolicyManager",
+      "description": "Verwalten Sie Ihre Kreditversicherung einfach – alle wichtigen und relevanten Informationen zusammengeführt.",
+      "feature1": "Aktuelle Kreditlimits garantiert",
+      "feature2": "Benachrichtigungssystem gegen Entschädigungsverluste",
+      "feature3": "In Zusammenarbeit mit Allianz Trade, Atradius, Coface",
+      "feature4": "Hohe Automatisierung"
+    }
+  },
+  "AllInOne": {
+    "tagline": "Module kombinieren",
+    "title": "Alles für ein vollständiges Kreditmanagement in einem Paket",
+    "subtitle": "Wir entwickeln unsere Produkte selbst – weil wir die Bedürfnisse unserer Kunden kennen.",
+    "customers": "Aktive Kunden",
+    "dossiers": "Dossiers",
+    "countries": "Länder",
+    "partner": {
+      "title": "Partner im Kreditmanagement",
+      "description": "Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.",
+      "feature1": "Enge Kundenzusammenarbeit",
+      "feature2": "Kontinuierliche Weiterentwicklung",
+      "feature3": "Eigene Produktentwicklung"
+    },
+    "integrated": {
+      "title": "Eine integrierte Anwendung",
+      "description": "In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.",
+      "feature1": "Modular kombinierbar",
+      "feature2": "Eine zentrale Anwendung",
+      "feature3": "Nahtlos integrierte Daten"
+    },
+    "directContact": {
+      "title": "Schneller, direkter Kontakt",
+      "description": "Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.",
+      "feature1": "Kurze Kommunikationswege",
+      "feature2": "Persönliche Ansprechpartner",
+      "feature3": "Unabhängiges Unternehmen"
+    }
+  },
+  "WhyUs": {
+    "title": "Warum CreditDevice?",
+    "subtitle": "Wir sind mehr als nur ein Softwareanbieter – wir sind Ihr Partner für erfolgreiches Credit Management",
+    "reachable": {
+      "title": "Erreichbar",
+      "description": "Unser engagiertes Team steht Ihnen jederzeit zur Verfügung. Persönlicher Support, der wirklich hilft – keine anonymen Call-Center, sondern echte Experten."
+    },
+    "innovative": {
+      "title": "Innovativ",
+      "description": "Wir entwickeln unsere Lösungen kontinuierlich weiter und setzen auf modernste Technologien. Innovation ist Teil unserer DNA."
+    },
+    "committed": {
+      "title": "Engagiert",
+      "description": "Ihr Erfolg ist unser Antrieb. Wir gehen die Extrameile, um Ihre Ziele zu erreichen und Ihre Erwartungen zu übertreffen."
+    },
+    "flexible": {
+      "title": "Flexibel",
+      "description": "Unsere Lösungen passen sich Ihren Bedürfnissen an, nicht umgekehrt. Skalierbar von KMU bis Großunternehmen."
+    }
+  },
+  "CTABanner": {
+    "title": "Entdecken Sie CreditDevice selbst",
+    "subtitle": "Erfahren Sie, wie unsere Lösungen Ihr Credit Management optimieren können. Vereinbaren Sie noch heute eine Demo.",
+    "primaryCta": "Demo anfordern",
+    "secondaryCta": "Bonitätsauskunft"
+  },
+  "Home": {
+    "hero": {
+      "title": "Die Gesamtlösung für das Kreditmanagement",
+      "subtitle": "CreditDevice bietet eine Komplettlösung für Ihr gesamtes Kreditmanagement. Jedes Produkt hat seine eigene Stärke – kombinieren Sie Module für eine effiziente Gesamtlösung.",
+      "primaryCta": "Demo anfordern",
+      "secondaryCta": "Bonitätsauskunft",
+      "imageAlt": "CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Finden Sie Antworten auf die wichtigsten Fragen zu unseren Lösungen",
+      "q1": "Was macht CreditDevice einzigartig?",
+      "a1": "CreditDevice bietet eine Komplettlösung für Ihr gesamtes Kreditmanagement. Wir entwickeln unsere Produkte selbst, weil wir die Bedürfnisse unserer Kunden kennen. Jedes Produkt hat seine eigene Stärke – in Kombination werden unsere Lösungen noch leistungsfähiger.",
+      "q2": "Sind die Module einzeln nutzbar?",
+      "a2": "Ja. Unsere interaktiven Module — Credit Management Software, PolicyManager, Kreditinformationen und Inkasso — funktionieren unabhängig voneinander. Als Gesamtlösung entfalten sie jedoch ihre volle Stärke.",
+      "q3": "Wie schnell erreiche ich einen Ansprechpartner?",
+      "a3": "Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und direkten Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.",
+      "q4": "Wie erhalte ich internationale Kreditinformationen?",
+      "a4": "Mit unseren internationalen Online-Firmenauskünften erhalten Sie innerhalb kürzester Zeit weltweite Kreditinformationen — ohne Vertrag, ohne Laufzeit oder Mindestabnahme.",
+      "q5": "Wie hilft der PolicyManager bei der Kreditversicherung?",
+      "a5": "Der PolicyManager führt alle wichtigen und relevanten Informationen Ihrer Kreditversicherung zusammen. Dank des Benachrichtigungssystems verhindern Sie Entschädigungsverluste und halten Kreditlimits stets aktuell.",
+      "q6": "Welche Rolle spielt die Credit Management Software?",
+      "a6": "Unsere Credit Management Software geht über reines Debitorenmanagement hinaus. Sie bietet Einblicke in das Zahlungsverhalten Ihrer Kunden, damit Sie im Voraus Entscheidungen treffen, gezielte Maßnahmen ergreifen und Risiken minimieren können."
+    }
+  },
+  "CreditInformation": {
+    "breadcrumb": "Bonitätsinformationen",
+    "hero": {
+      "tagline": "Internationale Kreditinformationen",
+      "titlePart1": "Online-Firmenauskünfte",
+      "titlePart2": "weltweit",
+      "subtitle": "Wir liefern Ihnen innerhalb kürzester Zeit weltweite Kreditauskünfte – um die Bonität Ihrer Interessenten und Kunden zuverlässig zu überprüfen. Ohne Vertrag, ohne Laufzeit oder Mindestabnahme."
+    },
+    "features": {
+      "title": "Unsere Leistungen",
+      "subtitle": "Profitieren Sie von umfassenden Bonitätsinformationen",
+      "international": { "title": "International", "description": "Zugang zu Bonitätsdaten aus über 200 Ländern weltweit. Egal wo Ihre Geschäftspartner sitzen." },
+      "payPerUse": { "title": "Pay per Use", "description": "Zahlen Sie nur für das, was Sie tatsächlich abrufen – ohne Grundgebühr oder Mindestabnahme." },
+      "api": { "title": "Webservice / API", "description": "Leistungsstarke REST-API oder Webhooks für die Integration in Ihre bestehenden Systeme." }
+    },
+    "pricing": {
+      "title": "Preise je Auskunft",
+      "subtitle": "Alle Preise verstehen sich pro abgerufener Auskunft. Keine Grundgebühr, keine Mindestabnahme.",
+      "priceZoneLabel": "Preiszone",
+      "netLabel": "Netto",
+      "grossLabel": "brutto",
+      "zone1Name": "Deutschland & Österreich",
+      "zone1Countries": "Deutschland, Österreich",
+      "zone2Name": "Westeuropa",
+      "zone2Countries": "Belgien, Dänemark, Frankreich, Großbritannien, Irland, Italien, Niederlande, Norwegen, Schweden",
+      "zone3Name": "Ost- & Südeuropa",
+      "zone3Countries": "Albanien, Armenien, Aserbaidschan, Belarus, Bosnien-Herzegowina, Bulgarien, Estland, Finnland, Georgien, Griechenland, Grönland, Island, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Moldau, Montenegro, Nordmazedonien, Polen, Portugal, Rumänien, Schweiz, Serbien, Slowakei, Slowenien, Spanien, Svalbard, Tschechien, Ukraine, Ungarn, Zypern",
+      "zone4Name": "Weltweit",
+      "zone4Countries": "Alle übrigen Länder (über 160 weitere Länder)"
+    },
+    "riskSection": {
+      "title": "Risiko minimieren, Geschäft steigern",
+      "body": "Treffen Sie bessere, schnellere Entscheidungen mit erstklassigen Onlineauskünften – und sichern Sie Ihr Geschäft nachhaltig ab. Steigern Sie gezielt Ihren Umsatz, während Sie Ausfallrisiken konsequent reduzieren. Die perfekte Erweiterung Ihrer Credit-Management-Software für messbaren Erfolg.",
+      "bullet1": "Weltweite Echtzeitabfragen in über 200 Ländern – sofort fundierte Entscheidungen treffen",
+      "bullet2": "Nahtlose Integration – ohne viel Aufwand in Ihre bestehenden Prozesse einfügen",
+      "bullet3": "Maximale Flexibilität – Abrechnung genau nach Ihrem Bedarf",
+      "cta": "Kostenlose Beratung",
+      "infoTitle": "Verfügbare Informationen",
+      "info1Label": "Firmenstammdaten & Rechtsform",
+      "info1Value": "200+ Länder",
+      "info2Label": "Bonitätsscore & Kreditlimit",
+      "info2Value": "Risikoeinschätzung",
+      "info3Label": "Geschäftsführer & Gesellschafter",
+      "info3Value": "Aktuell & historisch",
+      "info4Label": "Konzern- & Beteiligungsstruktur",
+      "info4Value": "Weltweit",
+      "info5Label": "Bilanzdaten & Kennzahlen",
+      "info5Value": "Mehrjährig",
+      "info6Label": "Negativmerkmale",
+      "info6Value": "Geprüft"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Erfahren Sie mehr über unsere Bonitätsinformationen",
+      "q1": "Wer liefert die Bonitätsinformationen?",
+      "a1": "Wir beziehen unsere Daten direkt von den führenden Kreditauskunfteien der jeweiligen Länder – für maximale Aktualität, Verlässlichkeit und internationale Abdeckung.",
+      "q2": "Wie aktuell sind die Bonitätsinformationen?",
+      "a2": "Unsere Daten werden regelmäßig aktualisiert. Je nach Land und Quelle erhalten Sie tagesaktuelle Informationen oder Daten mit einer Aktualisierung innerhalb weniger Tage.",
+      "q3": "Kann ich die Bonitätsinformationen integrieren?",
+      "a3": "Ja, wir bieten eine REST-API, sowie Webhooks für individuelle Integrationen.",
+      "q4": "Welche Informationen sind in einem Bonitätsbericht enthalten?",
+      "a4": "Ein typischer Bericht enthält Firmenstammdaten (Name, Rechtsform, Handelsregisternummer, Adresse, Tätigkeitsbereiche), Bonitätsscore mit Risikoeinschätzung und Kreditlimit, Gesellschafterstruktur und Kapitalverhältnisse, aktuelle und frühere Geschäftsführer, Mitarbeiterzahlen, Bankverbindungen, Konzern- und Beteiligungsstruktur, Jahresabschlüsse und Bilanzdaten (mehrere Jahre), Negativmerkmale sowie Kennzahlen im Branchenvergleich. Der Informationsumfang kann in den einzelnen Ländern unterschiedlich sein."
+    }
+  },
+  "CreditManagementSoftware": {
+    "breadcrumb": "Credit Management Software",
+    "hero": {
+      "title": "Professionelles Debitoren-Management",
+      "subtitle": "Ein besserer Cashflow, klare Berichte und effektive Kommunikation dank einer Anwendung.",
+      "primaryCta": "Demo anfordern",
+      "secondaryCta": "Angebot anfordern",
+      "imageAlt": "Credit-Management-Software von CreditDevice — zentrale Übersicht für Debitoren-Management und Mahnwesen"
+    },
+    "features": {
+      "title": "Was unsere Software auszeichnet",
+      "subtitle": "Bei CreditDevice wählen Sie das für Sie passende Paket – Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung.",
+      "transparency": { "title": "Volle Transparenz über Ihre Debitoren", "description": "Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Debitors ist für jeden im Unternehmen klar." },
+      "earlyPayment": { "title": "Rechnungen früher bezahlt", "description": "Sprechen Sie die Sprache Ihres Debitors: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt." },
+      "reports": { "title": "Maßgeschneiderte Berichte", "description": "Informieren Sie die Geschäftsleitung monatlich über die größten Debitor oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser flexibles Berichtstool." },
+      "actionLists": { "title": "Zeit sparen mit Aktionslisten", "description": "Arbeiten Sie täglich anhand von Aktionslisten und vermeiden Sie verspätete Zahlungen. Die Kundenprofile bestimmen, welche Aktion wann geplant ist." },
+      "groupLevel": { "title": "Auf Konzernebene anmahnen", "description": "Verknüpfen Sie mehrere Debitorennummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene." },
+      "complaints": { "title": "Schnelle Reklamationsbearbeitung", "description": "Erfassen Sie Reklamationen einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden." }
+    },
+    "uniqueness": {
+      "title": "Wie einzigartig ist CreditDevice?",
+      "body1": "Wir sind der Meinung, dass jeder Kreditmanager von nur einer Anwendung für alle Dienstleistungen im Bereich Kreditmanagement profitiert: die Verwaltung Ihrer Kreditversicherungspolice, Ihr Debitoren-Management, die Erfassung von Kreditinformationen und die Analyse von Risiken.",
+      "body2": "Unsere selbst entwickelte Credit Management Software ist mit verschiedenen Kreditinformationsdatenbank verknüpft – direkter Online-Zugang zu mehr als 430 Millionen Unternehmen weltweit.",
+      "bullet1": "Eine Unternehmenslizenz - alle User inklusive",
+      "bullet2": "Über 430 Mio. Unternehmen weltweit",
+      "bullet3": "Kombinierbar mit PolicyManager",
+      "cta": "Demo anfragen"
+    },
+    "dashboard": {
+      "overview": "Debitorenübersicht",
+      "today": "Heute",
+      "openItems": "Offene Posten",
+      "overdue": "Überfällig",
+      "inCollection": "In Mahnung",
+      "activeWorkflows": "Aktive Workflows",
+      "active": "aktiv",
+      "paymentReminder": "Zahlungserinnerung",
+      "firstReminder": "1. Mahnung",
+      "collections": "Inkasso"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Erfahren Sie mehr über unsere Credit Management Software",
+      "q1": "Warum Credit Management Software zusätzlich zur Buchhaltung?",
+      "a1": "Sie haben bereits eine Buchhaltungssoftware – doch oft ist ein traditionelles Paket nicht flexibel und vielseitig genug für ein modernes Kreditmanagement. Unsere Software ist genau dafür gebaut.",
+      "q2": "Wie ist die Credit Management Software mit Kreditinformationen verknüpft?",
+      "a2": "Die Software ist direkt mit Kreditinformationsdatenbanken verbunden. Sie haben Online-Zugang zu mehr als 430 Millionen Unternehmen weltweit – eine wertvolle Kombination für ein vollständiges Bild Ihrer Debitoren.",
+      "q3": "Wie hängt die Software mit dem PolicyManager zusammen?",
+      "a3": "Mit dem Benachrichtigungssystem des PolicyManagers erfüllen Sie die Obliegenheiten Ihres Kreditversicherers rechtzeitig. Sie verlieren nie den Versicherungsschutz und erfüllen die Obliegenheiten für Entschädigungsansprüche.",
+      "q4": "Gibt es Benutzerlizenzen?",
+      "a4": "Nein. CreditDevice verwendet Unternehmenslizenzen, in denen alle User inklusive sind.",
+      "q5": "Welche Berechtigungsstrukturen gibt es für Benutzer?",
+      "a5": "Es gibt sowohl ein flexibles Rollensystem, sowie eine Möglichkeit zur Datenfilterung wie beispielsweise Abbildung von Mandatenstrukturen und Ländern."
+    }
+  },
+  "PolicyManager": {
+    "breadcrumb": "PolicyManager",
+    "hero": {
+      "title": "PolicyManager — Ihr neuer bester Freund",
+      "subtitle": "Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren. Ein Tool, das Risiken vermeidet – durch rechtzeitige Maßnahmen.",
+      "primaryCta": "Demo anfordern",
+      "secondaryCta": "Vorteile entdecken",
+      "imageAlt": "PolicyManager-Oberfläche zur Verwaltung von Kreditversicherungs-Limits und Umsatzmeldungen"
+    },
+    "features": {
+      "title": "Entdecken Sie Ihre Vorteile",
+      "subtitle": "Die manuelle Verwaltung einer Kreditversicherungspolice ist viel Arbeit. Der PolicyManager nimmt Ihnen all das ab – und minimiert die Fehleranfälligkeit.",
+      "subscription": { "title": "Erschwingliches Abonnement", "description": "Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich – auch für KMU in Reichweite." },
+      "reminder": { "title": "Automatische Erinnerung", "description": "Sie erhalten automatisch ein Signal, zum Beispiel bei Überschreitung eines Limits." },
+      "timeSaving": { "title": "Sie sparen Zeit", "description": "Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen können, um den Verlust des Versicherungsschutzes zu verhindern." },
+      "currentData": { "title": "Immer aktuelle Daten", "description": "Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite. Entscheidungen, Aufhebungen und Reduzierungen sind sofort sichtbar." },
+      "costAnalysis": { "title": "Kreditlimitkosten analysieren", "description": "Analysieren Sie, welches Kreditlimit für Ihren Kunden am besten geeignet ist – oder ersetzen Sie ein kostenpflichtiges Limit durch ein kostenloses Selbstbewertungslimit." },
+      "creditReports": { "title": "Wertvolle Kreditauskünfte", "description": "Kreditauskünfte sind das ideale Instrument zur Festlegung eines gedeckten Kreditlimits – vollständig in alle Module integriert und erschwinglich." },
+      "oneLimit": { "title": "Ein Unternehmen, ein Limit", "description": "Der PolicyManager erkennt Unternehmen mit mehreren Debitorennummern und verknüpft alle Rechnungen mit einem einzigen Limit – über die Handelsregisternummer." },
+      "followUp": { "title": "Geordnete Wiedervorlage", "description": "Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers werden vollständig erfüllt." }
+    },
+    "allInOne": {
+      "title": "Alles in einer Anwendung",
+      "body1": "Mit den Credit-Management-Modulen von CreditDevice kombinieren Sie alles in einer Anwendung: die Verwaltung Ihrer Kreditversicherung, Ihr Debitoren-Management, den Abruf von Kreditinformationen und die Analyse von Risiken.",
+      "body2": "Mit dem PolicyManager verwalten Sie Ihre Kreditversicherungspolice perfekt – alle Module sind miteinander kompatibel und sie müssen nicht zwischen Systemen wechseln.",
+      "bullet1": "Direkte Anbindung an das System Ihres Kreditversicherers",
+      "bullet2": "Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite",
+      "bullet3": "Kompatibel mit Allianz Trade, Atradius, Coface",
+      "bullet4": "Obliegenheiten im Schadensfall werden vollständig erfüllt",
+      "cta": "Demo anfordern"
+    },
+    "dashboard": {
+      "title": "Kreditlimit-Übersicht",
+      "limit": "Limit",
+      "usage": "Ausnutzung",
+      "limitRequested": "Limit beantragt",
+      "status": "Status",
+      "statusActive": "Aktiv",
+      "statusReview": "Prüfung",
+      "statusWarning": "Warnung",
+      "statusInProgress": "In Bearbeitung"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Erfahren Sie mehr über PolicyManager",
+      "q1": "Mit welchen Kreditversicherern wurde der PolicyManager entwickelt?",
+      "a1": "Der PolicyManager wurde in Zusammenarbeit mit Allianz Trade, Atradius und Coface entwickelt, um die Verwaltung Ihrer Kreditversicherungspolice zu optimieren und zu erleichtern.",
+      "q2": "Was kostet der PolicyManager?",
+      "a2": "Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich. Das Produkt ist damit auch für KMUs bezahlbar.",
+      "q3": "Wie werden Daten mit dem Versicherer ausgetauscht?",
+      "a3": "Ein praktischer Webservice mit dem Versicherer sorgt dafür, dass Informationen automatisch ausgetauscht werden. Mit jeder Aktualisierung generiert das System automatisch neue Listen und Benachrichtigungen – das minimiert Fehler und spart Zeit.",
+      "q4": "Wie hilft der PolicyManager bei Selbstbewertungen?",
+      "a4": "Der PolicyManager verwendet die gleiche Berechnungsmethode wie die Versicherer – Sie erhalten sofort Ihr Kreditlimit samt Berechnung."
+    }
+  },
+  "CreditInquiry": {
+    "breadcrumb": "Unternehmensauskunft",
+    "tagline": "schnell & zuverlässig",
+    "title": "Onlineauskünfte — globale Bonitätsauskünfte leicht gemacht",
+    "subtitle": "Mit einem Mausklick bestellbar. Im Anschluss an Ihre Bestellung recherchieren unsere erfahrenen Credit-Analysten die gewünschten Informationen und stellen Ihnen die Auskunft zeitnah zur Verfügung.",
+    "worldwide": "Weltweit",
+    "worldwideDesc": "Unternehmensdaten aus über 200 Ländern – EU, UK, USA und weltweit.",
+    "fastDelivery": "Schnelle Lieferung",
+    "fastDeliveryDesc": "Recherche und Bereitstellung durch erfahrene Credit-Analysten.",
+    "securePayment": "Sichere Zahlung",
+    "securePaymentDesc": "Kartenzahlung und SEPA, abgewickelt über Stripe."
+  },
+  "Contact": {
+    "breadcrumb": "Kontakt",
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Haben Sie Fragen oder möchten Sie mehr über unsere Lösungen erfahren? Wir freuen uns auf Ihre Nachricht.",
+      "imageAlt": "CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
+    },
+    "contactPerson": "Ihr Ansprechpartner",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "businessHours": "Geschäftszeiten",
+    "businessHoursValue": "Mo - Fr: 9:00 - 17:00 Uhr",
+    "demoBox": {
+      "title": "Demo vereinbaren",
+      "body": "Möchten Sie CreditDevice in Aktion sehen? Vereinbaren Sie eine Demo mit unseren Experten.",
+      "cta": "Jetzt Formular ausfüllen"
+    },
+    "formSection": {
+      "title": "Schreiben Sie uns",
+      "subtitle": "Füllen Sie das Formular aus und wir melden uns schnellstmöglich bei Ihnen."
+    },
+    "stats": {
+      "title": "CreditDevice GmbH",
+      "body": "Besuchen Sie uns in Hamburg oder kontaktieren Sie uns telefonisch – wir beraten Sie gerne persönlich zu unseren Credit Management Lösungen.",
+      "activeCustomers": "Aktive Kunden",
+      "countries": "Länder",
+      "yearsExperience": "Jahre Erfahrung"
+    }
+  },
+  "About": {
+    "breadcrumb": "Über uns",
+    "hero": {
+      "tagline": "Über uns",
+      "title": "Credit Management — aus Leidenschaft",
+      "subtitle": "CreditDevice GmbH wurde 2017 gegründet – als Resultat einer über 30-jährigen Zusammenarbeit und Expertise im Credit Management. Unser Ziel: ein digitales Rundum-Sorglos-Paket rund um das Kreditmanagement."
+    },
+    "stats": {
+      "founded": "Gründungsjahr",
+      "experience": "Jahre Erfahrung",
+      "customers": "Aktive Kunden",
+      "countries": "Länder weltweit"
+    },
+    "history": {
+      "title": "Unsere Geschichte",
+      "body1": "CreditDevice GmbH entstand 2017 aus einer langjährigen Partnerschaft zwischen Hans Geluk (CreditDevice B.V., Niederlande) und Sven Buckenberger. Die Idee: das gesammelte Know-how aus Jahrzehnten im europäischen Credit Management in einem modernen, digitalen Produkt zu bündeln.",
+      "body2": "2020 erwarb CreditDevice das seit 2011 bestehende Inkassogeschäft der Hanse Debitoren Management.",
+      "body3": "2021 übernahmen wir GlobalCompanyCheck e.U. und erweiterten damit unser Angebot um weltweite Online-Firmenauskünfte aus über 200 Ländern – direkt integriert in unsere Credit Management Software.",
+      "body4": "Heute bieten wir eine Komplettlösung: Credit Management Software, PolicyManager, internationale Kreditinformationen und Inkasso – alles aus einer Hand.",
+      "claimTitle": "Unser Anspruch",
+      "claim": "„Ein digitales Rundum-Sorglos-Paket rund um das Credit Management.“",
+      "claimAuthor": "— Sven G. Buckenberger, Geschäftsführer"
+    },
+    "management": {
+      "title": "Geschäftsführung",
+      "name": "Sven G. Buckenberger",
+      "role": "Geschäftsführender Gesellschafter",
+      "details": "Betriebswirt (WA) · geb. 1967",
+      "bio": "Sven Buckenberger bringt über 35 Jahre Erfahrung im europäischen Credit Management mit. Als langjähriges Vorstandsmitglied der Federation of Business Information Services (FEBIS) – seit 1997 – ist er bestens vernetzt in der internationalen Kreditinformationsbranche.",
+      "quote": "„Ein Mann, ein Wort.“",
+      "careerTitle": "Karriere",
+      "career1": "Volontär bei der Hermes Kreditversicherungs-AG mit dualem Studium",
+      "career2": "19 Jahre bei Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO – u. a. 28 Unternehmensübernahmen",
+      "career3": "Gründung Hanse Debitoren Management",
+      "career4": "Gründung CreditDevice GmbH",
+      "career5": "Übernahme von Geschäftstätigkeit Hanse Debitoren Management durch CreditDevice GmbH",
+      "career6": "Übernahme GlobalCompanyCheck e.U.",
+      "membershipsTitle": "Verbandsmitgliedschaften & Mandate",
+      "membership1": "Vorstandsmitglied der Federation of Business Information Services (FEBIS) – seit 1997",
+      "membership2": "Beirat Maritimes Cluster Norddeutschland (2013 – 2016)",
+      "membership3": "Revisor Maritimes Cluster Norddeutschland (2025 – heute)",
+      "membership4": "Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)",
+      "membership5": "Mitglied in verschiedenen Hamburger Wirtschaftsverbänden"
+    },
+    "cta": {
+      "title": "Lernen Sie uns persönlich kennen",
+      "subtitle": "Kontaktieren Sie uns – wir beraten Sie gerne zu unseren Credit Management Lösungen.",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "Privacy": {
+    "breadcrumb": "Datenschutz",
+    "title": "Datenschutzerklärung",
+    "notice": ""
+  },
+  "Imprint": {
+    "breadcrumb": "Impressum",
+    "title": "Impressum"
+  },
+  "SearchForm": {
+    "placeholder": "Firmenname",
+    "countryLabel": "Land",
+    "search": "Suchen",
+    "searching": "Suche...",
+    "minCharsError": "Bitte mindestens 2 Zeichen eingeben."
+  },
+  "ContactForm": {
+    "firstName": "Vorname",
+    "firstNamePlaceholder": "Ihr Vorname",
+    "lastName": "Nachname",
+    "lastNamePlaceholder": "Ihr Nachname",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.de",
+    "phone": "Telefon",
+    "company": "Unternehmen",
+    "companyPlaceholder": "Ihr Unternehmen",
+    "message": "Nachricht",
+    "messagePlaceholder": "Wie können wir Ihnen helfen?",
+    "privacyText": "Ich habe die",
+    "privacyLink": "Datenschutzerklärung",
+    "privacyText2": "gelesen und stimme der Verarbeitung meiner Daten zu.",
+    "required": "*",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Vielen Dank!",
+    "successBody": "Wir haben Ihre Nachricht erhalten und melden uns schnellstmöglich bei Ihnen.",
+    "sendFailed": "Versand fehlgeschlagen."
+  },
+  "AuskunftResults": {
+    "heading": "Wählen Sie das gesuchte Unternehmen aus, um eine Auskunft zu bestellen.",
+    "loading": "Unternehmen werden gesucht ...",
+    "errorTitle": "Fehler bei der Suche",
+    "noResults": "Keine Treffer für",
+    "noResultsIn": "in der ausgewählten Region.",
+    "hits": "Treffer",
+    "colName": "Name",
+    "colAddress": "Adresse",
+    "colRegNo": "HR-Nr.",
+    "colVatNo": "USt-IdNr.",
+    "colStatus": "Status",
+    "colType": "Typ",
+    "loading2": "Lädt ..."
+  },
+  "AuskunftDetail": {
+    "backToSearch": "Zurück zur Suche",
+    "selectedCompany": "Gewähltes Unternehmen",
+    "street": "Straße",
+    "postCode": "PLZ",
+    "city": "Stadt",
+    "country": "Land",
+    "status": "Status",
+    "name": "Name",
+    "regNo": "HR-Nr.",
+    "vatNo": "USt-IdNr.",
+    "type": "Typ",
+    "titleSuffix": "– Auskunft bestellen",
+    "titleDefault": "Auskunft bestellen"
+  },
+  "AuskunftOrder": {
+    "backToCompany": "Zurück zum Unternehmen",
+    "title": "Bestellung abschließen"
+  },
+  "AuskunftConfirmation": {
+    "title": "Vielen Dank für Ihre Bestellung!",
+    "body": "Wir haben Ihre Bestellung erhalten. Unsere Credit-Analysten recherchieren nun die angeforderten Informationen und stellen Ihnen die Auskunft zeitnah bereit. Eine Bestätigung wurde an Ihre E-Mail-Adresse gesendet.",
+    "cta": "Weitere Auskunft bestellen"
+  },
+  "ProductPicker": {
+    "title": "Produkte auswählen",
+    "subtitle": "Mehrere Produkte können kombiniert werden",
+    "net": "Netto",
+    "gross": "Brutto",
+    "order": "Bestellen",
+    "comingSoon": "bald verfügbar",
+    "netPrice": "Netto",
+    "plusVat": "zzgl. MwSt.",
+    "full": { "label": "Vollauskunft", "shortLabel": "Vollauskunft", "description": "Umfassender Bonitätsbericht mit Firmenstammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung." },
+    "compact": { "label": "Kompaktauskunft", "shortLabel": "Kompakt", "description": "Reduzierter Bonitätsbericht mit den wichtigsten Kennzahlen." },
+    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Laufende Überwachung der Bonität eines Unternehmens." }
+  },
+  "OrderFlow": {
+    "ordererTitle": "Besteller-Angaben",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "company": "Firma",
+    "street": "Straße & Nr.",
+    "zip": "PLZ",
+    "city": "Stadt",
+    "country": "Land",
+    "vatId": "USt-IdNr. (optional, für Reverse Charge)",
+    "orderReason": "Bestellgrund",
+    "adultConfirmation": "Ich bestätige, dass ich volljährig bin und die Auskunft zu geschäftlichen Zwecken bestelle.",
+    "continueToPayment": "Weiter zur Zahlung",
+    "paymentTitle": "Zahlung",
+    "payNow": "Jetzt kostenpflichtig bestellen",
+    "retryError": "Erneut versuchen",
+    "errorTitle": "Fehler",
+    "summaryTitle": "Zusammenfassung",
+    "companyLabel": "Unternehmen",
+    "netLabel": "Netto",
+    "grossLabel": "Brutto",
+    "orderSuccess": "Bestellung erfolgreich",
+    "orderSuccessBody": "Vielen Dank für Ihre Bestellung. Sie erhalten in Kürze eine Bestätigung per E-Mail.",
+    "downloadPdf": "PDF herunterladen",
+    "downloadError": "Download fehlgeschlagen",
+    "reasonCreditDecision": "Kreditentscheidung",
+    "reasonBusinessInitiation": "Geschäftsanbahnung",
+    "reasonDebtCollection": "Forderungseinzug",
+    "reasonRiskManagement": "Risikomanagement"
+  }
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { ReactNode } from 'react';
 
 interface ButtonProps {
@@ -56,7 +56,8 @@ export function Button({
       );
     }
     return (
-      <Link href={href} className={combinedStyles}>
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      <Link href={href as any} className={combinedStyles}>
         {children}
       </Link>
     );

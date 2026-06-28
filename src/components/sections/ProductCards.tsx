@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { Section } from '../ui/Section';
 import { ArrowRight, Search, FileText, Shield, Check } from 'lucide-react';
 
@@ -44,7 +44,8 @@ export function ProductCards() {
           return (
             <Link
               key={product.title}
-              href={product.href}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              href={product.href as any}
               className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               {/* Navy header bar */}

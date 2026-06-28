@@ -34,7 +34,7 @@ export default function Home() {
       <JsonLd data={faqSchema(faqItems)} />
       <Hero
         title="Die Gesamtlösung für das Kreditmanagement"
-        subtitle="CreditDevice bietet eine Komplettlösung für Ihr komplettes Kreditmanagement. Jedes Produkt hat seine eigene Stärke – kombinieren Sie Module für eine effiziente Gesamtlösung."
+        subtitle="CreditDevice bietet eine Komplettlösung für Ihr gesamtes Kreditmanagement. Jedes Produkt hat seine eigene Stärke – kombinieren Sie Module für eine effiziente Gesamtlösung."
         primaryCta={{
           text: 'Demo anfordern',
           href: '/kontakt',
