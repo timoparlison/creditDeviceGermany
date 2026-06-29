@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import './globals.css';
 
+export const runtime = 'edge';
+
 const openSans = Open_Sans({
   subsets: ['latin'],
   variable: '--font-open-sans',
