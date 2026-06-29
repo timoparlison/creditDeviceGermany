@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "vercel build && node scripts/patch-not-found.mjs && next-on-pages --skip-build",
+    "build": "node scripts/patch-next-on-pages.mjs && next-on-pages",
     "build:next": "next build",
     "start": "next start",
     "lint": "eslint",
