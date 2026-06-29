@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { useLocale } from 'next-intl';
 import { Section } from '../ui/Section';
 import { Handshake, Layers, Phone, ArrowRight } from 'lucide-react';
 
@@ -12,7 +13,7 @@ const tabs = [
     icon: Handshake,
     description: 'Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.',
     features: ['Enge Kundenzusammenarbeit', 'Kontinuierliche Weiterentwicklung', 'Eigene Produktentwicklung'],
-    image: '/alles-in-one.svg',
+    image: 'alles-in-one.svg',
   },
   {
     id: 'integrated',
@@ -20,7 +21,7 @@ const tabs = [
     icon: Layers,
     description: 'In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.',
     features: ['Modular kombinierbar', 'Eine zentrale Anwendung', 'Nahtlos integrierte Daten'],
-    image: '/alles-in-one.svg',
+    image: 'alles-in-one.svg',
   },
   {
     id: 'contact',
@@ -28,11 +29,13 @@ const tabs = [
     icon: Phone,
     description: 'Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.',
     features: ['Kurze Kommunikationswege', 'Persönliche Ansprechpartner', 'Unabhängiges Unternehmen'],
-    image: '/alles-in-one.svg',
+    image: 'alles-in-one.svg',
   },
 ];
 
 export function AllInOne() {
+  const locale = useLocale();
+  const imgPrefix = locale === 'de' ? '/de' : '/en';
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   const activeTabData = tabs.find((tab) => tab.id === activeTab) || tabs[0];
 
@@ -105,7 +108,7 @@ export function AllInOne() {
             <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-navy/20 rounded-3xl blur-2xl" />
             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
               <Image
-                src={activeTabData.image}
+                src={`${imgPrefix}/${activeTabData.image}`}
                 alt={activeTabData.title}
                 width={700}
                 height={400}

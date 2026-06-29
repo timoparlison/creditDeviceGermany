@@ -43,7 +43,7 @@ export default function Home() {
           text: 'Bonitätsauskunft',
           href: '/bonitaetsinformationen',
         }}
-        image="/credTitelBildNachTeamsCall.png"
+        image="/de/credTitelBildNachTeamsCall.png"
         imageAlt="CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
       />
 

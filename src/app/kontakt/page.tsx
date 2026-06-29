@@ -63,7 +63,7 @@ export default function KontaktPage() {
       <Hero
         title="Kontakt"
         subtitle="Haben Sie Fragen oder möchten Sie mehr über unsere Lösungen erfahren? Wir freuen uns auf Ihre Nachricht."
-        image="/credTitelBildNachTeamsCall.png"
+        image="/de/credTitelBildNachTeamsCall.png"
         imageAlt="CreditDevice Team im Gespräch nach einem Credit-Management-Beratungstermin"
       />
 

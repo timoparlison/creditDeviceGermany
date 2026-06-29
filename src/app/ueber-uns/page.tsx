@@ -185,7 +185,7 @@ export default function UeberUnsPage() {
               <div className="mt-6 flex flex-wrap items-center gap-8">
                 <a href="https://www.febis.org" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/febis-logo-en-de-gradient.png"
+                    src="/de/febis-logo-en-de-gradient.png"
                     alt="FEBIS – Federation of Business Information Services"
                     width={160}
                     height={60}
@@ -194,7 +194,7 @@ export default function UeberUnsPage() {
                 </a>
                 <a href="https://www.veek-hamburg.de/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/230904_VEEK_Logo.png"
+                    src="/de/230904_VEEK_Logo.png"
                     alt="Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK)"
                     width={80}
                     height={60}
