@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import './globals.css';
+import deMessages from '../../messages/de.json';
 
 export const runtime = 'edge';
 
@@ -31,12 +31,11 @@ export const metadata: Metadata = {
   formatDetection: { email: false, telephone: false },
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const messages = await getMessages();
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html className={`${openSans.variable}`}>
       <body className="font-sans antialiased">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale="de" messages={deMessages}>
           {children}
         </NextIntlClientProvider>
       </body>
