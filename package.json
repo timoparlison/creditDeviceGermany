@@ -32,8 +32,5 @@
     "typescript": "^5",
     "vercel": "^47.0.4",
     "wrangler": "^4.0.0"
-  },
-  "optionalDependencies": {
-    "@swc/helpers": "0.5.23"
   }
 }
