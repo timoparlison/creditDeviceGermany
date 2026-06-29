@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Avvio di attività commerciale",
     "reasonDebtCollection": "Recupero crediti",
     "reasonRiskManagement": "Gestione del rischio"
+  },
+  "HeroBadges": {
+    "allInOne": "La soluzione all-in-one",
+    "savingsLabel": "Risparmia fino al 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

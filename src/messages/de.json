@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Geschäftsanbahnung",
     "reasonDebtCollection": "Forderungseinzug",
     "reasonRiskManagement": "Risikomanagement"
+  },
+  "HeroBadges": {
+    "allInOne": "Die All-in-One Lösung",
+    "savingsLabel": "Sparen Sie bis zu 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

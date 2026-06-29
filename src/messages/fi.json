@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Liiketoiminnan aloittaminen",
     "reasonDebtCollection": "Perintä",
     "reasonRiskManagement": "Riskienhallinta"
+  },
+  "HeroBadges": {
+    "allInOne": "Kaikki yhdessä -ratkaisu",
+    "savingsLabel": "Säästä jopa 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

@@ -66,7 +66,7 @@
     "tagline": "trusted by leading companies worldwide"
   },
   "Hero": {
-    "badge1": "The All-in-One Solution",
+    "badge1": "All-in-One Solution",
     "badge2Title": "Save up to 40%",
     "badge2Subtitle": "Days Sales Outstanding"
   },
@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Business initiation",
     "reasonDebtCollection": "Debt collection",
     "reasonRiskManagement": "Risk management"
+  },
+  "HeroBadges": {
+    "allInOne": "All-in-One Solution",
+    "savingsLabel": "Save up to 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

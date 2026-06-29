@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Inicio de negocio",
     "reasonDebtCollection": "Cobro de deudas",
     "reasonRiskManagement": "Gestión de riesgos"
+  },
+  "HeroBadges": {
+    "allInOne": "La solución todo en uno",
+    "savingsLabel": "Ahorre hasta un 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

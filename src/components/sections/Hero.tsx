@@ -1,7 +1,9 @@
+'use client';
+
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { Button } from '../ui/Button';
 import { Container } from '../ui/Container';
-import { Layers } from 'lucide-react';
 
 interface HeroProps {
   title: string;
@@ -20,50 +22,33 @@ interface HeroProps {
 }
 
 // Floating Badge Components
-function AllesInEinemBadge() {
+function AllesInEinemBadge({ label }: { label: string }) {
   return (
     <div className="bg-white rounded-full shadow-xl px-5 py-3 flex items-center gap-3 animate-float-slow">
       <div className="w-10 h-10 rounded-full flex items-center justify-center overflow-hidden">
-        {/* Pie chart icon similar to original */}
         <svg viewBox="0 0 40 40" className="w-10 h-10">
           <circle cx="20" cy="20" r="16" fill="#F08013" />
-          <path
-            d="M 20 20 L 20 4 A 16 16 0 0 1 36 20 Z"
-            fill="#041531"
-          />
+          <path d="M 20 20 L 20 4 A 16 16 0 0 1 36 20 Z" fill="#041531" />
           <circle cx="20" cy="20" r="8" fill="white" />
         </svg>
       </div>
-      <span className="text-navy font-semibold text-sm whitespace-nowrap">Die All-in-One Lösung</span>
+      <span className="text-navy font-semibold text-sm whitespace-nowrap">{label}</span>
     </div>
   );
 }
 
-function SparenBadge() {
+function SparenBadge({ label, subtitle }: { label: string; subtitle: string }) {
   return (
     <div className="bg-white rounded-full shadow-xl px-5 py-3 flex items-center gap-3 animate-float">
       <div className="w-10 h-10 relative flex items-center justify-center">
-        {/* Semi-circle gauge icon */}
         <svg viewBox="0 0 40 40" className="w-10 h-10">
-          <path
-            d="M 4 24 A 16 16 0 0 1 36 24"
-            fill="none"
-            stroke="#e5e7eb"
-            strokeWidth="6"
-            strokeLinecap="round"
-          />
-          <path
-            d="M 4 24 A 16 16 0 0 1 20 8"
-            fill="none"
-            stroke="#041531"
-            strokeWidth="6"
-            strokeLinecap="round"
-          />
+          <path d="M 4 24 A 16 16 0 0 1 36 24" fill="none" stroke="#e5e7eb" strokeWidth="6" strokeLinecap="round" />
+          <path d="M 4 24 A 16 16 0 0 1 20 8" fill="none" stroke="#041531" strokeWidth="6" strokeLinecap="round" />
         </svg>
       </div>
       <div className="flex flex-col">
-        <span className="text-navy font-semibold text-sm whitespace-nowrap">Sparen Sie bis zu 40%</span>
-        <span className="text-gray-500 text-xs">Days Sales Outstanding</span>
+        <span className="text-navy font-semibold text-sm whitespace-nowrap">{label}</span>
+        <span className="text-gray-500 text-xs">{subtitle}</span>
       </div>
     </div>
   );
@@ -78,6 +63,7 @@ export function Hero({
   imageAlt,
   showImage = true,
 }: HeroProps) {
+  const t = useTranslations('HeroBadges');
   return (
     <section className="relative bg-navy text-white pt-12 pb-8 md:pt-16 md:pb-12 lg:pt-20 lg:pb-16 overflow-hidden">
       {/* Decorative circle elements */}
@@ -121,8 +107,8 @@ export function Hero({
           <div className="relative">
             {/* Floating Badges - positioned on the left */}
             <div className="hidden lg:flex flex-col gap-4 absolute left-0 bottom-8 z-20">
-              <AllesInEinemBadge />
-              <SparenBadge />
+              <AllesInEinemBadge label={t('allInOne')} />
+              <SparenBadge label={t('savingsLabel')} subtitle={t('savingsSubtitle')} />
             </div>
 
             {/* Dashboard mockup - centered */}

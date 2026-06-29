@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Affärsinitiativen",
     "reasonDebtCollection": "Inkasso",
     "reasonRiskManagement": "Riskhantering"
+  },
+  "HeroBadges": {
+    "allInOne": "Den allt-i-ett-lösningen",
+    "savingsLabel": "Spara upp till 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }

@@ -629,5 +629,10 @@
     "reasonBusinessInitiation": "Zakelijke initiatie",
     "reasonDebtCollection": "Incasso",
     "reasonRiskManagement": "Risicobeheer"
+  },
+  "HeroBadges": {
+    "allInOne": "De alles-in-één oplossing",
+    "savingsLabel": "Bespaar tot 40%",
+    "savingsSubtitle": "Days Sales Outstanding"
   }
 }
