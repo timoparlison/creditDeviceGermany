@@ -103,7 +103,22 @@
   "AllInOne": {
     "activeClients": "Aktive kunder",
     "dossiers": "Saker",
-    "countries": "Land"
+    "countries": "Land",
+    "tagline": "Kombiner moduler",
+    "title": "Alt for komplett kredittadministrasjon i ett pakke",
+    "subtitle": "Vi utvikler våre produkter selv – fordi vi kjenner behovene til kundene våre.",
+    "tab1": {
+      "title": "Partner i kredittadministrasjon",
+      "description": "Gjennom tett samarbeid med kundene våre utvikler vi stadig nye og verdifulle løsninger for å forbedre kredittadministrasjonen."
+    },
+    "tab2": {
+      "title": "En integrert applikasjon",
+      "description": "I vår online-applikasjon har du tilgang til ulike interaktive moduler. Disse fungerer uavhengig av hverandre, men best som en komplett løsning."
+    },
+    "tab3": {
+      "title": "Rask, direkte kontakt",
+      "description": "Vi er et uavhengig selskap. I praksis betyr det korte kommunikasjonslinjer og rask kontakt. Det tette forholdet til kundene våre gjenspeiles også i utviklingsprosessen for nye produkter."
+    }
   },
   "WhyUs": {
     "title": "Hvorfor CreditDevice?",

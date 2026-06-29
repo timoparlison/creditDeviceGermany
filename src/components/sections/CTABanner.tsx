@@ -1,8 +1,11 @@
+import { getTranslations } from 'next-intl/server';
 import { Section } from '../ui/Section';
 import { Button } from '../ui/Button';
 import { ArrowRight } from 'lucide-react';
 
-export function CTABanner() {
+export async function CTABanner() {
+  const t = await getTranslations('CTABanner');
+
   return (
     <Section background="navy" className="relative overflow-hidden">
       {/* Decorative elements */}
@@ -11,14 +14,14 @@ export function CTABanner() {
 
       <div className="relative text-center max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Entdecken Sie CreditDevice selbst
+          {t('title')}
         </h2>
         <p className="text-lg md:text-xl text-gray-300 mb-10">
-          Erfahren Sie, wie unsere Lösungen Ihr Credit Management optimieren können. Vereinbaren Sie noch heute eine Demo.
+          {t('subtitle')}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button href="/kontakt" variant="primary" size="lg">
-            Demo anfordern
+            {t('primaryCta')}
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button
@@ -27,7 +30,7 @@ export function CTABanner() {
             size="lg"
             className="border-white text-white hover:bg-white hover:text-navy"
           >
-            Bonitätsauskunft
+            {t('secondaryCta')}
           </Button>
         </div>
       </div>

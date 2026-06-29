@@ -1,40 +1,59 @@
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { Section } from '../ui/Section';
 import { ArrowRight, Search, FileText, Shield, Check } from 'lucide-react';
 
-const products = [
-  {
-    title: 'Kreditinformationen',
-    description: 'Firmenauskünfte in hoher Informationsqualität – ohne Vertrag mit Laufzeit oder Mindestabnahme.',
-    href: '/bonitaetsinformationen',
-    icon: Search,
-    features: ['Onlinefirmenauskünfte weltweit aus mehr als 200 Ländern', 'Bonität von Interessenten und Kunden prüfen', 'Keine Mindestabnahme', 'Kein Vertrag', 'Keine Laufzeit'],
-  },
-  {
-    title: 'Credit Management Software',
-    description: 'Einblicke in das Zahlungsverhalten Ihrer Kunden – damit Sie im Voraus Entscheidungen treffen und Risiken minimieren.',
-    href: '/credit-management-software',
-    icon: FileText,
-    features: ['Professionelles Debitoren-Management', 'Besserer Cashflow', 'Klare Berichte', 'Effektive Kommunikation'],
-  },
-  {
-    title: 'PolicyManager',
-    description: 'Verwalten Sie Ihre Kreditversicherung einfach – alle wichtigen und relevanten Informationen zusammengeführt.',
-    href: '/policymanager',
-    icon: Shield,
-    features: ['Aktuelle Kreditlimits garantiert', 'Benachrichtigungssystem gegen Entschädigungsverluste', 'In Zusammenarbeit mit Allianz Trade, Atradius, Coface', 'Hohe Automatisierung'],
-  },
-];
+export async function ProductCards() {
+  const t = await getTranslations('ProductCards');
 
-export function ProductCards() {
+  const products = [
+    {
+      title: t('creditInformation.title'),
+      description: t('creditInformation.description'),
+      href: '/bonitaetsinformationen',
+      icon: Search,
+      features: [
+        t('creditInformation.feature1'),
+        t('creditInformation.feature2'),
+        t('creditInformation.feature3'),
+        t('creditInformation.feature4'),
+        t('creditInformation.feature5'),
+      ],
+    },
+    {
+      title: t('cms.title'),
+      description: t('cms.description'),
+      href: '/credit-management-software',
+      icon: FileText,
+      features: [
+        t('cms.feature1'),
+        t('cms.feature2'),
+        t('cms.feature3'),
+        t('cms.feature4'),
+      ],
+    },
+    {
+      title: t('policyManager.title'),
+      description: t('policyManager.description'),
+      href: '/policymanager',
+      icon: Shield,
+      features: [
+        t('policyManager.feature1'),
+        t('policyManager.feature2'),
+        t('policyManager.feature3'),
+        t('policyManager.feature4'),
+      ],
+    },
+  ];
+
   return (
     <Section background="white">
       <div className="text-center mb-14">
         <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
-          Unsere Produkte
+          {t('tagline')}
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-          Kreditmanagement-Lösungen, die Ihnen die Arbeit erleichtern
+          {t('title')}
         </h2>
       </div>
 
@@ -70,7 +89,7 @@ export function ProductCards() {
                   ))}
                 </ul>
                 <span className="inline-flex items-center text-primary font-semibold group-hover:gap-2 transition-all">
-                  Mehr erfahren
+                  {t('learnMore')}
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </span>
               </div>

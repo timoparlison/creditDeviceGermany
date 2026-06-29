@@ -103,7 +103,22 @@
   "AllInOne": {
     "activeClients": "Clienti attivi",
     "dossiers": "Fascicoli",
-    "countries": "Paesi"
+    "countries": "Paesi",
+    "tagline": "Combina i moduli",
+    "title": "Tutto per una gestione del credito completa in un unico pacchetto",
+    "subtitle": "Sviluppiamo i nostri prodotti internamente – perché conosciamo le esigenze dei nostri clienti.",
+    "tab1": {
+      "title": "Partner nella gestione del credito",
+      "description": "Attraverso una stretta collaborazione con i nostri clienti, sviluppiamo continuamente nuove e preziose soluzioni per migliorare la gestione del credito."
+    },
+    "tab2": {
+      "title": "Un'applicazione integrata",
+      "description": "Nella nostra applicazione online, hai accesso a vari moduli interattivi. Questi funzionano indipendentemente l'uno dall'altro, ma meglio come soluzione completa."
+    },
+    "tab3": {
+      "title": "Contatto rapido e diretto",
+      "description": "Siamo un'azienda indipendente. In pratica, ciò significa canali di comunicazione brevi e un contatto rapido. Il rapporto stretto con i nostri clienti si riflette anche nel processo di sviluppo di nuovi prodotti."
+    }
   },
   "WhyUs": {
     "title": "Perché CreditDevice?",

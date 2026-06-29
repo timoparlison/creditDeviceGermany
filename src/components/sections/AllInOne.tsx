@@ -6,58 +6,37 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Section } from '../ui/Section';
 import { Handshake, Layers, Phone, ArrowRight } from 'lucide-react';
 
-const tabs = [
-  {
-    id: 'partner',
-    title: 'Partner im Kreditmanagement',
-    icon: Handshake,
-    description: 'Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.',
-    features: ['Enge Kundenzusammenarbeit', 'Kontinuierliche Weiterentwicklung', 'Eigene Produktentwicklung'],
-    image: 'alles-in-one.svg',
-  },
-  {
-    id: 'integrated',
-    title: 'Eine integrierte Anwendung',
-    icon: Layers,
-    description: 'In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.',
-    features: ['Modular kombinierbar', 'Eine zentrale Anwendung', 'Nahtlos integrierte Daten'],
-    image: 'alles-in-one.svg',
-  },
-  {
-    id: 'contact',
-    title: 'Schneller, direkter Kontakt',
-    icon: Phone,
-    description: 'Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.',
-    features: ['Kurze Kommunikationswege', 'Persönliche Ansprechpartner', 'Unabhängiges Unternehmen'],
-    image: 'alles-in-one.svg',
-  },
+const tabDefs = [
+  { id: 'partner', key: 'tab1' as const, icon: Handshake, image: 'alles-in-one.svg' },
+  { id: 'integrated', key: 'tab2' as const, icon: Layers, image: 'alles-in-one.svg' },
+  { id: 'contact', key: 'tab3' as const, icon: Phone, image: 'alles-in-one.svg' },
 ];
 
 export function AllInOne() {
   const locale = useLocale();
   const t = useTranslations('AllInOne');
   const imgPrefix = locale === 'de' ? '/de' : '/en';
-  const [activeTab, setActiveTab] = useState(tabs[0].id);
-  const activeTabData = tabs.find((tab) => tab.id === activeTab) || tabs[0];
+  const [activeTab, setActiveTab] = useState(tabDefs[0].id);
+  const activeTabData = tabDefs.find((tab) => tab.id === activeTab) || tabDefs[0];
 
   return (
     <Section background="gray">
       <div className="text-center mb-12">
         <p className="text-primary font-semibold mb-3 tracking-wide uppercase text-sm">
-          Module kombinieren
+          {t('tagline')}
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-          Alles für ein vollständiges Kreditmanagement in einem Paket
+          {t('title')}
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Wir entwickeln unsere Produkte selbst – weil wir die Bedürfnisse unserer Kunden kennen.
+          {t('subtitle')}
         </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         {/* Tab buttons */}
         <div className="space-y-4">
-          {tabs.map((tab) => {
+          {tabDefs.map((tab) => {
             const IconComponent = tab.icon;
             const isActive = activeTab === tab.id;
             return (
@@ -82,7 +61,7 @@ export function AllInOne() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold mb-2 flex items-center justify-between">
-                      {tab.title}
+                      {t(`${tab.key}.title`)}
                       <ArrowRight
                         className={`w-5 h-5 transition-transform ${
                           isActive ? 'translate-x-0 opacity-100' : '-translate-x-2 opacity-0'
@@ -94,7 +73,7 @@ export function AllInOne() {
                         isActive ? 'text-gray-300' : 'text-gray-500'
                       }`}
                     >
-                      {tab.description}
+                      {t(`${tab.key}.description`)}
                     </p>
                   </div>
                 </div>
@@ -110,7 +89,7 @@ export function AllInOne() {
             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
               <Image
                 src={`${imgPrefix}/${activeTabData.image}`}
-                alt={activeTabData.title}
+                alt={t(`${activeTabData.key}.title`)}
                 width={700}
                 height={400}
                 className="w-full h-auto"

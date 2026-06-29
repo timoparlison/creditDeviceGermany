@@ -103,7 +103,22 @@
   "AllInOne": {
     "activeClients": "Active Clients",
     "dossiers": "Dossiers",
-    "countries": "Countries"
+    "countries": "Countries",
+    "tagline": "Combine modules",
+    "title": "Everything for complete credit management in one package",
+    "subtitle": "We develop our products ourselves – because we know the needs of our customers.",
+    "tab1": {
+      "title": "Partner in credit management",
+      "description": "Through close collaboration with our customers, we continuously develop new and valuable solutions to improve credit management."
+    },
+    "tab2": {
+      "title": "An integrated application",
+      "description": "In our online application, you have access to various interactive modules. These work independently of each other, but best as a complete solution."
+    },
+    "tab3": {
+      "title": "Fast, direct contact",
+      "description": "We are an independent company. In practice, this means short communication channels and direct contact. The close relationship with our customers is also reflected in the development process of new products."
+    }
   },
   "WhyUs": {
     "title": "Why CreditDevice?",

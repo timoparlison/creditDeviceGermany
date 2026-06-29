@@ -103,7 +103,22 @@
   "AllInOne": {
     "activeClients": "Aktiiviset asiakkaat",
     "dossiers": "Tapaukset",
-    "countries": "Maat"
+    "countries": "Maat",
+    "tagline": "Yhdistä moduulit",
+    "title": "Kaikki täydelliseen luottohallinnointiin yhdessä paketissa",
+    "subtitle": "Kehitämme tuotteemme itse – koska tunnemme asiakkaidemme tarpeet.",
+    "tab1": {
+      "title": "Kumppani luottohallinnoinnissa",
+      "description": "Tekemällä tiivistä yhteistyötä asiakkaidemme kanssa kehitämme jatkuvasti uusia ja arvokkaita ratkaisuja luottohallinnoinnin parantamiseksi."
+    },
+    "tab2": {
+      "title": "Integroitu sovellus",
+      "description": "Online-sovelluksessamme on useita interaktiivisia moduuleja. Ne toimivat itsenäisesti, mutta parhaiten kokonaisratkaisuna."
+    },
+    "tab3": {
+      "title": "Nopea, suora yhteys",
+      "description": "Olemme itsenäinen yritys. Käytännössä tämä tarkoittaa lyhyitä viestintäkanavia ja nopeaa yhteydenpitoa. Läheinen suhde asiakkaisiimme heijastuu myös uusien tuotteiden kehitysprosessiin."
+    }
   },
   "WhyUs": {
     "title": "Miksi CreditDevice?",
