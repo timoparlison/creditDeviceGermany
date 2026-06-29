@@ -63,7 +63,7 @@
     "privacyPolicy": "Informativa sulla privacy"
   },
   "CustomerLogos": {
-    "tagline": "la fiducia delle aziende leader in tutto il mondo"
+    "tagline": "apprezzato dalle aziende leader a livello mondiale"
   },
   "Hero": {
     "badge1": "La soluzione tutto in uno",
@@ -131,22 +131,22 @@
   },
   "WhyUs": {
     "title": "Perché CreditDevice?",
-    "subtitle": "Siamo più di un semplice fornitore di software — siamo il vostro partner per una gestione del credito di successo",
+    "subtitle": "Siamo più di un semplice fornitore di software – siamo il vostro partner per una gestione del credito di successo",
     "reachable": {
-      "title": "Disponibili",
-      "description": "Il nostro team dedicato è a vostra disposizione in qualsiasi momento. Supporto personale che aiuta davvero."
+      "title": "Raggiungibile",
+      "description": "Il nostro team dedicato è disponibile in qualsiasi momento. Supporto personale che aiuta davvero – nessun call center anonimo, ma veri esperti."
     },
     "innovative": {
-      "title": "Innovativi",
-      "description": "Sviluppiamo continuamente le nostre soluzioni e ci affidiamo alle tecnologie più recenti."
+      "title": "Innovativo",
+      "description": "Sviluppiamo continuamente le nostre soluzioni e utilizziamo le tecnologie più moderne. L'innovazione fa parte del nostro DNA."
     },
     "committed": {
-      "title": "Impegnati",
-      "description": "Il vostro successo è il nostro motore. Facciamo il passo extra per raggiungere i vostri obiettivi."
+      "title": "Impegnato",
+      "description": "Il vostro successo è la nostra spinta. Facciamo il possibile per raggiungere i vostri obiettivi e superare le vostre aspettative."
     },
     "flexible": {
-      "title": "Flessibili",
-      "description": "Le nostre soluzioni si adattano alle vostre esigenze. Scalabili dalle PMI alle grandi aziende."
+      "title": "Flessibile",
+      "description": "Le nostre soluzioni si adattano alle vostre esigenze, non il contrario. Scalabile dalle PMI alle grandi imprese."
     }
   },
   "CTABanner": {

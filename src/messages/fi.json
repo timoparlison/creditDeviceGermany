@@ -131,22 +131,22 @@
   },
   "WhyUs": {
     "title": "Miksi CreditDevice?",
-    "subtitle": "Olemme enemmän kuin pelkkä ohjelmistotoimittaja — olemme kumppanisi menestyksekkääseen luotonhallintaan",
+    "subtitle": "Olemme enemmän kuin pelkkä ohjelmistotoimittaja – olemme kumppanisi menestyksekkäässä luottohallinnoinnissa",
     "reachable": {
       "title": "Tavoitettavissa",
-      "description": "Omistautunut tiimimme on aina käytettävissäsi. Henkilökohtaista tukea, joka todella auttaa."
+      "description": "Omistautunut tiimimme on käytettävissäsi milloin tahansa. Henkilökohtainen tuki, joka todella auttaa – ei nimettömiä puhelinkeskuksia, vaan oikeita asiantuntijoita."
     },
     "innovative": {
       "title": "Innovatiivinen",
-      "description": "Kehitämme ratkaisujamme jatkuvasti ja luotamme uusimpiin teknologioihin."
+      "description": "Kehitämme ratkaisujamme jatkuvasti ja hyödynnämme uusinta teknologiaa. Innovaatio on osa DNA:tamme."
     },
     "committed": {
       "title": "Sitoutunut",
-      "description": "Menestyksesi on motivaatiomme. Teemme enemmän kuin vaaditaan tavoitteidesi saavuttamiseksi."
+      "description": "Menestyksesi on meidän motivaatiomme. Teemme sen ylimääräisen vaivan saavuttaaksemme tavoitteesi ja ylittääksemme odotuksesi."
     },
     "flexible": {
       "title": "Joustava",
-      "description": "Ratkaisumme mukautuvat tarpeisiisi. Skaalautuu pk-yrityksistä suuryrityksiin."
+      "description": "Ratkaisumme sopeutuvat tarpeisiisi, ei toisinpäin. Skaalautuva pk-yrityksistä suuryrityksiin."
     }
   },
   "CTABanner": {

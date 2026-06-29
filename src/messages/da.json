@@ -63,7 +63,7 @@
     "privacyPolicy": "Privatlivspolitik"
   },
   "CustomerLogos": {
-    "tagline": "betroet af førende virksomheder verden over"
+    "tagline": "værdsat af førende virksomheder verden over"
   },
   "Hero": {
     "badge1": "Alt-i-én-løsningen",
@@ -131,22 +131,22 @@
   },
   "WhyUs": {
     "title": "Hvorfor CreditDevice?",
-    "subtitle": "Vi er mere end blot en softwareleverandør — vi er din partner til succesfuld kreditadministration",
+    "subtitle": "Vi er mere end blot en softwareleverandør – vi er din partner for vellykket kreditmanagement",
     "reachable": {
       "title": "Tilgængelig",
-      "description": "Vores dedikerede team er altid til din rådighed. Personlig support der virkelig hjælper."
+      "description": "Vores dedikerede team er altid tilgængeligt for dig. Personlig support, der virkelig hjælper – ingen anonyme callcentre, men rigtige eksperter."
     },
     "innovative": {
       "title": "Innovativ",
-      "description": "Vi udvikler løbende vores løsninger og stoler på den nyeste teknologi."
+      "description": "Vi udvikler kontinuerligt vores løsninger og anvender de nyeste teknologier. Innovation er en del af vores DNA."
     },
     "committed": {
       "title": "Engageret",
-      "description": "Din succes er vores drivkraft. Vi går den ekstra mil for at nå dine mål."
+      "description": "Din succes er vores drivkraft. Vi går den ekstra mil for at nå dine mål og overgå dine forventninger."
     },
     "flexible": {
       "title": "Fleksibel",
-      "description": "Vores løsninger tilpasser sig dine behov. Skalerbart fra SMV til store virksomheder."
+      "description": "Vores løsninger tilpasser sig dine behov, ikke omvendt. Skalerbar fra SMV til store virksomheder."
     }
   },
   "CTABanner": {

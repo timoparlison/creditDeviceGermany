@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const customerLogos = [
   {
@@ -32,11 +35,12 @@ const customerLogos = [
 ];
 
 export function CustomerLogos() {
+  const t = useTranslations('CustomerLogos');
   return (
     <section className="py-10 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-sm text-navy/60 mb-8 uppercase tracking-wider font-medium">
-          von führenden Unternehmen weltweit geschätzt
+          {t('tagline')}
         </p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}

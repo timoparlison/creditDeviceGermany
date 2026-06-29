@@ -63,7 +63,7 @@
     "privacyPolicy": "Politique de confidentialité"
   },
   "CustomerLogos": {
-    "tagline": "la confiance des entreprises leaders dans le monde entier"
+    "tagline": "approuvé par les entreprises leaders dans le monde"
   },
   "Hero": {
     "badge1": "La solution tout-en-un",
@@ -131,22 +131,22 @@
   },
   "WhyUs": {
     "title": "Pourquoi CreditDevice ?",
-    "subtitle": "Nous sommes plus qu'un simple fournisseur de logiciels — nous sommes votre partenaire pour une gestion du crédit réussie",
+    "subtitle": "Nous sommes plus qu'un simple fournisseur de logiciels – nous sommes votre partenaire pour une gestion du crédit réussie",
     "reachable": {
       "title": "Disponible",
-      "description": "Notre équipe dédiée est à votre disposition à tout moment. Un support personnel qui aide vraiment."
+      "description": "Notre équipe dévouée est disponible à tout moment. Un support personnalisé qui aide vraiment – pas de centres d'appels anonymes, mais de vrais experts."
     },
     "innovative": {
       "title": "Innovant",
-      "description": "Nous développons continuellement nos solutions et misons sur les dernières technologies."
+      "description": "Nous développons continuellement nos solutions et utilisons les technologies les plus modernes. L'innovation fait partie de notre ADN."
     },
     "committed": {
       "title": "Engagé",
-      "description": "Votre succès est notre moteur. Nous faisons un effort supplémentaire pour atteindre vos objectifs."
+      "description": "Votre succès est notre moteur. Nous faisons le nécessaire pour atteindre vos objectifs et dépasser vos attentes."
     },
     "flexible": {
       "title": "Flexible",
-      "description": "Nos solutions s'adaptent à vos besoins. Évolutif des PME aux grandes entreprises."
+      "description": "Nos solutions s'adaptent à vos besoins, pas l'inverse. Évolutif des PME aux grandes entreprises."
     }
   },
   "CTABanner": {
