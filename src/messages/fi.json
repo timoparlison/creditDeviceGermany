@@ -101,33 +101,9 @@
     }
   },
   "AllInOne": {
-    "tagline": "Yhdistä moduulit",
-    "title": "Kaikki täydelliseen luotonhallintaan yhdessä paketissa",
-    "subtitle": "Kehitämme tuotteemme itse — koska tunnemme asiakkaidemme tarpeet.",
-    "customers": "Aktiiviset asiakkaat",
+    "activeClients": "Aktiiviset asiakkaat",
     "dossiers": "Tapaukset",
-    "countries": "Maat",
-    "partner": {
-      "title": "Kumppani luotonhallinnassa",
-      "description": "Tiiviissä yhteistyössä asiakkaidemme kanssa kehitämme jatkuvasti uusia ja arvokkaita ratkaisuja.",
-      "feature1": "Tiivis asiakasyhteistyö",
-      "feature2": "Jatkuva kehitys",
-      "feature3": "Oma tuotekehitys"
-    },
-    "integrated": {
-      "title": "Yksi integroitu sovellus",
-      "description": "Verkkosovelluksemme tarjoaa erilaisia interaktiivisia moduuleja, jotka toimivat itsenäisesti, mutta parhaiten kokonaisratkaisuna.",
-      "feature1": "Modulaarisesti yhdistettävissä",
-      "feature2": "Yksi keskeinen sovellus",
-      "feature3": "Saumattomasti integroitu data"
-    },
-    "directContact": {
-      "title": "Nopea, suora yhteys",
-      "description": "Olemme itsenäinen yritys. Käytännössä se tarkoittaa lyhyitä viestintäkanavia ja nopeaa yhteydenpitoa.",
-      "feature1": "Lyhyet viestintäkanavat",
-      "feature2": "Henkilökohtaiset kontaktit",
-      "feature3": "Itsenäinen yritys"
-    }
+    "countries": "Maat"
   },
   "WhyUs": {
     "title": "Miksi CreditDevice?",

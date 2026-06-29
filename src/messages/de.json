@@ -101,33 +101,9 @@
     }
   },
   "AllInOne": {
-    "tagline": "Module kombinieren",
-    "title": "Alles für ein vollständiges Kreditmanagement in einem Paket",
-    "subtitle": "Wir entwickeln unsere Produkte selbst – weil wir die Bedürfnisse unserer Kunden kennen.",
-    "customers": "Aktive Kunden",
+    "activeClients": "Aktive Kunden",
     "dossiers": "Dossiers",
-    "countries": "Länder",
-    "partner": {
-      "title": "Partner im Kreditmanagement",
-      "description": "Durch die enge Zusammenarbeit mit unseren Kunden entwickeln wir ständig neue und wertvolle Lösungen zur Verbesserung des Kreditmanagements.",
-      "feature1": "Enge Kundenzusammenarbeit",
-      "feature2": "Kontinuierliche Weiterentwicklung",
-      "feature3": "Eigene Produktentwicklung"
-    },
-    "integrated": {
-      "title": "Eine integrierte Anwendung",
-      "description": "In unserer Online-Applikation erhalten Sie verschiedene interaktive Module. Diese funktionieren unabhängig voneinander, am besten jedoch als Gesamtlösung.",
-      "feature1": "Modular kombinierbar",
-      "feature2": "Eine zentrale Anwendung",
-      "feature3": "Nahtlos integrierte Daten"
-    },
-    "directContact": {
-      "title": "Schneller, direkter Kontakt",
-      "description": "Wir sind ein unabhängiges Unternehmen. In der Praxis bedeutet das kurze Kommunikationswege und schnellen Kontakt. Die enge Beziehung zu unseren Kunden spiegelt sich auch im Entwicklungsprozess neuer Produkte wider.",
-      "feature1": "Kurze Kommunikationswege",
-      "feature2": "Persönliche Ansprechpartner",
-      "feature3": "Unabhängiges Unternehmen"
-    }
+    "countries": "Länder"
   },
   "WhyUs": {
     "title": "Warum CreditDevice?",

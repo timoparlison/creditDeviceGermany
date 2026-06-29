@@ -101,33 +101,9 @@
     }
   },
   "AllInOne": {
-    "tagline": "Modules combineren",
-    "title": "Alles voor volledig creditmanagement in één pakket",
-    "subtitle": "Wij ontwikkelen onze producten zelf, omdat wij de behoeften van onze klanten kennen.",
-    "customers": "Actieve klanten",
+    "activeClients": "Actieve klanten",
     "dossiers": "Dossiers",
-    "countries": "Landen",
-    "partner": {
-      "title": "Partner in creditmanagement",
-      "description": "Door nauwe samenwerking met onze klanten ontwikkelen wij voortdurend nieuwe en waardevolle oplossingen.",
-      "feature1": "Nauwe samenwerking met klanten",
-      "feature2": "Continue ontwikkeling",
-      "feature3": "Eigen productontwikkeling"
-    },
-    "integrated": {
-      "title": "Één geïntegreerde applicatie",
-      "description": "Onze online applicatie biedt verschillende interactieve modules die onafhankelijk werken, maar het beste als totaaloplossing.",
-      "feature1": "Modulair combineerbaar",
-      "feature2": "Één centrale applicatie",
-      "feature3": "Naadloos geïntegreerde gegevens"
-    },
-    "directContact": {
-      "title": "Snel, direct contact",
-      "description": "Wij zijn een onafhankelijk bedrijf. In de praktijk betekent dit korte communicatielijnen en snel contact.",
-      "feature1": "Korte communicatielijnen",
-      "feature2": "Persoonlijke contacten",
-      "feature3": "Onafhankelijk bedrijf"
-    }
+    "countries": "Landen"
   },
   "WhyUs": {
     "title": "Waarom CreditDevice?",

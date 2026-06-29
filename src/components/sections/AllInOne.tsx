@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Section } from '../ui/Section';
 import { Handshake, Layers, Phone, ArrowRight } from 'lucide-react';
 
@@ -35,6 +35,7 @@ const tabs = [
 
 export function AllInOne() {
   const locale = useLocale();
+  const t = useTranslations('AllInOne');
   const imgPrefix = locale === 'de' ? '/de' : '/en';
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   const activeTabData = tabs.find((tab) => tab.id === activeTab) || tabs[0];
@@ -123,15 +124,15 @@ export function AllInOne() {
                 <div className="grid grid-cols-3 gap-4 text-white text-center">
                   <div>
                     <div className="text-xl md:text-2xl font-bold text-primary">2.500+</div>
-                    <div className="text-xs text-gray-300">Aktive Kunden</div>
+                    <div className="text-xs text-gray-300">{t('activeClients')}</div>
                   </div>
                   <div>
                     <div className="text-xl md:text-2xl font-bold text-primary">1.2M+</div>
-                    <div className="text-xs text-gray-300">Dossiers</div>
+                    <div className="text-xs text-gray-300">{t('dossiers')}</div>
                   </div>
                   <div>
                     <div className="text-xl md:text-2xl font-bold text-primary">200+</div>
-                    <div className="text-xs text-gray-300">Länder</div>
+                    <div className="text-xs text-gray-300">{t('countries')}</div>
                   </div>
                 </div>
               </div>
