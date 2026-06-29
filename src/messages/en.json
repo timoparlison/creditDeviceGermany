@@ -58,7 +58,9 @@
     "service": "Service",
     "legal": "Legal",
     "requestDemo": "Request Demo",
-    "allRightsReserved": "All rights reserved."
+    "allRightsReserved": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy"
   },
   "CustomerLogos": {
     "tagline": "trusted by leading companies worldwide"
@@ -189,9 +191,18 @@
     "features": {
       "title": "Our Services",
       "subtitle": "Benefit from comprehensive credit information",
-      "international": { "title": "International", "description": "Access to credit data from over 200 countries worldwide. Regardless of where your business partners are located." },
-      "payPerUse": { "title": "Pay per Use", "description": "Pay only for what you actually retrieve – without a basic fee or minimum order." },
-      "api": { "title": "Web Service / API", "description": "Powerful REST API or webhooks for integration into your existing systems." }
+      "international": {
+        "title": "International",
+        "description": "Access to credit data from over 200 countries worldwide. Regardless of where your business partners are located."
+      },
+      "payPerUse": {
+        "title": "Pay per Use",
+        "description": "Pay only for what you actually retrieve – without a basic fee or minimum order."
+      },
+      "api": {
+        "title": "Web Service / API",
+        "description": "Powerful REST API or webhooks for integration into your existing systems."
+      }
     },
     "pricing": {
       "title": "Prices per Report",
@@ -254,12 +265,30 @@
     "features": {
       "title": "What sets our software apart",
       "subtitle": "At CreditDevice you choose the package that suits you – modules for credit information, accounts receivable management, risk analysis and trade credit insurance in one application.",
-      "transparency": { "title": "Full transparency about your debtors", "description": "Modules for credit information, accounts receivable management, risk analysis and trade credit insurance in one application. The current status of every debtor is clear to everyone in the company." },
-      "earlyPayment": { "title": "Invoices paid earlier", "description": "Speak your debtor's language: adapt the sequence, content, language and structure of the workflow per customer profile. The right tone – and you will be paid earlier." },
-      "reports": { "title": "Tailored reports", "description": "Inform management monthly about the largest debtors or account managers weekly about open items. Automatically via our flexible reporting tool." },
-      "actionLists": { "title": "Save time with action lists", "description": "Work daily based on action lists and avoid late payments. Customer profiles determine which action is planned for when." },
-      "groupLevel": { "title": "Dunning at group level", "description": "Link multiple debtor numbers for the same customer. Very practical for parent and subsidiary companies – dun all at once, with comparison to the credit limit at each level." },
-      "complaints": { "title": "Fast complaint processing", "description": "Record complaints easily and ensure they are processed quickly through clear communication and escalation." }
+      "transparency": {
+        "title": "Full transparency about your debtors",
+        "description": "Modules for credit information, accounts receivable management, risk analysis and trade credit insurance in one application. The current status of every debtor is clear to everyone in the company."
+      },
+      "earlyPayment": {
+        "title": "Invoices paid earlier",
+        "description": "Speak your debtor's language: adapt the sequence, content, language and structure of the workflow per customer profile. The right tone – and you will be paid earlier."
+      },
+      "reports": {
+        "title": "Tailored reports",
+        "description": "Inform management monthly about the largest debtors or account managers weekly about open items. Automatically via our flexible reporting tool."
+      },
+      "actionLists": {
+        "title": "Save time with action lists",
+        "description": "Work daily based on action lists and avoid late payments. Customer profiles determine which action is planned for when."
+      },
+      "groupLevel": {
+        "title": "Dunning at group level",
+        "description": "Link multiple debtor numbers for the same customer. Very practical for parent and subsidiary companies – dun all at once, with comparison to the credit limit at each level."
+      },
+      "complaints": {
+        "title": "Fast complaint processing",
+        "description": "Record complaints easily and ensure they are processed quickly through clear communication and escalation."
+      }
     },
     "uniqueness": {
       "title": "How unique is CreditDevice?",
@@ -309,14 +338,38 @@
     "features": {
       "title": "Discover your benefits",
       "subtitle": "Manual management of a trade credit insurance policy is a lot of work. The PolicyManager takes care of all that for you – and minimises the potential for errors.",
-      "subscription": { "title": "Affordable subscription", "description": "The PolicyManager is available from 200 euros per month – within reach even for SMEs." },
-      "reminder": { "title": "Automatic reminder", "description": "You automatically receive a signal, for example when a limit is exceeded." },
-      "timeSaving": { "title": "You save time", "description": "Manual operations and searches are eliminated. Time you can use to prevent the loss of insurance cover." },
-      "currentData": { "title": "Always current data", "description": "Updates on the status of your credit limits at least once a day. Decisions, cancellations and reductions are immediately visible." },
-      "costAnalysis": { "title": "Analyse credit limit costs", "description": "Analyse which credit limit is best suited for your customer – or replace a paid limit with a free self-assessment limit." },
-      "creditReports": { "title": "Valuable credit reports", "description": "Credit reports are the ideal instrument for setting a covered credit limit – fully integrated into all modules and affordable." },
-      "oneLimit": { "title": "One company, one limit", "description": "The PolicyManager recognises companies with multiple debtor numbers and links all invoices to a single limit – via the commercial register number." },
-      "followUp": { "title": "Organised follow-up", "description": "In the event of a claim, create an Excel document with overdue invoices and history with two mouse clicks – the insurer's obligations are fully met." }
+      "subscription": {
+        "title": "Affordable subscription",
+        "description": "The PolicyManager is available from 200 euros per month – within reach even for SMEs."
+      },
+      "reminder": {
+        "title": "Automatic reminder",
+        "description": "You automatically receive a signal, for example when a limit is exceeded."
+      },
+      "timeSaving": {
+        "title": "You save time",
+        "description": "Manual operations and searches are eliminated. Time you can use to prevent the loss of insurance cover."
+      },
+      "currentData": {
+        "title": "Always current data",
+        "description": "Updates on the status of your credit limits at least once a day. Decisions, cancellations and reductions are immediately visible."
+      },
+      "costAnalysis": {
+        "title": "Analyse credit limit costs",
+        "description": "Analyse which credit limit is best suited for your customer – or replace a paid limit with a free self-assessment limit."
+      },
+      "creditReports": {
+        "title": "Valuable credit reports",
+        "description": "Credit reports are the ideal instrument for setting a covered credit limit – fully integrated into all modules and affordable."
+      },
+      "oneLimit": {
+        "title": "One company, one limit",
+        "description": "The PolicyManager recognises companies with multiple debtor numbers and links all invoices to a single limit – via the commercial register number."
+      },
+      "followUp": {
+        "title": "Organised follow-up",
+        "description": "In the event of a claim, create an Excel document with overdue invoices and history with two mouse clicks – the insurer's obligations are fully met."
+      }
     },
     "allInOne": {
       "title": "Everything in one application",
@@ -530,9 +583,21 @@
     "comingSoon": "coming soon",
     "netPrice": "Net",
     "plusVat": "plus VAT",
-    "full": { "label": "Full Report", "shortLabel": "Full", "description": "Comprehensive credit report with company master data, balance sheet figures, payment experiences, score and risk assessment." },
-    "compact": { "label": "Compact Report", "shortLabel": "Compact", "description": "Reduced credit report with the most important key figures." },
-    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Ongoing monitoring of a company's creditworthiness." }
+    "full": {
+      "label": "Full Report",
+      "shortLabel": "Full",
+      "description": "Comprehensive credit report with company master data, balance sheet figures, payment experiences, score and risk assessment."
+    },
+    "compact": {
+      "label": "Compact Report",
+      "shortLabel": "Compact",
+      "description": "Reduced credit report with the most important key figures."
+    },
+    "monitoring": {
+      "label": "Monitoring",
+      "shortLabel": "Monitoring",
+      "description": "Ongoing monitoring of a company's creditworthiness."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Orderer Details",

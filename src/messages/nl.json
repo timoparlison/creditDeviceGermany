@@ -58,7 +58,9 @@
     "service": "Service",
     "legal": "Juridisch",
     "requestDemo": "Demo aanvragen",
-    "allRightsReserved": "Alle rechten voorbehouden."
+    "allRightsReserved": "Alle rechten voorbehouden.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Privacybeleid"
   },
   "CustomerLogos": {
     "tagline": "vertrouwd door toonaangevende bedrijven wereldwijd"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Waarom CreditDevice?",
     "subtitle": "Wij zijn meer dan alleen een softwareleverancier — wij zijn uw partner voor succesvol creditmanagement",
-    "reachable": { "title": "Bereikbaar", "description": "Ons toegewijde team staat altijd voor u klaar. Persoonlijke ondersteuning die echt helpt." },
-    "innovative": { "title": "Innovatief", "description": "Wij ontwikkelen onze oplossingen voortdurend en vertrouwen op de nieuwste technologieën." },
-    "committed": { "title": "Betrokken", "description": "Uw succes is onze drijfveer. Wij gaan de extra mijl om uw doelen te bereiken." },
-    "flexible": { "title": "Flexibel", "description": "Onze oplossingen passen zich aan uw behoeften aan. Schaalbaar van het MKB tot grote ondernemingen." }
+    "reachable": {
+      "title": "Bereikbaar",
+      "description": "Ons toegewijde team staat altijd voor u klaar. Persoonlijke ondersteuning die echt helpt."
+    },
+    "innovative": {
+      "title": "Innovatief",
+      "description": "Wij ontwikkelen onze oplossingen voortdurend en vertrouwen op de nieuwste technologieën."
+    },
+    "committed": {
+      "title": "Betrokken",
+      "description": "Uw succes is onze drijfveer. Wij gaan de extra mijl om uw doelen te bereiken."
+    },
+    "flexible": {
+      "title": "Flexibel",
+      "description": "Onze oplossingen passen zich aan uw behoeften aan. Schaalbaar van het MKB tot grote ondernemingen."
+    }
   },
   "CTABanner": {
     "title": "Ontdek CreditDevice zelf",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Onze diensten",
       "subtitle": "Profiteer van uitgebreide kredietinformatie",
-      "international": { "title": "Internationaal", "description": "Toegang tot kredietgegevens uit meer dan 200 landen. Ongeacht waar uw zakenpartners zich bevinden." },
-      "payPerUse": { "title": "Pay per use", "description": "Betaal alleen voor wat u daadwerkelijk opvraagt, zonder basisvergoeding of minimumbestelling." },
-      "api": { "title": "Webservice / API", "description": "Krachtige REST API of webhooks voor integratie in uw bestaande systemen." }
+      "international": {
+        "title": "Internationaal",
+        "description": "Toegang tot kredietgegevens uit meer dan 200 landen. Ongeacht waar uw zakenpartners zich bevinden."
+      },
+      "payPerUse": {
+        "title": "Pay per use",
+        "description": "Betaal alleen voor wat u daadwerkelijk opvraagt, zonder basisvergoeding of minimumbestelling."
+      },
+      "api": {
+        "title": "Webservice / API",
+        "description": "Krachtige REST API of webhooks voor integratie in uw bestaande systemen."
+      }
     },
     "pricing": {
       "title": "Prijzen per rapport",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Wat onze software onderscheidt",
       "subtitle": "Bij CreditDevice kiest u het pakket dat bij u past: modules voor kredietinformatie, debiteurenbeheer, risicoanalyse en handelskredietverzekering in één applicatie.",
-      "transparency": { "title": "Volledige transparantie over uw debiteuren", "description": "Modules voor kredietinformatie, debiteurenbeheer, risicoanalyse en handelskredietverzekering in één applicatie." },
-      "earlyPayment": { "title": "Facturen eerder betaald", "description": "Spreek de taal van uw debiteur: pas de volgorde, inhoud, taal en structuur van de workflow aan per klantprofiel." },
-      "reports": { "title": "Rapporten op maat", "description": "Informeer management maandelijks over de grootste debiteuren of accountmanagers wekelijks over openstaande posten. Automatisch." },
-      "actionLists": { "title": "Bespaar tijd met actielijsten", "description": "Werk dagelijks op basis van actielijsten en voorkom late betalingen." },
-      "groupLevel": { "title": "Aanmanen op groepsniveau", "description": "Koppel meerdere debiteurennummers voor dezelfde klant. Zeer praktisch voor moeder- en dochterondernemingen." },
-      "complaints": { "title": "Snelle klachtenafhandeling", "description": "Registreer klachten eenvoudig en zorg voor snelle afhandeling via duidelijke communicatie en escalatie." }
+      "transparency": {
+        "title": "Volledige transparantie over uw debiteuren",
+        "description": "Modules voor kredietinformatie, debiteurenbeheer, risicoanalyse en handelskredietverzekering in één applicatie."
+      },
+      "earlyPayment": {
+        "title": "Facturen eerder betaald",
+        "description": "Spreek de taal van uw debiteur: pas de volgorde, inhoud, taal en structuur van de workflow aan per klantprofiel."
+      },
+      "reports": {
+        "title": "Rapporten op maat",
+        "description": "Informeer management maandelijks over de grootste debiteuren of accountmanagers wekelijks over openstaande posten. Automatisch."
+      },
+      "actionLists": {
+        "title": "Bespaar tijd met actielijsten",
+        "description": "Werk dagelijks op basis van actielijsten en voorkom late betalingen."
+      },
+      "groupLevel": {
+        "title": "Aanmanen op groepsniveau",
+        "description": "Koppel meerdere debiteurennummers voor dezelfde klant. Zeer praktisch voor moeder- en dochterondernemingen."
+      },
+      "complaints": {
+        "title": "Snelle klachtenafhandeling",
+        "description": "Registreer klachten eenvoudig en zorg voor snelle afhandeling via duidelijke communicatie en escalatie."
+      }
     },
     "uniqueness": {
       "title": "Hoe uniek is CreditDevice?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Ontdek uw voordelen",
       "subtitle": "Handmatig beheer van een handelskredietpolis is veel werk. De PolicyManager neemt dat voor u over.",
-      "subscription": { "title": "Betaalbaar abonnement", "description": "De PolicyManager is beschikbaar vanaf 200 euro per maand — bereikbaar ook voor het MKB." },
-      "reminder": { "title": "Automatische herinnering", "description": "U ontvangt automatisch een signaal, bijvoorbeeld wanneer een limiet wordt overschreden." },
-      "timeSaving": { "title": "U bespaart tijd", "description": "Handmatige handelingen en zoekopdrachten worden geëlimineerd. Tijd die u kunt gebruiken om verlies van verzekeringsdekking te voorkomen." },
-      "currentData": { "title": "Altijd actuele gegevens", "description": "Updates over de status van uw kredietlimieten minimaal één keer per dag." },
-      "costAnalysis": { "title": "Analyseer kredietlimietkosten", "description": "Analyseer welk kredietlimiet het meest geschikt is voor uw klant." },
-      "creditReports": { "title": "Waardevolle kredietrapporten", "description": "Kredietrapporten zijn het ideale instrument voor het vaststellen van een gedekt kredietlimiet." },
-      "oneLimit": { "title": "Één bedrijf, één limiet", "description": "De PolicyManager herkent bedrijven met meerdere debiteurennummers en koppelt alle facturen aan één limiet." },
-      "followUp": { "title": "Georganiseerde opvolging", "description": "Maak bij een claim met twee muisklikken een Excel-document met achterstallige facturen en historie." }
+      "subscription": {
+        "title": "Betaalbaar abonnement",
+        "description": "De PolicyManager is beschikbaar vanaf 200 euro per maand — bereikbaar ook voor het MKB."
+      },
+      "reminder": {
+        "title": "Automatische herinnering",
+        "description": "U ontvangt automatisch een signaal, bijvoorbeeld wanneer een limiet wordt overschreden."
+      },
+      "timeSaving": {
+        "title": "U bespaart tijd",
+        "description": "Handmatige handelingen en zoekopdrachten worden geëlimineerd. Tijd die u kunt gebruiken om verlies van verzekeringsdekking te voorkomen."
+      },
+      "currentData": {
+        "title": "Altijd actuele gegevens",
+        "description": "Updates over de status van uw kredietlimieten minimaal één keer per dag."
+      },
+      "costAnalysis": {
+        "title": "Analyseer kredietlimietkosten",
+        "description": "Analyseer welk kredietlimiet het meest geschikt is voor uw klant."
+      },
+      "creditReports": {
+        "title": "Waardevolle kredietrapporten",
+        "description": "Kredietrapporten zijn het ideale instrument voor het vaststellen van een gedekt kredietlimiet."
+      },
+      "oneLimit": {
+        "title": "Één bedrijf, één limiet",
+        "description": "De PolicyManager herkent bedrijven met meerdere debiteurennummers en koppelt alle facturen aan één limiet."
+      },
+      "followUp": {
+        "title": "Georganiseerde opvolging",
+        "description": "Maak bij een claim met twee muisklikken een Excel-document met achterstallige facturen en historie."
+      }
     },
     "allInOne": {
       "title": "Alles in één applicatie",
@@ -518,9 +583,21 @@
     "comingSoon": "binnenkort beschikbaar",
     "netPrice": "Excl. btw",
     "plusVat": "plus btw",
-    "full": { "label": "Volledig rapport", "shortLabel": "Volledig", "description": "Uitgebreid kredietrapport met bedrijfsstamgegevens, balansgegevens, betalingservaringen, score en risicobeoordeling." },
-    "compact": { "label": "Compact rapport", "shortLabel": "Compact", "description": "Beperkt kredietrapport met de belangrijkste kengetallen." },
-    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Continue monitoring van de kredietwaardigheid van een bedrijf." }
+    "full": {
+      "label": "Volledig rapport",
+      "shortLabel": "Volledig",
+      "description": "Uitgebreid kredietrapport met bedrijfsstamgegevens, balansgegevens, betalingservaringen, score en risicobeoordeling."
+    },
+    "compact": {
+      "label": "Compact rapport",
+      "shortLabel": "Compact",
+      "description": "Beperkt kredietrapport met de belangrijkste kengetallen."
+    },
+    "monitoring": {
+      "label": "Monitoring",
+      "shortLabel": "Monitoring",
+      "description": "Continue monitoring van de kredietwaardigheid van een bedrijf."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Gegevens besteller",

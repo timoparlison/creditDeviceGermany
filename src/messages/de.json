@@ -58,7 +58,9 @@
     "service": "Service",
     "legal": "Rechtliches",
     "requestDemo": "Demo anfordern",
-    "allRightsReserved": "Alle Rechte vorbehalten."
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Datenschutz"
   },
   "CustomerLogos": {
     "tagline": "von führenden Unternehmen weltweit geschätzt"
@@ -189,9 +191,18 @@
     "features": {
       "title": "Unsere Leistungen",
       "subtitle": "Profitieren Sie von umfassenden Bonitätsinformationen",
-      "international": { "title": "International", "description": "Zugang zu Bonitätsdaten aus über 200 Ländern weltweit. Egal wo Ihre Geschäftspartner sitzen." },
-      "payPerUse": { "title": "Pay per Use", "description": "Zahlen Sie nur für das, was Sie tatsächlich abrufen – ohne Grundgebühr oder Mindestabnahme." },
-      "api": { "title": "Webservice / API", "description": "Leistungsstarke REST-API oder Webhooks für die Integration in Ihre bestehenden Systeme." }
+      "international": {
+        "title": "International",
+        "description": "Zugang zu Bonitätsdaten aus über 200 Ländern weltweit. Egal wo Ihre Geschäftspartner sitzen."
+      },
+      "payPerUse": {
+        "title": "Pay per Use",
+        "description": "Zahlen Sie nur für das, was Sie tatsächlich abrufen – ohne Grundgebühr oder Mindestabnahme."
+      },
+      "api": {
+        "title": "Webservice / API",
+        "description": "Leistungsstarke REST-API oder Webhooks für die Integration in Ihre bestehenden Systeme."
+      }
     },
     "pricing": {
       "title": "Preise je Auskunft",
@@ -254,12 +265,30 @@
     "features": {
       "title": "Was unsere Software auszeichnet",
       "subtitle": "Bei CreditDevice wählen Sie das für Sie passende Paket – Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung.",
-      "transparency": { "title": "Volle Transparenz über Ihre Debitoren", "description": "Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Debitors ist für jeden im Unternehmen klar." },
-      "earlyPayment": { "title": "Rechnungen früher bezahlt", "description": "Sprechen Sie die Sprache Ihres Debitors: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt." },
-      "reports": { "title": "Maßgeschneiderte Berichte", "description": "Informieren Sie die Geschäftsleitung monatlich über die größten Debitor oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser flexibles Berichtstool." },
-      "actionLists": { "title": "Zeit sparen mit Aktionslisten", "description": "Arbeiten Sie täglich anhand von Aktionslisten und vermeiden Sie verspätete Zahlungen. Die Kundenprofile bestimmen, welche Aktion wann geplant ist." },
-      "groupLevel": { "title": "Auf Konzernebene anmahnen", "description": "Verknüpfen Sie mehrere Debitorennummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene." },
-      "complaints": { "title": "Schnelle Reklamationsbearbeitung", "description": "Erfassen Sie Reklamationen einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden." }
+      "transparency": {
+        "title": "Volle Transparenz über Ihre Debitoren",
+        "description": "Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung. Der aktuelle Status jedes Debitors ist für jeden im Unternehmen klar."
+      },
+      "earlyPayment": {
+        "title": "Rechnungen früher bezahlt",
+        "description": "Sprechen Sie die Sprache Ihres Debitors: passen Sie Reihenfolge, Inhalt, Sprache und Struktur des Workflows pro Kundenprofil an. Der richtige Ton – und Sie werden früher bezahlt."
+      },
+      "reports": {
+        "title": "Maßgeschneiderte Berichte",
+        "description": "Informieren Sie die Geschäftsleitung monatlich über die größten Debitor oder die Kundenbetreuer wöchentlich über offene Posten. Automatisch über unser flexibles Berichtstool."
+      },
+      "actionLists": {
+        "title": "Zeit sparen mit Aktionslisten",
+        "description": "Arbeiten Sie täglich anhand von Aktionslisten und vermeiden Sie verspätete Zahlungen. Die Kundenprofile bestimmen, welche Aktion wann geplant ist."
+      },
+      "groupLevel": {
+        "title": "Auf Konzernebene anmahnen",
+        "description": "Verknüpfen Sie mehrere Debitorennummern desselben Kunden. Sehr praktisch für Mutter- und Tochtergesellschaften – alle auf einmal anmahnen, mit Vergleich zum Kreditlimit auf jeder Ebene."
+      },
+      "complaints": {
+        "title": "Schnelle Reklamationsbearbeitung",
+        "description": "Erfassen Sie Reklamationen einfach und sorgen Sie durch klare Kommunikation und Eskalation dafür, dass sie schnell bearbeitet werden."
+      }
     },
     "uniqueness": {
       "title": "Wie einzigartig ist CreditDevice?",
@@ -309,14 +338,38 @@
     "features": {
       "title": "Entdecken Sie Ihre Vorteile",
       "subtitle": "Die manuelle Verwaltung einer Kreditversicherungspolice ist viel Arbeit. Der PolicyManager nimmt Ihnen all das ab – und minimiert die Fehleranfälligkeit.",
-      "subscription": { "title": "Erschwingliches Abonnement", "description": "Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich – auch für KMU in Reichweite." },
-      "reminder": { "title": "Automatische Erinnerung", "description": "Sie erhalten automatisch ein Signal, zum Beispiel bei Überschreitung eines Limits." },
-      "timeSaving": { "title": "Sie sparen Zeit", "description": "Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen können, um den Verlust des Versicherungsschutzes zu verhindern." },
-      "currentData": { "title": "Immer aktuelle Daten", "description": "Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite. Entscheidungen, Aufhebungen und Reduzierungen sind sofort sichtbar." },
-      "costAnalysis": { "title": "Kreditlimitkosten analysieren", "description": "Analysieren Sie, welches Kreditlimit für Ihren Kunden am besten geeignet ist – oder ersetzen Sie ein kostenpflichtiges Limit durch ein kostenloses Selbstbewertungslimit." },
-      "creditReports": { "title": "Wertvolle Kreditauskünfte", "description": "Kreditauskünfte sind das ideale Instrument zur Festlegung eines gedeckten Kreditlimits – vollständig in alle Module integriert und erschwinglich." },
-      "oneLimit": { "title": "Ein Unternehmen, ein Limit", "description": "Der PolicyManager erkennt Unternehmen mit mehreren Debitorennummern und verknüpft alle Rechnungen mit einem einzigen Limit – über die Handelsregisternummer." },
-      "followUp": { "title": "Geordnete Wiedervorlage", "description": "Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers werden vollständig erfüllt." }
+      "subscription": {
+        "title": "Erschwingliches Abonnement",
+        "description": "Der PolicyManager ist schon ab 200 Euro pro Monat erhältlich – auch für KMU in Reichweite."
+      },
+      "reminder": {
+        "title": "Automatische Erinnerung",
+        "description": "Sie erhalten automatisch ein Signal, zum Beispiel bei Überschreitung eines Limits."
+      },
+      "timeSaving": {
+        "title": "Sie sparen Zeit",
+        "description": "Manuelle Operationen und Suchvorgänge entfallen. Zeit, die Sie nutzen können, um den Verlust des Versicherungsschutzes zu verhindern."
+      },
+      "currentData": {
+        "title": "Immer aktuelle Daten",
+        "description": "Mindestens einmal täglich Updates zum Status Ihrer Kreditlimite. Entscheidungen, Aufhebungen und Reduzierungen sind sofort sichtbar."
+      },
+      "costAnalysis": {
+        "title": "Kreditlimitkosten analysieren",
+        "description": "Analysieren Sie, welches Kreditlimit für Ihren Kunden am besten geeignet ist – oder ersetzen Sie ein kostenpflichtiges Limit durch ein kostenloses Selbstbewertungslimit."
+      },
+      "creditReports": {
+        "title": "Wertvolle Kreditauskünfte",
+        "description": "Kreditauskünfte sind das ideale Instrument zur Festlegung eines gedeckten Kreditlimits – vollständig in alle Module integriert und erschwinglich."
+      },
+      "oneLimit": {
+        "title": "Ein Unternehmen, ein Limit",
+        "description": "Der PolicyManager erkennt Unternehmen mit mehreren Debitorennummern und verknüpft alle Rechnungen mit einem einzigen Limit – über die Handelsregisternummer."
+      },
+      "followUp": {
+        "title": "Geordnete Wiedervorlage",
+        "description": "Im Schadensfall mit zwei Mausklicks ein Excel-Dokument mit überfälligen Rechnungen und Historie – Obliegenheiten des Versicherers werden vollständig erfüllt."
+      }
     },
     "allInOne": {
       "title": "Alles in einer Anwendung",
@@ -530,9 +583,21 @@
     "comingSoon": "bald verfügbar",
     "netPrice": "Netto",
     "plusVat": "zzgl. MwSt.",
-    "full": { "label": "Vollauskunft", "shortLabel": "Vollauskunft", "description": "Umfassender Bonitätsbericht mit Firmenstammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung." },
-    "compact": { "label": "Kompaktauskunft", "shortLabel": "Kompakt", "description": "Reduzierter Bonitätsbericht mit den wichtigsten Kennzahlen." },
-    "monitoring": { "label": "Monitoring", "shortLabel": "Monitoring", "description": "Laufende Überwachung der Bonität eines Unternehmens." }
+    "full": {
+      "label": "Vollauskunft",
+      "shortLabel": "Vollauskunft",
+      "description": "Umfassender Bonitätsbericht mit Firmenstammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung."
+    },
+    "compact": {
+      "label": "Kompaktauskunft",
+      "shortLabel": "Kompakt",
+      "description": "Reduzierter Bonitätsbericht mit den wichtigsten Kennzahlen."
+    },
+    "monitoring": {
+      "label": "Monitoring",
+      "shortLabel": "Monitoring",
+      "description": "Laufende Überwachung der Bonität eines Unternehmens."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Besteller-Angaben",

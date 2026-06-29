@@ -58,7 +58,9 @@
     "service": "Tjänst",
     "legal": "Juridiskt",
     "requestDemo": "Begär demo",
-    "allRightsReserved": "Alla rättigheter förbehållna."
+    "allRightsReserved": "Alla rättigheter förbehållna.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Integritetspolicy"
   },
   "CustomerLogos": {
     "tagline": "betrodd av ledande företag världen över"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Varför CreditDevice?",
     "subtitle": "Vi är mer än bara en programvaruleverantör — vi är din partner för framgångsrik kredithantering",
-    "reachable": { "title": "Tillgängliga", "description": "Vårt dedikerade team finns tillgängligt för dig när som helst. Personlig support som verkligen hjälper." },
-    "innovative": { "title": "Innovativa", "description": "Vi utvecklar kontinuerligt våra lösningar och förlitar oss på den senaste tekniken." },
-    "committed": { "title": "Engagerade", "description": "Din framgång är vår drivkraft. Vi går den extra milen för att nå dina mål." },
-    "flexible": { "title": "Flexibla", "description": "Våra lösningar anpassar sig efter dina behov. Skalbart från SMF till stora företag." }
+    "reachable": {
+      "title": "Tillgängliga",
+      "description": "Vårt dedikerade team finns tillgängligt för dig när som helst. Personlig support som verkligen hjälper."
+    },
+    "innovative": {
+      "title": "Innovativa",
+      "description": "Vi utvecklar kontinuerligt våra lösningar och förlitar oss på den senaste tekniken."
+    },
+    "committed": {
+      "title": "Engagerade",
+      "description": "Din framgång är vår drivkraft. Vi går den extra milen för att nå dina mål."
+    },
+    "flexible": {
+      "title": "Flexibla",
+      "description": "Våra lösningar anpassar sig efter dina behov. Skalbart från SMF till stora företag."
+    }
   },
   "CTABanner": {
     "title": "Upptäck CreditDevice själv",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Våra tjänster",
       "subtitle": "Dra nytta av omfattande kreditupplysningar",
-      "international": { "title": "Internationellt", "description": "Tillgång till kreditdata från över 200 länder. Oavsett var dina affärspartners befinner sig." },
-      "payPerUse": { "title": "Betala per användning", "description": "Betala bara för vad du faktiskt hämtar — utan grundavgift eller minimibeställning." },
-      "api": { "title": "Webbtjänst / API", "description": "Kraftfullt REST API eller webhooks för integration i dina befintliga system." }
+      "international": {
+        "title": "Internationellt",
+        "description": "Tillgång till kreditdata från över 200 länder. Oavsett var dina affärspartners befinner sig."
+      },
+      "payPerUse": {
+        "title": "Betala per användning",
+        "description": "Betala bara för vad du faktiskt hämtar — utan grundavgift eller minimibeställning."
+      },
+      "api": {
+        "title": "Webbtjänst / API",
+        "description": "Kraftfullt REST API eller webhooks för integration i dina befintliga system."
+      }
     },
     "pricing": {
       "title": "Priser per rapport",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Vad utmärker vår programvara",
       "subtitle": "Hos CreditDevice väljer du det paket som passar dig — moduler för kreditupplysningar, kundreskontrahantering, riskanalys och handelskrediförsäkring i en applikation.",
-      "transparency": { "title": "Full transparens om dina gäldenärer", "description": "Moduler för kreditupplysningar, kundreskontrahantering, riskanalys och handelskrediförsäkring i en applikation." },
-      "earlyPayment": { "title": "Fakturor betalas tidigare", "description": "Tala din gäldenärs språk: anpassa sekvens, innehåll, språk och struktur i arbetsflödet per kundprofil." },
-      "reports": { "title": "Skräddarsydda rapporter", "description": "Informera ledningen månadsvis om de största gäldenärerna eller kontochefer veckovis om öppna poster. Automatiskt." },
-      "actionLists": { "title": "Spara tid med åtgärdslistor", "description": "Arbeta dagligen baserat på åtgärdslistor och undvik sena betalningar." },
-      "groupLevel": { "title": "Påminnelser på koncernnivå", "description": "Länka flera gäldenärsnummer för samma kund. Mycket praktiskt för moder- och dotterbolag." },
-      "complaints": { "title": "Snabb reklamationshantering", "description": "Registrera reklamationer enkelt och säkerställ snabb hantering genom tydlig kommunikation och eskalering." }
+      "transparency": {
+        "title": "Full transparens om dina gäldenärer",
+        "description": "Moduler för kreditupplysningar, kundreskontrahantering, riskanalys och handelskrediförsäkring i en applikation."
+      },
+      "earlyPayment": {
+        "title": "Fakturor betalas tidigare",
+        "description": "Tala din gäldenärs språk: anpassa sekvens, innehåll, språk och struktur i arbetsflödet per kundprofil."
+      },
+      "reports": {
+        "title": "Skräddarsydda rapporter",
+        "description": "Informera ledningen månadsvis om de största gäldenärerna eller kontochefer veckovis om öppna poster. Automatiskt."
+      },
+      "actionLists": {
+        "title": "Spara tid med åtgärdslistor",
+        "description": "Arbeta dagligen baserat på åtgärdslistor och undvik sena betalningar."
+      },
+      "groupLevel": {
+        "title": "Påminnelser på koncernnivå",
+        "description": "Länka flera gäldenärsnummer för samma kund. Mycket praktiskt för moder- och dotterbolag."
+      },
+      "complaints": {
+        "title": "Snabb reklamationshantering",
+        "description": "Registrera reklamationer enkelt och säkerställ snabb hantering genom tydlig kommunikation och eskalering."
+      }
     },
     "uniqueness": {
       "title": "Hur unikt är CreditDevice?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Upptäck dina fördelar",
       "subtitle": "Manuell hantering av en handelskrediförsäkringspolicy är mycket arbete. PolicyManager tar hand om allt det.",
-      "subscription": { "title": "Prisvärd prenumeration", "description": "PolicyManager är tillgänglig från 200 euro per månad — inom räckhåll även för SMF." },
-      "reminder": { "title": "Automatisk påminnelse", "description": "Du får automatiskt en signal, till exempel när en gräns överskrids." },
-      "timeSaving": { "title": "Du sparar tid", "description": "Manuella operationer och sökningar elimineras. Tid du kan använda för att förhindra förlust av försäkringsskydd." },
-      "currentData": { "title": "Alltid aktuell data", "description": "Uppdateringar om statusen för dina kreditgränser minst en gång om dagen." },
-      "costAnalysis": { "title": "Analysera kreditgränskostnader", "description": "Analysera vilken kreditgräns som är bäst lämpad för din kund." },
-      "creditReports": { "title": "Värdefulla kreditupplysningar", "description": "Kreditupplysningar är det ideala instrumentet för att fastställa en täckt kreditgräns." },
-      "oneLimit": { "title": "Ett företag, en gräns", "description": "PolicyManager identifierar företag med flera gäldenärsnummer och kopplar alla fakturor till en enda gräns." },
-      "followUp": { "title": "Organiserad uppföljning", "description": "Vid ett krav skapar du ett Excel-dokument med förfallna fakturor och historik med två musklick." }
+      "subscription": {
+        "title": "Prisvärd prenumeration",
+        "description": "PolicyManager är tillgänglig från 200 euro per månad — inom räckhåll även för SMF."
+      },
+      "reminder": {
+        "title": "Automatisk påminnelse",
+        "description": "Du får automatiskt en signal, till exempel när en gräns överskrids."
+      },
+      "timeSaving": {
+        "title": "Du sparar tid",
+        "description": "Manuella operationer och sökningar elimineras. Tid du kan använda för att förhindra förlust av försäkringsskydd."
+      },
+      "currentData": {
+        "title": "Alltid aktuell data",
+        "description": "Uppdateringar om statusen för dina kreditgränser minst en gång om dagen."
+      },
+      "costAnalysis": {
+        "title": "Analysera kreditgränskostnader",
+        "description": "Analysera vilken kreditgräns som är bäst lämpad för din kund."
+      },
+      "creditReports": {
+        "title": "Värdefulla kreditupplysningar",
+        "description": "Kreditupplysningar är det ideala instrumentet för att fastställa en täckt kreditgräns."
+      },
+      "oneLimit": {
+        "title": "Ett företag, en gräns",
+        "description": "PolicyManager identifierar företag med flera gäldenärsnummer och kopplar alla fakturor till en enda gräns."
+      },
+      "followUp": {
+        "title": "Organiserad uppföljning",
+        "description": "Vid ett krav skapar du ett Excel-dokument med förfallna fakturor och historik med två musklick."
+      }
     },
     "allInOne": {
       "title": "Allt i en applikation",
@@ -518,9 +583,21 @@
     "comingSoon": "kommer snart",
     "netPrice": "Exkl. moms",
     "plusVat": "plus moms",
-    "full": { "label": "Fullständig rapport", "shortLabel": "Fullständig", "description": "Omfattande kreditupplysning med företagsstamdata, balansdata, betalningserfarenheter, poäng och riskbedömning." },
-    "compact": { "label": "Kompakt rapport", "shortLabel": "Kompakt", "description": "Reducerad kreditupplysning med de viktigaste nyckeltalen." },
-    "monitoring": { "label": "Bevakning", "shortLabel": "Bevakning", "description": "Löpande bevakning av ett företags kreditvärdighet." }
+    "full": {
+      "label": "Fullständig rapport",
+      "shortLabel": "Fullständig",
+      "description": "Omfattande kreditupplysning med företagsstamdata, balansdata, betalningserfarenheter, poäng och riskbedömning."
+    },
+    "compact": {
+      "label": "Kompakt rapport",
+      "shortLabel": "Kompakt",
+      "description": "Reducerad kreditupplysning med de viktigaste nyckeltalen."
+    },
+    "monitoring": {
+      "label": "Bevakning",
+      "shortLabel": "Bevakning",
+      "description": "Löpande bevakning av ett företags kreditvärdighet."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Beställaruppgifter",

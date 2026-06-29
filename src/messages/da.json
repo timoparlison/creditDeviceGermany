@@ -58,7 +58,9 @@
     "service": "Service",
     "legal": "Juridisk",
     "requestDemo": "Anmod om demo",
-    "allRightsReserved": "Alle rettigheder forbeholdes."
+    "allRightsReserved": "Alle rettigheder forbeholdes.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Privatlivspolitik"
   },
   "CustomerLogos": {
     "tagline": "betroet af førende virksomheder verden over"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Hvorfor CreditDevice?",
     "subtitle": "Vi er mere end blot en softwareleverandør — vi er din partner til succesfuld kreditadministration",
-    "reachable": { "title": "Tilgængelig", "description": "Vores dedikerede team er altid til din rådighed. Personlig support der virkelig hjælper." },
-    "innovative": { "title": "Innovativ", "description": "Vi udvikler løbende vores løsninger og stoler på den nyeste teknologi." },
-    "committed": { "title": "Engageret", "description": "Din succes er vores drivkraft. Vi går den ekstra mil for at nå dine mål." },
-    "flexible": { "title": "Fleksibel", "description": "Vores løsninger tilpasser sig dine behov. Skalerbart fra SMV til store virksomheder." }
+    "reachable": {
+      "title": "Tilgængelig",
+      "description": "Vores dedikerede team er altid til din rådighed. Personlig support der virkelig hjælper."
+    },
+    "innovative": {
+      "title": "Innovativ",
+      "description": "Vi udvikler løbende vores løsninger og stoler på den nyeste teknologi."
+    },
+    "committed": {
+      "title": "Engageret",
+      "description": "Din succes er vores drivkraft. Vi går den ekstra mil for at nå dine mål."
+    },
+    "flexible": {
+      "title": "Fleksibel",
+      "description": "Vores løsninger tilpasser sig dine behov. Skalerbart fra SMV til store virksomheder."
+    }
   },
   "CTABanner": {
     "title": "Oplev CreditDevice selv",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Vores tjenester",
       "subtitle": "Drag fordel af omfattende kreditoplysninger",
-      "international": { "title": "Internationalt", "description": "Adgang til kreditdata fra over 200 lande. Uanset hvor dine forretningspartnere befinder sig." },
-      "payPerUse": { "title": "Betal per brug", "description": "Betal kun for det, du faktisk henter — uden grundgebyr eller minimumbestilling." },
-      "api": { "title": "Webtjeneste / API", "description": "Kraftfuld REST API eller webhooks til integration i dine eksisterende systemer." }
+      "international": {
+        "title": "Internationalt",
+        "description": "Adgang til kreditdata fra over 200 lande. Uanset hvor dine forretningspartnere befinder sig."
+      },
+      "payPerUse": {
+        "title": "Betal per brug",
+        "description": "Betal kun for det, du faktisk henter — uden grundgebyr eller minimumbestilling."
+      },
+      "api": {
+        "title": "Webtjeneste / API",
+        "description": "Kraftfuld REST API eller webhooks til integration i dine eksisterende systemer."
+      }
     },
     "pricing": {
       "title": "Priser per rapport",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Hvad adskiller vores software",
       "subtitle": "Hos CreditDevice vælger du den pakke, der passer til dig — moduler til kreditoplysninger, debitorstyring, risikoanalyse og handelskreditforsikring i én applikation.",
-      "transparency": { "title": "Fuld gennemsigtighed om dine debitorer", "description": "Moduler til kreditoplysninger, debitorstyring, risikoanalyse og handelskreditforsikring i én applikation." },
-      "earlyPayment": { "title": "Fakturaer betales tidligere", "description": "Tal debitorens sprog: tilpas rækkefølge, indhold, sprog og struktur i arbejdsgangen per kundeprofil." },
-      "reports": { "title": "Skræddersyede rapporter", "description": "Informer ledelsen månedligt om de største debitorer eller kontochefer ugentligt om åbne poster. Automatisk." },
-      "actionLists": { "title": "Spar tid med handlingslister", "description": "Arbejd dagligt baseret på handlingslister og undgå sen betaling." },
-      "groupLevel": { "title": "Rykkere på koncernniveau", "description": "Link flere debitornumre for den samme kunde. Meget praktisk for moder- og datterselskaber." },
-      "complaints": { "title": "Hurtig klagebehandling", "description": "Registrer klager nemt og sørg for hurtig behandling gennem klar kommunikation og eskalering." }
+      "transparency": {
+        "title": "Fuld gennemsigtighed om dine debitorer",
+        "description": "Moduler til kreditoplysninger, debitorstyring, risikoanalyse og handelskreditforsikring i én applikation."
+      },
+      "earlyPayment": {
+        "title": "Fakturaer betales tidligere",
+        "description": "Tal debitorens sprog: tilpas rækkefølge, indhold, sprog og struktur i arbejdsgangen per kundeprofil."
+      },
+      "reports": {
+        "title": "Skræddersyede rapporter",
+        "description": "Informer ledelsen månedligt om de største debitorer eller kontochefer ugentligt om åbne poster. Automatisk."
+      },
+      "actionLists": {
+        "title": "Spar tid med handlingslister",
+        "description": "Arbejd dagligt baseret på handlingslister og undgå sen betaling."
+      },
+      "groupLevel": {
+        "title": "Rykkere på koncernniveau",
+        "description": "Link flere debitornumre for den samme kunde. Meget praktisk for moder- og datterselskaber."
+      },
+      "complaints": {
+        "title": "Hurtig klagebehandling",
+        "description": "Registrer klager nemt og sørg for hurtig behandling gennem klar kommunikation og eskalering."
+      }
     },
     "uniqueness": {
       "title": "Hvor unikt er CreditDevice?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Opdag dine fordele",
       "subtitle": "Manuel forvaltning af en handelskreditforsikringspolis er meget arbejde. PolicyManager tager sig af det hele for dig.",
-      "subscription": { "title": "Overkommeligt abonnement", "description": "PolicyManager er tilgængelig fra 200 euro om måneden — inden for rækkevidde selv for SMV." },
-      "reminder": { "title": "Automatisk påmindelse", "description": "Du modtager automatisk et signal, f.eks. når en grænse overskrides." },
-      "timeSaving": { "title": "Du sparer tid", "description": "Manuelle operationer og søgninger elimineres. Tid du kan bruge til at forhindre tab af forsikringsdækning." },
-      "currentData": { "title": "Altid aktuelle data", "description": "Opdateringer om status for dine kreditgrænser mindst én gang om dagen." },
-      "costAnalysis": { "title": "Analyser kreditgrænseomkostninger", "description": "Analyser hvilken kreditgrænse der passer bedst til din kunde." },
-      "creditReports": { "title": "Værdifulde kreditrapporter", "description": "Kreditrapporter er det ideelle instrument til at fastsætte en dækket kreditgrænse." },
-      "oneLimit": { "title": "Én virksomhed, én grænse", "description": "PolicyManager identificerer virksomheder med flere debitornumre og kobler alle fakturaer til én enkelt grænse." },
-      "followUp": { "title": "Organiseret opfølgning", "description": "Ved et krav laver du et Excel-dokument med forfaldne fakturaer og historik med to museklik." }
+      "subscription": {
+        "title": "Overkommeligt abonnement",
+        "description": "PolicyManager er tilgængelig fra 200 euro om måneden — inden for rækkevidde selv for SMV."
+      },
+      "reminder": {
+        "title": "Automatisk påmindelse",
+        "description": "Du modtager automatisk et signal, f.eks. når en grænse overskrides."
+      },
+      "timeSaving": {
+        "title": "Du sparer tid",
+        "description": "Manuelle operationer og søgninger elimineres. Tid du kan bruge til at forhindre tab af forsikringsdækning."
+      },
+      "currentData": {
+        "title": "Altid aktuelle data",
+        "description": "Opdateringer om status for dine kreditgrænser mindst én gang om dagen."
+      },
+      "costAnalysis": {
+        "title": "Analyser kreditgrænseomkostninger",
+        "description": "Analyser hvilken kreditgrænse der passer bedst til din kunde."
+      },
+      "creditReports": {
+        "title": "Værdifulde kreditrapporter",
+        "description": "Kreditrapporter er det ideelle instrument til at fastsætte en dækket kreditgrænse."
+      },
+      "oneLimit": {
+        "title": "Én virksomhed, én grænse",
+        "description": "PolicyManager identificerer virksomheder med flere debitornumre og kobler alle fakturaer til én enkelt grænse."
+      },
+      "followUp": {
+        "title": "Organiseret opfølgning",
+        "description": "Ved et krav laver du et Excel-dokument med forfaldne fakturaer og historik med to museklik."
+      }
     },
     "allInOne": {
       "title": "Alt i én applikation",
@@ -518,9 +583,21 @@
     "comingSoon": "kommer snart",
     "netPrice": "Ekskl. moms",
     "plusVat": "plus moms",
-    "full": { "label": "Fuld rapport", "shortLabel": "Fuld", "description": "Omfattende kreditrapport med virksomhedsstamdata, regnskabsdata, betalingserfaringer, score og risikovurdering." },
-    "compact": { "label": "Kompakt rapport", "shortLabel": "Kompakt", "description": "Reduceret kreditrapport med de vigtigste nøgletal." },
-    "monitoring": { "label": "Overvågning", "shortLabel": "Overvågning", "description": "Løbende overvågning af en virksomheds kreditværdighed." }
+    "full": {
+      "label": "Fuld rapport",
+      "shortLabel": "Fuld",
+      "description": "Omfattende kreditrapport med virksomhedsstamdata, regnskabsdata, betalingserfaringer, score og risikovurdering."
+    },
+    "compact": {
+      "label": "Kompakt rapport",
+      "shortLabel": "Kompakt",
+      "description": "Reduceret kreditrapport med de vigtigste nøgletal."
+    },
+    "monitoring": {
+      "label": "Overvågning",
+      "shortLabel": "Overvågning",
+      "description": "Løbende overvågning af en virksomheds kreditværdighed."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Bestilleroplysninger",

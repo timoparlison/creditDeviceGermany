@@ -58,7 +58,9 @@
     "service": "Tjeneste",
     "legal": "Juridisk",
     "requestDemo": "Be om demo",
-    "allRightsReserved": "Alle rettigheter forbeholdt."
+    "allRightsReserved": "Alle rettigheter forbeholdt.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Personvernerklæring"
   },
   "CustomerLogos": {
     "tagline": "betrodd av ledende selskaper over hele verden"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Hvorfor CreditDevice?",
     "subtitle": "Vi er mer enn bare en programvareleverandør — vi er din partner for vellykket kredittforvaltning",
-    "reachable": { "title": "Tilgjengelig", "description": "Det dedikerte teamet vårt er alltid tilgjengelig for deg. Personlig støtte som virkelig hjelper." },
-    "innovative": { "title": "Innovativ", "description": "Vi utvikler kontinuerlig løsningene våre og stoler på den nyeste teknologien." },
-    "committed": { "title": "Engasjert", "description": "Suksessen din er drivkraften vår. Vi går den ekstra milen for å nå målene dine." },
-    "flexible": { "title": "Fleksibel", "description": "Løsningene våre tilpasser seg behovene dine. Skalerbart fra SMB til store bedrifter." }
+    "reachable": {
+      "title": "Tilgjengelig",
+      "description": "Det dedikerte teamet vårt er alltid tilgjengelig for deg. Personlig støtte som virkelig hjelper."
+    },
+    "innovative": {
+      "title": "Innovativ",
+      "description": "Vi utvikler kontinuerlig løsningene våre og stoler på den nyeste teknologien."
+    },
+    "committed": {
+      "title": "Engasjert",
+      "description": "Suksessen din er drivkraften vår. Vi går den ekstra milen for å nå målene dine."
+    },
+    "flexible": {
+      "title": "Fleksibel",
+      "description": "Løsningene våre tilpasser seg behovene dine. Skalerbart fra SMB til store bedrifter."
+    }
   },
   "CTABanner": {
     "title": "Oppdag CreditDevice selv",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Tjenestene våre",
       "subtitle": "Dra nytte av omfattende kredittopplysninger",
-      "international": { "title": "Internasjonalt", "description": "Tilgang til kredittdata fra over 200 land. Uavhengig av hvor forretningspartnerne dine befinner seg." },
-      "payPerUse": { "title": "Betal per bruk", "description": "Betal bare for det du faktisk henter — uten grunngebyr eller minimumsbestilling." },
-      "api": { "title": "Nettjeneste / API", "description": "Kraftig REST API eller webhooks for integrasjon i eksisterende systemer." }
+      "international": {
+        "title": "Internasjonalt",
+        "description": "Tilgang til kredittdata fra over 200 land. Uavhengig av hvor forretningspartnerne dine befinner seg."
+      },
+      "payPerUse": {
+        "title": "Betal per bruk",
+        "description": "Betal bare for det du faktisk henter — uten grunngebyr eller minimumsbestilling."
+      },
+      "api": {
+        "title": "Nettjeneste / API",
+        "description": "Kraftig REST API eller webhooks for integrasjon i eksisterende systemer."
+      }
     },
     "pricing": {
       "title": "Priser per rapport",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Hva skiller programvaren vår",
       "subtitle": "Hos CreditDevice velger du pakken som passer deg — moduler for kredittopplysninger, debitorhåndtering, risikoanalyse og handelskredittforsikring i én applikasjon.",
-      "transparency": { "title": "Full åpenhet om debitorene dine", "description": "Moduler for kredittopplysninger, debitorhåndtering, risikoanalyse og handelskredittforsikring i én applikasjon." },
-      "earlyPayment": { "title": "Fakturaer betales tidligere", "description": "Snakk debitorens språk: tilpass rekkefølge, innhold, språk og struktur i arbeidsflyten per kundeprofil." },
-      "reports": { "title": "Skreddersydde rapporter", "description": "Informer ledelsen månedlig om de største debitorene eller kontoansvarlige ukentlig om åpne poster. Automatisk." },
-      "actionLists": { "title": "Spar tid med handlingslister", "description": "Arbeid daglig basert på handlingslister og unngå sen betaling." },
-      "groupLevel": { "title": "Purringer på konsernnivå", "description": "Koble flere debitornumre for samme kunde. Svært praktisk for mor- og datterselskaper." },
-      "complaints": { "title": "Rask klagebehandling", "description": "Registrer klager enkelt og sørg for rask behandling gjennom tydelig kommunikasjon og eskalering." }
+      "transparency": {
+        "title": "Full åpenhet om debitorene dine",
+        "description": "Moduler for kredittopplysninger, debitorhåndtering, risikoanalyse og handelskredittforsikring i én applikasjon."
+      },
+      "earlyPayment": {
+        "title": "Fakturaer betales tidligere",
+        "description": "Snakk debitorens språk: tilpass rekkefølge, innhold, språk og struktur i arbeidsflyten per kundeprofil."
+      },
+      "reports": {
+        "title": "Skreddersydde rapporter",
+        "description": "Informer ledelsen månedlig om de største debitorene eller kontoansvarlige ukentlig om åpne poster. Automatisk."
+      },
+      "actionLists": {
+        "title": "Spar tid med handlingslister",
+        "description": "Arbeid daglig basert på handlingslister og unngå sen betaling."
+      },
+      "groupLevel": {
+        "title": "Purringer på konsernnivå",
+        "description": "Koble flere debitornumre for samme kunde. Svært praktisk for mor- og datterselskaper."
+      },
+      "complaints": {
+        "title": "Rask klagebehandling",
+        "description": "Registrer klager enkelt og sørg for rask behandling gjennom tydelig kommunikasjon og eskalering."
+      }
     },
     "uniqueness": {
       "title": "Hvor unikt er CreditDevice?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Oppdag fordelene dine",
       "subtitle": "Manuell håndtering av en handelskredittforsikringspolicy er mye arbeid. PolicyManager tar seg av alt det for deg.",
-      "subscription": { "title": "Rimelig abonnement", "description": "PolicyManager er tilgjengelig fra 200 euro per måned — innen rekkevidde selv for SMB." },
-      "reminder": { "title": "Automatisk påminnelse", "description": "Du mottar automatisk et signal, for eksempel når en grense overskrides." },
-      "timeSaving": { "title": "Du sparer tid", "description": "Manuelle operasjoner og søk elimineres. Tid du kan bruke til å forhindre tap av forsikringsdekning." },
-      "currentData": { "title": "Alltid oppdaterte data", "description": "Oppdateringer om statusen til kredittgrensene dine minst én gang om dagen." },
-      "costAnalysis": { "title": "Analyser kredittgrensekostnader", "description": "Analyser hvilken kredittgrense som passer best for kunden din." },
-      "creditReports": { "title": "Verdifulle kredittrapporter", "description": "Kredittrapporter er det ideelle instrumentet for å fastsette en dekket kredittgrense." },
-      "oneLimit": { "title": "Én bedrift, én grense", "description": "PolicyManager identifiserer selskaper med flere debitornumre og kobler alle fakturaer til én enkelt grense." },
-      "followUp": { "title": "Organisert oppfølging", "description": "Ved et krav lager du et Excel-dokument med forfalte fakturaer og historikk med to museklikk." }
+      "subscription": {
+        "title": "Rimelig abonnement",
+        "description": "PolicyManager er tilgjengelig fra 200 euro per måned — innen rekkevidde selv for SMB."
+      },
+      "reminder": {
+        "title": "Automatisk påminnelse",
+        "description": "Du mottar automatisk et signal, for eksempel når en grense overskrides."
+      },
+      "timeSaving": {
+        "title": "Du sparer tid",
+        "description": "Manuelle operasjoner og søk elimineres. Tid du kan bruke til å forhindre tap av forsikringsdekning."
+      },
+      "currentData": {
+        "title": "Alltid oppdaterte data",
+        "description": "Oppdateringer om statusen til kredittgrensene dine minst én gang om dagen."
+      },
+      "costAnalysis": {
+        "title": "Analyser kredittgrensekostnader",
+        "description": "Analyser hvilken kredittgrense som passer best for kunden din."
+      },
+      "creditReports": {
+        "title": "Verdifulle kredittrapporter",
+        "description": "Kredittrapporter er det ideelle instrumentet for å fastsette en dekket kredittgrense."
+      },
+      "oneLimit": {
+        "title": "Én bedrift, én grense",
+        "description": "PolicyManager identifiserer selskaper med flere debitornumre og kobler alle fakturaer til én enkelt grense."
+      },
+      "followUp": {
+        "title": "Organisert oppfølging",
+        "description": "Ved et krav lager du et Excel-dokument med forfalte fakturaer og historikk med to museklikk."
+      }
     },
     "allInOne": {
       "title": "Alt i én applikasjon",
@@ -518,9 +583,21 @@
     "comingSoon": "kommer snart",
     "netPrice": "Eks. mva.",
     "plusVat": "pluss mva.",
-    "full": { "label": "Fullstendig rapport", "shortLabel": "Fullstendig", "description": "Omfattende kredittopplysning med bedriftsstamdata, balansedata, betalingserfaringer, score og risikovurdering." },
-    "compact": { "label": "Kompakt rapport", "shortLabel": "Kompakt", "description": "Redusert kredittopplysning med de viktigste nøkkeltallene." },
-    "monitoring": { "label": "Overvåking", "shortLabel": "Overvåking", "description": "Løpende overvåking av et selskaps kredittverdighet." }
+    "full": {
+      "label": "Fullstendig rapport",
+      "shortLabel": "Fullstendig",
+      "description": "Omfattende kredittopplysning med bedriftsstamdata, balansedata, betalingserfaringer, score og risikovurdering."
+    },
+    "compact": {
+      "label": "Kompakt rapport",
+      "shortLabel": "Kompakt",
+      "description": "Redusert kredittopplysning med de viktigste nøkkeltallene."
+    },
+    "monitoring": {
+      "label": "Overvåking",
+      "shortLabel": "Overvåking",
+      "description": "Løpende overvåking av et selskaps kredittverdighet."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Bestillerdetaljer",

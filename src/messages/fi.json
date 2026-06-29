@@ -58,7 +58,9 @@
     "service": "Palvelu",
     "legal": "Oikeudellinen",
     "requestDemo": "Pyydä demo",
-    "allRightsReserved": "Kaikki oikeudet pidätetään."
+    "allRightsReserved": "Kaikki oikeudet pidätetään.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Tietosuojakäytäntö"
   },
   "CustomerLogos": {
     "tagline": "johtavien yritysten luottama ympäri maailmaa"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Miksi CreditDevice?",
     "subtitle": "Olemme enemmän kuin pelkkä ohjelmistotoimittaja — olemme kumppanisi menestyksekkääseen luotonhallintaan",
-    "reachable": { "title": "Tavoitettavissa", "description": "Omistautunut tiimimme on aina käytettävissäsi. Henkilökohtaista tukea, joka todella auttaa." },
-    "innovative": { "title": "Innovatiivinen", "description": "Kehitämme ratkaisujamme jatkuvasti ja luotamme uusimpiin teknologioihin." },
-    "committed": { "title": "Sitoutunut", "description": "Menestyksesi on motivaatiomme. Teemme enemmän kuin vaaditaan tavoitteidesi saavuttamiseksi." },
-    "flexible": { "title": "Joustava", "description": "Ratkaisumme mukautuvat tarpeisiisi. Skaalautuu pk-yrityksistä suuryrityksiin." }
+    "reachable": {
+      "title": "Tavoitettavissa",
+      "description": "Omistautunut tiimimme on aina käytettävissäsi. Henkilökohtaista tukea, joka todella auttaa."
+    },
+    "innovative": {
+      "title": "Innovatiivinen",
+      "description": "Kehitämme ratkaisujamme jatkuvasti ja luotamme uusimpiin teknologioihin."
+    },
+    "committed": {
+      "title": "Sitoutunut",
+      "description": "Menestyksesi on motivaatiomme. Teemme enemmän kuin vaaditaan tavoitteidesi saavuttamiseksi."
+    },
+    "flexible": {
+      "title": "Joustava",
+      "description": "Ratkaisumme mukautuvat tarpeisiisi. Skaalautuu pk-yrityksistä suuryrityksiin."
+    }
   },
   "CTABanner": {
     "title": "Tutustu CreditDeviceen itse",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Palvelumme",
       "subtitle": "Hyödynny kattavista luottotiedoista",
-      "international": { "title": "Kansainvälinen", "description": "Pääsy luottodataan yli 200 maasta. Riippumatta siitä, missä liiketoimintakumppanisi sijaitsevat." },
-      "payPerUse": { "title": "Maksa käytön mukaan", "description": "Maksa vain siitä, mitä todella haet — ilman perusmaksua tai vähimmäistilausta." },
-      "api": { "title": "Verkkopalvelu / API", "description": "Tehokas REST API tai webhooks integroitavaksi olemassa oleviin järjestelmiisi." }
+      "international": {
+        "title": "Kansainvälinen",
+        "description": "Pääsy luottodataan yli 200 maasta. Riippumatta siitä, missä liiketoimintakumppanisi sijaitsevat."
+      },
+      "payPerUse": {
+        "title": "Maksa käytön mukaan",
+        "description": "Maksa vain siitä, mitä todella haet — ilman perusmaksua tai vähimmäistilausta."
+      },
+      "api": {
+        "title": "Verkkopalvelu / API",
+        "description": "Tehokas REST API tai webhooks integroitavaksi olemassa oleviin järjestelmiisi."
+      }
     },
     "pricing": {
       "title": "Hinnat per raportti",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Mikä erottaa ohjelmistomme",
       "subtitle": "CreditDevicella valitset sinulle sopivan paketin — moduulit luottotiedoille, saatavienhallinalle, riskianalyysille ja kaupalliselle luottovakuutukselle yhdessä sovelluksessa.",
-      "transparency": { "title": "Täysi läpinäkyvyys velallisistasi", "description": "Moduulit luottotiedoille, saatavienhallinalle, riskianalyysille ja kaupalliselle luottovakuutukselle yhdessä sovelluksessa." },
-      "earlyPayment": { "title": "Laskut maksetaan aiemmin", "description": "Puhu velallisesi kieltä: mukauta työnkulun järjestys, sisältö, kieli ja rakenne asiakasprofiilittain." },
-      "reports": { "title": "Räätälöidyt raportit", "description": "Informoi johtoa kuukausittain suurimmista velallisista tai tilivastaavia viikoittain avoimista eristä. Automaattisesti." },
-      "actionLists": { "title": "Säästä aikaa toimintalistoilla", "description": "Tee töitä päivittäin toimintalistojen pohjalta ja vältä myöhäiset maksut." },
-      "groupLevel": { "title": "Maksumuistutukset konsernitasolla", "description": "Yhdistä useita velallisten numeroita samalle asiakkaalle. Erittäin käytännöllistä emo- ja tytäryrityksille." },
-      "complaints": { "title": "Nopea reklamaatiokäsittely", "description": "Kirjaa reklamaatiot helposti ja varmista niiden nopea käsittely selkeällä viestinnällä ja eskaloinnilla." }
+      "transparency": {
+        "title": "Täysi läpinäkyvyys velallisistasi",
+        "description": "Moduulit luottotiedoille, saatavienhallinalle, riskianalyysille ja kaupalliselle luottovakuutukselle yhdessä sovelluksessa."
+      },
+      "earlyPayment": {
+        "title": "Laskut maksetaan aiemmin",
+        "description": "Puhu velallisesi kieltä: mukauta työnkulun järjestys, sisältö, kieli ja rakenne asiakasprofiilittain."
+      },
+      "reports": {
+        "title": "Räätälöidyt raportit",
+        "description": "Informoi johtoa kuukausittain suurimmista velallisista tai tilivastaavia viikoittain avoimista eristä. Automaattisesti."
+      },
+      "actionLists": {
+        "title": "Säästä aikaa toimintalistoilla",
+        "description": "Tee töitä päivittäin toimintalistojen pohjalta ja vältä myöhäiset maksut."
+      },
+      "groupLevel": {
+        "title": "Maksumuistutukset konsernitasolla",
+        "description": "Yhdistä useita velallisten numeroita samalle asiakkaalle. Erittäin käytännöllistä emo- ja tytäryrityksille."
+      },
+      "complaints": {
+        "title": "Nopea reklamaatiokäsittely",
+        "description": "Kirjaa reklamaatiot helposti ja varmista niiden nopea käsittely selkeällä viestinnällä ja eskaloinnilla."
+      }
     },
     "uniqueness": {
       "title": "Kuinka ainutlaatuinen CreditDevice on?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Tutustu etuihisi",
       "subtitle": "Kaupallisen luottovakuutuksen manuaalinen hallinta on paljon työtä. PolicyManager hoitaa sen puolestasi.",
-      "subscription": { "title": "Edullinen tilaus", "description": "PolicyManager on saatavilla alkaen 200 euroa kuukaudessa — saavutettavissa myös pk-yrityksille." },
-      "reminder": { "title": "Automaattinen muistutus", "description": "Saat automaattisesti signaalin, esimerkiksi kun raja ylittyy." },
-      "timeSaving": { "title": "Säästät aikaa", "description": "Manuaaliset toiminnot ja haut eliminoituvat. Aikaa, jota voit käyttää vakuutussuojan menetyksen estämiseen." },
-      "currentData": { "title": "Aina ajantasainen tieto", "description": "Päivitykset luottoraja-tilanteesta vähintään kerran päivässä." },
-      "costAnalysis": { "title": "Analysoi luottoraja-kustannukset", "description": "Analysoi, mikä luottoraja sopii parhaiten asiakkaallesi." },
-      "creditReports": { "title": "Arvokkaat luottoraportit", "description": "Luottoraportit ovat ihanteellinen väline katetun luottorajan määrittämiseen." },
-      "oneLimit": { "title": "Yksi yritys, yksi raja", "description": "PolicyManager tunnistaa useilla velallisnumeroilla varustetut yritykset ja yhdistää kaikki laskut yhteen rajaan." },
-      "followUp": { "title": "Järjestetty seuranta", "description": "Vaatimuksen sattuessa luot Excel-dokumentin erääntyneistä laskuista ja historiasta kahdella hiiren klikkauksella." }
+      "subscription": {
+        "title": "Edullinen tilaus",
+        "description": "PolicyManager on saatavilla alkaen 200 euroa kuukaudessa — saavutettavissa myös pk-yrityksille."
+      },
+      "reminder": {
+        "title": "Automaattinen muistutus",
+        "description": "Saat automaattisesti signaalin, esimerkiksi kun raja ylittyy."
+      },
+      "timeSaving": {
+        "title": "Säästät aikaa",
+        "description": "Manuaaliset toiminnot ja haut eliminoituvat. Aikaa, jota voit käyttää vakuutussuojan menetyksen estämiseen."
+      },
+      "currentData": {
+        "title": "Aina ajantasainen tieto",
+        "description": "Päivitykset luottoraja-tilanteesta vähintään kerran päivässä."
+      },
+      "costAnalysis": {
+        "title": "Analysoi luottoraja-kustannukset",
+        "description": "Analysoi, mikä luottoraja sopii parhaiten asiakkaallesi."
+      },
+      "creditReports": {
+        "title": "Arvokkaat luottoraportit",
+        "description": "Luottoraportit ovat ihanteellinen väline katetun luottorajan määrittämiseen."
+      },
+      "oneLimit": {
+        "title": "Yksi yritys, yksi raja",
+        "description": "PolicyManager tunnistaa useilla velallisnumeroilla varustetut yritykset ja yhdistää kaikki laskut yhteen rajaan."
+      },
+      "followUp": {
+        "title": "Järjestetty seuranta",
+        "description": "Vaatimuksen sattuessa luot Excel-dokumentin erääntyneistä laskuista ja historiasta kahdella hiiren klikkauksella."
+      }
     },
     "allInOne": {
       "title": "Kaikki yhdessä sovelluksessa",
@@ -518,9 +583,21 @@
     "comingSoon": "tulossa pian",
     "netPrice": "Alv 0 %",
     "plusVat": "plus alv",
-    "full": { "label": "Täysraportti", "shortLabel": "Täys", "description": "Kattava luottoraportti yrityksen perustiedoilla, tasetiedoilla, maksukokemuksilla, pisteillä ja riskiarvioinnilla." },
-    "compact": { "label": "Kompakti raportti", "shortLabel": "Kompakti", "description": "Supistettu luottoraportti tärkeimmillä tunnusluvuilla." },
-    "monitoring": { "label": "Seuranta", "shortLabel": "Seuranta", "description": "Jatkuva yrityksen luottokelpoisuuden seuranta." }
+    "full": {
+      "label": "Täysraportti",
+      "shortLabel": "Täys",
+      "description": "Kattava luottoraportti yrityksen perustiedoilla, tasetiedoilla, maksukokemuksilla, pisteillä ja riskiarvioinnilla."
+    },
+    "compact": {
+      "label": "Kompakti raportti",
+      "shortLabel": "Kompakti",
+      "description": "Supistettu luottoraportti tärkeimmillä tunnusluvuilla."
+    },
+    "monitoring": {
+      "label": "Seuranta",
+      "shortLabel": "Seuranta",
+      "description": "Jatkuva yrityksen luottokelpoisuuden seuranta."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Tilaajan tiedot",

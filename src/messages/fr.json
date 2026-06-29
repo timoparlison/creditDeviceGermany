@@ -58,7 +58,9 @@
     "service": "Service",
     "legal": "Légal",
     "requestDemo": "Demander une démo",
-    "allRightsReserved": "Tous droits réservés."
+    "allRightsReserved": "Tous droits réservés.",
+    "imprint": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité"
   },
   "CustomerLogos": {
     "tagline": "la confiance des entreprises leaders dans le monde entier"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Pourquoi CreditDevice ?",
     "subtitle": "Nous sommes plus qu'un simple fournisseur de logiciels — nous sommes votre partenaire pour une gestion du crédit réussie",
-    "reachable": { "title": "Disponible", "description": "Notre équipe dédiée est à votre disposition à tout moment. Un support personnel qui aide vraiment." },
-    "innovative": { "title": "Innovant", "description": "Nous développons continuellement nos solutions et misons sur les dernières technologies." },
-    "committed": { "title": "Engagé", "description": "Votre succès est notre moteur. Nous faisons un effort supplémentaire pour atteindre vos objectifs." },
-    "flexible": { "title": "Flexible", "description": "Nos solutions s'adaptent à vos besoins. Évolutif des PME aux grandes entreprises." }
+    "reachable": {
+      "title": "Disponible",
+      "description": "Notre équipe dédiée est à votre disposition à tout moment. Un support personnel qui aide vraiment."
+    },
+    "innovative": {
+      "title": "Innovant",
+      "description": "Nous développons continuellement nos solutions et misons sur les dernières technologies."
+    },
+    "committed": {
+      "title": "Engagé",
+      "description": "Votre succès est notre moteur. Nous faisons un effort supplémentaire pour atteindre vos objectifs."
+    },
+    "flexible": {
+      "title": "Flexible",
+      "description": "Nos solutions s'adaptent à vos besoins. Évolutif des PME aux grandes entreprises."
+    }
   },
   "CTABanner": {
     "title": "Découvrez CreditDevice par vous-même",
@@ -177,9 +191,18 @@
     "features": {
       "title": "Nos services",
       "subtitle": "Bénéficiez d'informations de solvabilité complètes",
-      "international": { "title": "International", "description": "Accès aux données de solvabilité de plus de 200 pays. Quel que soit l'endroit où se trouvent vos partenaires commerciaux." },
-      "payPerUse": { "title": "Paiement à l'utilisation", "description": "Ne payez que ce que vous consultez réellement, sans frais de base ni commande minimale." },
-      "api": { "title": "Service web / API", "description": "API REST puissante ou webhooks pour l'intégration dans vos systèmes existants." }
+      "international": {
+        "title": "International",
+        "description": "Accès aux données de solvabilité de plus de 200 pays. Quel que soit l'endroit où se trouvent vos partenaires commerciaux."
+      },
+      "payPerUse": {
+        "title": "Paiement à l'utilisation",
+        "description": "Ne payez que ce que vous consultez réellement, sans frais de base ni commande minimale."
+      },
+      "api": {
+        "title": "Service web / API",
+        "description": "API REST puissante ou webhooks pour l'intégration dans vos systèmes existants."
+      }
     },
     "pricing": {
       "title": "Prix par rapport",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Ce qui distingue notre logiciel",
       "subtitle": "Chez CreditDevice, choisissez le package qui vous convient : modules pour les informations de solvabilité, la gestion des débiteurs, l'analyse des risques et l'assurance-crédit dans une seule application.",
-      "transparency": { "title": "Transparence totale sur vos débiteurs", "description": "Modules pour les informations de solvabilité, la gestion des débiteurs, l'analyse des risques et l'assurance-crédit dans une seule application." },
-      "earlyPayment": { "title": "Factures payées plus tôt", "description": "Parlez la langue de votre débiteur : adaptez la séquence, le contenu, la langue et la structure du flux de travail par profil client." },
-      "reports": { "title": "Rapports sur mesure", "description": "Informez la direction mensuellement sur les plus grands débiteurs ou les gestionnaires de comptes hebdomadairement sur les postes ouverts. Automatiquement." },
-      "actionLists": { "title": "Économisez du temps avec des listes d'actions", "description": "Travaillez quotidiennement avec des listes d'actions et évitez les paiements tardifs." },
-      "groupLevel": { "title": "Relances au niveau du groupe", "description": "Liez plusieurs numéros de débiteurs pour le même client. Très pratique pour les sociétés mères et leurs filiales." },
-      "complaints": { "title": "Traitement rapide des réclamations", "description": "Enregistrez facilement les réclamations et assurez leur traitement rapide grâce à une communication et une escalade claires." }
+      "transparency": {
+        "title": "Transparence totale sur vos débiteurs",
+        "description": "Modules pour les informations de solvabilité, la gestion des débiteurs, l'analyse des risques et l'assurance-crédit dans une seule application."
+      },
+      "earlyPayment": {
+        "title": "Factures payées plus tôt",
+        "description": "Parlez la langue de votre débiteur : adaptez la séquence, le contenu, la langue et la structure du flux de travail par profil client."
+      },
+      "reports": {
+        "title": "Rapports sur mesure",
+        "description": "Informez la direction mensuellement sur les plus grands débiteurs ou les gestionnaires de comptes hebdomadairement sur les postes ouverts. Automatiquement."
+      },
+      "actionLists": {
+        "title": "Économisez du temps avec des listes d'actions",
+        "description": "Travaillez quotidiennement avec des listes d'actions et évitez les paiements tardifs."
+      },
+      "groupLevel": {
+        "title": "Relances au niveau du groupe",
+        "description": "Liez plusieurs numéros de débiteurs pour le même client. Très pratique pour les sociétés mères et leurs filiales."
+      },
+      "complaints": {
+        "title": "Traitement rapide des réclamations",
+        "description": "Enregistrez facilement les réclamations et assurez leur traitement rapide grâce à une communication et une escalade claires."
+      }
     },
     "uniqueness": {
       "title": "En quoi CreditDevice est-il unique ?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Découvrez vos avantages",
       "subtitle": "La gestion manuelle d'une police d'assurance-crédit représente beaucoup de travail. Le PolicyManager s'en charge pour vous.",
-      "subscription": { "title": "Abonnement abordable", "description": "Le PolicyManager est disponible à partir de 200 euros par mois, à la portée même des PME." },
-      "reminder": { "title": "Rappel automatique", "description": "Vous recevez automatiquement un signal, par exemple lorsqu'une limite est dépassée." },
-      "timeSaving": { "title": "Vous gagnez du temps", "description": "Les opérations manuelles et les recherches sont éliminées. Du temps que vous pouvez utiliser pour prévenir la perte de couverture d'assurance." },
-      "currentData": { "title": "Données toujours à jour", "description": "Mises à jour sur le statut de vos limites de crédit au moins une fois par jour." },
-      "costAnalysis": { "title": "Analyser les coûts des limites de crédit", "description": "Analysez quelle limite de crédit convient le mieux à votre client." },
-      "creditReports": { "title": "Précieux rapports de solvabilité", "description": "Les rapports de solvabilité sont l'instrument idéal pour établir une limite de crédit couverte." },
-      "oneLimit": { "title": "Une entreprise, une limite", "description": "Le PolicyManager reconnaît les entreprises avec plusieurs numéros de débiteurs et lie toutes les factures à une seule limite." },
-      "followUp": { "title": "Suivi organisé", "description": "En cas de sinistre, créez un document Excel avec les factures impayées et l'historique en deux clics de souris." }
+      "subscription": {
+        "title": "Abonnement abordable",
+        "description": "Le PolicyManager est disponible à partir de 200 euros par mois, à la portée même des PME."
+      },
+      "reminder": {
+        "title": "Rappel automatique",
+        "description": "Vous recevez automatiquement un signal, par exemple lorsqu'une limite est dépassée."
+      },
+      "timeSaving": {
+        "title": "Vous gagnez du temps",
+        "description": "Les opérations manuelles et les recherches sont éliminées. Du temps que vous pouvez utiliser pour prévenir la perte de couverture d'assurance."
+      },
+      "currentData": {
+        "title": "Données toujours à jour",
+        "description": "Mises à jour sur le statut de vos limites de crédit au moins une fois par jour."
+      },
+      "costAnalysis": {
+        "title": "Analyser les coûts des limites de crédit",
+        "description": "Analysez quelle limite de crédit convient le mieux à votre client."
+      },
+      "creditReports": {
+        "title": "Précieux rapports de solvabilité",
+        "description": "Les rapports de solvabilité sont l'instrument idéal pour établir une limite de crédit couverte."
+      },
+      "oneLimit": {
+        "title": "Une entreprise, une limite",
+        "description": "Le PolicyManager reconnaît les entreprises avec plusieurs numéros de débiteurs et lie toutes les factures à une seule limite."
+      },
+      "followUp": {
+        "title": "Suivi organisé",
+        "description": "En cas de sinistre, créez un document Excel avec les factures impayées et l'historique en deux clics de souris."
+      }
     },
     "allInOne": {
       "title": "Tout en une application",
@@ -518,9 +583,21 @@
     "comingSoon": "bientôt disponible",
     "netPrice": "HT",
     "plusVat": "plus TVA",
-    "full": { "label": "Rapport complet", "shortLabel": "Complet", "description": "Rapport de solvabilité complet avec données maîtres de l'entreprise, chiffres du bilan, expériences de paiement, score et évaluation des risques." },
-    "compact": { "label": "Rapport compact", "shortLabel": "Compact", "description": "Rapport de solvabilité réduit avec les chiffres clés les plus importants." },
-    "monitoring": { "label": "Surveillance", "shortLabel": "Surveillance", "description": "Surveillance continue de la solvabilité d'une entreprise." }
+    "full": {
+      "label": "Rapport complet",
+      "shortLabel": "Complet",
+      "description": "Rapport de solvabilité complet avec données maîtres de l'entreprise, chiffres du bilan, expériences de paiement, score et évaluation des risques."
+    },
+    "compact": {
+      "label": "Rapport compact",
+      "shortLabel": "Compact",
+      "description": "Rapport de solvabilité réduit avec les chiffres clés les plus importants."
+    },
+    "monitoring": {
+      "label": "Surveillance",
+      "shortLabel": "Surveillance",
+      "description": "Surveillance continue de la solvabilité d'une entreprise."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Données du commanditaire",

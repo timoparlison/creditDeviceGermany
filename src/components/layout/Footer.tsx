@@ -24,8 +24,8 @@ export function Footer() {
       { name: t('requestDemo'), href: '/kontakt' as const },
     ],
     rechtliches: [
-      { name: 'Impressum', href: '/impressum' as const },
-      { name: 'Datenschutz', href: '/datenschutz' as const },
+      { name: t('imprint'), href: '/impressum' as const },
+      { name: t('privacyPolicy'), href: '/datenschutz' as const },
     ],
   };
 
@@ -142,10 +142,10 @@ export function Footer() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
             <Link href="/impressum" className="hover:text-primary transition-colors">
-              Impressum
+              {t('imprint')}
             </Link>
             <Link href="/datenschutz" className="hover:text-primary transition-colors">
-              Datenschutz
+              {t('privacyPolicy')}
             </Link>
           </div>
         </div>

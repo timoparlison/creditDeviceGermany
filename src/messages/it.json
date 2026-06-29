@@ -58,7 +58,9 @@
     "service": "Servizio",
     "legal": "Legale",
     "requestDemo": "Richiedi demo",
-    "allRightsReserved": "Tutti i diritti riservati."
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "imprint": "Note legali",
+    "privacyPolicy": "Informativa sulla privacy"
   },
   "CustomerLogos": {
     "tagline": "la fiducia delle aziende leader in tutto il mondo"
@@ -130,10 +132,22 @@
   "WhyUs": {
     "title": "Perché CreditDevice?",
     "subtitle": "Siamo più di un semplice fornitore di software — siamo il vostro partner per una gestione del credito di successo",
-    "reachable": { "title": "Disponibili", "description": "Il nostro team dedicato è a vostra disposizione in qualsiasi momento. Supporto personale che aiuta davvero." },
-    "innovative": { "title": "Innovativi", "description": "Sviluppiamo continuamente le nostre soluzioni e ci affidiamo alle tecnologie più recenti." },
-    "committed": { "title": "Impegnati", "description": "Il vostro successo è il nostro motore. Facciamo il passo extra per raggiungere i vostri obiettivi." },
-    "flexible": { "title": "Flessibili", "description": "Le nostre soluzioni si adattano alle vostre esigenze. Scalabili dalle PMI alle grandi aziende." }
+    "reachable": {
+      "title": "Disponibili",
+      "description": "Il nostro team dedicato è a vostra disposizione in qualsiasi momento. Supporto personale che aiuta davvero."
+    },
+    "innovative": {
+      "title": "Innovativi",
+      "description": "Sviluppiamo continuamente le nostre soluzioni e ci affidiamo alle tecnologie più recenti."
+    },
+    "committed": {
+      "title": "Impegnati",
+      "description": "Il vostro successo è il nostro motore. Facciamo il passo extra per raggiungere i vostri obiettivi."
+    },
+    "flexible": {
+      "title": "Flessibili",
+      "description": "Le nostre soluzioni si adattano alle vostre esigenze. Scalabili dalle PMI alle grandi aziende."
+    }
   },
   "CTABanner": {
     "title": "Scoprite CreditDevice voi stessi",
@@ -177,9 +191,18 @@
     "features": {
       "title": "I nostri servizi",
       "subtitle": "Beneficiate di informazioni creditizie complete",
-      "international": { "title": "Internazionale", "description": "Accesso ai dati creditizi di oltre 200 paesi. Indipendentemente da dove si trovano i vostri partner commerciali." },
-      "payPerUse": { "title": "Pay per use", "description": "Pagate solo per ciò che effettivamente consultate, senza tariffa base né ordine minimo." },
-      "api": { "title": "Web service / API", "description": "Potente API REST o webhook per l'integrazione nei vostri sistemi esistenti." }
+      "international": {
+        "title": "Internazionale",
+        "description": "Accesso ai dati creditizi di oltre 200 paesi. Indipendentemente da dove si trovano i vostri partner commerciali."
+      },
+      "payPerUse": {
+        "title": "Pay per use",
+        "description": "Pagate solo per ciò che effettivamente consultate, senza tariffa base né ordine minimo."
+      },
+      "api": {
+        "title": "Web service / API",
+        "description": "Potente API REST o webhook per l'integrazione nei vostri sistemi esistenti."
+      }
     },
     "pricing": {
       "title": "Prezzi per rapporto",
@@ -242,12 +265,30 @@
     "features": {
       "title": "Cosa distingue il nostro software",
       "subtitle": "Con CreditDevice scegliete il pacchetto adatto a voi: moduli per informazioni creditizie, gestione debitori, analisi dei rischi e assicurazione del credito in un'unica applicazione.",
-      "transparency": { "title": "Piena trasparenza sui vostri debitori", "description": "Moduli per informazioni creditizie, gestione debitori, analisi dei rischi e assicurazione del credito in un'unica applicazione." },
-      "earlyPayment": { "title": "Fatture pagate prima", "description": "Parlate la lingua del vostro debitore: adattate la sequenza, il contenuto, la lingua e la struttura del flusso di lavoro per profilo cliente." },
-      "reports": { "title": "Rapporti su misura", "description": "Informate mensilmente la direzione sui maggiori debitori o settimanalmente i gestori di account sulle partite aperte. Automaticamente." },
-      "actionLists": { "title": "Risparmiate tempo con le liste di azioni", "description": "Lavorate quotidianamente con liste di azioni ed evitate i pagamenti ritardati." },
-      "groupLevel": { "title": "Solleciti a livello di gruppo", "description": "Collegate più numeri di debitori per lo stesso cliente. Molto pratico per società madri e filiali." },
-      "complaints": { "title": "Gestione rapida dei reclami", "description": "Registrate facilmente i reclami e assicurate la loro rapida elaborazione attraverso una comunicazione e un'escalation chiare." }
+      "transparency": {
+        "title": "Piena trasparenza sui vostri debitori",
+        "description": "Moduli per informazioni creditizie, gestione debitori, analisi dei rischi e assicurazione del credito in un'unica applicazione."
+      },
+      "earlyPayment": {
+        "title": "Fatture pagate prima",
+        "description": "Parlate la lingua del vostro debitore: adattate la sequenza, il contenuto, la lingua e la struttura del flusso di lavoro per profilo cliente."
+      },
+      "reports": {
+        "title": "Rapporti su misura",
+        "description": "Informate mensilmente la direzione sui maggiori debitori o settimanalmente i gestori di account sulle partite aperte. Automaticamente."
+      },
+      "actionLists": {
+        "title": "Risparmiate tempo con le liste di azioni",
+        "description": "Lavorate quotidianamente con liste di azioni ed evitate i pagamenti ritardati."
+      },
+      "groupLevel": {
+        "title": "Solleciti a livello di gruppo",
+        "description": "Collegate più numeri di debitori per lo stesso cliente. Molto pratico per società madri e filiali."
+      },
+      "complaints": {
+        "title": "Gestione rapida dei reclami",
+        "description": "Registrate facilmente i reclami e assicurate la loro rapida elaborazione attraverso una comunicazione e un'escalation chiare."
+      }
     },
     "uniqueness": {
       "title": "Quanto è unico CreditDevice?",
@@ -297,14 +338,38 @@
     "features": {
       "title": "Scoprite i vostri vantaggi",
       "subtitle": "La gestione manuale di una polizza di assicurazione del credito commerciale è molto lavoro. Il PolicyManager se ne occupa per voi.",
-      "subscription": { "title": "Abbonamento conveniente", "description": "Il PolicyManager è disponibile a partire da 200 euro al mese, alla portata anche delle PMI." },
-      "reminder": { "title": "Promemoria automatico", "description": "Ricevete automaticamente un segnale, ad esempio quando un limite viene superato." },
-      "timeSaving": { "title": "Risparmiate tempo", "description": "Le operazioni manuali e le ricerche vengono eliminate. Tempo che potete usare per prevenire la perdita di copertura assicurativa." },
-      "currentData": { "title": "Dati sempre aggiornati", "description": "Aggiornamenti sullo stato dei vostri limiti di credito almeno una volta al giorno." },
-      "costAnalysis": { "title": "Analizzate i costi dei limiti di credito", "description": "Analizzate quale limite di credito è più adatto al vostro cliente." },
-      "creditReports": { "title": "Preziosi rapporti di solvibilità", "description": "I rapporti di solvibilità sono lo strumento ideale per stabilire un limite di credito coperto." },
-      "oneLimit": { "title": "Un'azienda, un limite", "description": "Il PolicyManager riconosce le aziende con più numeri di debitori e collega tutte le fatture a un unico limite." },
-      "followUp": { "title": "Seguito organizzato", "description": "In caso di sinistro, create un documento Excel con le fatture scadute e la cronologia con due clic del mouse." }
+      "subscription": {
+        "title": "Abbonamento conveniente",
+        "description": "Il PolicyManager è disponibile a partire da 200 euro al mese, alla portata anche delle PMI."
+      },
+      "reminder": {
+        "title": "Promemoria automatico",
+        "description": "Ricevete automaticamente un segnale, ad esempio quando un limite viene superato."
+      },
+      "timeSaving": {
+        "title": "Risparmiate tempo",
+        "description": "Le operazioni manuali e le ricerche vengono eliminate. Tempo che potete usare per prevenire la perdita di copertura assicurativa."
+      },
+      "currentData": {
+        "title": "Dati sempre aggiornati",
+        "description": "Aggiornamenti sullo stato dei vostri limiti di credito almeno una volta al giorno."
+      },
+      "costAnalysis": {
+        "title": "Analizzate i costi dei limiti di credito",
+        "description": "Analizzate quale limite di credito è più adatto al vostro cliente."
+      },
+      "creditReports": {
+        "title": "Preziosi rapporti di solvibilità",
+        "description": "I rapporti di solvibilità sono lo strumento ideale per stabilire un limite di credito coperto."
+      },
+      "oneLimit": {
+        "title": "Un'azienda, un limite",
+        "description": "Il PolicyManager riconosce le aziende con più numeri di debitori e collega tutte le fatture a un unico limite."
+      },
+      "followUp": {
+        "title": "Seguito organizzato",
+        "description": "In caso di sinistro, create un documento Excel con le fatture scadute e la cronologia con due clic del mouse."
+      }
     },
     "allInOne": {
       "title": "Tutto in un'unica applicazione",
@@ -518,9 +583,21 @@
     "comingSoon": "prossimamente",
     "netPrice": "Netto",
     "plusVat": "più IVA",
-    "full": { "label": "Rapporto completo", "shortLabel": "Completo", "description": "Rapporto di solvibilità completo con dati anagrafici aziendali, dati di bilancio, esperienze di pagamento, score e valutazione del rischio." },
-    "compact": { "label": "Rapporto compatto", "shortLabel": "Compatto", "description": "Rapporto di solvibilità ridotto con le cifre chiave più importanti." },
-    "monitoring": { "label": "Monitoraggio", "shortLabel": "Monitoraggio", "description": "Monitoraggio continuo della solvibilità di un'azienda." }
+    "full": {
+      "label": "Rapporto completo",
+      "shortLabel": "Completo",
+      "description": "Rapporto di solvibilità completo con dati anagrafici aziendali, dati di bilancio, esperienze di pagamento, score e valutazione del rischio."
+    },
+    "compact": {
+      "label": "Rapporto compatto",
+      "shortLabel": "Compatto",
+      "description": "Rapporto di solvibilità ridotto con le cifre chiave più importanti."
+    },
+    "monitoring": {
+      "label": "Monitoraggio",
+      "shortLabel": "Monitoraggio",
+      "description": "Monitoraggio continuo della solvibilità di un'azienda."
+    }
   },
   "OrderFlow": {
     "ordererTitle": "Dati del richiedente",
