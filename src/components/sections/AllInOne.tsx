@@ -119,7 +119,7 @@ export function AllInOne() {
             </div>
 
             {/* Stats overlay */}
-            <div className="absolute -bottom-12 left-[27%] w-[68%]">
+            <div className="relative mt-4 w-full lg:absolute lg:mt-0 lg:-bottom-12 lg:left-[27%] lg:w-[68%]">
               <div className="bg-navy rounded-xl p-4 shadow-xl">
                 <div className="grid grid-cols-3 gap-4 text-white text-center">
                   <div>
