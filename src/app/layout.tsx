@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import './globals.css';
 
 const openSans = Open_Sans({
@@ -27,10 +29,15 @@ export const metadata: Metadata = {
   formatDetection: { email: false, telephone: false },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const messages = await getMessages();
   return (
     <html className={`${openSans.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }
