@@ -7,6 +7,8 @@ import { JsonLd, organizationSchema, websiteSchema } from '@/components/seo/Json
 import { SITE_URL } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
+export const runtime = 'edge';
+
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
