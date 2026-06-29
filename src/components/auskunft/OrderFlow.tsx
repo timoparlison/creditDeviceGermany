@@ -38,8 +38,12 @@ const DEFAULT_FORM: OrdererForm = {
   reasonCode: 1,
 };
 
+// Stripe uses 'nb' for Norwegian, all other app locales match directly
+const toStripeLocale = (locale: string) => (locale === 'no' ? 'nb' : locale);
+
 export function OrderFlow({ company, productIds }: Props) {
   const t = useTranslations('OrderFlow');
+  const locale = useLocale();
 
   const products = useMemo<ProductDefinition[]>(
     () =>
@@ -88,7 +92,7 @@ export function OrderFlow({ company, productIds }: Props) {
     setStep('submitting');
     try {
       const keyRes = await fetch('/api/gcc/stripe-key').then((r) => r.json());
-      if (!keyRes?.stripeKey) throw new Error('Stripe-Key fehlt');
+      if (!keyRes?.stripeKey) throw new Error('Stripe key missing');
       setStripePromise(loadStripe(keyRes.stripeKey));
 
       const firstProduct = products[0];
@@ -203,6 +207,8 @@ export function OrderFlow({ company, productIds }: Props) {
               stripe={stripePromise}
               options={{
                 clientSecret,
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                locale: toStripeLocale(locale) as any,
                 appearance: { theme: 'stripe', variables: { colorPrimary: '#F08013' } },
               }}
             >
