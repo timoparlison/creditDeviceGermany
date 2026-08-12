@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('policyManager.title'),
     description: t('policyManager.description'),
-    alternates: { canonical: '/policymanager' },
+    alternates: { canonical: '/policymanager/' },
     openGraph: {
       title: t('policyManager.title'),
       description: t('policyManager.description'),
-      url: `${SITE_URL}/policymanager`,
+            url: `${SITE_URL}/policymanager/`,
       type: 'website',
     },
   };
@@ -58,7 +58,7 @@ export default async function PolicyManagerPage({ params }: Props) {
           softwareApplicationSchema({
             name: 'PolicyManager',
             description: t('hero.subtitle'),
-            url: `${SITE_URL}/policymanager`,
+      url: `${SITE_URL}/policymanager/`,
           }),
           faqSchema(faqItems),
           breadcrumbSchema([

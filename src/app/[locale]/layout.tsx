@@ -43,8 +43,10 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
       description: t('home.description'),
     },
     alternates: {
-      canonical: locale === 'de' ? '/' : `/${locale}`,
+      canonical: locale === 'de' ? '/' : `/${locale}/`,
       languages: localeAlternates,
+      // llms.txt: maschinenlesbare Unternehmensbeschreibung für KI-Systeme
+      types: { 'text/plain': `${SITE_URL}/llms.txt` },
     },
   };
 }

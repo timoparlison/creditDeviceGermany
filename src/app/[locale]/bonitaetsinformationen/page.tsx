@@ -6,7 +6,7 @@ import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, TrendingUp, Database } from 'lucide-react';
-import { JsonLd, breadcrumbSchema, faqSchema } from '@/components/seo/JsonLd';
+import { JsonLd, breadcrumbSchema, faqSchema, creditReportProductSchema } from '@/components/seo/JsonLd';
 import { SITE_URL } from '@/lib/seo';
 
 type Props = { params: Promise<{ locale: string }> };
@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('creditInformation.title'),
     description: t('creditInformation.description'),
-    alternates: { canonical: locale === 'de' ? '/bonitaetsinformationen' : `/${locale}/credit-information` },
-    openGraph: { title: t('creditInformation.title'), description: t('creditInformation.description'), url: `${SITE_URL}/bonitaetsinformationen`, type: 'website' },
+    alternates: { canonical: locale === 'de' ? '/bonitaetsinformationen/' : `/${locale}/credit-information/` },
+    openGraph: { title: t('creditInformation.title'), description: t('creditInformation.description'), url: `${SITE_URL}/bonitaetsinformationen/`, type: 'website' },
   };
 }
 
@@ -48,7 +48,13 @@ export default async function BonitaetsinformationenPage({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={[faqSchema(faqItems), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: t('breadcrumb'), path: '/bonitaetsinformationen' }])]} />
+      <JsonLd
+        data={[
+          faqSchema(faqItems),
+          breadcrumbSchema([{ name: 'Home', path: '/' }, { name: t('breadcrumb'), path: '/bonitaetsinformationen' }]),
+          creditReportProductSchema(pricing.map(({ zone, net, gross }) => ({ name: zone, net, gross }))),
+        ]}
+      />
 
       <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-white/5" />

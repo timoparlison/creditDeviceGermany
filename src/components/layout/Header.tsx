@@ -53,7 +53,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2020/07/creditdevice-logo-orange.svg"
+              src="/creditdevice-logo-orange.svg"
               alt="CreditDevice"
               width={180}
               height={40}

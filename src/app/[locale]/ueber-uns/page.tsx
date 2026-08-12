@@ -15,11 +15,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('about.title'),
     description: t('about.description'),
-    alternates: { canonical: locale === 'de' ? '/ueber-uns' : `/${locale}/about` },
+    alternates: { canonical: locale === 'de' ? '/ueber-uns/' : `/${locale}/about/` },
     openGraph: {
       title: t('about.title'),
       description: t('about.description'),
-      url: `${SITE_URL}/ueber-uns`,
+      url: `${SITE_URL}/ueber-uns/`,
       type: 'website',
     },
   };

@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('creditManagementSoftware.title'),
     description: t('creditManagementSoftware.description'),
-    alternates: { canonical: '/credit-management-software' },
+    alternates: { canonical: '/credit-management-software/' },
     openGraph: {
       title: t('creditManagementSoftware.title'),
       description: t('creditManagementSoftware.description'),
-      url: `${SITE_URL}/credit-management-software`,
+            url: `${SITE_URL}/credit-management-software/`,
       type: 'website',
     },
   };
@@ -57,7 +57,7 @@ export default async function CreditManagementSoftwarePage({ params }: Props) {
           softwareApplicationSchema({
             name: 'CreditDevice Credit Management Software',
             description: t('hero.subtitle'),
-            url: `${SITE_URL}/credit-management-software`,
+      url: `${SITE_URL}/credit-management-software/`,
           }),
           faqSchema(faqItems),
           breadcrumbSchema([

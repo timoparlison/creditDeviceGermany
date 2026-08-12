@@ -24,19 +24,22 @@ const routes: Array<{
   { de: '/impressum',                 en: '/legal-notice',                priority: 0.3, changeFrequency: 'yearly'  },
 ];
 
+// next.config nutzt trailingSlash: true — Sitemap-URLs müssen die finale
+// Slash-Variante nennen, sonst bekommen Crawler erst einen 308-Redirect.
+const withTrailingSlash = (path: string) => (path.endsWith('/') ? path : `${path}/`);
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
   return routes.map(({ de, en, priority, changeFrequency }) => {
-    const languages: Record<string, string> = { de: `${SITE_URL}${de}` };
+    const languages: Record<string, string> = { de: `${SITE_URL}${withTrailingSlash(de)}` };
     for (const locale of nonDe) {
-      const prefix = `/${locale}`;
-      languages[locale] = `${SITE_URL}${prefix}${en}`;
+      languages[locale] = `${SITE_URL}/${locale}${withTrailingSlash(en)}`;
     }
-    languages['x-default'] = `${SITE_URL}${de}`;
+    languages['x-default'] = `${SITE_URL}${withTrailingSlash(de)}`;
 
     return {
-      url: `${SITE_URL}${de}`,
+      url: `${SITE_URL}${withTrailingSlash(de)}`,
       lastModified,
       changeFrequency,
       priority,

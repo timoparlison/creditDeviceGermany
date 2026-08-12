@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   },
   formatDetection: { email: false, telephone: false },
   verification: {
+    // TODO: Google Search Console — HTML-Tag-Methode wählen und den content-Wert
+    // des meta-Tags hier eintragen, dann neu deployen.
+    // google: 'GOOGLE_SEARCH_CONSOLE_TOKEN_HIER',
     other: {
       // Bing Webmaster Tools
       'msvalidate.01': '4F80A76756EAEFC2D21CEE7A16662732',

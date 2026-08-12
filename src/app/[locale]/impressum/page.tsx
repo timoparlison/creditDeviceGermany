@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('imprint.title'),
     description: t('imprint.description'),
-    alternates: { canonical: locale === 'de' ? '/impressum' : `/${locale}/legal-notice` },
+    alternates: { canonical: locale === 'de' ? '/impressum/' : `/${locale}/legal-notice/` },
   };
 }
 

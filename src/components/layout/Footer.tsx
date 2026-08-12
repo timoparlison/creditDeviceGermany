@@ -36,7 +36,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <Image
-              src="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2020/07/creditdevice-logo-orange.svg"
+              src="/creditdevice-logo-orange.svg"
               alt="CreditDevice"
               width={160}
               height={36}
@@ -125,7 +125,7 @@ export function Footer() {
               ))}
             </ul>
             <Image
-              src="https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2022/03/ISOIEC-27001.png"
+              src="/ISOIEC-27001.png"
               alt="ISO/IEC 27001 Zertifiziert"
               width={80}
               height={80}
@@ -147,6 +147,10 @@ export function Footer() {
             <Link href="/datenschutz" className="hover:text-primary transition-colors">
               {t('privacyPolicy')}
             </Link>
+            {/* Maschinenlesbare Unternehmensbeschreibung für KI-Systeme (statische Datei, kein i18n-Routing) */}
+            <a href="/llms.txt" className="hover:text-primary transition-colors">
+              llms.txt
+            </a>
           </div>
         </div>
       </Container>

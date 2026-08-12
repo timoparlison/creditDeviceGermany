@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('contact.title'),
     description: t('contact.description'),
-    alternates: { canonical: locale === 'de' ? '/kontakt' : `/${locale}/contact` },
+    alternates: { canonical: locale === 'de' ? '/kontakt/' : `/${locale}/contact/` },
   };
 }
 
@@ -38,7 +38,7 @@ export default async function KontaktPage({ params }: Props) {
             '@context': 'https://schema.org',
             '@type': 'ContactPage',
             '@id': `${SITE_URL}/kontakt#contactpage`,
-            url: `${SITE_URL}/kontakt`,
+            url: `${SITE_URL}/kontakt/`,
             name: t('hero.title'),
             inLanguage: locale === 'de' ? 'de-DE' : locale,
             about: { '@id': `${SITE_URL}/#organization` },

@@ -43,6 +43,9 @@ next-env.d.ts
 # Vercel
 .vercel
 
+# Wrangler (Cloudflare Pages lokaler Zustand)
+.wrangler/
+
 # Debug
 .claude/
 

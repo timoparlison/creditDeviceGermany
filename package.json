@@ -8,6 +8,7 @@
     "build:next": "next build",
     "start": "next start",
     "lint": "eslint",
+    "indexnow": "node scripts/indexnow.mjs",
     "pages:preview": "npm run build && wrangler pages dev .vercel/output/static",
     "pages:deploy": "npm run build && wrangler pages deploy .vercel/output/static"
   },

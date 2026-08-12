@@ -48,7 +48,7 @@ Der Informationsumfang kann je nach Land unterschiedlich sein.
 
 **Integration:** REST-API und Webhooks für die Anbindung an bestehende Systeme.
 
-**Online-Shop:** Unter https://creditdevice.de/auskunft können Auskünfte direkt online bestellt werden — als Vollauskunft (umfassender Bonitätsbericht mit Stammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung), Kompaktauskunft (wichtigste Kennzahlen) oder Monitoring (laufende Bonitätsüberwachung). Zahlung per Kreditkarte oder SEPA, Abwicklung über Stripe. Recherche und Bereitstellung durch erfahrene Credit-Analysten.
+**Online-Shop:** Unter https://creditdevice.de/auskunft/ können Auskünfte direkt online bestellt werden — als Vollauskunft (umfassender Bonitätsbericht mit Stammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung), Kompaktauskunft (wichtigste Kennzahlen) oder Monitoring (laufende Bonitätsüberwachung). Zahlung per Kreditkarte oder SEPA, Abwicklung über Stripe. Recherche und Bereitstellung durch erfahrene Credit-Analysten.
 
 ## Produkt: Credit Management Software
 
@@ -121,12 +121,12 @@ Ja, REST-API sowie Webhooks für individuelle Integrationen.
 ## Wichtige Seiten
 
 - Startseite: https://creditdevice.de
-- Bonitätsinformationen: https://creditdevice.de/bonitaetsinformationen
-- Credit Management Software: https://creditdevice.de/credit-management-software
-- PolicyManager: https://creditdevice.de/policymanager
-- Unternehmensauskunft bestellen: https://creditdevice.de/auskunft
-- Über uns: https://creditdevice.de/ueber-uns
-- Kontakt: https://creditdevice.de/kontakt
+- Bonitätsinformationen: https://creditdevice.de/bonitaetsinformationen/
+- Credit Management Software: https://creditdevice.de/credit-management-software/
+- PolicyManager: https://creditdevice.de/policymanager/
+- Unternehmensauskunft bestellen: https://creditdevice.de/auskunft/
+- Über uns: https://creditdevice.de/ueber-uns/
+- Kontakt: https://creditdevice.de/kontakt/
 - Sitemap: https://creditdevice.de/sitemap.xml
 
 Stand: August 2026. Aktuelle Informationen immer auf https://creditdevice.de.

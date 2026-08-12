@@ -67,6 +67,8 @@ export function websiteSchema() {
 }
 
 export function breadcrumbSchema(items: Array<{ name: string; path: string }>) {
+  // trailingSlash ist aktiv — auf die finale Slash-URL zeigen (sonst 308-Redirect)
+  const url = (path: string) => `${SITE_URL}${path.endsWith('/') ? path : `${path}/`}`;
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -74,7 +76,7 @@ export function breadcrumbSchema(items: Array<{ name: string; path: string }>) {
       '@type': 'ListItem',
       position: idx + 1,
       name: item.name,
-      item: `${SITE_URL}${item.path}`,
+      item: url(item.path),
     })),
   };
 }
@@ -108,5 +110,37 @@ export function softwareApplicationSchema(input: {
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     provider: { '@id': `${SITE_URL}/#organization` },
+  };
+}
+
+// Produkt-Schema mit Preisen pro Preiszone, damit Suchmaschinen und
+// KI-Systeme die Kosten einer Bonitätsauskunft maschinell auslesen können.
+export function creditReportProductSchema(
+  zones: Array<{ name: string; net: string; gross: string }>,
+) {
+  // schema.org verlangt Dezimalpunkt statt Komma
+  const price = (value: string) => value.replace(',', '.');
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    '@id': `${SITE_URL}/bonitaetsinformationen#product`,
+    name: 'Bonitätsauskunft (Online-Firmenauskunft)',
+    description:
+      'Online-Firmenauskunft aus über 200 Ländern: Bonitätsscore, Kreditlimit, Firmenstammdaten, Geschäftsführer & Gesellschafter, Konzernstrukturen, Bilanzdaten und Negativmerkmale. Pay-per-Use, ohne Grundgebühr oder Mindestabnahme.',
+    brand: { '@id': `${SITE_URL}/#organization` },
+    offers: zones.map((zone) => ({
+      '@type': 'Offer',
+      name: `Bonitätsauskunft – Preiszone ${zone.name}`,
+      url: `${SITE_URL}/auskunft/`,
+      availability: 'https://schema.org/InStock',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: price(zone.net),
+        priceCurrency: 'EUR',
+        valueAddedTaxIncluded: false,
+      },
+      description: `${zone.net} € netto / ${zone.gross} € brutto pro abgerufener Auskunft (Preiszone ${zone.name})`,
+    })),
   };
 }
