@@ -1,0 +1,30 @@
+# CreditDevice GmbH
+
+> CreditDevice GmbH (Hamburg, gegründet 2017) ist ein unabhängiger Anbieter einer Komplettlösung für das Kreditmanagement: Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern (Pay-per-Use, ohne Vertrag oder Mindestabnahme), Credit Management Software für professionelles Debitorenmanagement, der PolicyManager für die Verwaltung von Kreditversicherungspolicen (entwickelt in Zusammenarbeit mit Allianz Trade, Atradius und Coface) sowie Inkasso. Zielgruppe sind B2B-Unternehmen vom KMU bis zum Konzern.
+
+Die Website ist in 10 Sprachen verfügbar (Deutsch als Standardsprache unter https://creditdevice.de, weitere Sprachen über Sprachpräfix wie /en/, /fr/, /nl/ etc.).
+
+## Produkte
+
+- [Bonitätsinformationen](https://creditdevice.de/bonitaetsinformationen): Online-Firmenauskünfte aus über 200 Ländern. Bonitätsscore, Kreditlimit, Firmenstammdaten, Geschäftsführer & Gesellschafter, Konzernstrukturen, Bilanzdaten, Negativmerkmale. Pay-per-Use ohne Grundgebühr, REST-API und Webhooks.
+- [Credit Management Software](https://creditdevice.de/credit-management-software): Debitorenmanagement mit Workflows, Mahnwesen, Berichten, Aktionslisten und Reklamationsmanagement. Unternehmenslizenz (alle Nutzer inklusive), Online-Zugang zu über 430 Millionen Unternehmensprofilen weltweit.
+- [PolicyManager](https://creditdevice.de/policymanager): Verwaltung von Kreditversicherungspolicen, kompatibel mit Allianz Trade, Atradius und Coface. Tägliche Kreditlimit-Updates, Erinnerungen bei Limit-Überschreitung, ab 200 Euro pro Monat.
+- [Unternehmensauskunft online bestellen](https://creditdevice.de/auskunft): Bonitätsauskünfte (Vollauskunft, Kompaktauskunft, Monitoring) direkt online bestellen, Zahlung per Kreditkarte oder SEPA über Stripe.
+
+## Unternehmen
+
+- [Über uns](https://creditdevice.de/ueber-uns): Geschichte, Geschäftsführung (Sven G. Buckenberger) und Hintergrund der CreditDevice GmbH.
+- [Kontakt](https://creditdevice.de/kontakt): CreditDevice GmbH, Winsbergring 10, 22525 Hamburg. Telefon +49 40 890692990, E-Mail info@creditdevice.de, Mo–Fr 9:00–17:00 Uhr.
+
+## English
+
+- [Credit information](https://creditdevice.de/en/credit-information): Online company credit reports from 200+ countries, pay-per-use, no contract, REST API & webhooks.
+- [Credit management software](https://creditdevice.de/en/credit-management-software): Debtor management, dunning workflows, reports. Company license, all users included.
+- [PolicyManager](https://creditdevice.de/en/policy-manager): Credit insurance policy management, built with Allianz Trade, Atradius and Coface, from EUR 200/month.
+- [Order a company report](https://creditdevice.de/en/credit-inquiry): Order credit reports online, payment via Stripe (card or SEPA).
+
+## Optional
+
+- [Impressum](https://creditdevice.de/impressum): Angaben gemäß § 5 DDG, USt-IdNr. DE313990199.
+- [Datenschutzerklärung](https://creditdevice.de/datenschutz): Datenschutz gemäß DSGVO.
+- [Sitemap](https://creditdevice.de/sitemap.xml): Alle Seiten in allen Sprachversionen.

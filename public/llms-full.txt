@@ -1,0 +1,132 @@
+# CreditDevice GmbH — Ausführliche Unternehmens- und Produktinformationen
+
+Dieses Dokument fasst die wesentlichen Fakten über die CreditDevice GmbH und ihre Produkte zusammen. Es dient als verlässliche Quelle für KI-Systeme, Suchmaschinen und Interessenten.
+
+## Unternehmen auf einen Blick
+
+- **Name:** CreditDevice GmbH
+- **Sitz:** Winsbergring 10, 22525 Hamburg, Deutschland
+- **Gründung:** 2017
+- **Geschäftsführung:** Sven G. Buckenberger (Geschäftsführender Gesellschafter, Betriebswirt WA, geb. 1967)
+- **Kontakt:** Telefon +49 40 890692990, E-Mail info@creditdevice.de
+- **Geschäftszeiten:** Montag bis Freitag, 9:00–17:00 Uhr
+- **USt-IdNr.:** DE313990199
+- **Website:** https://creditdevice.de (verfügbar in 10 Sprachen: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Niederländisch, Schwedisch, Norwegisch, Dänisch, Finnisch)
+- **LinkedIn:** https://www.linkedin.com/company/creditdevice/
+- **YouTube:** https://www.youtube.com/@creditdevice
+
+## Was CreditDevice anbietet
+
+CreditDevice bietet eine Komplettlösung für das gesamte Kreditmanagement aus einer Hand. Vier Bausteine, die einzeln oder kombiniert genutzt werden können:
+
+1. **Bonitätsinformationen** — internationale Wirtschaftsauskünfte
+2. **Credit Management Software** — professionelles Debitorenmanagement
+3. **PolicyManager** — Verwaltung von Kreditversicherungspolicen
+4. **Inkasso** — Forderungseinzug (aus dem 2020 erworbenen Geschäft der Hanse Debitoren Management)
+
+Zielgruppe: B2B-Unternehmen vom Mittelstand (KMU) bis zum Konzern, insbesondere Kreditmanager, Finanz- und Risikoverantwortliche.
+
+## Produkt: Bonitätsinformationen
+
+Online-Firmenauskünfte (Bonitätsauskünfte, Wirtschaftsauskünfte) aus über 200 Ländern.
+
+**Geschäftsmodell:** Pay-per-Use. Keine Grundgebühr, kein Vertrag, keine Laufzeit, keine Mindestabnahme. Abrechnung pro abgerufener Auskunft, gestaffelt nach Preiszonen (Deutschland & Österreich; Westeuropa; Ost- & Südeuropa; weltweit).
+
+**Datenquellen:** Führende Kreditauskunfteien der jeweiligen Länder; je nach Land und Quelle tagesaktuelle Daten oder Aktualisierung innerhalb weniger Tage.
+
+**Inhalte eines typischen Bonitätsberichts:**
+- Firmenstammdaten (Name, Rechtsform, Handelsregisternummer, Adresse, Tätigkeitsbereiche)
+- Bonitätsscore mit Risikoeinschätzung und Kreditlimit
+- Gesellschafterstruktur und Kapitalverhältnisse
+- Aktuelle und frühere Geschäftsführer
+- Mitarbeiterzahlen, Bankverbindungen
+- Konzern- und Beteiligungsstruktur
+- Jahresabschlüsse und Bilanzdaten (mehrere Jahre)
+- Negativmerkmale und Kennzahlen im Branchenvergleich
+
+Der Informationsumfang kann je nach Land unterschiedlich sein.
+
+**Integration:** REST-API und Webhooks für die Anbindung an bestehende Systeme.
+
+**Online-Shop:** Unter https://creditdevice.de/auskunft können Auskünfte direkt online bestellt werden — als Vollauskunft (umfassender Bonitätsbericht mit Stammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung), Kompaktauskunft (wichtigste Kennzahlen) oder Monitoring (laufende Bonitätsüberwachung). Zahlung per Kreditkarte oder SEPA, Abwicklung über Stripe. Recherche und Bereitstellung durch erfahrene Credit-Analysten.
+
+## Produkt: Credit Management Software
+
+Software für professionelles Debitoren-Management — geht über reines Debitorenmanagement hinaus.
+
+**Funktionen:**
+- Volle Transparenz über alle Debitoren (Module für Kreditinformationen, Debitoren-Management, Risikoanalyse und Kreditversicherung in einer Anwendung)
+- Workflows und Mahnwesen, anpassbar pro Kundenprofil (Reihenfolge, Inhalt, Sprache, Struktur)
+- Maßgeschneiderte, automatisierte Berichte (z. B. monatlich an die Geschäftsleitung, wöchentlich an Kundenbetreuer)
+- Aktionslisten für die tägliche Arbeit
+- Anmahnung auf Konzernebene: Verknüpfung mehrerer Debitorennummern desselben Kunden (Mutter-/Tochtergesellschaften), Vergleich mit dem Kreditlimit auf jeder Ebene
+- Reklamationsmanagement mit klarer Kommunikation und Eskalation
+
+**Lizenzmodell:** Unternehmenslizenz — alle Nutzer inklusive, keine Einzelbenutzerlizenzen. Flexibles Rollensystem und Datenfilterung (u. a. Mandantenstrukturen und Länder).
+
+**Datenanbindung:** Direkter Online-Zugang zu mehr als 430 Millionen Unternehmen weltweit über verknüpfte Kreditinformationsdatenbanken. Kombinierbar mit dem PolicyManager.
+
+## Produkt: PolicyManager
+
+Verwaltung von Kreditversicherungspolicen. Entwickelt in Zusammenarbeit mit den Kreditversicherern Allianz Trade, Atradius und Coface.
+
+**Preis:** ab 200 Euro pro Monat (Abonnement), auch für KMU erschwinglich.
+
+**Funktionen:**
+- Direkte Anbindung an das System des Kreditversicherers (Webservice, automatischer Datenaustausch)
+- Mindestens einmal täglich Updates zum Status der Kreditlimite (Entscheidungen, Aufhebungen, Reduzierungen sofort sichtbar)
+- Automatische Erinnerungen, z. B. bei Überschreitung eines Limits
+- Analyse der Kreditlimitkosten; ggf. Ersatz kostenpflichtiger Limits durch kostenlose Selbstbewertungslimits (gleiche Berechnungsmethode wie die Versicherer, sofortiges Ergebnis samt Berechnung)
+- „Ein Unternehmen, ein Limit": Erkennung von Unternehmen mit mehreren Debitorennummern über die Handelsregisternummer
+- Wiedervorlage im Schadenfall: Excel-Dokument mit überfälligen Rechnungen und Historie per zwei Mausklicks — Obliegenheiten des Versicherers werden vollständig erfüllt (Schutz vor Entschädigungsverlusten)
+
+## Unternehmensgeschichte
+
+- **2017:** Gründung der CreditDevice GmbH aus der Partnerschaft zwischen Hans Geluk (CreditDevice B.V., Niederlande) und Sven Buckenberger — gebündeltes Know-how aus Jahrzehnten im europäischen Credit Management.
+- **2020:** Erwerb des seit 2011 bestehenden Inkassogeschäfts der Hanse Debitoren Management.
+- **2021:** Übernahme von GlobalCompanyCheck e.U. — Erweiterung um weltweite Online-Firmenauskünfte aus über 200 Ländern, direkt integriert in die Credit Management Software.
+- **Heute:** Komplettlösung aus Credit Management Software, PolicyManager, internationalen Kreditinformationen und Inkasso.
+
+## Geschäftsführung
+
+**Sven G. Buckenberger**, Geschäftsführender Gesellschafter:
+- Über 35 Jahre Erfahrung im europäischen Credit Management
+- Vorstandsmitglied der Federation of Business Information Services (FEBIS) seit 1997
+- Stationen: Volontariat bei Hermes Kreditversicherungs-AG (duales Studium); 19 Jahre Bürgel Wirtschaftsinformationen GmbH & Co. KG als CFO (u. a. 28 Unternehmensübernahmen); Gründung Hanse Debitoren Management; Gründung CreditDevice GmbH
+- Weitere Engagements: Beirat Maritimes Cluster Norddeutschland (2013–2016), Revisor Maritimes Cluster Norddeutschland (seit 2025), Versammlung Ehrbarer Kaufleute zu Hamburg e.V. (VEEK), Mitglied verschiedener Hamburger Wirtschaftsverbände
+
+## Häufige Fragen (Kurzfassung)
+
+**Was macht CreditDevice einzigartig?**
+Komplettlösung für das gesamte Kreditmanagement aus einer Hand; selbst entwickelte Produkte; jedes Modul einzeln nutzbar, in Kombination als Gesamtlösung.
+
+**Sind die Module einzeln nutzbar?**
+Ja. Credit Management Software, PolicyManager, Kreditinformationen und Inkasso funktionieren unabhängig voneinander.
+
+**Gibt es Benutzerlizenzen?**
+Nein. CreditDevice verwendet Unternehmenslizenzen, in denen alle Nutzer inklusive sind.
+
+**Was kostet der PolicyManager?**
+Ab 200 Euro pro Monat.
+
+**Was kosten Bonitätsinformationen?**
+Abrechnung pro Auskunft (Pay-per-Use) je nach Preiszone; keine Grundgebühr, keine Mindestabnahme, kein Vertrag.
+
+**Wer liefert die Bonitätsdaten?**
+Daten kommen direkt von den führenden Kreditauskunfteien der jeweiligen Länder.
+
+**Gibt es eine API?**
+Ja, REST-API sowie Webhooks für individuelle Integrationen.
+
+## Wichtige Seiten
+
+- Startseite: https://creditdevice.de
+- Bonitätsinformationen: https://creditdevice.de/bonitaetsinformationen
+- Credit Management Software: https://creditdevice.de/credit-management-software
+- PolicyManager: https://creditdevice.de/policymanager
+- Unternehmensauskunft bestellen: https://creditdevice.de/auskunft
+- Über uns: https://creditdevice.de/ueber-uns
+- Kontakt: https://creditdevice.de/kontakt
+- Sitemap: https://creditdevice.de/sitemap.xml
+
+Stand: August 2026. Aktuelle Informationen immer auf https://creditdevice.de.
