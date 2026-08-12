@@ -29,6 +29,12 @@ export const metadata: Metadata = {
     },
   },
   formatDetection: { email: false, telephone: false },
+  verification: {
+    other: {
+      // Bing Webmaster Tools
+      'msvalidate.01': '4F80A76756EAEFC2D21CEE7A16662732',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
