@@ -625,5 +625,116 @@
     "allInOne": "Die All-in-One Lösung",
     "savingsLabel": "Sparen Sie bis zu 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Übersicht",
+      "balance": "Guthaben",
+      "logout": "Abmelden",
+      "myAccount": "Mein Konto"
+    },
+    "login": {
+      "title": "Anmelden",
+      "subtitle": "Melden Sie sich mit Ihren Zugangsdaten an.",
+      "username": "Benutzername",
+      "password": "Passwort",
+      "rememberMe": "Angemeldet bleiben",
+      "submit": "Anmelden",
+      "forgotPassword": "Passwort vergessen?",
+      "noAccount": "Noch kein Konto?",
+      "registerLink": "Jetzt registrieren",
+      "error": "Anmeldung fehlgeschlagen. Bitte prüfen Sie Benutzername und Passwort.",
+      "notActivated": "Ihr Konto ist noch nicht aktiviert. Bitte bestätigen Sie zuerst den Link in unserer E-Mail."
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Registrieren Sie sich für den CreditDevice-Kundenbereich.",
+      "username": "Benutzername",
+      "usernameHint": "1–50 Zeichen, für die Anmeldung.",
+      "password": "Passwort",
+      "passwordHint": "Mindestens 4 Zeichen.",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "company": "Firma",
+      "street": "Straße & Nr.",
+      "zip": "PLZ",
+      "city": "Stadt",
+      "country": "Land",
+      "vatId": "USt-IdNr. (optional)",
+      "submit": "Konto erstellen",
+      "haveAccount": "Bereits registriert?",
+      "loginLink": "Zur Anmeldung",
+      "success": "Fast geschafft! Wir haben Ihnen eine E-Mail geschickt. Bitte bestätigen Sie den darin enthaltenen Link, um Ihr Konto zu aktivieren.",
+      "error": "Registrierung fehlgeschlagen. Bitte prüfen Sie Ihre Eingaben."
+    },
+    "forgotPassword": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link zum Zurücksetzen.",
+      "email": "E-Mail",
+      "submit": "Link anfordern",
+      "success": "Wenn zu dieser Adresse ein Konto existiert, haben wir Ihnen eine E-Mail mit den nächsten Schritten geschickt.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "resetPassword": {
+      "title": "Neues Passwort vergeben",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Passwort wiederholen",
+      "submit": "Passwort speichern",
+      "mismatch": "Die Passwörter stimmen nicht überein.",
+      "success": "Ihr Passwort wurde geändert. Sie können sich jetzt anmelden.",
+      "missingKey": "Der Link ist unvollständig oder ungültig.",
+      "invalidKey": "Der Link ist ungültig oder abgelaufen. Bitte fordern Sie einen neuen an."
+    },
+    "dashboard": {
+      "title": "Übersicht",
+      "greeting": "Willkommen zurück, {name}",
+      "balanceLabel": "Aktuelles Guthaben",
+      "topUp": "Guthaben aufladen",
+      "recentTransactions": "Letzte Guthabenbewegungen",
+      "recentInquiries": "Letzte Auskünfte",
+      "recentInvoices": "Letzte Sammelrechnungen",
+      "noTransactions": "Noch keine Bewegungen.",
+      "noInquiries": "Noch keine Auskünfte.",
+      "orderNumber": "Bestellnr.",
+      "viewAll": "Alle anzeigen"
+    },
+    "balance": {
+      "title": "Guthaben",
+      "currentBalance": "Aktuelles Guthaben",
+      "topUp": "Guthaben aufladen",
+      "amountLabel": "Betrag (EUR)",
+      "amountHint": "Mindestbetrag 10,00 €.",
+      "startPayment": "Weiter zur Zahlung",
+      "pay": "Jetzt aufladen",
+      "success": "Ihre Zahlung war erfolgreich. Das Guthaben wird nach Bestätigung durch Stripe gutgeschrieben.",
+      "transactionsTitle": "Transaktionen",
+      "colDate": "Datum",
+      "colType": "Typ",
+      "colReference": "Referenz",
+      "colAmount": "Betrag",
+      "noTransactions": "Noch keine Transaktionen.",
+      "prev": "Zurück",
+      "next": "Weiter",
+      "page": "Seite {page} von {total}",
+      "minError": "Der Mindestbetrag beträgt 10,00 €.",
+      "paymentInitError": "Die Zahlung konnte nicht gestartet werden. Bitte versuchen Sie es erneut.",
+      "paymentError": "Die Zahlung ist fehlgeschlagen."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Aufladung",
+      "PURCHASE": "Auskunft",
+      "REFUND": "Erstattung"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kreditkarte",
+      "CREDIT": "Guthaben",
+      "INVOICE": "Rechnung"
+    },
+    "common": {
+      "loading": "Wird geladen …",
+      "retry": "Erneut versuchen",
+      "loadError": "Die Daten konnten nicht geladen werden. Bitte laden Sie die Seite neu."
+    }
   }
 }

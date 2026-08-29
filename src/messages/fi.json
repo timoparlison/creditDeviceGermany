@@ -625,5 +625,116 @@
     "allInOne": "Kaikki yhdessä -ratkaisu",
     "savingsLabel": "Säästä jopa 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Yleiskatsaus",
+      "balance": "Saldo",
+      "logout": "Kirjaudu ulos",
+      "myAccount": "Oma tili"
+    },
+    "login": {
+      "title": "Kirjaudu sisään",
+      "subtitle": "Kirjaudu sisään tilitiedoillasi.",
+      "username": "Käyttäjätunnus",
+      "password": "Salasana",
+      "rememberMe": "Pysy kirjautuneena",
+      "submit": "Kirjaudu sisään",
+      "forgotPassword": "Unohditko salasanan?",
+      "noAccount": "Eikö sinulla ole vielä tiliä?",
+      "registerLink": "Rekisteröidy nyt",
+      "error": "Kirjautuminen epäonnistui. Tarkista käyttäjätunnus ja salasana.",
+      "notActivated": "Tiliäsi ei ole vielä aktivoitu. Vahvista ensin sähköpostissamme oleva linkki."
+    },
+    "register": {
+      "title": "Luo tili",
+      "subtitle": "Rekisteröidy CreditDevicen asiakasalueelle.",
+      "username": "Käyttäjätunnus",
+      "usernameHint": "1–50 merkkiä, käytetään kirjautumiseen.",
+      "password": "Salasana",
+      "passwordHint": "Vähintään 4 merkkiä.",
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "email": "Sähköposti",
+      "company": "Yritys",
+      "street": "Katu ja nro",
+      "zip": "Postinumero",
+      "city": "Postitoimipaikka",
+      "country": "Maa",
+      "vatId": "ALV-tunnus (valinnainen)",
+      "submit": "Luo tili",
+      "haveAccount": "Oletko jo rekisteröitynyt?",
+      "loginLink": "Kirjautumiseen",
+      "success": "Melkein valmis! Lähetimme sinulle sähköpostin. Vahvista siinä oleva linkki aktivoidaksesi tilisi.",
+      "error": "Rekisteröinti epäonnistui. Tarkista tietosi."
+    },
+    "forgotPassword": {
+      "title": "Nollaa salasana",
+      "subtitle": "Anna sähköpostiosoitteesi, niin lähetämme sinulle nollauslinkin.",
+      "email": "Sähköposti",
+      "submit": "Pyydä linkki",
+      "success": "Jos tähän osoitteeseen on liitetty tili, lähetimme sähköpostin, jossa on jatko-ohjeet.",
+      "backToLogin": "Takaisin kirjautumiseen"
+    },
+    "resetPassword": {
+      "title": "Aseta uusi salasana",
+      "newPassword": "Uusi salasana",
+      "confirmPassword": "Toista salasana",
+      "submit": "Tallenna salasana",
+      "mismatch": "Salasanat eivät täsmää.",
+      "success": "Salasanasi on vaihdettu. Voit nyt kirjautua sisään.",
+      "missingKey": "Linkki on puutteellinen tai virheellinen.",
+      "invalidKey": "Linkki on virheellinen tai vanhentunut. Pyydä uusi."
+    },
+    "dashboard": {
+      "title": "Yleiskatsaus",
+      "greeting": "Tervetuloa takaisin, {name}",
+      "balanceLabel": "Nykyinen saldo",
+      "topUp": "Lataa saldoa",
+      "recentTransactions": "Viimeisimmät saldotapahtumat",
+      "recentInquiries": "Viimeisimmät raportit",
+      "recentInvoices": "Viimeisimmät koontilaskut",
+      "noTransactions": "Ei vielä tapahtumia.",
+      "noInquiries": "Ei vielä raportteja.",
+      "orderNumber": "Tilausnro",
+      "viewAll": "Näytä kaikki"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Nykyinen saldo",
+      "topUp": "Lataa saldoa",
+      "amountLabel": "Summa (EUR)",
+      "amountHint": "Vähimmäissumma 10,00 €.",
+      "startPayment": "Jatka maksuun",
+      "pay": "Lataa nyt",
+      "success": "Maksusi onnistui. Saldo hyvitetään, kun Stripe on vahvistanut maksun.",
+      "transactionsTitle": "Tapahtumat",
+      "colDate": "Päivä",
+      "colType": "Tyyppi",
+      "colReference": "Viite",
+      "colAmount": "Summa",
+      "noTransactions": "Ei vielä tapahtumia.",
+      "prev": "Edellinen",
+      "next": "Seuraava",
+      "page": "Sivu {page} / {total}",
+      "minError": "Vähimmäissumma on 10,00 €.",
+      "paymentInitError": "Maksua ei voitu aloittaa. Yritä uudelleen.",
+      "paymentError": "Maksu epäonnistui."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Lataus",
+      "PURCHASE": "Raportti",
+      "REFUND": "Hyvitys"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kortti",
+      "CREDIT": "Saldo",
+      "INVOICE": "Lasku"
+    },
+    "common": {
+      "loading": "Ladataan …",
+      "retry": "Yritä uudelleen",
+      "loadError": "Tietoja ei voitu ladata. Lataa sivu uudelleen."
+    }
   }
 }

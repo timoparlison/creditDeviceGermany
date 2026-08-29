@@ -625,5 +625,116 @@
     "allInOne": "Alt-i-én-løsningen",
     "savingsLabel": "Spar op til 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Oversigt",
+      "balance": "Saldo",
+      "logout": "Log ud",
+      "myAccount": "Min konto"
+    },
+    "login": {
+      "title": "Log ind",
+      "subtitle": "Log ind med dine kontooplysninger.",
+      "username": "Brugernavn",
+      "password": "Adgangskode",
+      "rememberMe": "Forbliv logget ind",
+      "submit": "Log ind",
+      "forgotPassword": "Glemt adgangskode?",
+      "noAccount": "Har du ikke en konto endnu?",
+      "registerLink": "Opret dig nu",
+      "error": "Login mislykkedes. Kontrollér brugernavn og adgangskode.",
+      "notActivated": "Din konto er ikke aktiveret endnu. Bekræft først linket i vores e-mail."
+    },
+    "register": {
+      "title": "Opret konto",
+      "subtitle": "Tilmeld dig CreditDevices kundeområde.",
+      "username": "Brugernavn",
+      "usernameHint": "1–50 tegn, bruges til login.",
+      "password": "Adgangskode",
+      "passwordHint": "Mindst 4 tegn.",
+      "firstName": "Fornavn",
+      "lastName": "Efternavn",
+      "email": "E-mail",
+      "company": "Virksomhed",
+      "street": "Gade og nr.",
+      "zip": "Postnr.",
+      "city": "By",
+      "country": "Land",
+      "vatId": "CVR/moms-nr. (valgfrit)",
+      "submit": "Opret konto",
+      "haveAccount": "Allerede tilmeldt?",
+      "loginLink": "Til login",
+      "success": "Næsten færdig! Vi har sendt dig en e-mail. Bekræft linket i den for at aktivere din konto.",
+      "error": "Tilmeldingen mislykkedes. Kontrollér dine oplysninger."
+    },
+    "forgotPassword": {
+      "title": "Nulstil adgangskode",
+      "subtitle": "Indtast din e-mailadresse, så sender vi dig et link til nulstilling.",
+      "email": "E-mail",
+      "submit": "Anmod om link",
+      "success": "Hvis der findes en konto for denne adresse, har vi sendt en e-mail med de næste trin.",
+      "backToLogin": "Tilbage til login"
+    },
+    "resetPassword": {
+      "title": "Angiv en ny adgangskode",
+      "newPassword": "Ny adgangskode",
+      "confirmPassword": "Gentag adgangskode",
+      "submit": "Gem adgangskode",
+      "mismatch": "Adgangskoderne er ikke ens.",
+      "success": "Din adgangskode er ændret. Du kan nu logge ind.",
+      "missingKey": "Linket er ufuldstændigt eller ugyldigt.",
+      "invalidKey": "Linket er ugyldigt eller udløbet. Anmod om et nyt."
+    },
+    "dashboard": {
+      "title": "Oversigt",
+      "greeting": "Velkommen tilbage, {name}",
+      "balanceLabel": "Aktuel saldo",
+      "topUp": "Optank saldo",
+      "recentTransactions": "Seneste saldobevægelser",
+      "recentInquiries": "Seneste rapporter",
+      "recentInvoices": "Seneste samlefakturaer",
+      "noTransactions": "Ingen bevægelser endnu.",
+      "noInquiries": "Ingen rapporter endnu.",
+      "orderNumber": "Ordrenr.",
+      "viewAll": "Vis alle"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Aktuel saldo",
+      "topUp": "Optank saldo",
+      "amountLabel": "Beløb (EUR)",
+      "amountHint": "Minimumsbeløb 10,00 €.",
+      "startPayment": "Fortsæt til betaling",
+      "pay": "Optank nu",
+      "success": "Din betaling lykkedes. Saldoen krediteres, når Stripe har bekræftet betalingen.",
+      "transactionsTitle": "Transaktioner",
+      "colDate": "Dato",
+      "colType": "Type",
+      "colReference": "Reference",
+      "colAmount": "Beløb",
+      "noTransactions": "Ingen transaktioner endnu.",
+      "prev": "Forrige",
+      "next": "Næste",
+      "page": "Side {page} af {total}",
+      "minError": "Minimumsbeløbet er 10,00 €.",
+      "paymentInitError": "Betalingen kunne ikke startes. Prøv igen.",
+      "paymentError": "Betalingen mislykkedes."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Optankning",
+      "PURCHASE": "Rapport",
+      "REFUND": "Refusion"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kort",
+      "CREDIT": "Saldo",
+      "INVOICE": "Faktura"
+    },
+    "common": {
+      "loading": "Indlæser …",
+      "retry": "Prøv igen",
+      "loadError": "Dataene kunne ikke indlæses. Genindlæs siden."
+    }
   }
 }

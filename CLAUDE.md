@@ -43,7 +43,22 @@ policy management), debt collection.
 - The customer-account / ordering backend lives in a **separate repo**:
   `/Users/timo/IdeaProjects/pcc/auskunftsbereich/GccOrder` (JHipster / Spring Boot, JWT).
 - Frontend API contract: `GccOrder/docs/features/FOR_AI_FRONTEND.md` (+ per-feature docs in that folder).
-- See `docs/BACKEND.md` in this repo for a summary and pointers.
+- See `docs/BACKEND.md` in this repo for a summary, the current frontend build status,
+  and open points. **Read and update `docs/BACKEND.md` when working on the customer area.**
+
+## Customer area (Kundenbereich / Bestellsystem)
+
+- Pages under `src/app/[locale]/konto/` (de) / `/account` (other locales): login, register,
+  password reset (public); `(app)/` route group behind an auth-guard layout → dashboard
+  (`/konto`) and credit balance (`/konto/guthaben`).
+- **BFF pattern:** JWT in an httpOnly cookie `cd_session`; the browser only calls the
+  Next route handlers under `src/app/api/customer/**` (all edge runtime), which proxy to
+  `GCC_BACKEND_URL` with a Bearer token. Never call the backend directly from the client.
+- Integration layer: `src/lib/customer/` (client/session/api/types/format/route-helpers).
+- Client auth state: `CustomerAuthProvider` in `src/components/customer/`, mounted in
+  `[locale]/layout.tsx`; the Header shows login state via `AccountMenu`.
+- `src/middleware.ts` wraps the next-intl middleware to gate the account area by cookie.
+- Translations: `Account` namespace in all 10 `src/messages/*.json` (non-de machine-translated).
 
 ## Conventions
 

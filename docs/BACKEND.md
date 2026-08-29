@@ -36,3 +36,44 @@ liegt im Backend-Repo:
 
 > Bei Backend-Änderungen an Endpunkten/DTOs/Enums wird `FOR_AI_FRONTEND.md` im
 > Backend-Repo aktualisiert — dort nachschlagen, nicht raten.
+
+## Frontend-Stand (Bestellsystem / Kundenbereich)
+
+Stufenweise Umsetzung. **Phase 1 umgesetzt:** F-001 Auth, F-005 Dashboard-Grundgerüst,
+F-002 Guthaben.
+
+- **Auth-Architektur:** BFF-Proxy. JWT liegt in einem httpOnly-Cookie `cd_session`;
+  der Browser spricht nie direkt mit `GccOrder`, sondern nur mit den Next-Route-Handlern
+  unter `src/app/api/customer/**` (alle `runtime = 'edge'`).
+- **Integrationsschicht:** `src/lib/customer/` — `client.ts` (server-seitige Fetch-Wrapper
+  gegen `GCC_BACKEND_URL`), `session.ts` (Cookie), `api.ts` (Client-Fetch-Helfer für Forms),
+  `types.ts` (DTOs), `format.ts`, `route-helpers.ts`, `constants.ts`.
+- **Seiten:** `src/app/[locale]/konto/` — `login`, `registrieren`, `passwort-vergessen`,
+  `passwort-zuruecksetzen` (öffentlich); `(app)/` Route-Gruppe mit Auth-Guard-Layout →
+  `(app)/page.tsx` = Dashboard (`/konto`), `(app)/guthaben/page.tsx` (`/konto/guthaben`).
+  Andere Locales: `/account`, `/account/login`, …
+- **Routing:** `src/i18n/routing.ts` `pathnames` erweitert; `PROTECTED_PREFIX`/
+  `PUBLIC_ACCOUNT_ROUTES` exportiert. `src/middleware.ts` umschließt die next-intl-Middleware
+  und leitet ohne `cd_session`-Cookie auf die Login-Seite um.
+- **Komponenten:** `src/components/customer/` — `CustomerAuthProvider` (Client-Context,
+  im `[locale]/layout.tsx` eingebunden), `AccountMenu` (Header), `AccountShell` (Sidebar),
+  `LoginForm` / `RegisterForm` / `ForgotPasswordForm` / `ResetPasswordForm`,
+  `BalancePanel`, `DepositForm` (Stripe `PaymentElement`).
+- **i18n:** Namespace `Account` in allen 10 `src/messages/*.json`. DE handgeschrieben,
+  die anderen 9 maschinell übersetzt → **fachlich gegenlesen**, v. a. Zahlungs-/Rechtstexte.
+- **Nicht umgesetzt:** F-003 API-Key, F-004 Rechnungsantrag, F-006 Sammelrechnungen
+  (Backend-DTO-Felder dafür sind in `types.ts` schon vorbereitet), Checkout-Integration
+  der Zahlungsart Guthaben/Rechnung — dafür fehlt noch ein Kunden-Bestell-Endpoint
+  im Backend (im Dashboard-DTO taucht `paymentMethod: CREDIT` auf, aber `FOR_AI_FRONTEND.md`
+  dokumentiert nur den Gast-Weg `POST /api/creditInformation`).
+
+### Bekannte offene Punkte / Annahmen
+
+- Konservative Defaults bis zur Business-Klärung: API-Key sofort & ohne Preisanzeige,
+  Rechnungsantrag nur Link-Eingabe (kein Datei-Upload), kein Guthaben-Höchstbetrag,
+  Mindestaufladung 10 €.
+- `not activated`-Login: JHipster liefert 401 mit englischem Text `"User <login> was not
+  activated"`; der Login-Route-Handler mappt das auf `{ code: 'NOT_ACTIVATED' }` (403).
+- `GET /api/customer/dashboard` wirft 500 (`No registered customer found for user N`) für
+  JHipster-User ohne `RegisteredCustomer`-Profil (z. B. `admin`/`user`). Für echte, über
+  `/api/customer/register` angelegte Kunden nicht relevant.

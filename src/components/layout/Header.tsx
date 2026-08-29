@@ -8,6 +8,7 @@ import { Link } from '@/i18n/navigation';
 import { Container } from '../ui/Container';
 import { Button } from '../ui/Button';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { AccountMenu } from '../customer/AccountMenu';
 
 const loginLinks = [
   { name: 'CreditManagement', href: 'https://app.directdevice.info/dam/auth/login/' },
@@ -133,6 +134,8 @@ export function Header() {
               )}
             </div>
 
+            <AccountMenu />
+
             <LanguageSwitcher />
 
             <Button href="/kontakt" variant="primary">
@@ -198,6 +201,10 @@ export function Header() {
                   </a>
                 ))}
               </div>
+            </div>
+
+            <div className="py-2 border-t mt-2 px-2">
+              <AccountMenu onNavigate={() => setMobileMenuOpen(false)} />
             </div>
 
             <div className="py-2 border-t mt-2 px-2">

@@ -625,5 +625,116 @@
     "allInOne": "Den allt-i-ett-lösningen",
     "savingsLabel": "Spara upp till 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Översikt",
+      "balance": "Saldo",
+      "logout": "Logga ut",
+      "myAccount": "Mitt konto"
+    },
+    "login": {
+      "title": "Logga in",
+      "subtitle": "Logga in med dina kontouppgifter.",
+      "username": "Användarnamn",
+      "password": "Lösenord",
+      "rememberMe": "Håll mig inloggad",
+      "submit": "Logga in",
+      "forgotPassword": "Glömt lösenordet?",
+      "noAccount": "Har du inget konto än?",
+      "registerLink": "Registrera dig nu",
+      "error": "Inloggningen misslyckades. Kontrollera användarnamn och lösenord.",
+      "notActivated": "Ditt konto är inte aktiverat än. Bekräfta först länken i vårt e-postmeddelande."
+    },
+    "register": {
+      "title": "Skapa konto",
+      "subtitle": "Registrera dig för CreditDevices kundområde.",
+      "username": "Användarnamn",
+      "usernameHint": "1–50 tecken, används för inloggning.",
+      "password": "Lösenord",
+      "passwordHint": "Minst 4 tecken.",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-post",
+      "company": "Företag",
+      "street": "Gata och nr",
+      "zip": "Postnummer",
+      "city": "Ort",
+      "country": "Land",
+      "vatId": "Momsreg.nr (valfritt)",
+      "submit": "Skapa konto",
+      "haveAccount": "Redan registrerad?",
+      "loginLink": "Till inloggning",
+      "success": "Nästan klart! Vi har skickat ett e-postmeddelande. Bekräfta länken i det för att aktivera ditt konto.",
+      "error": "Registreringen misslyckades. Kontrollera dina uppgifter."
+    },
+    "forgotPassword": {
+      "title": "Återställ lösenord",
+      "subtitle": "Ange din e-postadress så skickar vi en återställningslänk.",
+      "email": "E-post",
+      "submit": "Begär länk",
+      "success": "Om det finns ett konto för denna adress har vi skickat ett e-postmeddelande med nästa steg.",
+      "backToLogin": "Tillbaka till inloggning"
+    },
+    "resetPassword": {
+      "title": "Ange ett nytt lösenord",
+      "newPassword": "Nytt lösenord",
+      "confirmPassword": "Upprepa lösenord",
+      "submit": "Spara lösenord",
+      "mismatch": "Lösenorden stämmer inte överens.",
+      "success": "Ditt lösenord har ändrats. Du kan nu logga in.",
+      "missingKey": "Länken är ofullständig eller ogiltig.",
+      "invalidKey": "Länken är ogiltig eller har gått ut. Begär en ny."
+    },
+    "dashboard": {
+      "title": "Översikt",
+      "greeting": "Välkommen tillbaka, {name}",
+      "balanceLabel": "Aktuellt saldo",
+      "topUp": "Fyll på saldo",
+      "recentTransactions": "Senaste saldohändelser",
+      "recentInquiries": "Senaste rapporter",
+      "recentInvoices": "Senaste samlingsfakturor",
+      "noTransactions": "Inga händelser än.",
+      "noInquiries": "Inga rapporter än.",
+      "orderNumber": "Ordernr",
+      "viewAll": "Visa alla"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Aktuellt saldo",
+      "topUp": "Fyll på saldo",
+      "amountLabel": "Belopp (EUR)",
+      "amountHint": "Minsta belopp 10,00 €.",
+      "startPayment": "Fortsätt till betalning",
+      "pay": "Fyll på nu",
+      "success": "Din betalning lyckades. Saldot krediteras när Stripe har bekräftat betalningen.",
+      "transactionsTitle": "Transaktioner",
+      "colDate": "Datum",
+      "colType": "Typ",
+      "colReference": "Referens",
+      "colAmount": "Belopp",
+      "noTransactions": "Inga transaktioner än.",
+      "prev": "Föregående",
+      "next": "Nästa",
+      "page": "Sida {page} av {total}",
+      "minError": "Minsta belopp är 10,00 €.",
+      "paymentInitError": "Betalningen kunde inte startas. Försök igen.",
+      "paymentError": "Betalningen misslyckades."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Påfyllning",
+      "PURCHASE": "Rapport",
+      "REFUND": "Återbetalning"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kort",
+      "CREDIT": "Saldo",
+      "INVOICE": "Faktura"
+    },
+    "common": {
+      "loading": "Laddar …",
+      "retry": "Försök igen",
+      "loadError": "Data kunde inte laddas. Ladda om sidan."
+    }
   }
 }

@@ -22,5 +22,29 @@ export const routing = defineRouting({
     '/ueber-uns': localizedPath('/ueber-uns', '/about'),
     '/datenschutz': localizedPath('/datenschutz', '/privacy-policy'),
     '/impressum': localizedPath('/impressum', '/legal-notice'),
+    '/konto': localizedPath('/konto', '/account'),
+    '/konto/login': localizedPath('/konto/login', '/account/login'),
+    '/konto/registrieren': localizedPath('/konto/registrieren', '/account/register'),
+    '/konto/passwort-vergessen': localizedPath(
+      '/konto/passwort-vergessen',
+      '/account/forgot-password',
+    ),
+    '/konto/passwort-zuruecksetzen': localizedPath(
+      '/konto/passwort-zuruecksetzen',
+      '/account/reset-password',
+    ),
+    '/konto/guthaben': localizedPath('/konto/guthaben', '/account/balance'),
   },
 });
+
+/**
+ * Internal route prefixes (as used in <Link href>) that require an authenticated
+ * customer session. The auth pages below are intentionally excluded.
+ */
+export const PROTECTED_PREFIX = '/konto';
+export const PUBLIC_ACCOUNT_ROUTES = [
+  '/konto/login',
+  '/konto/registrieren',
+  '/konto/passwort-vergessen',
+  '/konto/passwort-zuruecksetzen',
+];

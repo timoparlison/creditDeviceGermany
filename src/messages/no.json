@@ -625,5 +625,116 @@
     "allInOne": "Alt-i-ett-løsningen",
     "savingsLabel": "Spar opptil 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Oversikt",
+      "balance": "Saldo",
+      "logout": "Logg ut",
+      "myAccount": "Min konto"
+    },
+    "login": {
+      "title": "Logg inn",
+      "subtitle": "Logg inn med kontoopplysningene dine.",
+      "username": "Brukernavn",
+      "password": "Passord",
+      "rememberMe": "Forbli innlogget",
+      "submit": "Logg inn",
+      "forgotPassword": "Glemt passordet?",
+      "noAccount": "Har du ingen konto ennå?",
+      "registerLink": "Registrer deg nå",
+      "error": "Innlogging mislyktes. Kontroller brukernavn og passord.",
+      "notActivated": "Kontoen din er ikke aktivert ennå. Bekreft først lenken i e-posten fra oss."
+    },
+    "register": {
+      "title": "Opprett konto",
+      "subtitle": "Registrer deg for CreditDevices kundeområde.",
+      "username": "Brukernavn",
+      "usernameHint": "1–50 tegn, brukes til innlogging.",
+      "password": "Passord",
+      "passwordHint": "Minst 4 tegn.",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-post",
+      "company": "Firma",
+      "street": "Gate og nr.",
+      "zip": "Postnummer",
+      "city": "Sted",
+      "country": "Land",
+      "vatId": "MVA-nummer (valgfritt)",
+      "submit": "Opprett konto",
+      "haveAccount": "Allerede registrert?",
+      "loginLink": "Til innlogging",
+      "success": "Nesten ferdig! Vi har sendt deg en e-post. Bekreft lenken i den for å aktivere kontoen din.",
+      "error": "Registreringen mislyktes. Kontroller opplysningene dine."
+    },
+    "forgotPassword": {
+      "title": "Tilbakestill passord",
+      "subtitle": "Skriv inn e-postadressen din, så sender vi deg en lenke for tilbakestilling.",
+      "email": "E-post",
+      "submit": "Be om lenke",
+      "success": "Hvis det finnes en konto for denne adressen, har vi sendt en e-post med de neste trinnene.",
+      "backToLogin": "Tilbake til innlogging"
+    },
+    "resetPassword": {
+      "title": "Angi et nytt passord",
+      "newPassword": "Nytt passord",
+      "confirmPassword": "Gjenta passord",
+      "submit": "Lagre passord",
+      "mismatch": "Passordene stemmer ikke overens.",
+      "success": "Passordet ditt er endret. Du kan nå logge inn.",
+      "missingKey": "Lenken er ufullstendig eller ugyldig.",
+      "invalidKey": "Lenken er ugyldig eller utløpt. Be om en ny."
+    },
+    "dashboard": {
+      "title": "Oversikt",
+      "greeting": "Velkommen tilbake, {name}",
+      "balanceLabel": "Nåværende saldo",
+      "topUp": "Fyll på saldo",
+      "recentTransactions": "Siste saldobevegelser",
+      "recentInquiries": "Siste rapporter",
+      "recentInvoices": "Siste samlefakturaer",
+      "noTransactions": "Ingen bevegelser ennå.",
+      "noInquiries": "Ingen rapporter ennå.",
+      "orderNumber": "Ordrenr.",
+      "viewAll": "Vis alle"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Nåværende saldo",
+      "topUp": "Fyll på saldo",
+      "amountLabel": "Beløp (EUR)",
+      "amountHint": "Minstebeløp 10,00 €.",
+      "startPayment": "Fortsett til betaling",
+      "pay": "Fyll på nå",
+      "success": "Betalingen var vellykket. Saldoen krediteres når Stripe har bekreftet betalingen.",
+      "transactionsTitle": "Transaksjoner",
+      "colDate": "Dato",
+      "colType": "Type",
+      "colReference": "Referanse",
+      "colAmount": "Beløp",
+      "noTransactions": "Ingen transaksjoner ennå.",
+      "prev": "Forrige",
+      "next": "Neste",
+      "page": "Side {page} av {total}",
+      "minError": "Minstebeløpet er 10,00 €.",
+      "paymentInitError": "Betalingen kunne ikke startes. Prøv igjen.",
+      "paymentError": "Betalingen mislyktes."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Påfylling",
+      "PURCHASE": "Rapport",
+      "REFUND": "Refusjon"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kort",
+      "CREDIT": "Saldo",
+      "INVOICE": "Faktura"
+    },
+    "common": {
+      "loading": "Laster …",
+      "retry": "Prøv igjen",
+      "loadError": "Dataene kunne ikke lastes. Last inn siden på nytt."
+    }
   }
 }

@@ -625,5 +625,116 @@
     "allInOne": "De alles-in-één oplossing",
     "savingsLabel": "Bespaar tot 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Overzicht",
+      "balance": "Saldo",
+      "logout": "Afmelden",
+      "myAccount": "Mijn account"
+    },
+    "login": {
+      "title": "Inloggen",
+      "subtitle": "Log in met uw accountgegevens.",
+      "username": "Gebruikersnaam",
+      "password": "Wachtwoord",
+      "rememberMe": "Ingelogd blijven",
+      "submit": "Inloggen",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "noAccount": "Nog geen account?",
+      "registerLink": "Nu registreren",
+      "error": "Inloggen mislukt. Controleer uw gebruikersnaam en wachtwoord.",
+      "notActivated": "Uw account is nog niet geactiveerd. Bevestig eerst de link in onze e-mail."
+    },
+    "register": {
+      "title": "Account aanmaken",
+      "subtitle": "Registreer u voor het CreditDevice-klantgedeelte.",
+      "username": "Gebruikersnaam",
+      "usernameHint": "1–50 tekens, om in te loggen.",
+      "password": "Wachtwoord",
+      "passwordHint": "Minimaal 4 tekens.",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mail",
+      "company": "Bedrijf",
+      "street": "Straat en nr.",
+      "zip": "Postcode",
+      "city": "Plaats",
+      "country": "Land",
+      "vatId": "Btw-nummer (optioneel)",
+      "submit": "Account aanmaken",
+      "haveAccount": "Al geregistreerd?",
+      "loginLink": "Naar inloggen",
+      "success": "Bijna klaar! We hebben u een e-mail gestuurd. Bevestig de link erin om uw account te activeren.",
+      "error": "Registratie mislukt. Controleer uw gegevens."
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord opnieuw instellen",
+      "subtitle": "Voer uw e-mailadres in; we sturen u een link om het opnieuw in te stellen.",
+      "email": "E-mail",
+      "submit": "Link aanvragen",
+      "success": "Als er een account voor dit adres bestaat, hebben we u een e-mail met de volgende stappen gestuurd.",
+      "backToLogin": "Terug naar inloggen"
+    },
+    "resetPassword": {
+      "title": "Nieuw wachtwoord instellen",
+      "newPassword": "Nieuw wachtwoord",
+      "confirmPassword": "Wachtwoord herhalen",
+      "submit": "Wachtwoord opslaan",
+      "mismatch": "De wachtwoorden komen niet overeen.",
+      "success": "Uw wachtwoord is gewijzigd. U kunt nu inloggen.",
+      "missingKey": "De link is onvolledig of ongeldig.",
+      "invalidKey": "De link is ongeldig of verlopen. Vraag een nieuwe aan."
+    },
+    "dashboard": {
+      "title": "Overzicht",
+      "greeting": "Welkom terug, {name}",
+      "balanceLabel": "Huidig saldo",
+      "topUp": "Saldo opwaarderen",
+      "recentTransactions": "Recente saldomutaties",
+      "recentInquiries": "Recente rapporten",
+      "recentInvoices": "Recente verzamelfacturen",
+      "noTransactions": "Nog geen mutaties.",
+      "noInquiries": "Nog geen rapporten.",
+      "orderNumber": "Bestelnr.",
+      "viewAll": "Alles bekijken"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Huidig saldo",
+      "topUp": "Saldo opwaarderen",
+      "amountLabel": "Bedrag (EUR)",
+      "amountHint": "Minimumbedrag € 10,00.",
+      "startPayment": "Verder naar betaling",
+      "pay": "Nu opwaarderen",
+      "success": "Uw betaling is geslaagd. Het saldo wordt bijgeschreven zodra Stripe de betaling bevestigt.",
+      "transactionsTitle": "Transacties",
+      "colDate": "Datum",
+      "colType": "Type",
+      "colReference": "Referentie",
+      "colAmount": "Bedrag",
+      "noTransactions": "Nog geen transacties.",
+      "prev": "Vorige",
+      "next": "Volgende",
+      "page": "Pagina {page} van {total}",
+      "minError": "Het minimumbedrag is € 10,00.",
+      "paymentInitError": "De betaling kon niet worden gestart. Probeer het opnieuw.",
+      "paymentError": "De betaling is mislukt."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Opwaardering",
+      "PURCHASE": "Rapport",
+      "REFUND": "Terugbetaling"
+    },
+    "paymentMethod": {
+      "STRIPE": "Kaart",
+      "CREDIT": "Saldo",
+      "INVOICE": "Factuur"
+    },
+    "common": {
+      "loading": "Laden …",
+      "retry": "Opnieuw proberen",
+      "loadError": "De gegevens konden niet worden geladen. Herlaad de pagina."
+    }
   }
 }

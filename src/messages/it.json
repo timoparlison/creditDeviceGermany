@@ -625,5 +625,116 @@
     "allInOne": "La soluzione all-in-one",
     "savingsLabel": "Risparmia fino al 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Panoramica",
+      "balance": "Saldo",
+      "logout": "Esci",
+      "myAccount": "Il mio account"
+    },
+    "login": {
+      "title": "Accedi",
+      "subtitle": "Accedi con le tue credenziali.",
+      "username": "Nome utente",
+      "password": "Password",
+      "rememberMe": "Resta connesso",
+      "submit": "Accedi",
+      "forgotPassword": "Password dimenticata?",
+      "noAccount": "Non hai ancora un account?",
+      "registerLink": "Registrati ora",
+      "error": "Accesso non riuscito. Controlla nome utente e password.",
+      "notActivated": "Il tuo account non è ancora attivato. Conferma prima il link nella nostra e-mail."
+    },
+    "register": {
+      "title": "Crea account",
+      "subtitle": "Registrati all'area clienti di CreditDevice.",
+      "username": "Nome utente",
+      "usernameHint": "1–50 caratteri, per accedere.",
+      "password": "Password",
+      "passwordHint": "Almeno 4 caratteri.",
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "E-mail",
+      "company": "Azienda",
+      "street": "Via e n.",
+      "zip": "CAP",
+      "city": "Città",
+      "country": "Paese",
+      "vatId": "Partita IVA (facoltativo)",
+      "submit": "Crea account",
+      "haveAccount": "Sei già registrato?",
+      "loginLink": "Vai all'accesso",
+      "success": "Quasi fatto! Ti abbiamo inviato un’e-mail. Conferma il link contenuto per attivare il tuo account.",
+      "error": "Registrazione non riuscita. Controlla i dati inseriti."
+    },
+    "forgotPassword": {
+      "title": "Reimposta password",
+      "subtitle": "Inserisci il tuo indirizzo e-mail: ti invieremo un link per reimpostarla.",
+      "email": "E-mail",
+      "submit": "Richiedi link",
+      "success": "Se esiste un account per questo indirizzo, ti abbiamo inviato un’e-mail con i passaggi successivi.",
+      "backToLogin": "Torna all'accesso"
+    },
+    "resetPassword": {
+      "title": "Imposta una nuova password",
+      "newPassword": "Nuova password",
+      "confirmPassword": "Ripeti password",
+      "submit": "Salva password",
+      "mismatch": "Le password non coincidono.",
+      "success": "La tua password è stata modificata. Ora puoi accedere.",
+      "missingKey": "Il link è incompleto o non valido.",
+      "invalidKey": "Il link non è valido o è scaduto. Richiedine uno nuovo."
+    },
+    "dashboard": {
+      "title": "Panoramica",
+      "greeting": "Bentornato, {name}",
+      "balanceLabel": "Saldo attuale",
+      "topUp": "Ricarica saldo",
+      "recentTransactions": "Movimenti di saldo recenti",
+      "recentInquiries": "Report recenti",
+      "recentInvoices": "Fatture cumulative recenti",
+      "noTransactions": "Ancora nessun movimento.",
+      "noInquiries": "Ancora nessun report.",
+      "orderNumber": "N. ordine",
+      "viewAll": "Mostra tutto"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Saldo attuale",
+      "topUp": "Ricarica saldo",
+      "amountLabel": "Importo (EUR)",
+      "amountHint": "Importo minimo 10,00 €.",
+      "startPayment": "Prosegui al pagamento",
+      "pay": "Ricarica ora",
+      "success": "Il pagamento è andato a buon fine. Il saldo verrà accreditato dopo la conferma di Stripe.",
+      "transactionsTitle": "Transazioni",
+      "colDate": "Data",
+      "colType": "Tipo",
+      "colReference": "Riferimento",
+      "colAmount": "Importo",
+      "noTransactions": "Ancora nessuna transazione.",
+      "prev": "Indietro",
+      "next": "Avanti",
+      "page": "Pagina {page} di {total}",
+      "minError": "L'importo minimo è 10,00 €.",
+      "paymentInitError": "Non è stato possibile avviare il pagamento. Riprova.",
+      "paymentError": "Il pagamento non è riuscito."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Ricarica",
+      "PURCHASE": "Report",
+      "REFUND": "Rimborso"
+    },
+    "paymentMethod": {
+      "STRIPE": "Carta",
+      "CREDIT": "Saldo",
+      "INVOICE": "Fattura"
+    },
+    "common": {
+      "loading": "Caricamento …",
+      "retry": "Riprova",
+      "loadError": "Impossibile caricare i dati. Ricarica la pagina."
+    }
   }
 }

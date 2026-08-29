@@ -625,5 +625,116 @@
     "allInOne": "La solución todo en uno",
     "savingsLabel": "Ahorre hasta un 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Resumen",
+      "balance": "Saldo",
+      "logout": "Cerrar sesión",
+      "myAccount": "Mi cuenta"
+    },
+    "login": {
+      "title": "Iniciar sesión",
+      "subtitle": "Inicie sesión con sus credenciales.",
+      "username": "Nombre de usuario",
+      "password": "Contraseña",
+      "rememberMe": "Mantener la sesión iniciada",
+      "submit": "Iniciar sesión",
+      "forgotPassword": "¿Olvidó su contraseña?",
+      "noAccount": "¿Aún no tiene cuenta?",
+      "registerLink": "Regístrese ahora",
+      "error": "Error al iniciar sesión. Compruebe su nombre de usuario y contraseña.",
+      "notActivated": "Su cuenta aún no está activada. Confirme primero el enlace de nuestro correo."
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Regístrese en el área de clientes de CreditDevice.",
+      "username": "Nombre de usuario",
+      "usernameHint": "1–50 caracteres, para iniciar sesión.",
+      "password": "Contraseña",
+      "passwordHint": "Mínimo 4 caracteres.",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "street": "Calle y n.º",
+      "zip": "Código postal",
+      "city": "Ciudad",
+      "country": "País",
+      "vatId": "NIF/CIF (opcional)",
+      "submit": "Crear cuenta",
+      "haveAccount": "¿Ya está registrado?",
+      "loginLink": "Ir a iniciar sesión",
+      "success": "¡Casi listo! Le hemos enviado un correo. Confirme el enlace que contiene para activar su cuenta.",
+      "error": "Error en el registro. Compruebe los datos introducidos."
+    },
+    "forgotPassword": {
+      "title": "Restablecer contraseña",
+      "subtitle": "Introduzca su correo electrónico y le enviaremos un enlace para restablecerla.",
+      "email": "Correo electrónico",
+      "submit": "Solicitar enlace",
+      "success": "Si existe una cuenta para esta dirección, le hemos enviado un correo con los siguientes pasos.",
+      "backToLogin": "Volver a iniciar sesión"
+    },
+    "resetPassword": {
+      "title": "Establecer una nueva contraseña",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Repetir contraseña",
+      "submit": "Guardar contraseña",
+      "mismatch": "Las contraseñas no coinciden.",
+      "success": "Su contraseña se ha cambiado. Ya puede iniciar sesión.",
+      "missingKey": "El enlace está incompleto o no es válido.",
+      "invalidKey": "El enlace no es válido o ha caducado. Solicite uno nuevo."
+    },
+    "dashboard": {
+      "title": "Resumen",
+      "greeting": "Bienvenido de nuevo, {name}",
+      "balanceLabel": "Saldo actual",
+      "topUp": "Recargar saldo",
+      "recentTransactions": "Movimientos recientes de saldo",
+      "recentInquiries": "Informes recientes",
+      "recentInvoices": "Facturas colectivas recientes",
+      "noTransactions": "Aún no hay movimientos.",
+      "noInquiries": "Aún no hay informes.",
+      "orderNumber": "N.º de pedido",
+      "viewAll": "Ver todo"
+    },
+    "balance": {
+      "title": "Saldo",
+      "currentBalance": "Saldo actual",
+      "topUp": "Recargar saldo",
+      "amountLabel": "Importe (EUR)",
+      "amountHint": "Importe mínimo 10,00 €.",
+      "startPayment": "Continuar al pago",
+      "pay": "Recargar ahora",
+      "success": "Su pago se ha realizado correctamente. El saldo se abonará una vez que Stripe confirme el pago.",
+      "transactionsTitle": "Transacciones",
+      "colDate": "Fecha",
+      "colType": "Tipo",
+      "colReference": "Referencia",
+      "colAmount": "Importe",
+      "noTransactions": "Aún no hay transacciones.",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "page": "Página {page} de {total}",
+      "minError": "El importe mínimo es 10,00 €.",
+      "paymentInitError": "No se ha podido iniciar el pago. Inténtelo de nuevo.",
+      "paymentError": "El pago ha fallado."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Recarga",
+      "PURCHASE": "Informe",
+      "REFUND": "Reembolso"
+    },
+    "paymentMethod": {
+      "STRIPE": "Tarjeta",
+      "CREDIT": "Saldo",
+      "INVOICE": "Factura"
+    },
+    "common": {
+      "loading": "Cargando …",
+      "retry": "Reintentar",
+      "loadError": "No se han podido cargar los datos. Vuelva a cargar la página."
+    }
   }
 }

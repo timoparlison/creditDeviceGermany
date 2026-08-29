@@ -625,5 +625,116 @@
     "allInOne": "All-in-One Solution",
     "savingsLabel": "Save up to 40%",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Overview",
+      "balance": "Credit balance",
+      "logout": "Sign out",
+      "myAccount": "My account"
+    },
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Sign in with your account details.",
+      "username": "Username",
+      "password": "Password",
+      "rememberMe": "Stay signed in",
+      "submit": "Sign in",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "No account yet?",
+      "registerLink": "Create one now",
+      "error": "Sign-in failed. Please check your username and password.",
+      "notActivated": "Your account is not activated yet. Please confirm the link in our email first."
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Register for the CreditDevice customer area.",
+      "username": "Username",
+      "usernameHint": "1–50 characters, used to sign in.",
+      "password": "Password",
+      "passwordHint": "At least 4 characters.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "company": "Company",
+      "street": "Street & no.",
+      "zip": "Postal code",
+      "city": "City",
+      "country": "Country",
+      "vatId": "VAT ID (optional)",
+      "submit": "Create account",
+      "haveAccount": "Already registered?",
+      "loginLink": "Go to sign in",
+      "success": "Almost done! We have sent you an email. Please confirm the link it contains to activate your account.",
+      "error": "Registration failed. Please check your details."
+    },
+    "forgotPassword": {
+      "title": "Reset password",
+      "subtitle": "Enter your email address and we will send you a reset link.",
+      "email": "Email",
+      "submit": "Request link",
+      "success": "If an account exists for this address, we have sent an email with the next steps.",
+      "backToLogin": "Back to sign in"
+    },
+    "resetPassword": {
+      "title": "Set a new password",
+      "newPassword": "New password",
+      "confirmPassword": "Repeat password",
+      "submit": "Save password",
+      "mismatch": "The passwords do not match.",
+      "success": "Your password has been changed. You can now sign in.",
+      "missingKey": "The link is incomplete or invalid.",
+      "invalidKey": "The link is invalid or has expired. Please request a new one."
+    },
+    "dashboard": {
+      "title": "Overview",
+      "greeting": "Welcome back, {name}",
+      "balanceLabel": "Current balance",
+      "topUp": "Add credit",
+      "recentTransactions": "Recent balance activity",
+      "recentInquiries": "Recent reports",
+      "recentInvoices": "Recent collective invoices",
+      "noTransactions": "No activity yet.",
+      "noInquiries": "No reports yet.",
+      "orderNumber": "Order no.",
+      "viewAll": "View all"
+    },
+    "balance": {
+      "title": "Credit balance",
+      "currentBalance": "Current balance",
+      "topUp": "Add credit",
+      "amountLabel": "Amount (EUR)",
+      "amountHint": "Minimum amount €10.00.",
+      "startPayment": "Continue to payment",
+      "pay": "Add credit now",
+      "success": "Your payment was successful. The credit will be added once Stripe confirms the payment.",
+      "transactionsTitle": "Transactions",
+      "colDate": "Date",
+      "colType": "Type",
+      "colReference": "Reference",
+      "colAmount": "Amount",
+      "noTransactions": "No transactions yet.",
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page {page} of {total}",
+      "minError": "The minimum amount is €10.00.",
+      "paymentInitError": "The payment could not be started. Please try again.",
+      "paymentError": "The payment failed."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Top-up",
+      "PURCHASE": "Report",
+      "REFUND": "Refund"
+    },
+    "paymentMethod": {
+      "STRIPE": "Card",
+      "CREDIT": "Credit balance",
+      "INVOICE": "Invoice"
+    },
+    "common": {
+      "loading": "Loading …",
+      "retry": "Try again",
+      "loadError": "The data could not be loaded. Please reload the page."
+    }
   }
 }

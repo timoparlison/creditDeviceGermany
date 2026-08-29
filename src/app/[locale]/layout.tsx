@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Header, Footer } from '@/components/layout';
+import { CustomerAuthProvider } from '@/components/customer/CustomerAuthProvider';
 import { JsonLd, organizationSchema, websiteSchema } from '@/components/seo/JsonLd';
 import { SITE_URL } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
@@ -58,10 +59,12 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <JsonLd data={[organizationSchema(), websiteSchema()]} />
-      <Header />
-      <main className="min-h-screen">{children}</main>
-      <Footer />
+      <CustomerAuthProvider>
+        <JsonLd data={[organizationSchema(), websiteSchema()]} />
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
+      </CustomerAuthProvider>
     </NextIntlClientProvider>
   );
 }

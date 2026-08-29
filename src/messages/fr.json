@@ -625,5 +625,116 @@
     "allInOne": "La solution tout-en-un",
     "savingsLabel": "Économisez jusqu'à 40 %",
     "savingsSubtitle": "Days Sales Outstanding"
+  },
+  "Account": {
+    "nav": {
+      "dashboard": "Aperçu",
+      "balance": "Solde",
+      "logout": "Se déconnecter",
+      "myAccount": "Mon compte"
+    },
+    "login": {
+      "title": "Se connecter",
+      "subtitle": "Connectez-vous avec vos identifiants.",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "rememberMe": "Rester connecté",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "registerLink": "Créer un compte",
+      "error": "Échec de la connexion. Vérifiez votre nom d'utilisateur et votre mot de passe.",
+      "notActivated": "Votre compte n'est pas encore activé. Confirmez d'abord le lien reçu par e-mail."
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Inscrivez-vous à l'espace client CreditDevice.",
+      "username": "Nom d'utilisateur",
+      "usernameHint": "1 à 50 caractères, pour la connexion.",
+      "password": "Mot de passe",
+      "passwordHint": "Au moins 4 caractères.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "E-mail",
+      "company": "Société",
+      "street": "Rue et n°",
+      "zip": "Code postal",
+      "city": "Ville",
+      "country": "Pays",
+      "vatId": "N° de TVA (facultatif)",
+      "submit": "Créer un compte",
+      "haveAccount": "Déjà inscrit ?",
+      "loginLink": "Aller à la connexion",
+      "success": "Presque terminé ! Nous vous avons envoyé un e-mail. Confirmez le lien qu'il contient pour activer votre compte.",
+      "error": "Échec de l'inscription. Vérifiez vos informations."
+    },
+    "forgotPassword": {
+      "title": "Réinitialiser le mot de passe",
+      "subtitle": "Saisissez votre adresse e-mail ; nous vous enverrons un lien de réinitialisation.",
+      "email": "E-mail",
+      "submit": "Demander le lien",
+      "success": "Si un compte existe pour cette adresse, nous vous avons envoyé un e-mail avec les étapes suivantes.",
+      "backToLogin": "Retour à la connexion"
+    },
+    "resetPassword": {
+      "title": "Définir un nouveau mot de passe",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "Enregistrer le mot de passe",
+      "mismatch": "Les mots de passe ne correspondent pas.",
+      "success": "Votre mot de passe a été modifié. Vous pouvez maintenant vous connecter.",
+      "missingKey": "Le lien est incomplet ou invalide.",
+      "invalidKey": "Le lien est invalide ou a expiré. Veuillez en demander un nouveau."
+    },
+    "dashboard": {
+      "title": "Aperçu",
+      "greeting": "Bon retour, {name}",
+      "balanceLabel": "Solde actuel",
+      "topUp": "Recharger le solde",
+      "recentTransactions": "Mouvements de solde récents",
+      "recentInquiries": "Rapports récents",
+      "recentInvoices": "Factures groupées récentes",
+      "noTransactions": "Aucun mouvement pour le moment.",
+      "noInquiries": "Aucun rapport pour le moment.",
+      "orderNumber": "N° de commande",
+      "viewAll": "Tout afficher"
+    },
+    "balance": {
+      "title": "Solde",
+      "currentBalance": "Solde actuel",
+      "topUp": "Recharger le solde",
+      "amountLabel": "Montant (EUR)",
+      "amountHint": "Montant minimum 10,00 €.",
+      "startPayment": "Continuer vers le paiement",
+      "pay": "Recharger maintenant",
+      "success": "Votre paiement a réussi. Le solde sera crédité après confirmation par Stripe.",
+      "transactionsTitle": "Transactions",
+      "colDate": "Date",
+      "colType": "Type",
+      "colReference": "Référence",
+      "colAmount": "Montant",
+      "noTransactions": "Aucune transaction pour le moment.",
+      "prev": "Précédent",
+      "next": "Suivant",
+      "page": "Page {page} sur {total}",
+      "minError": "Le montant minimum est de 10,00 €.",
+      "paymentInitError": "Le paiement n'a pas pu être lancé. Veuillez réessayer.",
+      "paymentError": "Le paiement a échoué."
+    },
+    "txType": {
+      "DEPOSIT_STRIPE": "Rechargement",
+      "PURCHASE": "Rapport",
+      "REFUND": "Remboursement"
+    },
+    "paymentMethod": {
+      "STRIPE": "Carte",
+      "CREDIT": "Solde",
+      "INVOICE": "Facture"
+    },
+    "common": {
+      "loading": "Chargement …",
+      "retry": "Réessayer",
+      "loadError": "Impossible de charger les données. Veuillez recharger la page."
+    }
   }
 }
