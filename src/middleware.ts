@@ -13,6 +13,8 @@ const PUBLIC_SUBPATHS = new Set([
   'login',
   'registrieren',
   'register',
+  'aktivieren',
+  'activate',
   'passwort-vergessen',
   'forgot-password',
   'passwort-zuruecksetzen',
@@ -21,6 +23,15 @@ const PUBLIC_SUBPATHS = new Set([
 
 export default function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  // The backend's activation email links to the fixed, unlocalised URL
+  // /account/activate?key=... — send it to the localised (default-locale) page.
+  if (pathname === '/account/activate' || pathname === '/account/activate/') {
+    const url = req.nextUrl.clone();
+    url.pathname = '/konto/aktivieren/';
+    return NextResponse.redirect(url);
+  }
+
   const match = pathname.match(ACCOUNT_RE);
 
   if (match) {

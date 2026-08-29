@@ -118,6 +118,10 @@ export async function register(
   await request<void>('/api/customer/register', { json: payload });
 }
 
+export async function activateAccount(key: string): Promise<void> {
+  await request<void>('/api/activate', { method: 'GET', query: { key } });
+}
+
 export async function resetPasswordInit(email: string): Promise<void> {
   await request<void>('/api/account/reset-password/init', { text: email });
 }

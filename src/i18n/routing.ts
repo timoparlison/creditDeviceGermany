@@ -24,6 +24,7 @@ export const routing = defineRouting({
     '/impressum': localizedPath('/impressum', '/legal-notice'),
     '/konto': localizedPath('/konto', '/account'),
     '/konto/login': localizedPath('/konto/login', '/account/login'),
+    '/konto/aktivieren': localizedPath('/konto/aktivieren', '/account/activate'),
     '/konto/registrieren': localizedPath('/konto/registrieren', '/account/register'),
     '/konto/passwort-vergessen': localizedPath(
       '/konto/passwort-vergessen',
@@ -45,6 +46,7 @@ export const PROTECTED_PREFIX = '/konto';
 export const PUBLIC_ACCOUNT_ROUTES = [
   '/konto/login',
   '/konto/registrieren',
+  '/konto/aktivieren',
   '/konto/passwort-vergessen',
   '/konto/passwort-zuruecksetzen',
 ];

@@ -735,6 +735,13 @@
       "loading": "Indlæser …",
       "retry": "Prøv igen",
       "loadError": "Dataene kunne ikke indlæses. Genindlæs siden."
+    },
+    "activate": {
+      "title": "Aktivér konto",
+      "successBody": "Din konto er nu aktiveret. Du kan logge ind.",
+      "errorBody": "Dette aktiveringslink er ugyldigt eller allerede brugt. Hvis du stadig ikke kan logge ind, så anmod om et nyt link eller kontakt os.",
+      "missingKey": "Der blev ikke angivet nogen aktiveringsnøgle. Åbn linket fra vores e-mail igen.",
+      "toLogin": "Til login"
     }
   }
 }

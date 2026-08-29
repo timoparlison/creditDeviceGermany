@@ -735,6 +735,13 @@
       "loading": "Ladataan …",
       "retry": "Yritä uudelleen",
       "loadError": "Tietoja ei voitu ladata. Lataa sivu uudelleen."
+    },
+    "activate": {
+      "title": "Aktivoi tili",
+      "successBody": "Tilisi on nyt aktivoitu. Voit kirjautua sisään.",
+      "errorBody": "Tämä aktivointilinkki on virheellinen tai jo käytetty. Jos et vieläkään voi kirjautua sisään, pyydä uusi linkki tai ota yhteyttä meihin.",
+      "missingKey": "Aktivointiavainta ei annettu. Avaa sähköpostimme linkki uudelleen.",
+      "toLogin": "Kirjautumiseen"
     }
   }
 }

@@ -735,6 +735,13 @@
       "loading": "Laden …",
       "retry": "Opnieuw proberen",
       "loadError": "De gegevens konden niet worden geladen. Herlaad de pagina."
+    },
+    "activate": {
+      "title": "Account activeren",
+      "successBody": "Uw account is nu geactiveerd. U kunt inloggen.",
+      "errorBody": "Deze activeringslink is ongeldig of is al gebruikt. Als u nog steeds niet kunt inloggen, vraag dan een nieuwe link aan of neem contact met ons op.",
+      "missingKey": "Er is geen activeringssleutel opgegeven. Open de link uit onze e-mail opnieuw.",
+      "toLogin": "Naar inloggen"
     }
   }
 }

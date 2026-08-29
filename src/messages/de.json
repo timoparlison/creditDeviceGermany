@@ -735,6 +735,13 @@
       "loading": "Wird geladen …",
       "retry": "Erneut versuchen",
       "loadError": "Die Daten konnten nicht geladen werden. Bitte laden Sie die Seite neu."
+    },
+    "activate": {
+      "title": "Konto aktivieren",
+      "successBody": "Ihr Konto ist jetzt aktiviert. Sie können sich anmelden.",
+      "errorBody": "Dieser Aktivierungslink ist ungültig oder wurde bereits verwendet. Falls Sie sich noch nicht anmelden können, fordern Sie einen neuen Link an oder kontaktieren Sie uns.",
+      "missingKey": "Es wurde kein Aktivierungsschlüssel übergeben. Bitte öffnen Sie den Link aus unserer E-Mail erneut.",
+      "toLogin": "Zur Anmeldung"
     }
   }
 }

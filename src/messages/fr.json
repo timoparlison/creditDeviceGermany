@@ -735,6 +735,13 @@
       "loading": "Chargement …",
       "retry": "Réessayer",
       "loadError": "Impossible de charger les données. Veuillez recharger la page."
+    },
+    "activate": {
+      "title": "Activer le compte",
+      "successBody": "Votre compte est maintenant activé. Vous pouvez vous connecter.",
+      "errorBody": "Ce lien d'activation est invalide ou a déjà été utilisé. Si vous ne pouvez toujours pas vous connecter, demandez un nouveau lien ou contactez-nous.",
+      "missingKey": "Aucune clé d'activation n'a été fournie. Veuillez rouvrir le lien de notre e-mail.",
+      "toLogin": "Aller à la connexion"
     }
   }
 }

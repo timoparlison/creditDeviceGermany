@@ -735,6 +735,13 @@
       "loading": "Loading …",
       "retry": "Try again",
       "loadError": "The data could not be loaded. Please reload the page."
+    },
+    "activate": {
+      "title": "Activate account",
+      "successBody": "Your account is now activated. You can sign in.",
+      "errorBody": "This activation link is invalid or has already been used. If you still cannot sign in, request a new link or contact us.",
+      "missingKey": "No activation key was provided. Please open the link from our email again.",
+      "toLogin": "Go to sign in"
     }
   }
 }

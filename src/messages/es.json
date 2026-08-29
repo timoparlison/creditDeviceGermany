@@ -735,6 +735,13 @@
       "loading": "Cargando …",
       "retry": "Reintentar",
       "loadError": "No se han podido cargar los datos. Vuelva a cargar la página."
+    },
+    "activate": {
+      "title": "Activar cuenta",
+      "successBody": "Su cuenta ya está activada. Puede iniciar sesión.",
+      "errorBody": "Este enlace de activación no es válido o ya se ha utilizado. Si aún no puede iniciar sesión, solicite un enlace nuevo o contáctenos.",
+      "missingKey": "No se ha proporcionado ninguna clave de activación. Vuelva a abrir el enlace de nuestro correo.",
+      "toLogin": "Ir a iniciar sesión"
     }
   }
 }

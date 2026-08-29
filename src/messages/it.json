@@ -735,6 +735,13 @@
       "loading": "Caricamento …",
       "retry": "Riprova",
       "loadError": "Impossibile caricare i dati. Ricarica la pagina."
+    },
+    "activate": {
+      "title": "Attiva account",
+      "successBody": "Il tuo account è ora attivato. Puoi accedere.",
+      "errorBody": "Questo link di attivazione non è valido o è già stato utilizzato. Se non riesci ancora ad accedere, richiedi un nuovo link o contattaci.",
+      "missingKey": "Nessuna chiave di attivazione fornita. Riapri il link presente nella nostra e-mail.",
+      "toLogin": "Vai all'accesso"
     }
   }
 }
