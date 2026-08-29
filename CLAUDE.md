@@ -38,8 +38,21 @@ policy management), debt collection.
 - `scripts/indexnow.mjs` — IndexNow submission; key file `public/c38d1b281e63c169499d2df7697fd854.txt`
 - `src/app/api/gcc/` — API routes for the online credit-report shop (Stripe payments)
 
+## Backend
+
+- The customer-account / ordering backend lives in a **separate repo**:
+  `/Users/timo/IdeaProjects/pcc/auskunftsbereich/GccOrder` (JHipster / Spring Boot, JWT).
+- Frontend API contract: `GccOrder/docs/features/FOR_AI_FRONTEND.md` (+ per-feature docs in that folder).
+- See `docs/BACKEND.md` in this repo for a summary and pointers.
+
 ## Conventions
 
 - Prices in the UI use German comma format (`22,69`); schema.org JSON-LD requires dot decimals (`22.69`).
 - Images: prefer local files in `public/`. Several content images still reference the legacy
   WordPress CDN (`206.wpcdnnode.com`) and should be migrated to `public/` over time.
+
+## SEO
+
+- `docs/SEO.md` tracks the status of all SEO/AI-visibility work: what is done,
+  what is open, and open strategic questions. Read it first when touching SEO topics
+  and keep it up to date when items are completed.
