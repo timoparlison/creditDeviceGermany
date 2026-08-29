@@ -167,3 +167,11 @@ export function createCreditDeposit(
     json: { amount },
   });
 }
+
+/**
+ * Stripe publishable key. On the `feature/Bestellsystem` branch `/api/payment/**`
+ * requires authentication, so this must be called with a session token.
+ */
+export function getStripeFeKey(token: string): Promise<{ stripeKey: string }> {
+  return request<{ stripeKey: string }>('/api/payment/stripeFeKey', { token });
+}

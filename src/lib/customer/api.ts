@@ -7,6 +7,14 @@ export type ApiResult<T> =
   | { ok: true; data: T }
   | { ok: false; error: CustomerError };
 
+// The site runs with `trailingSlash: true`, so a request to `/api/foo` is 308'd
+// to `/api/foo/`. Hit the canonical URL directly to avoid the extra round-trip.
+function withTrailingSlash(path: string): string {
+  const [p, query] = path.split('?');
+  const normalised = p.endsWith('/') ? p : `${p}/`;
+  return query ? `${normalised}?${query}` : normalised;
+}
+
 async function toResult<T>(res: Response): Promise<ApiResult<T>> {
   let body: unknown;
   try {
@@ -36,7 +44,7 @@ export async function apiPost<T = unknown>(
   body?: unknown,
 ): Promise<ApiResult<T>> {
   try {
-    const res = await fetch(path, {
+    const res = await fetch(withTrailingSlash(path), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: body === undefined ? undefined : JSON.stringify(body),
@@ -52,7 +60,7 @@ export async function apiPost<T = unknown>(
 
 export async function apiGet<T = unknown>(path: string): Promise<ApiResult<T>> {
   try {
-    const res = await fetch(path, { headers: { Accept: 'application/json' } });
+    const res = await fetch(withTrailingSlash(path), { headers: { Accept: 'application/json' } });
     return toResult<T>(res);
   } catch {
     return {

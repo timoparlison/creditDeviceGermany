@@ -67,6 +67,19 @@ F-002 Guthaben.
   im Backend (im Dashboard-DTO taucht `paymentMethod: CREDIT` auf, aber `FOR_AI_FRONTEND.md`
   dokumentiert nur den Gast-Weg `POST /api/creditInformation`).
 
+### Backend-Security auf `feature/Bestellsystem` (wichtig)
+
+`SecurityConfiguration.kt` hat für `/api/payment/**` **kein** `permitAll()` mehr — die Regel
+`.antMatchers("/api/**").authenticated()` greift. Folgen:
+
+- `GET /api/payment/stripeFeKey` und `POST /api/payment/create-payment-intent` liefern **401
+  ohne Token** — entgegen `FOR_AI_FRONTEND.md` (dort als „Auth: nein" gelistet).
+- Für den Kundenbereich gelöst: eigener authentifizierter Proxy
+  `GET /api/customer/stripe-key` (→ `client.getStripeFeKey(token)`); `DepositForm` nutzt den.
+- **Offen / Backend-Thema:** Der bestehende **Gast-Checkout** (`OrderFlow` → `/api/gcc/stripe-key`,
+  `/api/gcc/payment-intent`) ist damit auf diesem Branch kaputt. Entweder `/api/payment/**`
+  wieder auf `permitAll()` setzen, oder der Gast-Flow braucht ein Konzept (Gast-Token o. ä.).
+
 ### Bekannte offene Punkte / Annahmen
 
 - Konservative Defaults bis zur Business-Klärung: API-Key sofort & ohne Preisanzeige,

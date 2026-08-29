@@ -29,7 +29,7 @@ export function CustomerAuthProvider({ children }: { children: React.ReactNode }
 
   const refresh = useCallback(async () => {
     try {
-      const res = await fetch('/api/customer/auth/account', {
+      const res = await fetch('/api/customer/auth/account/', {
         headers: { Accept: 'application/json' },
       });
       if (res.ok) {
@@ -48,7 +48,7 @@ export function CustomerAuthProvider({ children }: { children: React.ReactNode }
 
   const logout = useCallback(async () => {
     try {
-      await fetch('/api/customer/auth/logout', { method: 'POST' });
+      await fetch('/api/customer/auth/logout/', { method: 'POST' });
     } finally {
       setAccount(null);
       setStatus('anonymous');

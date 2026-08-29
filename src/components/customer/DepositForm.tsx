@@ -10,7 +10,7 @@ import {
 } from '@stripe/react-stripe-js';
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
 import { Loader2 } from 'lucide-react';
-import { apiPost } from '@/lib/customer/api';
+import { apiGet, apiPost } from '@/lib/customer/api';
 import type { DepositResponse } from '@/lib/customer/types';
 import { FormError, FormSuccess, SubmitButton, TextField } from './ui';
 
@@ -39,8 +39,12 @@ export function DepositForm({ onCredited }: { onCredited: () => void }) {
 
     setLoading(true);
     try {
-      const keyRes = await fetch('/api/gcc/stripe-key').then((r) => r.json());
-      if (!keyRes?.stripeKey) throw new Error('stripe key missing');
+      const keyRes = await apiGet<{ stripeKey: string }>('/api/customer/stripe-key');
+      if (!keyRes.ok || !keyRes.data?.stripeKey) {
+        setError(t('balance.paymentInitError'));
+        setLoading(false);
+        return;
+      }
 
       const deposit = await apiPost<DepositResponse>('/api/customer/credit/deposit', {
         amount: value,
@@ -51,7 +55,7 @@ export function DepositForm({ onCredited }: { onCredited: () => void }) {
         return;
       }
 
-      setStripePromise(loadStripe(keyRes.stripeKey));
+      setStripePromise(loadStripe(keyRes.data.stripeKey));
       setClientSecret(deposit.data.clientSecret);
     } catch {
       setError(t('balance.paymentInitError'));
