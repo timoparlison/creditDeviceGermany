@@ -24,7 +24,9 @@ CreditDevice bietet eine Komplettlösung für das gesamte Kreditmanagement aus e
 3. **PolicyManager** — Verwaltung von Kreditversicherungspolicen
 4. **Inkasso** — Forderungseinzug (aus dem 2020 erworbenen Geschäft der Hanse Debitoren Management)
 
-Zielgruppe: B2B-Unternehmen vom Mittelstand (KMU) bis zum Konzern, insbesondere Kreditmanager, Finanz- und Risikoverantwortliche.
+Ergänzend gibt es den **PEP-/Sanctions-Check** als Online-Einzelprüfung: ein Compliance-Screening von Personen und Organisationen gegen internationale Sanktionslisten und PEP-Datenbanken, pro Prüfung abrechenbar und ohne Vertrag oder Login nutzbar.
+
+Zielgruppe: B2B-Unternehmen vom Mittelstand (KMU) bis zum Konzern, insbesondere Kreditmanager, Finanz- und Risikoverantwortliche, Compliance- und Geldwäschebeauftragte.
 
 ## Produkt: Bonitätsinformationen
 
@@ -49,6 +51,20 @@ Der Informationsumfang kann je nach Land unterschiedlich sein.
 **Integration:** REST-API und Webhooks für die Anbindung an bestehende Systeme.
 
 **Online-Shop:** Unter https://creditdevice.de/auskunft/ können Auskünfte direkt online bestellt werden — als Vollauskunft (umfassender Bonitätsbericht mit Stammdaten, Bilanzzahlen, Zahlungserfahrungen, Score und Risikoeinschätzung), Kompaktauskunft (wichtigste Kennzahlen) oder Monitoring (laufende Bonitätsüberwachung). Zahlung per Kreditkarte oder SEPA, Abwicklung über Stripe. Recherche und Bereitstellung durch erfahrene Credit-Analysten.
+
+## Produkt: PEP-/Sanctions-Check
+
+Online-Compliance-Prüfung von Personen und Organisationen gegen internationale Sanktionslisten und Datenbanken politisch exponierter Personen (PEP). Erreichbar unter https://creditdevice.de/pep-check/ (in allen 10 Sprachversionen, z. B. https://creditdevice.de/en/pep-check/).
+
+**Zweck:** Erfüllung von Sorgfaltspflichten aus Geldwäscherecht (GwG), Außenwirtschafts- und Embargorecht sowie KYC-Vorgaben — vor Aufnahme und während einer Geschäftsbeziehung, z. B. für Neukunden, Lieferanten und wirtschaftlich Berechtigte.
+
+**Geprüfte Quellen:** Sanktionslisten u. a. der EU, der UN, des US-amerikanischen OFAC und des britischen OFSI sowie weiterer Behörden, dazu internationale PEP-Datenbanken. Datenbasis ist der Screening-Dienst FirstLink.
+
+**Suchoptionen:** Name (Person oder Organisation), Suchtiefe (weit, allgemein, fokussiert, exakt), Länder, Staatsangehörigkeiten, Kategorien (u. a. Sanktionslisten, PEP), Entitätstypen, eigene Referenz.
+
+**Ergebnis:** Kurzübersicht direkt im Browser (Trefferzahl sowie je Treffer Name, Entitätstyp, Quelle, Listen, Geburtsdaten und weitere Details zum Aufklappen). Der vollständige Bericht wird als CreditDevice-gebrandetes PDF bereitgestellt; Report und Rechnung gehen zusätzlich automatisch per E-Mail an den Besteller.
+
+**Geschäftsmodell:** Preis pro Prüfung, serverseitig aus Produkt und USt-IdNr. berechnet (Reverse Charge bei gültiger EU-USt-IdNr. außerhalb Deutschlands). Der Betrag wird im Checkout vor der Zahlung angezeigt. Keine Grundgebühr, kein Vertrag, kein Login. Zahlung per Kreditkarte oder SEPA über Stripe.
 
 ## Produkt: Credit Management Software
 
@@ -118,6 +134,9 @@ Daten kommen direkt von den führenden Kreditauskunfteien der jeweiligen Länder
 **Gibt es eine API?**
 Ja, REST-API sowie Webhooks für individuelle Integrationen.
 
+**Was ist der PEP-/Sanctions-Check?**
+Eine Online-Compliance-Prüfung: Ein Name wird gegen internationale Sanktionslisten (EU, UN, OFAC, OFSI u. a.) und PEP-Datenbanken abgeglichen. Ergebnis als Kurzübersicht im Browser plus vollständiger PDF-Report; Report und Rechnung zusätzlich per E-Mail. Preis pro Prüfung (dynamisch berechnet, inkl. Reverse Charge), ohne Vertrag oder Login.
+
 ## Wichtige Seiten
 
 - Startseite: https://creditdevice.de
@@ -125,8 +144,9 @@ Ja, REST-API sowie Webhooks für individuelle Integrationen.
 - Credit Management Software: https://creditdevice.de/credit-management-software/
 - PolicyManager: https://creditdevice.de/policymanager/
 - Unternehmensauskunft bestellen: https://creditdevice.de/auskunft/
+- PEP-/Sanctions-Check: https://creditdevice.de/pep-check/
 - Über uns: https://creditdevice.de/ueber-uns/
 - Kontakt: https://creditdevice.de/kontakt/
 - Sitemap: https://creditdevice.de/sitemap.xml
 
-Stand: August 2026. Aktuelle Informationen immer auf https://creditdevice.de.
+Stand: September 2026. Aktuelle Informationen immer auf https://creditdevice.de.
