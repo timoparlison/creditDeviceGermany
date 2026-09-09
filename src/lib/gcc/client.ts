@@ -4,6 +4,8 @@ import type {
   CreatePaymentResponse,
   CreditInformationOrderDto,
   CustomerQueryResult,
+  PepCheckOrderDto,
+  PsCheckResponse,
   StripeKeyResponse,
 } from './types';
 
@@ -117,4 +119,51 @@ export async function submitCreditInformation(
     body_ = text;
   }
   return { ok: res.ok, status: res.status, body: body_ };
+}
+
+/* ------------------------------------------------------------------ *
+ * PEP-/Sanctions-Check                                              *
+ * ------------------------------------------------------------------ */
+
+export async function submitPepCheck(body: PepCheckOrderDto): Promise<{
+  ok: boolean;
+  status: number;
+  data?: PsCheckResponse;
+  retryAfterSeconds?: number;
+}> {
+  const res = await fetch(`${BASE}/api/pepCheck`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  const retryHeader = res.headers.get('X-Rate-Limit-Retry-After-Seconds');
+  const text = await res.text();
+  let data: PsCheckResponse | undefined;
+  try {
+    data = text ? (JSON.parse(text) as PsCheckResponse) : undefined;
+  } catch {
+    data = undefined;
+  }
+  return {
+    ok: res.ok,
+    status: res.status,
+    data,
+    retryAfterSeconds: retryHeader ? Number(retryHeader) : undefined,
+  };
+}
+
+export async function downloadPepReport(
+  firstLinkOrderUUID: string,
+): Promise<{ ok: boolean; status: number; blob?: ArrayBuffer; contentType?: string }> {
+  const url = new URL(`${BASE}/api/pepCheck/download`);
+  url.searchParams.set('firstLinkOrderUUID', firstLinkOrderUUID);
+  const res = await fetch(url.toString());
+  if (!res.ok) return { ok: false, status: res.status };
+  const blob = await res.arrayBuffer();
+  return {
+    ok: true,
+    status: res.status,
+    blob,
+    contentType: res.headers.get('content-type') ?? 'application/pdf',
+  };
 }

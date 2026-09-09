@@ -17,6 +17,7 @@ export const routing = defineRouting({
     '/bonitaetsinformationen': localizedPath('/bonitaetsinformationen', '/credit-information'),
     '/credit-management-software': '/credit-management-software',
     '/policymanager': localizedPath('/policymanager', '/policy-manager'),
+    '/pep-check': '/pep-check',
     '/auskunft': localizedPath('/auskunft', '/credit-inquiry'),
     '/kontakt': localizedPath('/kontakt', '/contact'),
     '/ueber-uns': localizedPath('/ueber-uns', '/about'),

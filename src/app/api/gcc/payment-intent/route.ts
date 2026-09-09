@@ -18,6 +18,7 @@ export async function POST(req: NextRequest) {
       productName: body.productName,
       id: body.id ?? '',
       vatId: body.vatId ?? null,
+      ...(body.idempotencyKey ? { idempotencyKey: body.idempotencyKey } : {}),
     });
     return NextResponse.json(data);
   } catch (e) {
