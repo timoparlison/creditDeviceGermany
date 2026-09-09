@@ -101,7 +101,8 @@ export function OrderFlow({ company, productIds }: Props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           objectId: company.id,
-          productName: firstProduct.apiName,
+          // Backend erwartet den Produktnamen in Großbuchstaben (z. B. "FULL").
+          productName: firstProduct.apiName.toUpperCase(),
           id: '',
           vatId: form.vatId || null,
         }),
@@ -357,6 +358,8 @@ function PaymentStep({
         adult: form.adult,
       },
       reasonCode: { germanCodes: form.reasonCode },
+      // Zahlungs-Gate: Backend liefert ohne verifizierte Stripe-Zahlung 402.
+      paymentIntentId: paymentIntentId ?? '',
     };
 
     const orderRes = await fetch('/api/gcc/credit-information', {

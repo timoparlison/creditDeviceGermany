@@ -15,6 +15,7 @@ export function Footer() {
       { name: nav('creditInformation'), href: '/bonitaetsinformationen' as const },
       { name: nav('creditManagementSoftware'), href: '/credit-management-software' as const },
       { name: nav('policyManager'), href: '/policymanager' as const },
+      { name: nav('pepCheck'), href: '/pep-check' as const },
     ],
     unternehmen: [
       { name: nav('aboutUs'), href: '/ueber-uns' as const },

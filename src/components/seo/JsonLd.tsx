@@ -113,6 +113,34 @@ export function softwareApplicationSchema(input: {
   };
 }
 
+// PEP-/Sanctions-Check als Dienstleistung. Der Preis wird serverseitig aus
+// Produkt + USt-IdNr. (Reverse Charge) berechnet und ist daher nicht als fixer
+// Wert auszeichenbar – das Offer nennt nur Währung, Verfügbarkeit und die
+// dynamische Preisbildung.
+export function pepCheckServiceSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${SITE_URL}/pep-check#service`,
+    name: 'PEP-/Sanctions-Check',
+    serviceType: 'Compliance-Prüfung (PEP- und Sanktionslisten-Screening)',
+    description:
+      'Online-Prüfung von Personen und Organisationen gegen internationale Sanktionslisten (EU, UN, OFAC, OFSI u. a.) und PEP-Datenbanken. Kurzübersicht sofort im Browser, vollständiger Report als CreditDevice-gebrandetes PDF; Report und Rechnung zusätzlich per E-Mail.',
+    provider: { '@id': `${SITE_URL}/#organization` },
+    areaServed: ORGANIZATION.areaServed,
+    audience: { '@type': 'BusinessAudience', audienceType: 'B2B' },
+    url: `${SITE_URL}/pep-check/`,
+    offers: {
+      '@type': 'Offer',
+      url: `${SITE_URL}/pep-check/`,
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+      description:
+        'Preis pro Prüfung, dynamisch berechnet aus Produkt und USt-IdNr. (Reverse Charge bei gültiger EU-USt-IdNr. außerhalb Deutschlands). Anzeige im Checkout vor der Zahlung. Zahlung per Kreditkarte oder SEPA über Stripe. Keine Grundgebühr, kein Vertrag.',
+    },
+  };
+}
+
 // Produkt-Schema mit Preisen pro Preiszone, damit Suchmaschinen und
 // KI-Systeme die Kosten einer Bonitätsauskunft maschinell auslesen können.
 export function creditReportProductSchema(

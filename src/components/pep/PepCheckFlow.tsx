@@ -109,6 +109,10 @@ export function PepCheckFlow() {
   const [stripePromise, setStripePromise] = useState<Promise<Stripe | null> | null>(null);
   const [clientSecret, setClientSecret] = useState<string | null>(null);
   const [paymentIntentId, setPaymentIntentId] = useState<string | null>(null);
+  // Merkmale, für die der aktuelle PaymentIntent angelegt wurde – steuern
+  // Wiederverwendung (unverändert), PUT update (USt-IdNr) oder Neuanlage (Name).
+  const [piName, setPiName] = useState<string | null>(null);
+  const [piVatId, setPiVatId] = useState<string | null>(null);
   const [amount, setAmount] = useState<{ value: number; currency: string } | null>(null);
   const [result, setResult] = useState<PsCheckResponse | null>(null);
 
@@ -145,11 +149,54 @@ export function PepCheckFlow() {
     setStep('orderer');
   };
 
+  const refreshAmount = async (cs: string) => {
+    const stripe = stripePromise ? await stripePromise : null;
+    if (!stripe) return;
+    const { paymentIntent } = await stripe.retrievePaymentIntent(cs);
+    if (paymentIntent?.amount != null) {
+      setAmount({ value: paymentIntent.amount, currency: paymentIntent.currency });
+    }
+  };
+
   const onOrdererSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     setStep('preparing');
+    const nameNow = search.name.trim();
+    const vatNow = orderer.vatId.trim() || null;
     try {
+      // Bestehenden PaymentIntent wiederverwenden, solange der Suchname gleich
+      // bleibt (objectId bindet die Zahlung an die Suche).
+      if (paymentIntentId && clientSecret && stripePromise && piName === nameNow) {
+        if (piVatId === vatNow) {
+          setStep('payment');
+          return;
+        }
+        // USt-IdNr geändert → PUT update, gleicher PaymentIntent, neuer Betrag.
+        const upRes = await fetch('/api/gcc/payment-intent', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            objectId: nameNow,
+            productName: 'PEP',
+            id: paymentIntentId,
+            vatId: vatNow,
+          }),
+        });
+        if (!upRes.ok) {
+          const err = await upRes.json().catch(() => ({}));
+          throw new Error(err?.error ?? `HTTP ${upRes.status}`);
+        }
+        const up = (await upRes.json().catch(() => null)) as { client_secret?: string } | null;
+        const cs = up?.client_secret ?? clientSecret;
+        await refreshAmount(cs);
+        setClientSecret(cs);
+        setPiVatId(vatNow);
+        setStep('payment');
+        return;
+      }
+
+      // Neuen PaymentIntent anlegen.
       const keyRes = await fetch('/api/gcc/stripe-key').then((r) => r.json());
       if (!keyRes?.stripeKey) throw new Error(t('errStripeKey'));
       const promise = loadStripe(keyRes.stripeKey);
@@ -159,10 +206,10 @@ export function PepCheckFlow() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          objectId: search.name.trim(),
+          objectId: nameNow,
           productName: 'PEP',
           id: '',
-          vatId: orderer.vatId.trim() || null,
+          vatId: vatNow,
           idempotencyKey:
             typeof crypto !== 'undefined' && 'randomUUID' in crypto
               ? crypto.randomUUID()
@@ -185,6 +232,8 @@ export function PepCheckFlow() {
 
       setClientSecret(pi.client_secret);
       setPaymentIntentId(pi.id);
+      setPiName(nameNow);
+      setPiVatId(vatNow);
       setStep('payment');
     } catch (err) {
       setError(err instanceof Error ? err.message : t('errGeneric'));
@@ -192,10 +241,14 @@ export function PepCheckFlow() {
     }
   };
 
+  // Nach fehlgeschlagener Bestellung: ein PaymentIntent gilt für genau eine
+  // erfolgreiche Bestellung – für den neuen Versuch einen frischen anlegen.
   const restartPayment = () => {
     setError(null);
     setClientSecret(null);
     setPaymentIntentId(null);
+    setPiName(null);
+    setPiVatId(null);
     setAmount(null);
     setStep('orderer');
   };
@@ -419,12 +472,25 @@ export function PepCheckFlow() {
         {step === 'payment' && clientSecret && stripePromise && (
           <div className="bg-white rounded-xl shadow border border-gray-100 p-6">
             <h2 className="text-xl font-bold text-navy mb-4">{t('paymentTitle')}</h2>
-            {amount && (
-              <p className="mb-4 text-sm text-gray-700">
-                {t('amountLabel')}:{' '}
-                <strong className="text-navy">{formatMoney(amount.value, amount.currency, locale)}</strong>
-              </p>
-            )}
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+              {amount ? (
+                <p className="text-sm text-gray-700">
+                  {t('amountLabel')}:{' '}
+                  <strong className="text-navy">
+                    {formatMoney(amount.value, amount.currency, locale)}
+                  </strong>
+                </p>
+              ) : (
+                <span />
+              )}
+              <button
+                type="button"
+                onClick={() => { setError(null); setStep('orderer'); }}
+                className="text-sm text-primary underline"
+              >
+                {t('editDetails')}
+              </button>
+            </div>
             <Elements
               stripe={stripePromise}
               options={{
@@ -521,7 +587,7 @@ function PaymentStep({
         street: orderer.street,
         city: orderer.city,
         zip: orderer.zip,
-        payment: 'card',
+        payment: 'invoice',
         adult: orderer.adult,
         other: null,
         orderNumber: orderer.orderNumber.slice(0, 20),

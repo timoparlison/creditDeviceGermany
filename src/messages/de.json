@@ -714,6 +714,19 @@
     "hit_relationships": "Beziehungen",
     "hit_additionalInfo": "Weitere Informationen",
     "hit_lastUpdated": "Zuletzt aktualisiert",
-    "hit_sourceLink": "Quelle öffnen"
+    "hit_sourceLink": "Quelle öffnen",
+    "editDetails": "Angaben ändern",
+    "faqTitle": "Häufige Fragen zum PEP-/Sanctions-Check",
+    "faqSubtitle": "Antworten zu Prüfumfang, Preis und Ergebnis.",
+    "faqQ1": "Was ist ein PEP-/Sanctions-Check?",
+    "faqA1": "Eine Compliance-Prüfung: Der Name einer Person oder Organisation wird gegen internationale Sanktionslisten und Datenbanken politisch exponierter Personen (PEP) abgeglichen. So erfüllen Sie Sorgfaltspflichten aus Geldwäscherecht, Außenwirtschaftsrecht und KYC-Vorgaben.",
+    "faqQ2": "Welche Listen und Quellen werden geprüft?",
+    "faqA2": "Sanktionslisten der EU, der UN, des US-amerikanischen OFAC, des britischen OFSI sowie weiterer Behörden, dazu internationale PEP-Datenbanken und – je nach Auswahl – weitere Kategorien. Datenbasis ist der Screening-Dienst FirstLink.",
+    "faqQ3": "Was kostet eine Prüfung?",
+    "faqA3": "Der Preis gilt pro Prüfung und wird im Checkout angezeigt, bevor Sie zahlen. Er wird serverseitig berechnet; bei gültiger EU-USt-IdNr. außerhalb Deutschlands greift die Reverse-Charge-Regelung. Es gibt keine Grundgebühr, keinen Vertrag und keine Mindestabnahme.",
+    "faqQ4": "Welches Ergebnis erhalte ich?",
+    "faqA4": "Direkt im Browser eine Kurzübersicht mit Trefferzahl und den wichtigsten Angaben je Treffer. Den vollständigen Bericht erhalten Sie als CreditDevice-gebrandetes PDF; Report und Rechnung werden zusätzlich automatisch an Ihre E-Mail-Adresse gesendet.",
+    "faqQ5": "Brauche ich einen Vertrag oder Account?",
+    "faqA5": "Nein. Die Prüfung ist ohne Login und ohne Vertrag bestellbar. Die Zahlung erfolgt per Kreditkarte oder SEPA über Stripe."
   }
 }

@@ -1,6 +1,6 @@
 # CreditDevice GmbH
 
-> CreditDevice GmbH (Hamburg, gegründet 2017) ist ein unabhängiger Anbieter einer Komplettlösung für das Kreditmanagement: Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern (Pay-per-Use, ohne Vertrag oder Mindestabnahme), Credit Management Software für professionelles Debitorenmanagement, der PolicyManager für die Verwaltung von Kreditversicherungspolicen (entwickelt in Zusammenarbeit mit Allianz Trade, Atradius und Coface) sowie Inkasso. Zielgruppe sind B2B-Unternehmen vom KMU bis zum Konzern.
+> CreditDevice GmbH (Hamburg, gegründet 2017) ist ein unabhängiger Anbieter einer Komplettlösung für das Kreditmanagement: Bonitätsinformationen und Wirtschaftsauskünfte aus über 200 Ländern (Pay-per-Use, ohne Vertrag oder Mindestabnahme), Credit Management Software für professionelles Debitorenmanagement, der PolicyManager für die Verwaltung von Kreditversicherungspolicen (entwickelt in Zusammenarbeit mit Allianz Trade, Atradius und Coface), ein Online-PEP-/Sanctions-Check zur Compliance-Prüfung gegen internationale Sanktionslisten und PEP-Datenbanken sowie Inkasso. Zielgruppe sind B2B-Unternehmen vom KMU bis zum Konzern.
 
 Die Website ist in 10 Sprachen verfügbar (Deutsch als Standardsprache unter https://creditdevice.de, weitere Sprachen über Sprachpräfix wie /en/, /fr/, /nl/ etc.).
 
@@ -12,6 +12,7 @@ Eine ausführliche Fassung mit allen Fakten zu Unternehmen, Produkten, Preisen u
 - [Credit Management Software](https://creditdevice.de/credit-management-software/): Debitorenmanagement mit Workflows, Mahnwesen, Berichten, Aktionslisten und Reklamationsmanagement. Unternehmenslizenz (alle Nutzer inklusive), Online-Zugang zu über 430 Millionen Unternehmensprofilen weltweit.
 - [PolicyManager](https://creditdevice.de/policymanager/): Verwaltung von Kreditversicherungspolicen, kompatibel mit Allianz Trade, Atradius und Coface. Tägliche Kreditlimit-Updates, Erinnerungen bei Limit-Überschreitung, ab 200 Euro pro Monat.
 - [Unternehmensauskunft online bestellen](https://creditdevice.de/auskunft/): Bonitätsauskünfte (Vollauskunft, Kompaktauskunft, Monitoring) direkt online bestellen, Zahlung per Kreditkarte oder SEPA über Stripe.
+- [PEP-/Sanctions-Check](https://creditdevice.de/pep-check/): Online-Compliance-Prüfung von Personen und Organisationen gegen internationale Sanktionslisten (EU, UN, OFAC, OFSI u. a.) und PEP-Datenbanken. Kurzübersicht sofort im Browser, vollständiger Report als CreditDevice-gebrandetes PDF, Report und Rechnung zusätzlich per E-Mail. Preis pro Prüfung (dynamisch berechnet, inkl. Reverse Charge), ohne Vertrag oder Login, Zahlung über Stripe.
 
 ## Unternehmen
 
@@ -24,6 +25,7 @@ Eine ausführliche Fassung mit allen Fakten zu Unternehmen, Produkten, Preisen u
 - [Credit management software](https://creditdevice.de/en/credit-management-software/): Debtor management, dunning workflows, reports. Company license, all users included.
 - [PolicyManager](https://creditdevice.de/en/policy-manager/): Credit insurance policy management, built with Allianz Trade, Atradius and Coface, from EUR 200/month.
 - [Order a company report](https://creditdevice.de/en/credit-inquiry/): Order credit reports online, payment via Stripe (card or SEPA).
+- [PEP / Sanctions Check](https://creditdevice.de/en/pep-check/): Online compliance screening of people and organisations against international sanctions lists (EU, UN, OFAC, OFSI, etc.) and PEP databases. Summary in the browser, full report as a CreditDevice-branded PDF, report and invoice also by email. Price per check (calculated dynamically, incl. reverse charge), no contract or login, payment via Stripe.
 
 ## Optional
 

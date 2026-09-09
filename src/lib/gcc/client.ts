@@ -79,6 +79,17 @@ export async function createPaymentIntent(
   return jsonOrThrow<CreatePaymentResponse>(res);
 }
 
+export async function updatePaymentIntent(
+  body: CreatePaymentRequest & { id: string },
+): Promise<Partial<CreatePaymentResponse>> {
+  const res = await fetch(`${BASE}/api/payment/update-payment-intent`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  return jsonOrThrow<Partial<CreatePaymentResponse>>(res);
+}
+
 export async function cancelPaymentIntent(clientSecret: string): Promise<void> {
   await fetch(`${BASE}/api/payment/cancel-payment-intent`, {
     method: 'POST',

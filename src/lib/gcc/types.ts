@@ -55,6 +55,9 @@ export type CreatePaymentResponse = {
   client_secret: string;
 };
 
+/** update-payment-intent: gleicher Body wie create, aber mit gesetztem `id` (pi_…). */
+export type UpdatePaymentRequest = CreatePaymentRequest & { id: string };
+
 export type StripeKeyResponse = {
   stripeKey: string;
 };
@@ -81,6 +84,8 @@ export type CreditInformationOrderDto = {
   reportType: string;
   orderer: Orderer;
   reasonCode: { germanCodes?: number };
+  /** Pflicht – succeeded PaymentIntent (productName "FULL"), sonst 402. */
+  paymentIntentId: string;
 };
 
 /* ------------------------------------------------------------------ *

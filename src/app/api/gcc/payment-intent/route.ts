@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createPaymentIntent, GccBackendError } from '@/lib/gcc/client';
+import { createPaymentIntent, GccBackendError, updatePaymentIntent } from '@/lib/gcc/client';
 import type { CreatePaymentRequest } from '@/lib/gcc/types';
 
 export const runtime = 'edge';
@@ -25,6 +25,35 @@ export async function POST(req: NextRequest) {
     if (e instanceof GccBackendError) {
       return NextResponse.json(
         { error: 'Payment Intent konnte nicht erstellt werden.', details: e.body },
+        { status: e.status },
+      );
+    }
+    return NextResponse.json({ error: 'Backend-Fehler.' }, { status: 502 });
+  }
+}
+
+// Aktualisiert einen bestehenden PaymentIntent (z. B. nach USt-IdNr-Änderung).
+export async function PUT(req: NextRequest) {
+  const body = (await req.json()) as Partial<CreatePaymentRequest>;
+  if (!body.objectId || !body.productName || !body.id) {
+    return NextResponse.json(
+      { error: 'objectId, productName und id sind erforderlich.' },
+      { status: 400 },
+    );
+  }
+  try {
+    const data = await updatePaymentIntent({
+      objectId: body.objectId,
+      productName: body.productName,
+      id: body.id,
+      vatId: body.vatId ?? null,
+      ...(body.idempotencyKey ? { idempotencyKey: body.idempotencyKey } : {}),
+    });
+    return NextResponse.json(data ?? {});
+  } catch (e) {
+    if (e instanceof GccBackendError) {
+      return NextResponse.json(
+        { error: 'Payment Intent konnte nicht aktualisiert werden.', details: e.body },
         { status: e.status },
       );
     }
