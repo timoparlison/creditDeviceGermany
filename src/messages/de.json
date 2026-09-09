@@ -727,6 +727,7 @@
     "faqQ4": "Welches Ergebnis erhalte ich?",
     "faqA4": "Direkt im Browser eine Kurzübersicht mit Trefferzahl und den wichtigsten Angaben je Treffer. Den vollständigen Bericht erhalten Sie als CreditDevice-gebrandetes PDF; Report und Rechnung werden zusätzlich automatisch an Ihre E-Mail-Adresse gesendet.",
     "faqQ5": "Brauche ich einen Vertrag oder Account?",
-    "faqA5": "Nein. Die Prüfung ist ohne Login und ohne Vertrag bestellbar. Die Zahlung erfolgt per Kreditkarte oder SEPA über Stripe."
+    "faqA5": "Nein. Die Prüfung ist ohne Login und ohne Vertrag bestellbar. Die Zahlung erfolgt per Kreditkarte oder SEPA über Stripe.",
+    "newCheck": "Weitere Prüfung starten"
   }
 }

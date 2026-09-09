@@ -253,8 +253,30 @@ export function PepCheckFlow() {
     setStep('orderer');
   };
 
+  // Komplett von vorn: für eine weitere, unabhängige PEP-Prüfung. Nötig, weil
+  // ein Klick auf denselben /pep-check-Link die Komponente nicht neu mountet.
+  const resetAll = () => {
+    setSearch(DEFAULT_SEARCH);
+    setOrderer(DEFAULT_ORDERER);
+    setError(null);
+    setClientSecret(null);
+    setPaymentIntentId(null);
+    setPiName(null);
+    setPiVatId(null);
+    setAmount(null);
+    setResult(null);
+    setStep('search');
+  };
+
   if (step === 'done' && result) {
-    return <PepResultView result={result} email={orderer.email} search={search} />;
+    return (
+      <PepResultView
+        result={result}
+        email={orderer.email}
+        search={search}
+        onNewCheck={resetAll}
+      />
+    );
   }
 
   return (
@@ -750,10 +772,12 @@ function PepResultView({
   result,
   email,
   search,
+  onNewCheck,
 }: {
   result: PsCheckResponse;
   email: string;
   search: SearchForm;
+  onNewCheck: () => void;
 }) {
   const t = useTranslations('PepCheck');
   const [downloading, setDownloading] = useState(false);
@@ -793,12 +817,19 @@ function PepResultView({
       <div className="bg-green-50 border border-green-200 rounded-xl p-6">
         <div className="flex items-start gap-3">
           <ShieldCheck className="w-8 h-8 text-green-600 flex-shrink-0" />
-          <div>
+          <div className="flex-1">
             <h2 className="text-xl font-bold text-navy">{t('doneTitle')}</h2>
             <p className="text-gray-700 text-sm mt-1">
               {result.message || t('totalResults', { count: String(total) })}
             </p>
             <p className="text-gray-600 text-sm mt-1">{t('doneBody', { email })}</p>
+            <button
+              type="button"
+              onClick={onNewCheck}
+              className="mt-4 inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white font-semibold rounded-md hover:bg-primary-dark transition-colors"
+            >
+              {t('newCheck')}
+            </button>
           </div>
         </div>
       </div>

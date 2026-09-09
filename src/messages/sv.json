@@ -728,6 +728,7 @@
     "faqQ4": "What result do I get?",
     "faqA4": "A summary in the browser with the number of hits and the key details per hit. The full report is provided as a CreditDevice-branded PDF; report and invoice are also sent automatically to your email address.",
     "faqQ5": "Do I need a contract or account?",
-    "faqA5": "No. The check can be ordered without a login and without a contract. Payment is by card or SEPA via Stripe."
+    "faqA5": "No. The check can be ordered without a login and without a contract. Payment is by card or SEPA via Stripe.",
+    "newCheck": "Start another check"
   }
 }
