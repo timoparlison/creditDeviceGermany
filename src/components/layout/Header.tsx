@@ -40,6 +40,11 @@ export function Header() {
           href: '/policymanager' as const,
           description: t('policyManagerDesc'),
         },
+        {
+          name: t('pepCheck'),
+          href: '/pep-check' as const,
+          description: t('pepCheckDesc'),
+        },
       ],
     },
     { name: t('aboutUs'), href: '/ueber-uns' as const },

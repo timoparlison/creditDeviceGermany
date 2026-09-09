@@ -18,6 +18,7 @@ const routes: Array<{
   { de: '/credit-management-software',en: '/credit-management-software',  priority: 0.9, changeFrequency: 'monthly' },
   { de: '/policymanager',             en: '/policy-manager',              priority: 0.9, changeFrequency: 'monthly' },
   { de: '/auskunft',                  en: '/credit-inquiry',              priority: 0.8, changeFrequency: 'monthly' },
+  { de: '/pep-check',                  en: '/pep-check',                   priority: 0.8, changeFrequency: 'monthly' },
   { de: '/ueber-uns',                 en: '/about',                       priority: 0.7, changeFrequency: 'yearly'  },
   { de: '/kontakt',                   en: '/contact',                     priority: 0.7, changeFrequency: 'yearly'  },
   { de: '/datenschutz',               en: '/privacy-policy',              priority: 0.3, changeFrequency: 'yearly'  },
