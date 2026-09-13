@@ -295,10 +295,8 @@ export function PepCheckFlow() {
                 required
                 value={search.name}
                 onChange={(e) => updateSearch('name', e.target.value)}
-                placeholder={t('namePlaceholder')}
                 className={inputCls}
               />
-              <span className="mt-1 block text-xs text-gray-500">{t('nameHint')}</span>
             </Field>
 
             <Field label={t('searchType')} required>

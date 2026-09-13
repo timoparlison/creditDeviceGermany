@@ -645,8 +645,6 @@
     "benefit3Desc": "Card payment and SEPA, processed via Stripe. Reverse charge with a valid VAT ID.",
     "searchTitle": "Screening data",
     "nameLabel": "Name of the person or organisation to screen",
-    "namePlaceholder": "e.g. John Doe",
-    "nameHint": "In the test / sandbox environment only “John Doe” returns a hit.",
     "searchType": "Search depth",
     "st_broad_search": "Broad – maximum hit coverage",
     "st_general_search": "General – balanced (recommended)",

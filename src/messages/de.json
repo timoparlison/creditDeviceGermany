@@ -645,8 +645,6 @@
     "benefit3Desc": "Kartenzahlung und SEPA, abgewickelt über Stripe. Reverse Charge bei gültiger USt-IdNr.",
     "searchTitle": "Prüfungsdaten",
     "nameLabel": "Name der zu prüfenden Person oder Organisation",
-    "namePlaceholder": "z. B. John Doe",
-    "nameHint": "In der Test-/Sandbox-Umgebung liefert nur „John Doe“ einen Treffer.",
     "searchType": "Suchtiefe",
     "st_broad_search": "Weit – maximale Trefferabdeckung",
     "st_general_search": "Allgemein – ausgewogen (empfohlen)",
