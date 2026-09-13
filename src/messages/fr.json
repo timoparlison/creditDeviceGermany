@@ -209,10 +209,10 @@
       "grossLabel": "TTC",
       "zone1Name": "Allemagne et Autriche",
       "zone1Countries": "Allemagne, Autriche",
-      "zone2Name": "Europe occidentale",
+      "zone2Name": "Europe 1",
       "zone2Countries": "Belgique, Danemark, France, Royaume-Uni, Irlande, Italie, Pays-Bas, Norvège, Suède",
-      "zone3Name": "Europe de l'Est et du Sud",
-      "zone3Countries": "Albanie, Arménie, Azerbaïdjan, Biélorussie, Bosnie-Herzégovine, Bulgarie, Estonie, Finlande, Géorgie, Grèce, Groenland, Islande, Kosovo, Croatie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Moldavie, Monténégro, Macédoine du Nord, Pologne, Portugal, Roumanie, Suisse, Serbie, Slovaquie, Slovénie, Espagne, Svalbard, République tchèque, Ukraine, Hongrie, Chypre",
+      "zone3Name": "Europe 2",
+      "zone3Countries": "Albanie, Arménie, Azerbaïdjan, Biélorussie, Bosnie-Herzégovine, Bulgarie, Estonie, Finlande, Géorgie, Grèce, Groenland, Islande, Kosovo, Croatie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Moldavie, Monténégro, Macédoine du Nord, Pologne, Portugal, Roumanie, Suisse, Serbie, Slovaquie, Slovénie, Espagne, République tchèque, Ukraine, Hongrie, Chypre",
       "zone4Name": "Mondial",
       "zone4Countries": "Tous les autres pays (plus de 160 pays supplémentaires)"
     },

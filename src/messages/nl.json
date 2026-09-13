@@ -209,10 +209,10 @@
       "grossLabel": "incl. btw",
       "zone1Name": "Duitsland en Oostenrijk",
       "zone1Countries": "Duitsland, Oostenrijk",
-      "zone2Name": "West-Europa",
+      "zone2Name": "Europa 1",
       "zone2Countries": "België, Denemarken, Frankrijk, Verenigd Koninkrijk, Ierland, Italië, Nederland, Noorwegen, Zweden",
-      "zone3Name": "Oost- en Zuid-Europa",
-      "zone3Countries": "Albanië, Armenië, Azerbeidzjan, Wit-Rusland, Bosnië-Herzegovina, Bulgarije, Estland, Finland, Georgië, Griekenland, Groenland, IJsland, Kosovo, Kroatië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta, Moldavië, Montenegro, Noord-Macedonië, Polen, Portugal, Roemenië, Zwitserland, Servië, Slowakije, Slovenië, Spanje, Svalbard, Tsjechië, Oekraïne, Hongarije, Cyprus",
+      "zone3Name": "Europa 2",
+      "zone3Countries": "Albanië, Armenië, Azerbeidzjan, Wit-Rusland, Bosnië-Herzegovina, Bulgarije, Estland, Finland, Georgië, Griekenland, Groenland, IJsland, Kosovo, Kroatië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta, Moldavië, Montenegro, Noord-Macedonië, Polen, Portugal, Roemenië, Zwitserland, Servië, Slowakije, Slovenië, Spanje, Tsjechië, Oekraïne, Hongarije, Cyprus",
       "zone4Name": "Wereldwijd",
       "zone4Countries": "Alle andere landen (meer dan 160 extra landen)"
     },

@@ -209,10 +209,10 @@
       "grossLabel": "lordo",
       "zone1Name": "Germania e Austria",
       "zone1Countries": "Germania, Austria",
-      "zone2Name": "Europa occidentale",
+      "zone2Name": "Europa 1",
       "zone2Countries": "Belgio, Danimarca, Francia, Regno Unito, Irlanda, Italia, Paesi Bassi, Norvegia, Svezia",
-      "zone3Name": "Europa orientale e meridionale",
-      "zone3Countries": "Albania, Armenia, Azerbaigian, Bielorussia, Bosnia-Erzegovina, Bulgaria, Estonia, Finlandia, Georgia, Grecia, Groenlandia, Islanda, Kosovo, Croazia, Lettonia, Liechtenstein, Lituania, Lussemburgo, Malta, Moldavia, Montenegro, Macedonia del Nord, Polonia, Portogallo, Romania, Svizzera, Serbia, Slovacchia, Slovenia, Spagna, Svalbard, Repubblica Ceca, Ucraina, Ungheria, Cipro",
+      "zone3Name": "Europa 2",
+      "zone3Countries": "Albania, Armenia, Azerbaigian, Bielorussia, Bosnia-Erzegovina, Bulgaria, Estonia, Finlandia, Georgia, Grecia, Groenlandia, Islanda, Kosovo, Croazia, Lettonia, Liechtenstein, Lituania, Lussemburgo, Malta, Moldavia, Montenegro, Macedonia del Nord, Polonia, Portogallo, Romania, Svizzera, Serbia, Slovacchia, Slovenia, Spagna, Repubblica Ceca, Ucraina, Ungheria, Cipro",
       "zone4Name": "Mondiale",
       "zone4Countries": "Tutti gli altri paesi (oltre 160 paesi aggiuntivi)"
     },

@@ -209,10 +209,10 @@
       "grossLabel": "gross",
       "zone1Name": "Germany & Austria",
       "zone1Countries": "Germany, Austria",
-      "zone2Name": "Western Europe",
+      "zone2Name": "Europe 1",
       "zone2Countries": "Belgium, Denmark, France, United Kingdom, Ireland, Italy, Netherlands, Norway, Sweden",
-      "zone3Name": "Eastern & Southern Europe",
-      "zone3Countries": "Albania, Armenia, Azerbaijan, Belarus, Bosnia-Herzegovina, Bulgaria, Estonia, Finland, Georgia, Greece, Greenland, Iceland, Kosovo, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Montenegro, North Macedonia, Poland, Portugal, Romania, Switzerland, Serbia, Slovakia, Slovenia, Spain, Svalbard, Czech Republic, Ukraine, Hungary, Cyprus",
+      "zone3Name": "Europe 2",
+      "zone3Countries": "Albania, Armenia, Azerbaijan, Belarus, Bosnia-Herzegovina, Bulgaria, Estonia, Finland, Georgia, Greece, Greenland, Iceland, Kosovo, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Montenegro, North Macedonia, Poland, Portugal, Romania, Switzerland, Serbia, Slovakia, Slovenia, Spain, Czech Republic, Ukraine, Hungary, Cyprus",
       "zone4Name": "Worldwide",
       "zone4Countries": "All other countries (over 160 more countries)"
     },

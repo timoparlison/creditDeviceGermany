@@ -120,15 +120,15 @@ export default function BonitaetsinformationenPage() {
               highlight: true,
             },
             {
-              zone: 'Westeuropa',
+              zone: 'Europa 1',
               countries: 'Belgien, Dänemark, Frankreich, Großbritannien, Irland, Italien, Niederlande, Norwegen, Schweden',
               net: '27,73',
               gross: '33,00',
               highlight: false,
             },
             {
-              zone: 'Ost- & Südeuropa',
-              countries: 'Albanien, Armenien, Aserbaidschan, Belarus, Bosnien-Herzegowina, Bulgarien, Estland, Finnland, Georgien, Griechenland, Grönland, Island, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Moldau, Montenegro, Nordmazedonien, Polen, Portugal, Rumänien, Schweiz, Serbien, Slowakei, Slowenien, Spanien, Svalbard, Tschechien, Ukraine, Ungarn, Zypern',
+              zone: 'Europa 2',
+              countries: 'Albanien, Armenien, Aserbaidschan, Belarus, Bosnien-Herzegowina, Bulgarien, Estland, Finnland, Georgien, Griechenland, Grönland, Island, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Moldau, Montenegro, Nordmazedonien, Polen, Portugal, Rumänien, Schweiz, Serbien, Slowakei, Slowenien, Spanien, Tschechien, Ukraine, Ungarn, Zypern',
               net: '35,29',
               gross: '42,00',
               highlight: false,

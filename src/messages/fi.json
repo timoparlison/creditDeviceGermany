@@ -209,10 +209,10 @@
       "grossLabel": "sis. alv",
       "zone1Name": "Saksa ja Itävalta",
       "zone1Countries": "Saksa, Itävalta",
-      "zone2Name": "Länsi-Eurooppa",
+      "zone2Name": "Eurooppa 1",
       "zone2Countries": "Belgia, Tanska, Ranska, Iso-Britannia, Irlanti, Italia, Alankomaat, Norja, Ruotsi",
-      "zone3Name": "Itä- ja Etelä-Eurooppa",
-      "zone3Countries": "Albania, Armenia, Azerbaidžan, Valko-Venäjä, Bosnia-Hertsegovina, Bulgaria, Viro, Suomi, Georgia, Kreikka, Grönlanti, Islanti, Kosovo, Kroatia, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Moldova, Montenegro, Pohjois-Makedonia, Puola, Portugali, Romania, Sveitsi, Serbia, Slovakia, Slovenia, Espanja, Svalbard, Tšekki, Ukraina, Unkari, Kypros",
+      "zone3Name": "Eurooppa 2",
+      "zone3Countries": "Albania, Armenia, Azerbaidžan, Valko-Venäjä, Bosnia-Hertsegovina, Bulgaria, Viro, Suomi, Georgia, Kreikka, Grönlanti, Islanti, Kosovo, Kroatia, Latvia, Liechtenstein, Liettua, Luxemburg, Malta, Moldova, Montenegro, Pohjois-Makedonia, Puola, Portugali, Romania, Sveitsi, Serbia, Slovakia, Slovenia, Espanja, Tšekki, Ukraina, Unkari, Kypros",
       "zone4Name": "Maailmanlaajuinen",
       "zone4Countries": "Kaikki muut maat (yli 160 lisämaata)"
     },

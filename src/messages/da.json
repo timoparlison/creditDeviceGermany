@@ -209,10 +209,10 @@
       "grossLabel": "inkl. moms",
       "zone1Name": "Tyskland og Østrig",
       "zone1Countries": "Tyskland, Østrig",
-      "zone2Name": "Vesteuropa",
+      "zone2Name": "Europa 1",
       "zone2Countries": "Belgien, Danmark, Frankrig, Storbritannien, Irland, Italien, Holland, Norge, Sverige",
-      "zone3Name": "Øst- og Sydeuropa",
-      "zone3Countries": "Albanien, Armenien, Aserbajdsjan, Hviderusland, Bosnien-Hercegovina, Bulgarien, Estland, Finland, Georgien, Grækenland, Grønland, Island, Kosovo, Kroatien, Letland, Liechtenstein, Litauen, Luxembourg, Malta, Moldova, Montenegro, Nordmakedonien, Polen, Portugal, Rumænien, Schweiz, Serbien, Slovakiet, Slovenien, Spanien, Svalbard, Tjekkiet, Ukraine, Ungarn, Cypern",
+      "zone3Name": "Europa 2",
+      "zone3Countries": "Albanien, Armenien, Aserbajdsjan, Hviderusland, Bosnien-Hercegovina, Bulgarien, Estland, Finland, Georgien, Grækenland, Grønland, Island, Kosovo, Kroatien, Letland, Liechtenstein, Litauen, Luxembourg, Malta, Moldova, Montenegro, Nordmakedonien, Polen, Portugal, Rumænien, Schweiz, Serbien, Slovakiet, Slovenien, Spanien, Tjekkiet, Ukraine, Ungarn, Cypern",
       "zone4Name": "Verden",
       "zone4Countries": "Alle andre lande (over 160 flere lande)"
     },
