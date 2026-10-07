@@ -37,7 +37,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <Image
-              src="/creditdevice-logo-orange.svg"
+              src="/creditdevice-logo-white-text.svg"
               alt="CreditDevice"
               width={160}
               height={36}
