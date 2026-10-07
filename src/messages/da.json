@@ -150,7 +150,8 @@
     "title": "Oplev CreditDevice selv",
     "subtitle": "Find ud af, hvordan vores løsninger kan optimere din kreditadministration. Planlæg en demo i dag.",
     "primaryCta": "Anmod om demo",
-    "secondaryCta": "Kreditoplysninger"
+    "secondaryCta": "Kreditoplysninger",
+    "pepCta": "PEP / Sanctions Check"
   },
   "Home": {
     "hero": {

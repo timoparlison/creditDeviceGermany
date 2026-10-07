@@ -19,7 +19,7 @@ export async function CTABanner() {
         <p className="text-lg md:text-xl text-gray-300 mb-10">
           {t('subtitle')}
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center">
           <Button href="/kontakt" variant="primary" size="lg">
             {t('primaryCta')}
             <ArrowRight className="w-5 h-5 ml-2" />
@@ -31,6 +31,14 @@ export async function CTABanner() {
             className="border-white text-white hover:bg-white hover:text-navy"
           >
             {t('secondaryCta')}
+          </Button>
+          <Button
+            href="/pep-check"
+            variant="outline"
+            size="lg"
+            className="border-white text-white hover:bg-white hover:text-navy"
+          >
+            {t('pepCta')}
           </Button>
         </div>
       </div>

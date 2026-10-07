@@ -150,7 +150,8 @@
     "title": "Tutustu CreditDeviceen itse",
     "subtitle": "Ota selvää, miten ratkaisumme voivat optimoida luotonhallintaasi. Varaa demo tänään.",
     "primaryCta": "Pyydä demo",
-    "secondaryCta": "Luottotiedot"
+    "secondaryCta": "Luottotiedot",
+    "pepCta": "PEP / Sanctions Check"
   },
   "Home": {
     "hero": {
