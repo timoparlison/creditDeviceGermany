@@ -25,6 +25,7 @@ export default async function Home({ params }: Props) {
         subtitle={t('hero.subtitle')}
         primaryCta={{ text: t('hero.primaryCta'), href: '/kontakt' }}
         secondaryCta={{ text: t('hero.secondaryCta'), href: '/bonitaetsinformationen' }}
+        tertiaryCta={{ text: t('hero.pepCta'), href: '/pep-check' }}
         image={locale === 'de' ? '/de/credTitelBildNachTeamsCall.png' : '/en/credTitelBildNachTeamsCall.png'}
         imageAlt={t('hero.imageAlt')}
       />

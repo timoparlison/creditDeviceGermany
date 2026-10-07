@@ -16,6 +16,10 @@ interface HeroProps {
     text: string;
     href: string;
   };
+  tertiaryCta?: {
+    text: string;
+    href: string;
+  };
   image?: string;
   imageAlt?: string;
   showImage?: boolean;
@@ -59,6 +63,7 @@ export function Hero({
   subtitle,
   primaryCta,
   secondaryCta,
+  tertiaryCta,
   image = 'https://206.wpcdnnode.com/creditdevice.com/wp-content/uploads/2025/11/Debiteurenbeheer-48.webp',
   imageAlt,
   showImage = true,
@@ -85,8 +90,8 @@ export function Hero({
             <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
               {subtitle}
             </p>
-            {(primaryCta || secondaryCta) && (
-              <div className="flex flex-col sm:flex-row gap-4">
+            {(primaryCta || secondaryCta || tertiaryCta) && (
+              <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
                 {primaryCta && (
                   <Button href={primaryCta.href} variant="primary" size="lg">
                     {primaryCta.text}
@@ -95,6 +100,11 @@ export function Hero({
                 {secondaryCta && (
                   <Button href={secondaryCta.href} variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-navy">
                     {secondaryCta.text}
+                  </Button>
+                )}
+                {tertiaryCta && (
+                  <Button href={tertiaryCta.href} variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-navy">
+                    {tertiaryCta.text}
                   </Button>
                 )}
               </div>
