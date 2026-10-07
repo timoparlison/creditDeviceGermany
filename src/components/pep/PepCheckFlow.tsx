@@ -85,6 +85,21 @@ const SEARCH_TYPES: PepSearchType[] = [
   'exact_search',
 ];
 
+// Spiegel von ALL_PRICES (PEP, PRICE_ZONE_FLAT) im GccOrder-PricingService, damit
+// Netto/Brutto schon vor Anlage des PaymentIntents angezeigt werden können (das Backend
+// liefert für PEP keinen Preis vorab). Bei Preisänderung im Backend hier mitziehen.
+const PEP_PRICE_CENTS = { net: 400, gross: 476, currency: 'eur' };
+
+// Gleiche Regel wie PricingService.isReverseChargeOrNonEu: USt-IdNr ohne DE-Präfix → netto.
+const pepPriceFor = (vatId: string) => {
+  const v = vatId.trim().toUpperCase();
+  const reverse = v !== '' && !v.startsWith('DE');
+  const { net, gross, currency } = PEP_PRICE_CENTS;
+  return reverse
+    ? { net, vat: 0, gross: net, currency, reverse }
+    : { net, vat: gross - net, gross, currency, reverse };
+};
+
 // Stripe verwendet 'nb' für Norwegisch, alle anderen App-Locales passen direkt.
 const toStripeLocale = (locale: string) => (locale === 'no' ? 'nb' : locale);
 
@@ -549,7 +564,7 @@ export function PepCheckFlow() {
       <PepSummary
         search={search}
         countries={countries}
-        amount={amount}
+        price={pepPriceFor(orderer.vatId)}
         locale={locale}
       />
     </div>
@@ -707,12 +722,12 @@ function PaymentStep({
 function PepSummary({
   search,
   countries,
-  amount,
+  price,
   locale,
 }: {
   search: SearchForm;
   countries: { code: string; name: string }[];
-  amount: { value: number; currency: string } | null;
+  price: ReturnType<typeof pepPriceFor>;
   locale: string;
 }) {
   const t = useTranslations('PepCheck');
@@ -752,9 +767,19 @@ function PepSummary({
       </dl>
       <div className="mt-4 pt-4 border-t">
         <div className="flex items-baseline justify-between">
-          <span className="font-semibold text-navy">{t('amountLabel')}</span>
+          <span className="font-semibold text-navy">{t('netLabel')}</span>
           <span className="text-xl font-bold text-navy">
-            {amount ? formatMoney(amount.value, amount.currency, locale) : '–'}
+            {formatMoney(price.net, price.currency, locale)}
+          </span>
+        </div>
+        <div className="mt-1 flex justify-between text-sm text-gray-600">
+          <span>{price.reverse ? t('vatReverseCharge') : t('vatLabel')}</span>
+          <span>{formatMoney(price.vat, price.currency, locale)}</span>
+        </div>
+        <div className="mt-1 flex justify-between text-sm">
+          <span className="text-gray-700">{t('grossLabel')}</span>
+          <span className="font-semibold text-gray-800">
+            {formatMoney(price.gross, price.currency, locale)}
           </span>
         </div>
       </div>
