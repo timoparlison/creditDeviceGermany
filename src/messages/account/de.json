@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "overview": "Übersicht",
+    "logout": "Abmelden",
+    "myAccount": "Mein Konto",
+    "customerNumber": "Kundennr. {number}"
+  },
+  "login": {
+    "title": "Anmelden",
+    "subtitle": "Melden Sie sich mit Ihrer E-Mail-Adresse und Ihrem Passwort an.",
+    "username": "E-Mail",
+    "password": "Passwort",
+    "rememberMe": "Angemeldet bleiben",
+    "submit": "Anmelden",
+    "forgotPassword": "Passwort vergessen?",
+    "noAccount": "Noch kein Kundenkonto?",
+    "registerLink": "Jetzt registrieren",
+    "error": "Anmeldung fehlgeschlagen. Bitte prüfen Sie E-Mail und Passwort.",
+    "notActivated": "Ihr Zugang ist noch nicht aktiviert. Bitte bestätigen Sie zuerst den Link in unserer E-Mail."
+  },
+  "register": {
+    "title": "Zugang erstellen",
+    "subtitle": "Schritt 1 von 2: Legen Sie Ihren persönlichen Zugang an. Danach beantragen Sie Ihr Kundenkonto auf Rechnung.",
+    "password": "Passwort",
+    "passwordHint": "Mindestens 4 Zeichen.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "emailHint": "Mit dieser Adresse melden Sie sich künftig an.",
+    "nextStepHint": "Nach der Bestätigung Ihrer E-Mail-Adresse melden Sie sich an und stellen den Antrag mit Ihren Firmendaten. Wir prüfen ihn und schalten Ihr Kreditlimit frei.",
+    "submit": "Zugang erstellen",
+    "haveAccount": "Bereits registriert?",
+    "loginLink": "Zur Anmeldung",
+    "success": "Fast geschafft! Wir haben Ihnen eine E-Mail geschickt. Bitte bestätigen Sie den darin enthaltenen Link, um Ihren Zugang zu aktivieren.",
+    "error": "Registrierung fehlgeschlagen. Bitte prüfen Sie Ihre Eingaben.",
+    "emailExists": "Zu dieser E-Mail-Adresse gibt es bereits einen Zugang. Bitte melden Sie sich an oder setzen Sie Ihr Passwort zurück."
+  },
+  "forgotPassword": {
+    "title": "Passwort zurücksetzen",
+    "subtitle": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link zum Zurücksetzen.",
+    "email": "E-Mail",
+    "submit": "Link anfordern",
+    "success": "Wenn zu dieser Adresse ein Zugang existiert, haben wir Ihnen eine E-Mail mit den nächsten Schritten geschickt.",
+    "backToLogin": "Zurück zur Anmeldung"
+  },
+  "resetPassword": {
+    "title": "Neues Passwort vergeben",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort wiederholen",
+    "submit": "Passwort speichern",
+    "mismatch": "Die Passwörter stimmen nicht überein.",
+    "success": "Ihr Passwort wurde geändert. Sie können sich jetzt anmelden.",
+    "missingKey": "Der Link ist unvollständig oder ungültig.",
+    "invalidKey": "Der Link ist ungültig oder abgelaufen. Bitte fordern Sie einen neuen an."
+  },
+  "activate": {
+    "title": "Zugang aktivieren",
+    "successBody": "Ihr Zugang ist jetzt aktiviert. Melden Sie sich an, um Ihr Kundenkonto zu beantragen.",
+    "errorBody": "Dieser Aktivierungslink ist ungültig oder wurde bereits verwendet. Falls Sie sich noch nicht anmelden können, kontaktieren Sie uns.",
+    "missingKey": "Es wurde kein Aktivierungsschlüssel übergeben. Bitte öffnen Sie den Link aus unserer E-Mail erneut.",
+    "toLogin": "Zur Anmeldung"
+  },
+  "common": {
+    "loading": "Wird geladen …",
+    "retry": "Erneut versuchen",
+    "loadError": "Die Daten konnten nicht geladen werden. Bitte laden Sie die Seite neu."
+  }
+}

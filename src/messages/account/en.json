@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "logout": "Log out",
+    "myAccount": "My account",
+    "customerNumber": "Customer no. {number}"
+  },
+  "login": {
+    "title": "Log in",
+    "subtitle": "Log in with your e-mail address and password.",
+    "username": "E-mail",
+    "password": "Password",
+    "rememberMe": "Keep me logged in",
+    "submit": "Log in",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "No customer account yet?",
+    "registerLink": "Register now",
+    "error": "Login failed. Please check your e-mail and password.",
+    "notActivated": "Your access has not been activated yet. Please confirm the link in our e-mail first."
+  },
+  "register": {
+    "title": "Create access",
+    "subtitle": "Step 1 of 2: create your personal access. Then apply for your customer account on invoice.",
+    "password": "Password",
+    "passwordHint": "At least 4 characters.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "E-mail",
+    "emailHint": "You will log in with this address.",
+    "nextStepHint": "After confirming your e-mail address, log in and submit the application with your company details. We review it and activate your credit limit.",
+    "submit": "Create access",
+    "haveAccount": "Already registered?",
+    "loginLink": "Go to login",
+    "success": "Almost done! We have sent you an e-mail. Please confirm the link in it to activate your access.",
+    "error": "Registration failed. Please check your entries.",
+    "emailExists": "An access already exists for this e-mail address. Please log in or reset your password."
+  },
+  "forgotPassword": {
+    "title": "Reset password",
+    "subtitle": "Enter your e-mail address. We will send you a link to reset your password.",
+    "email": "E-mail",
+    "submit": "Request link",
+    "success": "If an access exists for this address, we have sent you an e-mail with the next steps.",
+    "backToLogin": "Back to login"
+  },
+  "resetPassword": {
+    "title": "Set a new password",
+    "newPassword": "New password",
+    "confirmPassword": "Repeat password",
+    "submit": "Save password",
+    "mismatch": "The passwords do not match.",
+    "success": "Your password has been changed. You can now log in.",
+    "missingKey": "The link is incomplete or invalid.",
+    "invalidKey": "The link is invalid or has expired. Please request a new one."
+  },
+  "activate": {
+    "title": "Activate access",
+    "successBody": "Your access is now active. Log in to apply for your customer account.",
+    "errorBody": "This activation link is invalid or has already been used. If you still cannot log in, please contact us.",
+    "missingKey": "No activation key was provided. Please open the link from our e-mail again.",
+    "toLogin": "Go to login"
+  },
+  "common": {
+    "loading": "Loading …",
+    "retry": "Try again",
+    "loadError": "The data could not be loaded. Please reload the page."
+  }
+}
