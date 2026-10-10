@@ -30,5 +30,9 @@ export const routing = defineRouting({
     '/konto/registrieren': localizedPath('/konto/registrieren', '/account/register'),
     '/konto/passwort-vergessen': localizedPath('/konto/passwort-vergessen', '/account/forgot-password'),
     '/konto/passwort-zuruecksetzen': localizedPath('/konto/passwort-zuruecksetzen', '/account/reset-password'),
+    '/konto/bestellen': localizedPath('/konto/bestellen', '/account/order'),
+    '/konto/bestellungen': localizedPath('/konto/bestellungen', '/account/orders'),
+    '/konto/rechnungen': localizedPath('/konto/rechnungen', '/account/invoices'),
+    '/konto/api-zugang': localizedPath('/konto/api-zugang', '/account/api-access'),
   },
 });

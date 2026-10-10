@@ -3,7 +3,7 @@ import { SITE_URL } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
-const DISALLOWED = ['/api/', '/auskunft/bestaetigung', '/auskunft/ergebnisse'];
+const DISALLOWED = ['/api/', '/admin/', '/auskunft/bestaetigung', '/auskunft/ergebnisse'];
 
 // KI-Crawler explizit erlauben (Trainings-, Such- und Abruf-Bots).
 // Hinweis: Eine spezifische User-Agent-Gruppe ersetzt die '*'-Gruppe

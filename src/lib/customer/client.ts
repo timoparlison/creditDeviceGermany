@@ -4,9 +4,12 @@
 
 import type {
   Account,
+  AccountOverview,
   AuthResponse,
+  CollectiveInvoiceView,
   CustomerAccount,
   LoginRequest,
+  PriceQuote,
   ProblemFieldError,
   RegistrationRequest,
   ResetPasswordFinishRequest,
@@ -146,4 +149,20 @@ export async function getCustomerAccount(token: string): Promise<CustomerAccount
     if (e instanceof CustomerBackendError && e.status === 404) return null;
     throw e;
   }
+}
+
+export function getAccountOverview(token: string): Promise<AccountOverview> {
+  return request<AccountOverview>('/api/portal/account/overview', { token });
+}
+
+/** Own prices incl. discount and VAT; without filter one row per product and price zone. */
+export function getPrices(
+  token: string,
+  filter: { country?: string; creditSafeObjectId?: string } = {},
+): Promise<PriceQuote[]> {
+  return request<PriceQuote[]>('/api/portal/prices', { token, query: filter });
+}
+
+export function getInvoices(token: string): Promise<CollectiveInvoiceView[]> {
+  return request<CollectiveInvoiceView[]>('/api/portal/invoices', { token });
 }

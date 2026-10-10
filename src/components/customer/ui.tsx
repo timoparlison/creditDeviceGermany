@@ -97,3 +97,76 @@ export function SubmitButton({
     </button>
   );
 }
+
+type SelectFieldProps = {
+  label: string;
+  name: string;
+  value: string;
+  onChange: (value: string) => void;
+  options: { value: string; label: string }[];
+  required?: boolean;
+  disabled?: boolean;
+  error?: string;
+  hint?: string;
+};
+
+export function SelectField({
+  label,
+  name,
+  value,
+  onChange,
+  options,
+  required,
+  disabled,
+  error,
+  hint,
+}: SelectFieldProps) {
+  return (
+    <label className="block">
+      <span className="block text-sm font-medium text-gray-700 mb-1">
+        {label}
+        {required && <span className="text-red-500 ml-0.5">*</span>}
+      </span>
+      <select
+        name={name}
+        value={value}
+        required={required}
+        disabled={disabled}
+        aria-invalid={error ? true : undefined}
+        onChange={(e) => onChange(e.target.value)}
+        className={inputCls}
+      >
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+      {hint && !error && <span className="block text-xs text-gray-500 mt-1">{hint}</span>}
+      {error && <span className="block text-xs text-red-600 mt-1">{error}</span>}
+    </label>
+  );
+}
+
+/** White content card used across the portal pages. */
+export function Card({
+  title,
+  children,
+  actions,
+}: {
+  title?: React.ReactNode;
+  children: React.ReactNode;
+  actions?: React.ReactNode;
+}) {
+  return (
+    <section className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+      {(title || actions) && (
+        <div className="flex items-center justify-between gap-4 mb-4">
+          {title && <h2 className="text-lg font-semibold text-navy">{title}</h2>}
+          {actions}
+        </div>
+      )}
+      {children}
+    </section>
+  );
+}

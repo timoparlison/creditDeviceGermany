@@ -78,7 +78,7 @@ const DEFAULT_ORDERER: OrdererForm = {
   adult: true,
 };
 
-const SEARCH_TYPES: PepSearchType[] = [
+export const SEARCH_TYPES: PepSearchType[] = [
   'broad_search',
   'general_search',
   'focused_search',
@@ -889,7 +889,7 @@ function PepResultView({
   );
 }
 
-function PepResultCard({ hit }: { hit: PsCheckResult }) {
+export function PepResultCard({ hit }: { hit: PsCheckResult }) {
   const t = useTranslations('PepCheck');
   const [open, setOpen] = useState(false);
 
@@ -1001,7 +1001,7 @@ function DetailRow({ label, value }: { label: string; value?: string }) {
  * kleine Helfer                                                     *
  * ------------------------------------------------------------------ */
 
-function MultiCountrySelect({
+export function MultiCountrySelect({
   options,
   value,
   onChange,
@@ -1049,7 +1049,7 @@ function Field({
   );
 }
 
-function splitList(raw: string): string[] {
+export function splitList(raw: string): string[] {
   return raw
     .split(',')
     .map((s) => s.trim())

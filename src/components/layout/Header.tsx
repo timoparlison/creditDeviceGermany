@@ -8,7 +8,6 @@ import { Link } from '@/i18n/navigation';
 import { Container } from '../ui/Container';
 import { Button } from '../ui/Button';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import { AccountMenu } from '../customer/AccountMenu';
 
 const loginLinks = [
   { name: 'CreditManagement', href: 'https://app.directdevice.info/dam/auth/login/' },
@@ -17,6 +16,7 @@ const loginLinks = [
 
 export function Header() {
   const t = useTranslations('Navigation');
+  const tAccount = useTranslations('Account');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [loginDropdownOpen, setLoginDropdownOpen] = useState(false);
@@ -134,12 +134,17 @@ export function Header() {
                         {link.name}
                       </a>
                     ))}
+                    <Link
+                      href="/konto"
+                      onClick={() => setLoginDropdownOpen(false)}
+                      className="block px-4 py-2 text-navy hover:bg-gray-50 hover:text-primary transition-colors"
+                    >
+                      {tAccount('nav.portal')}
+                    </Link>
                   </div>
                 </div>
               )}
             </div>
-
-            <AccountMenu />
 
             <LanguageSwitcher />
 
@@ -205,11 +210,14 @@ export function Header() {
                     {link.name}
                   </a>
                 ))}
+                <Link
+                  href="/konto"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block px-2 py-2 text-gray-600 hover:text-primary"
+                >
+                  {tAccount('nav.portal')}
+                </Link>
               </div>
-            </div>
-
-            <div className="py-2 border-t mt-2 px-2">
-              <AccountMenu onNavigate={() => setMobileMenuOpen(false)} />
             </div>
 
             <div className="py-2 border-t mt-2 px-2">

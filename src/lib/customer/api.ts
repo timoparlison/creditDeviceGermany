@@ -39,13 +39,10 @@ async function toResult<T>(res: Response): Promise<ApiResult<T>> {
   };
 }
 
-export async function apiPost<T = unknown>(
-  path: string,
-  body?: unknown,
-): Promise<ApiResult<T>> {
+async function apiSend<T>(method: 'POST' | 'PUT' | 'DELETE', path: string, body?: unknown): Promise<ApiResult<T>> {
   try {
     const res = await fetch(withTrailingSlash(path), {
-      method: 'POST',
+      method,
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: body === undefined ? undefined : JSON.stringify(body),
     });
@@ -57,6 +54,10 @@ export async function apiPost<T = unknown>(
     };
   }
 }
+
+export const apiPost = <T = unknown>(path: string, body?: unknown) => apiSend<T>('POST', path, body);
+export const apiPut = <T = unknown>(path: string, body?: unknown) => apiSend<T>('PUT', path, body);
+export const apiDelete = <T = unknown>(path: string) => apiSend<T>('DELETE', path);
 
 export async function apiGet<T = unknown>(path: string): Promise<ApiResult<T>> {
   try {
