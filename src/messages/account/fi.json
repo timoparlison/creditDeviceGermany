@@ -223,7 +223,9 @@
     "baseUrl": "Perus-URL",
     "header": "Tunnistautuminen",
     "docsLink": "Avaa API-dokumentaatio",
-    "docsLoginHint": "Dokumentaatio kysyy kirjautumistietojasi (sähköposti ja salasana)."
+    "docsLoginHint": "Dokumentaatio kysyy kirjautumistietojasi (sähköposti ja salasana).",
+    "listError": "Nykyisiä avaimia ei voitu ladata. Voit silti luoda uuden avaimen.",
+    "unknown": "Tila tuntematon."
   },
   "password": {
     "title": "Vaihda salasana",

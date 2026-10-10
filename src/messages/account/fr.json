@@ -223,7 +223,9 @@
     "baseUrl": "URL de base",
     "header": "Authentification",
     "docsLink": "Ouvrir la documentation API",
-    "docsLoginHint": "La documentation vous demandera vos identifiants (e-mail et mot de passe)."
+    "docsLoginHint": "La documentation vous demandera vos identifiants (e-mail et mot de passe).",
+    "listError": "Les clés existantes n'ont pas pu être chargées. Vous pouvez tout de même créer une nouvelle clé.",
+    "unknown": "Statut inconnu."
   },
   "password": {
     "title": "Changer le mot de passe",

@@ -223,7 +223,9 @@
     "baseUrl": "Basis-URL",
     "header": "Authenticatie",
     "docsLink": "API-documentatie openen",
-    "docsLoginHint": "De documentatie vraagt om uw inloggegevens (e-mail en wachtwoord)."
+    "docsLoginHint": "De documentatie vraagt om uw inloggegevens (e-mail en wachtwoord).",
+    "listError": "De bestaande sleutels konden niet worden geladen. U kunt toch een nieuwe sleutel aanmaken.",
+    "unknown": "Status onbekend."
   },
   "password": {
     "title": "Wachtwoord wijzigen",

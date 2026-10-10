@@ -223,7 +223,9 @@
     "baseUrl": "Basis-URL",
     "header": "Godkendelse",
     "docsLink": "Åbn API-dokumentationen",
-    "docsLoginHint": "Dokumentationen beder om dine loginoplysninger (e-mail og adgangskode)."
+    "docsLoginHint": "Dokumentationen beder om dine loginoplysninger (e-mail og adgangskode).",
+    "listError": "De eksisterende nøgler kunne ikke indlæses. Du kan stadig oprette en ny nøgle.",
+    "unknown": "Status ukendt."
   },
   "password": {
     "title": "Skift adgangskode",

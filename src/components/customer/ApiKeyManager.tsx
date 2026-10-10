@@ -5,16 +5,21 @@ import { useLocale, useTranslations } from 'next-intl';
 import { AlertTriangle, Check, Copy, ExternalLink, KeyRound, Loader2 } from 'lucide-react';
 import { apiGet, apiPost } from '@/lib/customer/api';
 import { formatDateTime } from '@/lib/customer/format';
-import type { ApiKeyMode, ApiKeyView } from '@/lib/customer/types';
+import type { ApiKeyMode, ApiKeyView, CustomerError } from '@/lib/customer/types';
 import { Card, FormError } from './ui';
 
 const MODES: ApiKeyMode[] = ['LIVE', 'TEST'];
+
+/** Backend status/key appended so problems are diagnosable (e.g. 404 = backend without key endpoints). */
+const detail = (e: CustomerError) => ` (HTTP ${e.status}${e.code ? `, ${e.code}` : ''})`;
 
 export function ApiKeyManager({ apiBaseUrl, docsUrl }: { apiBaseUrl: string; docsUrl: string }) {
   const t = useTranslations('Account');
   const locale = useLocale();
 
   const [keys, setKeys] = useState<ApiKeyView[] | null>(null);
+  /** The list could not be loaded — keys can still be created. */
+  const [listFailed, setListFailed] = useState(false);
   const [busy, setBusy] = useState<ApiKeyMode | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [fresh, setFresh] = useState<{ mode: ApiKeyMode; apiKey: string } | null>(null);
@@ -22,8 +27,14 @@ export function ApiKeyManager({ apiBaseUrl, docsUrl }: { apiBaseUrl: string; doc
 
   const load = useCallback(async () => {
     const res = await apiGet<ApiKeyView[]>('/api/customer/portal/api-keys');
-    if (res.ok) setKeys(res.data);
-    else setError(t('common.loadError'));
+    if (res.ok) {
+      setKeys(Array.isArray(res.data) ? res.data : []);
+      setListFailed(false);
+    } else {
+      setKeys([]);
+      setListFailed(true);
+      setError(t('api.listError') + detail(res.error));
+    }
   }, [t]);
 
   useEffect(() => {
@@ -38,6 +49,10 @@ export function ApiKeyManager({ apiBaseUrl, docsUrl }: { apiBaseUrl: string; doc
     const res = await apiPost<{ apiKey: string }>(`/api/customer/portal/api-key?mode=${mode}`);
     setBusy(null);
     if (!res.ok) {
+      setError(t('api.error') + detail(res.error));
+      return;
+    }
+    if (!res.data?.apiKey) {
       setError(t('api.error'));
       return;
     }
@@ -109,12 +124,12 @@ export function ApiKeyManager({ apiBaseUrl, docsUrl }: { apiBaseUrl: string; doc
                   </div>
                 </dl>
               ) : (
-                <p className="text-sm text-gray-500 mb-4">{t('api.none')}</p>
+                <p className="text-sm text-gray-500 mb-4">{listFailed ? t('api.unknown') : t('api.none')}</p>
               )}
               <button
                 type="button"
                 disabled={busy !== null || keys === null}
-                onClick={() => create(mode, Boolean(key))}
+                onClick={() => create(mode, Boolean(key) || listFailed)}
                 className={`inline-flex items-center gap-2 px-4 py-2 rounded-md font-semibold disabled:opacity-60 ${
                   key ? 'border border-gray-300 text-navy hover:bg-gray-50' : 'bg-primary text-white hover:bg-primary-dark'
                 }`}

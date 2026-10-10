@@ -223,7 +223,9 @@
     "baseUrl": "URL di base",
     "header": "Autenticazione",
     "docsLink": "Apri la documentazione API",
-    "docsLoginHint": "La documentazione richiede le tue credenziali (e-mail e password)."
+    "docsLoginHint": "La documentazione richiede le tue credenziali (e-mail e password).",
+    "listError": "Impossibile caricare le chiavi esistenti. Puoi comunque creare una nuova chiave.",
+    "unknown": "Stato sconosciuto."
   },
   "password": {
     "title": "Cambia password",

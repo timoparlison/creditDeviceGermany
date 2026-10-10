@@ -223,7 +223,9 @@
     "baseUrl": "Basis-URL",
     "header": "Autentisering",
     "docsLink": "Åpne API-dokumentasjonen",
-    "docsLoginHint": "Dokumentasjonen ber om innloggingsopplysningene dine (e-post og passord)."
+    "docsLoginHint": "Dokumentasjonen ber om innloggingsopplysningene dine (e-post og passord).",
+    "listError": "De eksisterende nøklene kunne ikke lastes. Du kan likevel opprette en ny nøkkel.",
+    "unknown": "Status ukjent."
   },
   "password": {
     "title": "Endre passord",

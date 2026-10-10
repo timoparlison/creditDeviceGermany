@@ -104,6 +104,11 @@ Fehler: 401 nicht angemeldet, 403 `error.customerNotApproved`, 402 `error.credit
 - 2026-10-10 Korrektur (Timo): kein eigener Anmelde-Button im Header. Das Portal ist der **dritte Eintrag im Login-Dropdown**
   (neben CreditManagement/PolicyManagement), Label `Account.nav.portal` („Auskunftsportal“), Link `/konto` (Middleware → Login).
   `AccountMenu.tsx` entfernt.
+- 2026-10-10 Korrektur (Timo): Admin landete nach Portal-Login im Antragsformular. Jetzt: `LoginForm` schickt ROLE_ADMIN nach `/admin/`,
+  `(app)/layout.tsx` leitet Admins bei jedem `/konto`-Aufruf nach `/admin/` um.
+- 2026-10-10 „Oberfläche kann noch nicht mit API-Keys umgehen“ (Timo, Symptom noch nicht genau bekannt): `ApiKeyManager` robuster –
+  schlägt `GET /api-keys` fehl, bleiben die Erzeugen-Buttons nutzbar, Fehler zeigen HTTP-Status + Backend-Key; `format.ts` toleriert
+  Zahl-/Array-Zeitstempel. Vertrag Frontend↔Backend geprüft, passt. Ursache offen (prüfen: Stand des Test-Backends, enthält es R-AX-6/7?).
 
 ## Testdrehbuch Ende-zu-Ende (lokales Backend auf :8080)
 

@@ -4,6 +4,7 @@ import { getPathname } from '@/i18n/navigation';
 import { getAccount, getCustomerAccount } from '@/lib/customer/client';
 import { getSessionToken } from '@/lib/customer/session';
 import { AccountShell } from '@/components/customer/AccountShell';
+import { ROLE_ADMIN } from '@/lib/customer/types';
 
 export const runtime = 'edge';
 
@@ -30,6 +31,8 @@ export default async function AccountAppLayout({
     // Cookie present but token rejected/expired — send to login.
     redirect(loginPath);
   }
+  // Admins have no customer account; their area is /admin (outside next-intl).
+  if (shell.account.authorities.includes(ROLE_ADMIN)) redirect('/admin/');
   return (
     <AccountShell account={shell.account} approved={shell.approved} customerNumber={shell.customerNumber}>
       {children}

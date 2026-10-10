@@ -7,7 +7,7 @@ import { Link } from '@/i18n/navigation';
 import { apiPost } from '@/lib/customer/api';
 import { useCustomerAuth } from './CustomerAuthProvider';
 import { FormError, SubmitButton, TextField } from './ui';
-import type { Account } from '@/lib/customer/types';
+import { ROLE_ADMIN, type Account } from '@/lib/customer/types';
 
 export function LoginForm() {
   const t = useTranslations('Account');
@@ -51,6 +51,11 @@ export function LoginForm() {
     }
 
     await refresh();
+    if (result.data.account.authorities.includes(ROLE_ADMIN)) {
+      // Admins work in /admin, not in the customer portal.
+      window.location.assign('/admin/');
+      return;
+    }
     const redirect = params.get('redirect');
     router.replace(redirect && redirect.startsWith('/') ? redirect : '/konto');
   };

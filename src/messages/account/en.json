@@ -223,7 +223,9 @@
     "baseUrl": "Base URL",
     "header": "Authentication",
     "docsLink": "Open API documentation",
-    "docsLoginHint": "The documentation asks for your login (e-mail and password)."
+    "docsLoginHint": "The documentation asks for your login (e-mail and password).",
+    "listError": "The existing keys could not be loaded. You can still create a new key.",
+    "unknown": "Status unknown."
   },
   "password": {
     "title": "Change password",

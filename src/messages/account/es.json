@@ -223,7 +223,9 @@
     "baseUrl": "URL base",
     "header": "Autenticación",
     "docsLink": "Abrir documentación de la API",
-    "docsLoginHint": "La documentación le pedirá sus datos de acceso (correo electrónico y contraseña)."
+    "docsLoginHint": "La documentación le pedirá sus datos de acceso (correo electrónico y contraseña).",
+    "listError": "No se pudieron cargar las claves existentes. Aun así puede crear una clave nueva.",
+    "unknown": "Estado desconocido."
   },
   "password": {
     "title": "Cambiar contraseña",

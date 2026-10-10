@@ -223,7 +223,9 @@
     "baseUrl": "Basis-URL",
     "header": "Authentifizierung",
     "docsLink": "API-Dokumentation öffnen",
-    "docsLoginHint": "Die Dokumentation fragt nach Ihren Zugangsdaten (E-Mail und Passwort)."
+    "docsLoginHint": "Die Dokumentation fragt nach Ihren Zugangsdaten (E-Mail und Passwort).",
+    "listError": "Die vorhandenen Schlüssel konnten nicht geladen werden. Sie können trotzdem einen neuen Schlüssel erzeugen.",
+    "unknown": "Status unbekannt."
   },
   "password": {
     "title": "Passwort ändern",
