@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Elements, PaymentElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import { loadStripe, type Stripe } from '@stripe/stripe-js';
 import { Download, Loader2, ShieldCheck } from 'lucide-react';
+import { reportFileName } from '@/lib/gcc/reportFileName';
 import {
   PRODUCT_CATALOG,
   formatPrice,
@@ -122,7 +123,7 @@ export function OrderFlow({ company, productIds }: Props) {
   };
 
   if (step === 'done') {
-    return <OrderDone creditSafeObjectId={company.id} />;
+    return <OrderDone creditSafeObjectId={company.id} companyName={company.name} />;
   }
 
   return (
@@ -392,7 +393,7 @@ function PaymentStep({
   );
 }
 
-function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
+function OrderDone({ creditSafeObjectId, companyName }: { creditSafeObjectId: string; companyName: string }) {
   const t = useTranslations('OrderFlow');
   const [downloading, setDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
@@ -409,7 +410,7 @@ function OrderDone({ creditSafeObjectId }: { creditSafeObjectId: string }) {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `creditinformation${creditSafeObjectId}.pdf`;
+      a.download = reportFileName(companyName || creditSafeObjectId);
       document.body.appendChild(a);
       a.click();
       a.remove();

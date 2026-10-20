@@ -12,6 +12,7 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import { countryOptions } from '@/lib/countries';
+import { reportFileName } from '@/lib/gcc/reportFileName';
 import type {
   PepCheckOrderDto,
   PepSearch,
@@ -823,7 +824,7 @@ function PepResultView({
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `pep-check-${result.orderUUID}.pdf`;
+      a.download = reportFileName(search.name.trim());
       document.body.appendChild(a);
       a.click();
       a.remove();
