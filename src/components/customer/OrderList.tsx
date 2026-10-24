@@ -143,7 +143,12 @@ export function OrderList() {
                           {t(`products.${o.product}`)}
                           {o.channel === 'API' && <span className="ml-1 text-xs text-gray-400">(API)</span>}
                         </td>
-                        <td className="py-2 pr-4 text-gray-600 break-all">{o.objectRef ?? '–'}</td>
+                        <td
+                          className="py-2 pr-4 text-gray-600 break-all"
+                          title={o.objectName && o.objectRef ? o.objectRef : undefined}
+                        >
+                          {o.objectName || o.objectRef || '–'}
+                        </td>
                         <td className="py-2 pr-4 text-gray-600">{o.customerReference ?? '–'}</td>
                         <td className="py-2 pr-4 text-right">{money(o.net)}</td>
                         <td className="py-2 pr-4 text-right font-medium">{money(o.gross)}</td>

@@ -172,6 +172,8 @@ export type CustomerOrderView = {
   product: Product;
   orderedAt: string;
   objectRef: string | null;
+  /** Lesbares Suchobjekt: Firmenname (FULL) bzw. geprüfter Name (PEP); fehlt bei älteren Backends. */
+  objectName?: string | null;
   customerReference: string | null;
   channel: OrderChannel;
   net: number;
@@ -185,6 +187,8 @@ export type CustomerOrderDetail = {
   product: Product;
   price: PriceView;
   objectRef: string | null;
+  /** Lesbares Suchobjekt: Firmenname (FULL) bzw. geprüfter Name (PEP); fehlt bei älteren Backends. */
+  objectName?: string | null;
   customerReference: string | null;
   channel: OrderChannel;
   invoiced: boolean;
