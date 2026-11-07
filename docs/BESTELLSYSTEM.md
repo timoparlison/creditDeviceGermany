@@ -16,7 +16,7 @@ Schritt ohne ✅. Nach jedem Schritt Status + Notizen hier aktualisieren.
 - **BFF:** JWT im httpOnly-Cookie `cd_session`; Browser spricht nur mit Next-Route-Handlern unter
   `src/app/api/customer/**` bzw. `src/app/api/admin/**` (edge runtime), die mit Bearer-Token an
   `GCC_BACKEND_URL` weiterreichen. Kein `cache:` in `fetch` (Workers-Runtime wirft).
-- **Kundenportal:** `src/app/[locale]/konto/**` (de) / `/account/**` (andere Locales), alle 10 Sprachen.
+- **Kundenportal:** `src/app/[locale]/konto/**` (de) / `/account/**` (en). Nur noch Deutsch und Englisch (2026-11-07: es/fr/it/nl/sv/no/da/fi entfernt).
 - **Admin:** `src/app/admin/**` außerhalb von `[locale]`, nur Deutsch, `noindex`, in `robots.ts` gesperrt.
   Login über dieselbe JHipster-Anmeldung; Zugriff nur mit `ROLE_ADMIN` (aus `/api/account` `authorities`),
   Prüfung im Layout und in jedem Admin-Route-Handler (Backend prüft zusätzlich).

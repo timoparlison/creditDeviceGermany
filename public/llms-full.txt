@@ -11,7 +11,7 @@ Dieses Dokument fasst die wesentlichen Fakten über die CreditDevice GmbH und ih
 - **Kontakt:** Telefon +49 40 890692990, E-Mail info@creditdevice.de
 - **Geschäftszeiten:** Montag bis Freitag, 9:00–17:00 Uhr
 - **USt-IdNr.:** DE313990199
-- **Website:** https://creditdevice.de (verfügbar in 10 Sprachen: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Niederländisch, Schwedisch, Norwegisch, Dänisch, Finnisch)
+- **Website:** https://creditdevice.de (verfügbar auf Deutsch und Englisch)
 - **LinkedIn:** https://www.linkedin.com/company/creditdevice/
 - **YouTube:** https://www.youtube.com/@creditdevice
 
@@ -54,7 +54,7 @@ Der Informationsumfang kann je nach Land unterschiedlich sein.
 
 ## Produkt: PEP-/Sanctions-Check
 
-Online-Compliance-Prüfung von Personen und Organisationen gegen internationale Sanktionslisten und Datenbanken politisch exponierter Personen (PEP). Erreichbar unter https://creditdevice.de/pep-check/ (in allen 10 Sprachversionen, z. B. https://creditdevice.de/en/pep-check/).
+Online-Compliance-Prüfung von Personen und Organisationen gegen internationale Sanktionslisten und Datenbanken politisch exponierter Personen (PEP). Erreichbar unter https://creditdevice.de/pep-check/ (englisch: https://creditdevice.de/en/pep-check/).
 
 **Zweck:** Erfüllung von Sorgfaltspflichten aus Geldwäscherecht (GwG), Außenwirtschafts- und Embargorecht sowie KYC-Vorgaben — vor Aufnahme und während einer Geschäftsbeziehung, z. B. für Neukunden, Lieferanten und wirtschaftlich Berechtigte.
 

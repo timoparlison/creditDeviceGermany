@@ -27,8 +27,19 @@ const MAIL_LINK_REDIRECTS: Record<string, string> = {
   '/account/reset/finish': '/konto/passwort-zuruecksetzen/',
 };
 
+/** Locales that used to exist; their URLs (indexed by search engines) now point to English. */
+const REMOVED_LOCALE_RE = /^\/(?:es|fr|it|nl|sv|no|da|fi)(\/.*)?$/;
+
 export default function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  // Non-de locales shared the English slugs, so /fr/credit-information/ → /en/credit-information/.
+  const removed = pathname.match(REMOVED_LOCALE_RE);
+  if (removed) {
+    const url = req.nextUrl.clone();
+    url.pathname = `/en${removed[1] ?? '/'}`;
+    return NextResponse.redirect(url, 301);
+  }
   const hasSession = req.cookies.has(SESSION_COOKIE);
 
   const mailTarget = MAIL_LINK_REDIRECTS[pathname.replace(/\/$/, '')];

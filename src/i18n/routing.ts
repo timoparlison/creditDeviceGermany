@@ -1,6 +1,6 @@
 import { defineRouting } from 'next-intl/routing';
 
-export const locales = ['de', 'en', 'es', 'fr', 'it', 'nl', 'sv', 'no', 'da', 'fi'] as const;
+export const locales = ['de', 'en'] as const;
 export type Locale = typeof locales[number];
 
 const nonDe = locales.filter((l) => l !== 'de');

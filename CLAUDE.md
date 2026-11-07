@@ -11,7 +11,8 @@ policy management), debt collection.
 ## Tech Stack
 
 - Next.js 15 (App Router, React 19), TypeScript, Tailwind CSS 4
-- next-intl: 10 locales — `de` default without prefix, `en/es/fr/it/nl/sv/no/da/fi` with prefix
+- next-intl: 2 locales — `de` default without prefix, `en` with `/en` prefix.
+  Former locales `es/fr/it/nl/sv/no/da/fi` were removed; `src/middleware.ts` 301-redirects them to `/en/…`
 - Deployment: Cloudflare Pages via `@cloudflare/next-on-pages` + Wrangler (edge runtime)
 
 ## Commands
@@ -32,7 +33,7 @@ policy management), debt collection.
 - `src/components/seo/JsonLd.tsx` — schema.org helpers: Organization, WebSite, Breadcrumb,
   FAQPage, SoftwareApplication, Product with per-zone Offers
 - `src/app/robots.ts` — robots.txt; AI crawlers (GPTBot, ClaudeBot, PerplexityBot, …) explicitly allowed
-- `src/app/sitemap.ts` — sitemap.xml with hreflang alternates for all 10 locales
+- `src/app/sitemap.ts` — sitemap.xml with hreflang alternates for de/en
 - `public/llms.txt` + `public/llms-full.txt` — machine-readable company/product description for
   LLMs; linked in the footer and via `<link rel="alternate" type="text/plain">` in `[locale]/layout.tsx`
 - `scripts/indexnow.mjs` — IndexNow submission; key file `public/c38d1b281e63c169499d2df7697fd854.txt`

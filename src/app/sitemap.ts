@@ -1,9 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/seo';
+import { locales } from '@/i18n/routing';
 
 export const dynamic = 'force-static';
 
-const locales = ['de', 'en', 'es', 'fr', 'it', 'nl', 'sv', 'no', 'da', 'fi'] as const;
 const nonDe = locales.filter((l) => l !== 'de');
 
 // Internal path → { de: deSlug, others: enSlug }

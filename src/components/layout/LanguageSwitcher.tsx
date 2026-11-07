@@ -9,14 +9,6 @@ import { Globe } from 'lucide-react';
 const LOCALE_LABELS: Record<string, string> = {
   de: 'Deutsch',
   en: 'English',
-  es: 'Español',
-  fr: 'Français',
-  it: 'Italiano',
-  nl: 'Nederlands',
-  sv: 'Svenska',
-  no: 'Norsk',
-  da: 'Dansk',
-  fi: 'Suomi',
 };
 
 export function LanguageSwitcher() {
