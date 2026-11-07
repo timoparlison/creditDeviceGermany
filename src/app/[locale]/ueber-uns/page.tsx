@@ -4,7 +4,7 @@ import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 import Image from 'next/image';
 
 type Props = { params: Promise<{ locale: string }> };
@@ -12,14 +12,15 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/ueber-uns/', '/about/');
   return {
     title: t('about.title'),
     description: t('about.description'),
-    alternates: { canonical: locale === 'de' ? '/ueber-uns/' : `/${locale}/about/` },
+    alternates: seo.alternates,
     openGraph: {
       title: t('about.title'),
       description: t('about.description'),
-      url: `${SITE_URL}/ueber-uns/`,
+      url: seo.url,
       type: 'website',
     },
   };

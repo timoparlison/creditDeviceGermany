@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { pageAlternates } from '@/lib/seo';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { SearchForm } from '@/components/auskunft/SearchForm';
@@ -11,10 +12,11 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/auskunft/', '/credit-inquiry/');
   return {
     title: t('creditInquiry.title'),
     description: t('creditInquiry.description'),
-    alternates: { canonical: locale === 'de' ? '/auskunft/' : `/${locale}/credit-inquiry/` },
+    alternates: seo.alternates,
   };
 }
 

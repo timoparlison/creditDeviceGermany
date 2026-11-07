@@ -9,21 +9,22 @@ import {
 import {
   JsonLd, breadcrumbSchema, faqSchema, softwareApplicationSchema,
 } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/credit-management-software/', '/credit-management-software/');
   return {
     title: t('creditManagementSoftware.title'),
     description: t('creditManagementSoftware.description'),
-    alternates: { canonical: '/credit-management-software/' },
+    alternates: seo.alternates,
     openGraph: {
       title: t('creditManagementSoftware.title'),
       description: t('creditManagementSoftware.description'),
-            url: `${SITE_URL}/credit-management-software/`,
+            url: seo.url,
       type: 'website',
     },
   };

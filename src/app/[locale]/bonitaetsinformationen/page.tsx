@@ -7,18 +7,19 @@ import { Button } from '@/components/ui/Button';
 import { SearchForm } from '@/components/auskunft/SearchForm';
 import { Globe, TrendingUp, Database } from 'lucide-react';
 import { JsonLd, breadcrumbSchema, faqSchema, creditReportProductSchema } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/bonitaetsinformationen/', '/credit-information/');
   return {
     title: t('creditInformation.title'),
     description: t('creditInformation.description'),
-    alternates: { canonical: locale === 'de' ? '/bonitaetsinformationen/' : `/${locale}/credit-information/` },
-    openGraph: { title: t('creditInformation.title'), description: t('creditInformation.description'), url: `${SITE_URL}/bonitaetsinformationen/`, type: 'website' },
+    alternates: seo.alternates,
+    openGraph: { title: t('creditInformation.title'), description: t('creditInformation.description'), url: seo.url, type: 'website' },
   };
 }
 

@@ -21,8 +21,9 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
 
   const localeAlternates: Record<string, string> = {};
   for (const loc of routing.locales) {
-    localeAlternates[loc] = loc === 'de' ? SITE_URL : `${SITE_URL}/${loc}`;
+    localeAlternates[loc] = loc === 'de' ? `${SITE_URL}/` : `${SITE_URL}/${loc}/`;
   }
+  localeAlternates['x-default'] = `${SITE_URL}/`;
 
   return {
     title: {

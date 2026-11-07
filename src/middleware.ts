@@ -33,6 +33,15 @@ const REMOVED_LOCALE_RE = /^\/(?:es|fr|it|nl|sv|no|da|fi)(\/.*)?$/;
 export default function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // www → apex (canonical host is https://creditdevice.de, see SITE_URL)
+  if (req.headers.get('host') === 'www.creditdevice.de') {
+    const url = req.nextUrl.clone();
+    url.protocol = 'https:';
+    url.host = 'creditdevice.de';
+    url.port = '';
+    return NextResponse.redirect(url, 301);
+  }
+
   // Non-de locales shared the English slugs, so /fr/credit-information/ → /en/credit-information/.
   const removed = pathname.match(REMOVED_LOCALE_RE);
   if (removed) {

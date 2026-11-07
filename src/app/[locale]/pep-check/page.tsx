@@ -11,7 +11,7 @@ import {
   faqSchema,
   pepCheckServiceSchema,
 } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 
 export const runtime = 'edge';
 
@@ -20,15 +20,15 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
-  const canonical = locale === 'de' ? '/pep-check/' : `/${locale}/pep-check/`;
+  const seo = pageAlternates(locale, '/pep-check/', '/pep-check/');
   return {
     title: t('pepCheck.title'),
     description: t('pepCheck.description'),
-    alternates: { canonical },
+    alternates: seo.alternates,
     openGraph: {
       title: t('pepCheck.title'),
       description: t('pepCheck.description'),
-      url: `${SITE_URL}${canonical}`,
+      url: seo.url,
       type: 'website',
     },
   };

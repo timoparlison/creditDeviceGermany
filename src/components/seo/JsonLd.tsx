@@ -25,6 +25,8 @@ export function organizationSchema() {
     email: ORGANIZATION.email,
     telephone: ORGANIZATION.telephone,
     vatID: ORGANIZATION.vatID,
+    foundingDate: ORGANIZATION.foundingDate,
+    founder: { '@type': 'Person', name: ORGANIZATION.founder },
     address: {
       '@type': 'PostalAddress',
       streetAddress: ORGANIZATION.address.streetAddress,

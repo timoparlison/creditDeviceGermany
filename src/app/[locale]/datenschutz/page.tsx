@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { pageAlternates } from '@/lib/seo';
 import { Section } from '@/components/ui/Section';
 import { Container } from '@/components/ui/Container';
 import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
@@ -9,10 +10,11 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/datenschutz/', '/privacy-policy/');
   return {
     title: t('privacy.title'),
     description: t('privacy.description'),
-    alternates: { canonical: locale === 'de' ? '/datenschutz/' : `/${locale}/privacy-policy/` },
+    alternates: seo.alternates,
   };
 }
 

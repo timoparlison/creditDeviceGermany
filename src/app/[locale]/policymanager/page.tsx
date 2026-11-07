@@ -9,21 +9,22 @@ import {
 import {
   JsonLd, breadcrumbSchema, faqSchema, softwareApplicationSchema,
 } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/policymanager/', '/policy-manager/');
   return {
     title: t('policyManager.title'),
     description: t('policyManager.description'),
-    alternates: { canonical: '/policymanager/' },
+    alternates: seo.alternates,
     openGraph: {
       title: t('policyManager.title'),
       description: t('policyManager.description'),
-            url: `${SITE_URL}/policymanager/`,
+            url: seo.url,
       type: 'website',
     },
   };

@@ -4,7 +4,7 @@ import { Section } from '@/components/ui/Section';
 import { ContactForm } from '@/components/forms';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { JsonLd, breadcrumbSchema } from '@/components/seo/JsonLd';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, pageAlternates } from '@/lib/seo';
 import { Container } from '@/components/ui/Container';
 
 type Props = { params: Promise<{ locale: string }> };
@@ -12,10 +12,11 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const seo = pageAlternates(locale, '/kontakt/', '/contact/');
   return {
     title: t('contact.title'),
     description: t('contact.description'),
-    alternates: { canonical: locale === 'de' ? '/kontakt/' : `/${locale}/contact/` },
+    alternates: seo.alternates,
   };
 }
 
@@ -38,7 +39,7 @@ export default async function KontaktPage({ params }: Props) {
             '@context': 'https://schema.org',
             '@type': 'ContactPage',
             '@id': `${SITE_URL}/kontakt#contactpage`,
-            url: `${SITE_URL}/kontakt/`,
+            url: `${SITE_URL}${locale === 'de' ? '/kontakt/' : '/en/contact/'}`,
             name: t('hero.title'),
             inLanguage: locale === 'de' ? 'de-DE' : locale,
             about: { '@id': `${SITE_URL}/#organization` },
