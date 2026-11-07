@@ -59,12 +59,12 @@ export default async function PolicyManagerPage({ params }: Props) {
           softwareApplicationSchema({
             name: 'PolicyManager',
             description: t('hero.subtitle'),
-      url: `${SITE_URL}/policymanager/`,
+      url: `${SITE_URL}${pageAlternates(locale, '/policymanager/', '/policy-manager/').canonical}`,
           }),
           faqSchema(faqItems),
           breadcrumbSchema([
-            { name: 'Home', path: '/' },
-            { name: t('breadcrumb'), path: '/policymanager' },
+            { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+            { name: t('breadcrumb'), path: pageAlternates(locale, '/policymanager/', '/policy-manager/').canonical },
           ]),
         ]}
       />

@@ -9,7 +9,7 @@ export const APPLICATION_COUNTRIES = [
 
 export function countryName(code: string, locale: string): string {
   try {
-    const names = new Intl.DisplayNames([locale === 'no' ? 'nb' : locale], { type: 'region' });
+    const names = new Intl.DisplayNames([locale], { type: 'region' });
     return names.of(code) ?? code;
   } catch {
     return code;

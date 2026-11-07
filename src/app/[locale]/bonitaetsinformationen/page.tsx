@@ -52,7 +52,7 @@ export default async function BonitaetsinformationenPage({ params }: Props) {
       <JsonLd
         data={[
           faqSchema(faqItems),
-          breadcrumbSchema([{ name: 'Home', path: '/' }, { name: t('breadcrumb'), path: '/bonitaetsinformationen' }]),
+          breadcrumbSchema([{ name: 'Home', path: locale === 'de' ? '/' : '/en/' }, { name: t('breadcrumb'), path: pageAlternates(locale, '/bonitaetsinformationen/', '/credit-information/').canonical }]),
           creditReportProductSchema(pricing.map(({ zone, net, gross }) => ({ name: zone, net, gross }))),
         ]}
       />

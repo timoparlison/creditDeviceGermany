@@ -26,7 +26,7 @@ export default async function InvoicesPage({ params }: Props) {
   const money = (v: number) => formatMoney(v, 'EUR', locale);
   const period = (p: string) => {
     const [y, m] = p.split('-').map(Number);
-    return new Intl.DateTimeFormat(locale === 'no' ? 'nb' : locale, { month: 'long', year: 'numeric' }).format(
+    return new Intl.DateTimeFormat(locale, { month: 'long', year: 'numeric' }).format(
       new Date(y, m - 1, 1),
     );
   };

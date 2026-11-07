@@ -49,8 +49,8 @@ export default async function PepCheckPage({ params }: Props) {
         data={[
           faqSchema(faqItems),
           breadcrumbSchema([
-            { name: 'Home', path: '/' },
-            { name: t('breadcrumb'), path: '/pep-check' },
+            { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+            { name: t('breadcrumb'), path: pageAlternates(locale, '/pep-check/', '/pep-check/').canonical },
           ]),
           pepCheckServiceSchema(),
         ]}

@@ -2,8 +2,6 @@
 // Backend sends money as decimal strings ("150.00", "-22.69") and timestamps as
 // ISO-8601 UTC strings.
 
-const localeTag = (locale: string) => (locale === 'no' ? 'nb' : locale);
-
 export function formatMoney(
   amount: string | number,
   currency = 'EUR',
@@ -11,7 +9,7 @@ export function formatMoney(
 ): string {
   const value = typeof amount === 'number' ? amount : Number(amount);
   if (!Number.isFinite(value)) return String(amount);
-  return new Intl.NumberFormat(localeTag(locale), {
+  return new Intl.NumberFormat(locale, {
     style: 'currency',
     currency: currency || 'EUR',
   }).format(value);
@@ -32,7 +30,7 @@ function toDate(value: BackendDate): Date {
 export function formatDate(iso: BackendDate, locale = 'de'): string {
   const d = toDate(iso);
   if (Number.isNaN(d.getTime())) return String(iso);
-  return new Intl.DateTimeFormat(localeTag(locale), {
+  return new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
   }).format(d);
 }
@@ -40,7 +38,7 @@ export function formatDate(iso: BackendDate, locale = 'de'): string {
 export function formatDateTime(iso: BackendDate, locale = 'de'): string {
   const d = toDate(iso);
   if (Number.isNaN(d.getTime())) return String(iso);
-  return new Intl.DateTimeFormat(localeTag(locale), {
+  return new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
     timeStyle: 'short',
   }).format(d);

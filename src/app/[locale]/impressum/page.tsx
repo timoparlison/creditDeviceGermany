@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('imprint.title'),
     description: t('imprint.description'),
     alternates: seo.alternates,
+    openGraph: { title: t('imprint.title'), description: t('imprint.description'), url: seo.url, type: 'website' },
   };
 }
 
@@ -26,8 +27,8 @@ export default async function ImpressumPage({ params }: Props) {
     <>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', path: '/' },
-          { name: t('breadcrumb'), path: '/impressum' },
+          { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+          { name: t('breadcrumb'), path: pageAlternates(locale, '/impressum/', '/legal-notice/').canonical },
         ])}
       />
       <div className="bg-navy py-16">

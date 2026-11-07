@@ -101,8 +101,6 @@ const pepPriceFor = (vatId: string) => {
     : { net, vat: gross - net, gross, currency, reverse };
 };
 
-// Stripe verwendet 'nb' für Norwegisch, alle anderen App-Locales passen direkt.
-const toStripeLocale = (locale: string) => (locale === 'no' ? 'nb' : locale);
 
 const inputCls =
   'w-full px-3 py-2 rounded-md border border-gray-300 text-navy focus:outline-none focus:ring-2 focus:ring-primary';
@@ -532,7 +530,7 @@ export function PepCheckFlow() {
               options={{
                 clientSecret,
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                locale: toStripeLocale(locale) as any,
+                locale: locale as any,
                 appearance: { theme: 'stripe', variables: { colorPrimary: '#F08013' } },
               }}
             >

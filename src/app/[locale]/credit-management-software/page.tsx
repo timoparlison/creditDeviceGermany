@@ -58,12 +58,12 @@ export default async function CreditManagementSoftwarePage({ params }: Props) {
           softwareApplicationSchema({
             name: 'CreditDevice Credit Management Software',
             description: t('hero.subtitle'),
-      url: `${SITE_URL}/credit-management-software/`,
+      url: `${SITE_URL}${pageAlternates(locale, '/credit-management-software/', '/credit-management-software/').canonical}`,
           }),
           faqSchema(faqItems),
           breadcrumbSchema([
-            { name: 'Home', path: '/' },
-            { name: t('breadcrumb'), path: '/credit-management-software' },
+            { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+            { name: t('breadcrumb'), path: pageAlternates(locale, '/credit-management-software/', '/credit-management-software/').canonical },
           ]),
         ]}
       />

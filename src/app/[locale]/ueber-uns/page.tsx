@@ -43,8 +43,8 @@ export default async function UeberUnsPage({ params }: Props) {
     <>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', path: '/' },
-          { name: t('breadcrumb'), path: '/ueber-uns' },
+          { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+          { name: t('breadcrumb'), path: pageAlternates(locale, '/ueber-uns/', '/about/').canonical },
         ])}
       />
 

@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('creditInquiry.title'),
     description: t('creditInquiry.description'),
     alternates: seo.alternates,
+    openGraph: { title: t('creditInquiry.title'), description: t('creditInquiry.description'), url: seo.url, type: 'website' },
   };
 }
 
@@ -28,8 +29,8 @@ export default async function AuskunftPage({ params }: Props) {
     <>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', path: '/' },
-          { name: t('breadcrumb'), path: '/auskunft' },
+          { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+          { name: t('breadcrumb'), path: pageAlternates(locale, '/auskunft/', '/credit-inquiry/').canonical },
         ])}
       />
       <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">

@@ -39,8 +39,6 @@ const DEFAULT_FORM: OrdererForm = {
   reasonCode: 1,
 };
 
-// Stripe uses 'nb' for Norwegian, all other app locales match directly
-const toStripeLocale = (locale: string) => (locale === 'no' ? 'nb' : locale);
 
 export function OrderFlow({ company, productIds }: Props) {
   const t = useTranslations('OrderFlow');
@@ -210,7 +208,7 @@ export function OrderFlow({ company, productIds }: Props) {
               options={{
                 clientSecret,
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                locale: toStripeLocale(locale) as any,
+                locale: locale as any,
                 appearance: { theme: 'stripe', variables: { colorPrimary: '#F08013' } },
               }}
             >

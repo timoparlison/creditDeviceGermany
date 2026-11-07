@@ -20,7 +20,7 @@ export async function AccountOverviewPanel({
   const usedPct = limit > 0 ? Math.min(100, (overview.usedGross / limit) * 100) : 100;
   const barColor = usedPct >= 100 ? 'bg-red-500' : usedPct >= 80 ? 'bg-amber-500' : 'bg-primary';
   const [year, month] = overview.period.split('-').map(Number);
-  const periodLabel = new Intl.DateTimeFormat(locale === 'no' ? 'nb' : locale, {
+  const periodLabel = new Intl.DateTimeFormat(locale, {
     month: 'long',
     year: 'numeric',
   }).format(new Date(year, month - 1, 1));

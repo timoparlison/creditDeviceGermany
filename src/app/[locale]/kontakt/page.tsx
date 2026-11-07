@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('contact.title'),
     description: t('contact.description'),
     alternates: seo.alternates,
+    openGraph: { title: t('contact.title'), description: t('contact.description'), url: seo.url, type: 'website' },
   };
 }
 
@@ -45,8 +46,8 @@ export default async function KontaktPage({ params }: Props) {
             about: { '@id': `${SITE_URL}/#organization` },
           },
           breadcrumbSchema([
-            { name: 'Home', path: '/' },
-            { name: t('breadcrumb'), path: '/kontakt' },
+            { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+            { name: t('breadcrumb'), path: pageAlternates(locale, '/kontakt/', '/contact/').canonical },
           ]),
         ]}
       />

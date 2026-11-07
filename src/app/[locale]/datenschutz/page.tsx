@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t('privacy.title'),
     description: t('privacy.description'),
     alternates: seo.alternates,
+    openGraph: { title: t('privacy.title'), description: t('privacy.description'), url: seo.url, type: 'website' },
   };
 }
 
@@ -26,8 +27,8 @@ export default async function DatenschutzPage({ params }: Props) {
     <>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', path: '/' },
-          { name: t('breadcrumb'), path: '/datenschutz' },
+          { name: 'Home', path: locale === 'de' ? '/' : '/en/' },
+          { name: t('breadcrumb'), path: pageAlternates(locale, '/datenschutz/', '/privacy-policy/').canonical },
         ])}
       />
       <div className="bg-navy py-16">
