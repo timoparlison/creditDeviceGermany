@@ -102,7 +102,7 @@ export function AllInOne() {
               <div className="bg-navy rounded-xl p-4 shadow-xl">
                 <div className="grid grid-cols-3 gap-4 text-white text-center">
                   <div>
-                    <div className="text-xl md:text-2xl font-bold text-primary">2.500+</div>
+                    <div className="text-xl md:text-2xl font-bold text-primary">1.500+</div>
                     <div className="text-xs text-gray-300">{t('activeClients')}</div>
                   </div>
                   <div>

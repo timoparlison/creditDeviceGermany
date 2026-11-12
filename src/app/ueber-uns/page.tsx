@@ -66,7 +66,7 @@ export default function UeberUnsPage() {
           {[
             { value: '2017', label: 'Gründungsjahr' },
             { value: '35+', label: 'Jahre Erfahrung' },
-            { value: '2500+', label: 'Aktive Kunden' },
+            { value: '1500+', label: 'Aktive Kunden' },
             { value: '200+', label: 'Länder weltweit' },
           ].map((stat) => (
             <div key={stat.label}>

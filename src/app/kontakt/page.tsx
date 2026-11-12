@@ -149,7 +149,7 @@ export default function KontaktPage() {
           <div className="bg-white rounded-xl shadow-sm p-6 max-w-lg mx-auto">
             <div className="flex items-center justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">2500+</div>
+                <div className="text-3xl font-bold text-primary">1500+</div>
                 <div className="text-sm text-gray-500">Aktive Kunden</div>
               </div>
               <div className="w-px h-12 bg-gray-200" />

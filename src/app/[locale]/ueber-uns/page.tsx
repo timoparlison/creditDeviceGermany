@@ -68,7 +68,7 @@ export default async function UeberUnsPage({ params }: Props) {
           {[
             { value: '2017', label: t('stats.founded') },
             { value: '35+', label: t('stats.experience') },
-            { value: '2500+', label: t('stats.customers') },
+            { value: '1500+', label: t('stats.customers') },
             { value: '200+', label: t('stats.countries') },
           ].map((stat) => (
             <div key={stat.label}>
